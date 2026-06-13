@@ -89,7 +89,9 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_IVYSAUR",
@@ -2244,51 +2246,47 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Glare"
+        "move": "Bulldoze"
       },
       {
         "level": 17,
-        "move": "Screech"
+        "move": "Glare"
       },
       {
         "level": 20,
         "move": "Acid"
       },
       {
-        "level": 25,
-        "move": "Swallow"
-      },
-      {
-        "level": 25,
-        "move": "Stockpile"
-      },
-      {
-        "level": 25,
-        "move": "Spit Up"
-      },
-      {
-        "level": 28,
+        "level": 20,
         "move": "Acid Spray"
       },
       {
+        "level": 25,
+        "move": "Poison Jab"
+      },
+      {
+        "level": 28,
+        "move": "Toxic"
+      },
+      {
         "level": 33,
-        "move": "Sludge Bomb"
-      },
-      {
-        "level": 36,
-        "move": "Gastro Acid"
-      },
-      {
-        "level": 38,
-        "move": "Belch"
-      },
-      {
-        "level": 41,
         "move": "Haze"
       },
       {
+        "level": 36,
+        "move": "Belch"
+      },
+      {
+        "level": 38,
+        "move": "Sucker Punch"
+      },
+      {
+        "level": 41,
+        "move": "Parting Shot"
+      },
+      {
         "level": 44,
-        "move": "Coil"
+        "move": "Screech"
       },
       {
         "level": 49,
@@ -2341,11 +2339,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Wrap"
+        "move": "Earthquake"
       },
       {
         "level": 1,
-        "move": "Poison Sting"
+        "move": "Wrap"
       },
       {
         "level": 1,
@@ -2353,70 +2351,58 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Poison Sting"
+      },
+      {
+        "level": 1,
         "move": "Bite"
       },
       {
-        "level": 1,
-        "move": "Fire Fang"
-      },
-      {
-        "level": 1,
-        "move": "Ice Fang"
-      },
-      {
-        "level": 1,
-        "move": "Thunder Fang"
-      },
-      {
         "level": 12,
-        "move": "Glare"
+        "move": "Bulldoze"
       },
       {
         "level": 17,
-        "move": "Screech"
+        "move": "Glare"
       },
       {
         "level": 20,
         "move": "Acid"
       },
       {
-        "level": 27,
-        "move": "Swallow"
-      },
-      {
-        "level": 27,
-        "move": "Stockpile"
-      },
-      {
-        "level": 27,
-        "move": "Spit Up"
-      },
-      {
-        "level": 32,
+        "level": 20,
         "move": "Acid Spray"
       },
       {
-        "level": 39,
-        "move": "Sludge Bomb"
+        "level": 25,
+        "move": "Poison Jab"
       },
       {
-        "level": 44,
-        "move": "Gastro Acid"
+        "level": 28,
+        "move": "Toxic"
       },
       {
-        "level": 48,
-        "move": "Belch"
-      },
-      {
-        "level": 51,
+        "level": 33,
         "move": "Haze"
       },
       {
-        "level": 56,
-        "move": "Coil"
+        "level": 36,
+        "move": "Belch"
       },
       {
-        "level": 63,
+        "level": 38,
+        "move": "Sucker Punch"
+      },
+      {
+        "level": 41,
+        "move": "Parting Shot"
+      },
+      {
+        "level": 44,
+        "move": "Screech"
+      },
+      {
+        "level": 49,
         "move": "Gunk Shot"
       }
     ],
@@ -3823,11 +3809,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Defense Curl"
+        "move": "Scratch"
       },
       {
         "level": 1,
-        "move": "Scratch"
+        "move": "Defense Curl"
       },
       {
         "level": 3,
@@ -3835,23 +3821,19 @@ const pokedexData = [
       },
       {
         "level": 6,
-        "move": "Powder Snow"
-      },
-      {
-        "level": 9,
-        "move": "Rollout"
+        "move": "Ice Shard"
       },
       {
         "level": 12,
-        "move": "Fury Cutter"
-      },
-      {
-        "level": 15,
         "move": "Rapid Spin"
       },
       {
-        "level": 18,
+        "level": 15,
         "move": "Metal Claw"
+      },
+      {
+        "level": 18,
+        "move": "Fury Cutter"
       },
       {
         "level": 21,
@@ -3863,7 +3845,7 @@ const pokedexData = [
       },
       {
         "level": 27,
-        "move": "Iron Defense"
+        "move": "Ice Spinner"
       },
       {
         "level": 30,
@@ -3879,15 +3861,11 @@ const pokedexData = [
       },
       {
         "level": 39,
-        "move": "Swords Dance"
+        "move": "Icicle Spear"
       },
       {
         "level": 42,
-        "move": "Snowscape"
-      },
-      {
-        "level": 45,
-        "move": "Blizzard"
+        "move": "Icicle Crash"
       }
     ],
     "locations": [
@@ -3923,55 +3901,7 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Icicle Spear"
-      },
-      {
-        "level": 1,
-        "move": "Scratch"
-      },
-      {
-        "level": 1,
-        "move": "Mist"
-      },
-      {
-        "level": 1,
-        "move": "Blizzard"
-      },
-      {
-        "level": 1,
-        "move": "Defense Curl"
-      },
-      {
-        "level": 1,
-        "move": "Swift"
-      },
-      {
-        "level": 1,
-        "move": "Fury Swipes"
-      },
-      {
-        "level": 1,
-        "move": "Powder Snow"
-      },
-      {
-        "level": 1,
-        "move": "Rollout"
-      },
-      {
-        "level": 1,
-        "move": "Fury Cutter"
-      },
-      {
-        "level": 1,
-        "move": "Rapid Spin"
-      },
-      {
-        "level": 1,
-        "move": "Iron Defense"
-      },
-      {
-        "level": 1,
-        "move": "Gyro Ball"
+        "move": "Spiky Shield"
       },
       {
         "level": 1,
@@ -3979,26 +3909,26 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Iron Head"
+        "move": "Avalanche"
       },
       {
         "level": 1,
-        "move": "Snowscape"
+        "move": "Scratch"
       },
       {
         "level": 1,
-        "move": "Swords Dance"
+        "move": "Defense Curl"
       },
       {
         "level": 1,
-        "move": "Slash"
+        "move": "Mist"
       },
       {
         "level": 1,
-        "move": "Metal Claw"
+        "move": "Ice Shard"
       },
       {
-        "level": 1,
+        "level": 42,
         "move": "Icicle Crash"
       }
     ],
@@ -5059,11 +4989,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Tail Whip"
+        "move": "Powder Snow"
       },
       {
         "level": 1,
-        "move": "Powder Snow"
+        "move": "Tail Whip"
       },
       {
         "level": 4,
@@ -5083,15 +5013,15 @@ const pokedexData = [
       },
       {
         "level": 20,
-        "move": "Confuse Ray"
-      },
-      {
-        "level": 24,
         "move": "Aurora Beam"
       },
       {
-        "level": 28,
+        "level": 24,
         "move": "Extrasensory"
+      },
+      {
+        "level": 28,
+        "move": "Confuse Ray"
       },
       {
         "level": 32,
@@ -5099,23 +5029,19 @@ const pokedexData = [
       },
       {
         "level": 36,
-        "move": "Imprison"
-      },
-      {
-        "level": 40,
-        "move": "Mist"
-      },
-      {
-        "level": 44,
-        "move": "Aurora Veil"
-      },
-      {
-        "level": 48,
         "move": "Freeze Dry"
       },
       {
-        "level": 52,
-        "move": "Blizzard"
+        "level": 40,
+        "move": "Moonblast"
+      },
+      {
+        "level": 44,
+        "move": "Imprison"
+      },
+      {
+        "level": 48,
+        "move": "Aurora Veil"
       }
     ],
     "locations": [
@@ -5151,31 +5077,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
+        "move": "Draining Kiss"
+      },
+      {
+        "level": 1,
         "move": "Dazzling Gleam"
-      },
-      {
-        "level": 1,
-        "move": "Disable"
-      },
-      {
-        "level": 1,
-        "move": "Mist"
-      },
-      {
-        "level": 1,
-        "move": "Ice Beam"
-      },
-      {
-        "level": 1,
-        "move": "Aurora Beam"
-      },
-      {
-        "level": 1,
-        "move": "Confuse Ray"
-      },
-      {
-        "level": 1,
-        "move": "Spite"
       },
       {
         "level": 1,
@@ -5183,39 +5089,19 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Extrasensory"
+        "move": "Tail Whip"
       },
       {
         "level": 1,
-        "move": "Nasty Plot"
+        "move": "Disable"
       },
       {
         "level": 1,
         "move": "Ice Shard"
       },
       {
-        "level": 1,
-        "move": "Freeze Dry"
-      },
-      {
-        "level": 1,
+        "level": 48,
         "move": "Aurora Veil"
-      },
-      {
-        "level": 1,
-        "move": "Tail Whip"
-      },
-      {
-        "level": 1,
-        "move": "Blizzard"
-      },
-      {
-        "level": 1,
-        "move": "Icy Wind"
-      },
-      {
-        "level": 1,
-        "move": "Imprison"
       }
     ],
     "locations": []
@@ -9922,7 +9808,8 @@ const pokedexData = [
       "Mt Ember Ruby Path B2F Stairs",
       "One Island Kindle Road",
       "Seven Island Sevault Canyon",
-      "Hollowgrove"
+      "Hollowgrove",
+      "Pewter City"
     ]
   },
   {
@@ -13385,10 +13272,6 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Harden"
-      },
-      {
-        "level": 1,
         "move": "Bind"
       },
       {
@@ -13401,7 +13284,7 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Rock Polish"
+        "move": "Headbutt"
       },
       {
         "level": 12,
@@ -13409,47 +13292,39 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Curse"
+        "move": "Rock Tomb"
       },
       {
         "level": 20,
-        "move": "Rock Slide"
-      },
-      {
-        "level": 24,
-        "move": "Screech"
-      },
-      {
-        "level": 28,
-        "move": "Sand Tomb"
-      },
-      {
-        "level": 32,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 36,
-        "move": "Slam"
-      },
-      {
-        "level": 40,
-        "move": "Sandstorm"
-      },
-      {
-        "level": 44,
         "move": "Dig"
       },
       {
-        "level": 48,
-        "move": "Iron Tail"
+        "level": 24,
+        "move": "Rock Slide"
       },
       {
-        "level": 52,
-        "move": "Stone Edge"
+        "level": 28,
+        "move": "Slam"
       },
       {
-        "level": 56,
+        "level": 32,
         "move": "Double Edge"
+      },
+      {
+        "level": 36,
+        "move": "Sand Tomb"
+      },
+      {
+        "level": 40,
+        "move": "Iron Head"
+      },
+      {
+        "level": 44,
+        "move": "High Horsepower"
+      },
+      {
+        "level": 48,
+        "move": "Stone Edge"
       }
     ],
     "locations": [
@@ -13495,32 +13370,20 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 1,
-        "move": "Crunch"
+        "level": 0,
+        "move": "Iron Tail"
       },
       {
         "level": 1,
-        "move": "Thunder Fang"
+        "move": "Head Smash"
       },
       {
         "level": 1,
-        "move": "Ice Fang"
-      },
-      {
-        "level": 1,
-        "move": "Fire Fang"
-      },
-      {
-        "level": 1,
-        "move": "Rock Polish"
+        "move": "Wide Guard"
       },
       {
         "level": 1,
         "move": "Tackle"
-      },
-      {
-        "level": 1,
-        "move": "Harden"
       },
       {
         "level": 1,
@@ -13536,7 +13399,7 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Autotomize"
+        "move": "Headbutt"
       },
       {
         "level": 12,
@@ -13544,51 +13407,35 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Curse"
+        "move": "Rock Tomb"
       },
       {
         "level": 20,
-        "move": "Rock Slide"
-      },
-      {
-        "level": 24,
-        "move": "Screech"
-      },
-      {
-        "level": 28,
-        "move": "Sand Tomb"
-      },
-      {
-        "level": 32,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 36,
-        "move": "Slam"
-      },
-      {
-        "level": 40,
-        "move": "Sandstorm"
-      },
-      {
-        "level": 44,
         "move": "Dig"
       },
       {
-        "level": 48,
-        "move": "Iron Tail"
+        "level": 24,
+        "move": "Rock Slide"
       },
       {
-        "level": 52,
-        "move": "Stone Edge"
+        "level": 28,
+        "move": "Slam"
       },
       {
-        "level": 56,
+        "level": 32,
         "move": "Double Edge"
       },
       {
-        "level": 60,
-        "move": "Magnet Rise"
+        "level": 36,
+        "move": "Sand Tomb"
+      },
+      {
+        "level": 40,
+        "move": "Stone Edge"
+      },
+      {
+        "level": 44,
+        "move": "High Horsepower"
       }
     ],
     "locations": []
@@ -14760,11 +14607,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Mud Slap"
+        "move": "Growl"
       },
       {
         "level": 1,
-        "move": "Growl"
+        "move": "Mud Slap"
       },
       {
         "level": 4,
@@ -14780,11 +14627,11 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Retaliate"
+        "move": "Bulldoze"
       },
       {
         "level": 20,
-        "move": "Fling"
+        "move": "Retaliate"
       },
       {
         "level": 24,
@@ -14858,11 +14705,15 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Mud Slap"
+        "move": "Detect"
       },
       {
         "level": 1,
         "move": "Growl"
+      },
+      {
+        "level": 1,
+        "move": "Mud Slap"
       },
       {
         "level": 1,
@@ -14878,38 +14729,38 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Retaliate"
+        "move": "Bulldoze"
       },
       {
         "level": 20,
-        "move": "Fling"
+        "move": "Retaliate"
       },
       {
         "level": 24,
         "move": "Stomping Tantrum"
       },
       {
-        "level": 31,
+        "level": 29,
         "move": "Bone Rush"
       },
       {
-        "level": 36,
+        "level": 32,
         "move": "Focus Energy"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Endeavor"
       },
       {
-        "level": 48,
+        "level": 40,
         "move": "Bonemerang"
       },
       {
-        "level": 54,
+        "level": 44,
         "move": "Thrash"
       },
       {
-        "level": 60,
+        "level": 48,
         "move": "Double Edge"
       }
     ],
@@ -16989,7 +16840,8 @@ const pokedexData = [
       "Cinnabar Island",
       "One Island",
       "Five Island",
-      "Cerulean City Frlg 2"
+      "Cerulean City Frlg 2",
+      "Pewter City"
     ]
   },
   {
@@ -17296,7 +17148,8 @@ const pokedexData = [
       "Route25",
       "Pallet Town",
       "Fuchsia City",
-      "Four Island"
+      "Four Island",
+      "Pewter City"
     ]
   },
   {
@@ -24556,7 +24409,9 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_SPINARAK",
@@ -26132,7 +25987,9 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_SUDOWOODO",
@@ -27340,11 +27197,15 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Encore"
+      },
+      {
+        "level": 1,
         "move": "Mud Shot"
       },
       {
         "level": 4,
-        "move": "Tackle"
+        "move": "Water Gun"
       },
       {
         "level": 8,
@@ -27352,27 +27213,31 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Toxic Spikes"
-      },
-      {
-        "level": 16,
-        "move": "Slam"
-      },
-      {
-        "level": 21,
         "move": "Yawn"
       },
       {
-        "level": 24,
+        "level": 14,
+        "move": "Haze"
+      },
+      {
+        "level": 16,
+        "move": "Brick Break"
+      },
+      {
+        "level": 21,
+        "move": "Stomping Tantrum"
+      },
+      {
+        "level": 25,
         "move": "Poison Jab"
       },
       {
         "level": 28,
-        "move": "Sludge Wave"
+        "move": "Recover"
       },
       {
         "level": 32,
-        "move": "Amnesia"
+        "move": "Rock Slide"
       },
       {
         "level": 36,
@@ -27381,6 +27246,10 @@ const pokedexData = [
       {
         "level": 40,
         "move": "Earthquake"
+      },
+      {
+        "level": 55,
+        "move": "Gunk Shot"
       }
     ],
     "locations": [
@@ -27419,56 +27288,64 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 0,
-        "move": "Amnesia"
-      },
-      {
         "level": 1,
         "move": "Tail Whip"
       },
       {
         "level": 1,
-        "move": "Poison Sting"
+        "move": "Encore"
       },
       {
-        "level": 4,
-        "move": "Toxic Spikes"
-      },
-      {
-        "level": 8,
+        "level": 1,
         "move": "Mud Shot"
       },
       {
-        "level": 12,
+        "level": 4,
+        "move": "Water Gun"
+      },
+      {
+        "level": 8,
         "move": "Poison Tail"
       },
       {
-        "level": 16,
-        "move": "Slam"
-      },
-      {
-        "level": 21,
+        "level": 12,
         "move": "Yawn"
       },
       {
-        "level": 24,
+        "level": 14,
+        "move": "Haze"
+      },
+      {
+        "level": 16,
+        "move": "Brick Break"
+      },
+      {
+        "level": 21,
+        "move": "Stomping Tantrum"
+      },
+      {
+        "level": 25,
         "move": "Poison Jab"
       },
       {
-        "level": 30,
-        "move": "Sludge Wave"
+        "level": 28,
+        "move": "Recover"
+      },
+      {
+        "level": 32,
+        "move": "Rock Slide"
       },
       {
         "level": 36,
-        "move": "Megahorn"
-      },
-      {
-        "level": 40,
         "move": "Toxic"
       },
       {
-        "level": 48,
+        "level": 40,
         "move": "Earthquake"
+      },
+      {
+        "level": 55,
+        "move": "Gunk Shot"
       }
     ],
     "locations": []
@@ -27959,11 +27836,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Power Swap"
       },
       {
         "level": 1,
-        "move": "Growl"
+        "move": "Guard Swap"
       },
       {
         "level": 1,
@@ -27971,11 +27848,15 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Power Swap"
+        "move": "Growl"
       },
       {
         "level": 1,
-        "move": "Guard Swap"
+        "move": "Tackle"
+      },
+      {
+        "level": 1,
+        "move": "Double Kick"
       },
       {
         "level": 5,
@@ -28011,15 +27892,15 @@ const pokedexData = [
       },
       {
         "level": 41,
-        "move": "Baton Pass"
+        "move": "Psychic"
       },
       {
         "level": 46,
-        "move": "Nasty Plot"
+        "move": "Mirror Coat"
       },
       {
         "level": 50,
-        "move": "Psychic"
+        "move": "Future Sight"
       }
     ],
     "locations": [
@@ -28059,11 +27940,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Power Swap"
       },
       {
         "level": 1,
-        "move": "Growl"
+        "move": "Guard Swap"
       },
       {
         "level": 1,
@@ -28071,11 +27952,15 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Power Swap"
+        "move": "Growl"
       },
       {
         "level": 1,
-        "move": "Guard Swap"
+        "move": "Tackle"
+      },
+      {
+        "level": 1,
+        "move": "Double Kick"
       },
       {
         "level": 5,
@@ -28111,15 +27996,15 @@ const pokedexData = [
       },
       {
         "level": 41,
-        "move": "Baton Pass"
+        "move": "Psychic"
       },
       {
         "level": 46,
-        "move": "Nasty Plot"
+        "move": "Mirror Coat"
       },
       {
         "level": 50,
-        "move": "Psychic"
+        "move": "Future Sight"
       }
     ],
     "locations": []
@@ -29029,6 +28914,14 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
+        "move": "Reversal"
+      },
+      {
+        "level": 1,
+        "move": "Pain Split"
+      },
+      {
+        "level": 1,
         "move": "Tackle"
       },
       {
@@ -29036,24 +28929,28 @@ const pokedexData = [
         "move": "Poison Sting"
       },
       {
-        "level": 4,
-        "move": "Harden"
+        "level": 1,
+        "move": "Bubble"
+      },
+      {
+        "level": 5,
+        "move": "Pin Missile"
       },
       {
         "level": 8,
-        "move": "Water Gun"
+        "move": "Bite"
       },
       {
         "level": 12,
-        "move": "Fell Stinger"
+        "move": "Venoshock"
       },
       {
         "level": 16,
-        "move": "Minimize"
+        "move": "Poison Fang"
       },
       {
         "level": 20,
-        "move": "Spikes"
+        "move": "Revenge"
       },
       {
         "level": 24,
@@ -29061,39 +28958,31 @@ const pokedexData = [
       },
       {
         "level": 28,
-        "move": "Poison Jab"
+        "move": "Barb Barrage"
       },
       {
         "level": 32,
-        "move": "Pin Missile"
+        "move": "Poison Jab"
       },
       {
         "level": 36,
-        "move": "Toxic Spikes"
-      },
-      {
-        "level": 40,
-        "move": "Stockpile"
-      },
-      {
-        "level": 40,
-        "move": "Spit Up"
-      },
-      {
-        "level": 44,
         "move": "Toxic"
       },
       {
-        "level": 48,
-        "move": "Aqua Tail"
-      },
-      {
-        "level": 52,
-        "move": "Acupressure"
-      },
-      {
-        "level": 56,
+        "level": 40,
         "move": "Destiny Bond"
+      },
+      {
+        "level": 50,
+        "move": "Explosion"
+      },
+      {
+        "level": 55,
+        "move": "Wave Crash"
+      },
+      {
+        "level": 60,
+        "move": "Gunk Shot"
       }
     ],
     "locations": [
@@ -29555,35 +29444,39 @@ const pokedexData = [
       },
       {
         "level": 6,
-        "move": "Taunt"
-      },
-      {
-        "level": 12,
         "move": "Quick Attack"
       },
       {
-        "level": 18,
+        "level": 12,
         "move": "Metal Claw"
       },
       {
-        "level": 24,
+        "level": 18,
         "move": "Icy Wind"
       },
       {
+        "level": 24,
+        "move": "Fake Out"
+      },
+      {
         "level": 30,
-        "move": "Fury Swipes"
+        "move": "Slash"
       },
       {
         "level": 36,
-        "move": "Hone Claws"
+        "move": "Ice Shard"
       },
       {
-        "level": 42,
-        "move": "Beat Up"
+        "level": 40,
+        "move": "Night Slash"
+      },
+      {
+        "level": 44,
+        "move": "Agility"
       },
       {
         "level": 48,
-        "move": "Agility"
+        "move": "Feint"
       },
       {
         "level": 54,
@@ -29591,7 +29484,11 @@ const pokedexData = [
       },
       {
         "level": 60,
-        "move": "Slash"
+        "move": "Low Kick"
+      },
+      {
+        "level": 66,
+        "move": "Icicle Crash"
       }
     ],
     "locations": [
@@ -29627,6 +29524,10 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
+        "move": "Assurance"
+      },
+      {
+        "level": 1,
         "move": "Scratch"
       },
       {
@@ -29635,55 +29536,39 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Agility"
-      },
-      {
-        "level": 1,
         "move": "Quick Attack"
       },
       {
         "level": 1,
-        "move": "Assurance"
-      },
-      {
-        "level": 1,
-        "move": "Taunt"
-      },
-      {
-        "level": 1,
-        "move": "Slash"
-      },
-      {
-        "level": 1,
-        "move": "Beat Up"
-      },
-      {
-        "level": 1,
-        "move": "Ice Shard"
-      },
-      {
-        "level": 18,
         "move": "Metal Claw"
       },
       {
-        "level": 24,
+        "level": 18,
         "move": "Icy Wind"
       },
       {
+        "level": 24,
+        "move": "Fake Out"
+      },
+      {
         "level": 30,
-        "move": "Fury Swipes"
+        "move": "Slash"
       },
       {
         "level": 36,
-        "move": "Hone Claws"
+        "move": "Ice Shard"
       },
       {
-        "level": 42,
-        "move": "Fling"
+        "level": 40,
+        "move": "Night Slash"
+      },
+      {
+        "level": 44,
+        "move": "Agility"
       },
       {
         "level": 48,
-        "move": "Nasty Plot"
+        "move": "Feint"
       },
       {
         "level": 54,
@@ -29691,11 +29576,11 @@ const pokedexData = [
       },
       {
         "level": 60,
-        "move": "Night Slash"
+        "move": "Low Kick"
       },
       {
         "level": 66,
-        "move": "Dark Pulse"
+        "move": "Icicle Crash"
       }
     ],
     "locations": []
@@ -30542,23 +30427,23 @@ const pokedexData = [
       },
       {
         "level": 25,
-        "move": "Endure"
-      },
-      {
-        "level": 30,
         "move": "Icy Wind"
       },
       {
-        "level": 35,
-        "move": "Amnesia"
-      },
-      {
-        "level": 40,
+        "level": 30,
         "move": "Take Down"
       },
       {
+        "level": 35,
+        "move": "Ancient Power"
+      },
+      {
+        "level": 40,
+        "move": "Icicle Crash"
+      },
+      {
         "level": 45,
-        "move": "Earthquake"
+        "move": "High Horsepower"
       },
       {
         "level": 50,
@@ -30606,7 +30491,15 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Ice Fang"
+        "move": "Stomping Tantrum"
+      },
+      {
+        "level": 1,
+        "move": "Icicle Spear"
+      },
+      {
+        "level": 1,
+        "move": "Freeze Dry"
       },
       {
         "level": 1,
@@ -30614,7 +30507,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Flail"
+        "move": "Mud Slap"
       },
       {
         "level": 1,
@@ -30622,11 +30515,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Mud Slap"
-      },
-      {
-        "level": 1,
-        "move": "Ancient Power"
+        "move": "Flail"
       },
       {
         "level": 15,
@@ -30638,31 +30527,27 @@ const pokedexData = [
       },
       {
         "level": 25,
-        "move": "Endure"
-      },
-      {
-        "level": 30,
         "move": "Icy Wind"
       },
       {
-        "level": 37,
-        "move": "Amnesia"
-      },
-      {
-        "level": 44,
+        "level": 30,
         "move": "Take Down"
       },
       {
-        "level": 51,
-        "move": "Earthquake"
+        "level": 35,
+        "move": "Ancient Power"
       },
       {
-        "level": 58,
+        "level": 40,
+        "move": "Icicle Crash"
+      },
+      {
+        "level": 45,
+        "move": "High Horsepower"
+      },
+      {
+        "level": 50,
         "move": "Blizzard"
-      },
-      {
-        "level": 65,
-        "move": "Thrash"
       }
     ],
     "locations": []
@@ -30704,15 +30589,19 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Stomping Tantrum"
+      },
+      {
+        "level": 1,
+        "move": "Icicle Spear"
+      },
+      {
+        "level": 1,
+        "move": "Freeze Dry"
+      },
+      {
+        "level": 1,
         "move": "Tackle"
-      },
-      {
-        "level": 1,
-        "move": "Flail"
-      },
-      {
-        "level": 1,
-        "move": "Powder Snow"
       },
       {
         "level": 1,
@@ -30720,11 +30609,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Ancient Power"
+        "move": "Powder Snow"
       },
       {
         "level": 1,
-        "move": "Ice Fang"
+        "move": "Flail"
       },
       {
         "level": 15,
@@ -30736,31 +30625,31 @@ const pokedexData = [
       },
       {
         "level": 25,
-        "move": "Endure"
-      },
-      {
-        "level": 30,
         "move": "Icy Wind"
       },
       {
-        "level": 37,
-        "move": "Amnesia"
-      },
-      {
-        "level": 44,
+        "level": 30,
         "move": "Take Down"
       },
       {
-        "level": 51,
-        "move": "Earthquake"
+        "level": 35,
+        "move": "Ancient Power"
       },
       {
-        "level": 58,
+        "level": 40,
+        "move": "Icicle Crash"
+      },
+      {
+        "level": 45,
+        "move": "High Horsepower"
+      },
+      {
+        "level": 50,
         "move": "Blizzard"
       },
       {
-        "level": 65,
-        "move": "Thrash"
+        "level": 60,
+        "move": "Headlong Rush"
       }
     ],
     "locations": []
@@ -37320,12 +37209,16 @@ const pokedexData = [
         "move": "Pound"
       },
       {
+        "level": 1,
+        "move": "Growl"
+      },
+      {
         "level": 5,
         "move": "Echoed Voice"
       },
       {
         "level": 10,
-        "move": "Howl"
+        "move": "Sing"
       },
       {
         "level": 15,
@@ -37336,16 +37229,16 @@ const pokedexData = [
         "move": "Sleep Talk"
       },
       {
-        "level": 21,
-        "move": "Stomp"
+        "level": 20,
+        "move": "Round"
       },
       {
         "level": 25,
-        "move": "Roar"
+        "move": "Parting Shot"
       },
       {
         "level": 30,
-        "move": "Supersonic"
+        "move": "Overdrive"
       },
       {
         "level": 35,
@@ -37353,11 +37246,11 @@ const pokedexData = [
       },
       {
         "level": 40,
-        "move": "Screech"
+        "move": "Hyper Voice"
       },
       {
-        "level": 45,
-        "move": "Hyper Voice"
+        "level": 55,
+        "move": "Boomburst"
       }
     ],
     "locations": [
@@ -37398,10 +37291,6 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Bite"
-      },
-      {
-        "level": 1,
         "move": "Astonish"
       },
       {
@@ -37410,11 +37299,15 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Growl"
+      },
+      {
+        "level": 5,
         "move": "Echoed Voice"
       },
       {
-        "level": 1,
-        "move": "Howl"
+        "level": 10,
+        "move": "Sing"
       },
       {
         "level": 15,
@@ -37425,28 +37318,28 @@ const pokedexData = [
         "move": "Sleep Talk"
       },
       {
-        "level": 23,
-        "move": "Stomp"
+        "level": 20,
+        "move": "Round"
       },
       {
-        "level": 29,
-        "move": "Roar"
+        "level": 25,
+        "move": "Parting Shot"
       },
       {
-        "level": 36,
-        "move": "Supersonic"
+        "level": 30,
+        "move": "Overdrive"
       },
       {
-        "level": 43,
+        "level": 35,
         "move": "Uproar"
       },
       {
-        "level": 50,
-        "move": "Screech"
+        "level": 40,
+        "move": "Hyper Voice"
       },
       {
-        "level": 57,
-        "move": "Hyper Voice"
+        "level": 55,
+        "move": "Boomburst"
       }
     ],
     "locations": []
@@ -37483,26 +37376,6 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Crunch"
-      },
-      {
-        "level": 1,
-        "move": "Bite"
-      },
-      {
-        "level": 1,
-        "move": "Ice Fang"
-      },
-      {
-        "level": 1,
-        "move": "Fire Fang"
-      },
-      {
-        "level": 1,
-        "move": "Thunder Fang"
-      },
-      {
-        "level": 1,
         "move": "Astonish"
       },
       {
@@ -37511,11 +37384,23 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Echoed Voice"
+        "move": "Hyper Beam"
       },
       {
         "level": 1,
-        "move": "Howl"
+        "move": "Perish Song"
+      },
+      {
+        "level": 1,
+        "move": "Growl"
+      },
+      {
+        "level": 5,
+        "move": "Echoed Voice"
+      },
+      {
+        "level": 10,
+        "move": "Sing"
       },
       {
         "level": 15,
@@ -37526,36 +37411,28 @@ const pokedexData = [
         "move": "Sleep Talk"
       },
       {
-        "level": 23,
-        "move": "Stomp"
+        "level": 20,
+        "move": "Round"
       },
       {
-        "level": 29,
-        "move": "Roar"
+        "level": 25,
+        "move": "Parting Shot"
       },
       {
-        "level": 36,
-        "move": "Supersonic"
+        "level": 30,
+        "move": "Overdrive"
       },
       {
-        "level": 45,
-        "move": "Uproar"
+        "level": 35,
+        "move": "Metal Sound"
       },
       {
-        "level": 54,
-        "move": "Screech"
-      },
-      {
-        "level": 63,
+        "level": 40,
         "move": "Hyper Voice"
       },
       {
-        "level": 72,
+        "level": 55,
         "move": "Boomburst"
-      },
-      {
-        "level": 81,
-        "move": "Hyper Beam"
       }
     ],
     "locations": []
@@ -37810,7 +37687,7 @@ const pokedexData = [
       },
       {
         "level": 4,
-        "move": "Harden"
+        "move": "Rock Tomb"
       },
       {
         "level": 7,
@@ -37850,23 +37727,19 @@ const pokedexData = [
       },
       {
         "level": 34,
-        "move": "Sandstorm"
+        "move": "Stone Edge"
       },
       {
         "level": 37,
         "move": "Earth Power"
       },
       {
-        "level": 40,
-        "move": "Stone Edge"
+        "level": 43,
+        "move": "Lock On"
       },
       {
         "level": 43,
         "move": "Zap Cannon"
-      },
-      {
-        "level": 43,
-        "move": "Lock On"
       }
     ],
     "locations": [
@@ -37907,23 +37780,15 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
+        "move": "Flash Cannon"
+      },
+      {
+        "level": 1,
         "move": "Tri Attack"
       },
       {
         "level": 1,
-        "move": "Magnetic Flux"
-      },
-      {
-        "level": 1,
-        "move": "Magnet Rise"
-      },
-      {
-        "level": 1,
-        "move": "Gravity"
-      },
-      {
-        "level": 1,
-        "move": "Block"
+        "move": "Volt Switch"
       },
       {
         "level": 1,
@@ -37931,11 +37796,19 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Iron Defense"
+        "move": "Tackle"
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Rock Tomb"
+      },
+      {
+        "level": 1,
+        "move": "Block"
+      },
+      {
+        "level": 1,
+        "move": "Rock Throw"
       },
       {
         "level": 13,
@@ -37967,23 +37840,19 @@ const pokedexData = [
       },
       {
         "level": 34,
-        "move": "Sandstorm"
+        "move": "Stone Edge"
       },
       {
         "level": 37,
         "move": "Earth Power"
       },
       {
-        "level": 40,
-        "move": "Stone Edge"
+        "level": 43,
+        "move": "Lock On"
       },
       {
         "level": 43,
         "move": "Zap Cannon"
-      },
-      {
-        "level": 43,
-        "move": "Lock On"
       }
     ],
     "locations": []
@@ -39762,18 +39631,6 @@ const pokedexData = [
         "move": "Toxic"
       },
       {
-        "level": 28,
-        "move": "Stockpile"
-      },
-      {
-        "level": 28,
-        "move": "Spit Up"
-      },
-      {
-        "level": 28,
-        "move": "Swallow"
-      },
-      {
         "level": 33,
         "move": "Sludge Bomb"
       },
@@ -39782,7 +39639,7 @@ const pokedexData = [
         "move": "Gastro Acid"
       },
       {
-        "level": 41,
+        "level": 40,
         "move": "Belch"
       },
       {
@@ -39790,8 +39647,12 @@ const pokedexData = [
         "move": "Pain Split"
       },
       {
-        "level": 49,
+        "level": 50,
         "move": "Gunk Shot"
+      },
+      {
+        "level": 55,
+        "move": "Venom Drench"
       }
     ],
     "locations": [
@@ -39834,23 +39695,31 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Explosion"
+      },
+      {
+        "level": 1,
+        "move": "Earthquake"
+      },
+      {
+        "level": 1,
+        "move": "Sludge Wave"
+      },
+      {
+        "level": 1,
         "move": "Pound"
       },
       {
-        "level": 1,
-        "move": "Sludge"
-      },
-      {
-        "level": 1,
-        "move": "Poison Gas"
-      },
-      {
-        "level": 1,
+        "level": 5,
         "move": "Yawn"
       },
       {
-        "level": 1,
-        "move": "Gunk Shot"
+        "level": 8,
+        "move": "Poison Gas"
+      },
+      {
+        "level": 10,
+        "move": "Sludge"
       },
       {
         "level": 12,
@@ -39869,28 +39738,28 @@ const pokedexData = [
         "move": "Toxic"
       },
       {
-        "level": 30,
-        "move": "Stockpile"
-      },
-      {
-        "level": 30,
-        "move": "Spit Up"
-      },
-      {
-        "level": 30,
-        "move": "Swallow"
-      },
-      {
-        "level": 37,
+        "level": 33,
         "move": "Sludge Bomb"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Gastro Acid"
       },
       {
-        "level": 49,
+        "level": 40,
         "move": "Belch"
+      },
+      {
+        "level": 44,
+        "move": "Pain Split"
+      },
+      {
+        "level": 50,
+        "move": "Gunk Shot"
+      },
+      {
+        "level": 55,
+        "move": "Venom Drench"
       }
     ],
     "locations": []
@@ -41413,11 +41282,11 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Mist"
+        "move": "Sing"
       },
       {
         "level": 12,
-        "move": "Fury Attack"
+        "move": "Haze"
       },
       {
         "level": 16,
@@ -41429,11 +41298,11 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Safeguard"
+        "move": "Roost"
       },
       {
         "level": 28,
-        "move": "Sing"
+        "move": "Cotton Spore"
       },
       {
         "level": 32,
@@ -41441,7 +41310,7 @@ const pokedexData = [
       },
       {
         "level": 36,
-        "move": "Take Down"
+        "move": "Mirror Move"
       },
       {
         "level": 40,
@@ -41450,6 +41319,14 @@ const pokedexData = [
       {
         "level": 44,
         "move": "Perish Song"
+      },
+      {
+        "level": 50,
+        "move": "Hyper Voice"
+      },
+      {
+        "level": 55,
+        "move": "Draco Meteor"
       }
     ],
     "locations": [
@@ -41484,32 +41361,36 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 0,
-        "move": "Dragon Pulse"
-      },
-      {
         "level": 1,
         "move": "Growl"
       },
       {
         "level": 1,
-        "move": "Mist"
+        "move": "U Turn"
+      },
+      {
+        "level": 1,
+        "move": "Tailwind"
+      },
+      {
+        "level": 1,
+        "move": "Cotton Spore"
       },
       {
         "level": 1,
         "move": "Peck"
       },
       {
-        "level": 1,
-        "move": "Pluck"
-      },
-      {
-        "level": 1,
+        "level": 4,
         "move": "Disarming Voice"
       },
       {
+        "level": 8,
+        "move": "Sing"
+      },
+      {
         "level": 12,
-        "move": "Fury Attack"
+        "move": "Haze"
       },
       {
         "level": 16,
@@ -41521,31 +41402,31 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Safeguard"
-      },
-      {
-        "level": 28,
-        "move": "Sing"
+        "move": "Roost"
       },
       {
         "level": 32,
         "move": "Cotton Guard"
       },
       {
-        "level": 38,
-        "move": "Take Down"
+        "level": 36,
+        "move": "Mirror Move"
       },
       {
-        "level": 44,
+        "level": 40,
         "move": "Moonblast"
       },
       {
-        "level": 50,
+        "level": 44,
         "move": "Perish Song"
       },
       {
-        "level": 56,
-        "move": "Sky Attack"
+        "level": 50,
+        "move": "Hyper Voice"
+      },
+      {
+        "level": 55,
+        "move": "Draco Meteor"
       }
     ],
     "locations": []
@@ -42256,7 +42137,9 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_CRAWDAUNT",
@@ -42383,7 +42266,7 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Harden"
+        "move": "Safeguard"
       },
       {
         "level": 1,
@@ -42419,7 +42302,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Cosmic Power"
+        "move": "Skill Swap"
       },
       {
         "level": 27,
@@ -42431,7 +42314,7 @@ const pokedexData = [
       },
       {
         "level": 33,
-        "move": "Self Destruct"
+        "move": "Psyshock"
       },
       {
         "level": 36,
@@ -42443,10 +42326,18 @@ const pokedexData = [
       },
       {
         "level": 39,
-        "move": "Sandstorm"
+        "move": "Power Gem"
       },
       {
         "level": 42,
+        "move": "Psychic"
+      },
+      {
+        "level": 45,
+        "move": "Recover"
+      },
+      {
+        "level": 48,
         "move": "Explosion"
       }
     ],
@@ -42484,15 +42375,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Hyper Beam"
-      },
-      {
-        "level": 1,
         "move": "Teleport"
       },
       {
         "level": 1,
-        "move": "Harden"
+        "move": "Safeguard"
       },
       {
         "level": 1,
@@ -42528,7 +42415,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Cosmic Power"
+        "move": "Skill Swap"
       },
       {
         "level": 27,
@@ -42540,19 +42427,27 @@ const pokedexData = [
       },
       {
         "level": 33,
-        "move": "Self Destruct"
+        "move": "Psyshock"
       },
       {
-        "level": 38,
+        "level": 36,
         "move": "Guard Split"
       },
       {
-        "level": 38,
+        "level": 36,
         "move": "Power Split"
       },
       {
-        "level": 43,
-        "move": "Sandstorm"
+        "level": 39,
+        "move": "Power Gem"
+      },
+      {
+        "level": 42,
+        "move": "Psychic"
+      },
+      {
+        "level": 45,
+        "move": "Recover"
       },
       {
         "level": 48,
@@ -44308,6 +44203,10 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
+        "move": "Astonish"
+      },
+      {
+        "level": 1,
         "move": "Headbutt"
       },
       {
@@ -44315,28 +44214,24 @@ const pokedexData = [
         "move": "Powder Snow"
       },
       {
-        "level": 1,
-        "move": "Astonish"
-      },
-      {
         "level": 5,
         "move": "Leer"
       },
       {
         "level": 10,
-        "move": "Double Team"
-      },
-      {
-        "level": 15,
         "move": "Ice Shard"
       },
       {
+        "level": 15,
+        "move": "Icy Wind"
+      },
+      {
         "level": 20,
-        "move": "Protect"
+        "move": "Ice Fang"
       },
       {
         "level": 25,
-        "move": "Icy Wind"
+        "move": "Bite"
       },
       {
         "level": 30,
@@ -44344,27 +44239,15 @@ const pokedexData = [
       },
       {
         "level": 35,
-        "move": "Bite"
-      },
-      {
-        "level": 40,
-        "move": "Ice Fang"
-      },
-      {
-        "level": 45,
-        "move": "Snowscape"
-      },
-      {
-        "level": 50,
-        "move": "Weather Ball"
-      },
-      {
-        "level": 55,
         "move": "Crunch"
       },
       {
-        "level": 60,
-        "move": "Blizzard"
+        "level": 40,
+        "move": "Protect"
+      },
+      {
+        "level": 45,
+        "move": "Weather Ball"
       }
     ],
     "locations": [
@@ -44407,15 +44290,11 @@ const pokedexData = [
       },
       {
         "level": 1,
+        "move": "Astonish"
+      },
+      {
+        "level": 1,
         "move": "Headbutt"
-      },
-      {
-        "level": 1,
-        "move": "Leer"
-      },
-      {
-        "level": 1,
-        "move": "Double Team"
       },
       {
         "level": 1,
@@ -44423,23 +44302,23 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Astonish"
+        "move": "Leer"
       },
       {
-        "level": 1,
-        "move": "Sheer Cold"
-      },
-      {
-        "level": 15,
+        "level": 10,
         "move": "Ice Shard"
       },
       {
+        "level": 15,
+        "move": "Icy Wind"
+      },
+      {
         "level": 20,
-        "move": "Protect"
+        "move": "Ice Fang"
       },
       {
         "level": 25,
-        "move": "Icy Wind"
+        "move": "Bite"
       },
       {
         "level": 30,
@@ -44447,27 +44326,15 @@ const pokedexData = [
       },
       {
         "level": 35,
-        "move": "Bite"
-      },
-      {
-        "level": 40,
-        "move": "Ice Fang"
-      },
-      {
-        "level": 47,
-        "move": "Snowscape"
-      },
-      {
-        "level": 54,
-        "move": "Weather Ball"
-      },
-      {
-        "level": 61,
         "move": "Crunch"
       },
       {
-        "level": 68,
-        "move": "Blizzard"
+        "level": 40,
+        "move": "Protect"
+      },
+      {
+        "level": 45,
+        "move": "Weather Ball"
       }
     ],
     "locations": []
@@ -44501,15 +44368,7 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Hex"
-      },
-      {
-        "level": 1,
-        "move": "Crunch"
-      },
-      {
-        "level": 1,
-        "move": "Ice Fang"
+        "move": "Psychic"
       },
       {
         "level": 1,
@@ -44517,43 +44376,31 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Destiny Bond"
-      },
-      {
-        "level": 1,
-        "move": "Protect"
-      },
-      {
-        "level": 1,
         "move": "Headbutt"
-      },
-      {
-        "level": 1,
-        "move": "Double Team"
-      },
-      {
-        "level": 1,
-        "move": "Bite"
-      },
-      {
-        "level": 1,
-        "move": "Leer"
       },
       {
         "level": 1,
         "move": "Powder Snow"
       },
       {
-        "level": 15,
+        "level": 1,
+        "move": "Leer"
+      },
+      {
+        "level": 10,
         "move": "Ice Shard"
       },
       {
+        "level": 15,
+        "move": "Icy Wind"
+      },
+      {
         "level": 20,
-        "move": "Draining Kiss"
+        "move": "Water Pulse"
       },
       {
         "level": 25,
-        "move": "Icy Wind"
+        "move": "Hex"
       },
       {
         "level": 30,
@@ -44561,27 +44408,19 @@ const pokedexData = [
       },
       {
         "level": 35,
-        "move": "Confuse Ray"
+        "move": "Draining Kiss"
       },
       {
         "level": 40,
-        "move": "Snowscape"
-      },
-      {
-        "level": 47,
-        "move": "Will O Wisp"
-      },
-      {
-        "level": 54,
-        "move": "Aurora Veil"
-      },
-      {
-        "level": 61,
         "move": "Shadow Ball"
       },
       {
-        "level": 68,
-        "move": "Blizzard"
+        "level": 45,
+        "move": "Will O Wisp"
+      },
+      {
+        "level": 45,
+        "move": "Weather Ball"
       }
     ],
     "locations": []
@@ -49958,7 +49797,9 @@ const pokedexData = [
         "move": "Petal Dance"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_CHERRIM_SUNSHINE",
@@ -50591,11 +50432,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Splash"
+        "move": "Pound"
       },
       {
         "level": 1,
-        "move": "Pound"
+        "move": "Splash"
       },
       {
         "level": 4,
@@ -50607,7 +50448,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "After You"
+        "move": "Fake Out"
       },
       {
         "level": 16,
@@ -50623,7 +50464,7 @@ const pokedexData = [
       },
       {
         "level": 28,
-        "move": "Baton Pass"
+        "move": "Low Sweep"
       },
       {
         "level": 32,
@@ -50635,15 +50476,15 @@ const pokedexData = [
       },
       {
         "level": 40,
-        "move": "Entrainment"
+        "move": "Bounce"
       },
       {
         "level": 44,
-        "move": "Flatter"
+        "move": "Entrainment"
       },
       {
         "level": 48,
-        "move": "Bounce"
+        "move": "After You"
       },
       {
         "level": 52,
@@ -50685,8 +50526,8 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 1,
-        "move": "Mirror Coat"
+        "level": 0,
+        "move": "Acrobatics"
       },
       {
         "level": 1,
@@ -50694,11 +50535,15 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Splash"
+        "move": "Mirror Coat"
       },
       {
         "level": 1,
         "move": "Pound"
+      },
+      {
+        "level": 1,
+        "move": "Splash"
       },
       {
         "level": 1,
@@ -50710,7 +50555,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "After You"
+        "move": "Fake Out"
       },
       {
         "level": 16,
@@ -50726,7 +50571,7 @@ const pokedexData = [
       },
       {
         "level": 28,
-        "move": "Baton Pass"
+        "move": "Low Sweep"
       },
       {
         "level": 32,
@@ -50738,15 +50583,15 @@ const pokedexData = [
       },
       {
         "level": 40,
-        "move": "Entrainment"
+        "move": "Bounce"
       },
       {
         "level": 44,
-        "move": "Flatter"
+        "move": "Entrainment"
       },
       {
         "level": 48,
-        "move": "Bounce"
+        "move": "After You"
       },
       {
         "level": 52,
@@ -57839,19 +57684,19 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Sand Attack"
-      },
-      {
-        "level": 1,
         "move": "Tackle"
       },
       {
+        "level": 1,
+        "move": "Sand Attack"
+      },
+      {
         "level": 4,
-        "move": "Harden"
+        "move": "Rock Tomb"
       },
       {
         "level": 8,
-        "move": "Stealth Rock"
+        "move": "Bulldoze"
       },
       {
         "level": 12,
@@ -57863,23 +57708,23 @@ const pokedexData = [
       },
       {
         "level": 20,
-        "move": "Iron Defense"
-      },
-      {
-        "level": 24,
         "move": "Headbutt"
       },
       {
-        "level": 28,
+        "level": 24,
         "move": "Rock Slide"
       },
       {
-        "level": 32,
+        "level": 28,
         "move": "Rock Blast"
       },
       {
+        "level": 32,
+        "move": "Body Press"
+      },
+      {
         "level": 36,
-        "move": "Sandstorm"
+        "move": "Earthquake"
       },
       {
         "level": 40,
@@ -57934,7 +57779,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Power Gem"
+        "move": "Tackle"
       },
       {
         "level": 1,
@@ -57942,15 +57787,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Rock Tomb"
       },
       {
         "level": 1,
-        "move": "Harden"
-      },
-      {
-        "level": 1,
-        "move": "Stealth Rock"
+        "move": "Bulldoze"
       },
       {
         "level": 12,
@@ -57962,30 +57803,30 @@ const pokedexData = [
       },
       {
         "level": 20,
-        "move": "Iron Defense"
-      },
-      {
-        "level": 24,
         "move": "Headbutt"
       },
       {
-        "level": 30,
+        "level": 24,
         "move": "Rock Slide"
       },
       {
-        "level": 36,
+        "level": 28,
         "move": "Rock Blast"
       },
       {
-        "level": 42,
-        "move": "Sandstorm"
+        "level": 32,
+        "move": "Body Press"
       },
       {
-        "level": 48,
+        "level": 36,
+        "move": "Earthquake"
+      },
+      {
+        "level": 40,
         "move": "Stone Edge"
       },
       {
-        "level": 54,
+        "level": 44,
         "move": "Explosion"
       }
     ],
@@ -58022,12 +57863,12 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 1,
-        "move": "Power Gem"
+        "level": 0,
+        "move": "Heavy Slam"
       },
       {
         "level": 1,
-        "move": "Sand Attack"
+        "move": "Power Gem"
       },
       {
         "level": 1,
@@ -58035,11 +57876,15 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Harden"
+        "move": "Sand Attack"
       },
       {
         "level": 1,
-        "move": "Stealth Rock"
+        "move": "Rock Tomb"
+      },
+      {
+        "level": 1,
+        "move": "Bulldoze"
       },
       {
         "level": 12,
@@ -58051,30 +57896,30 @@ const pokedexData = [
       },
       {
         "level": 20,
-        "move": "Iron Defense"
-      },
-      {
-        "level": 24,
         "move": "Headbutt"
       },
       {
-        "level": 30,
+        "level": 24,
         "move": "Rock Slide"
       },
       {
-        "level": 36,
+        "level": 28,
         "move": "Rock Blast"
       },
       {
-        "level": 42,
-        "move": "Sandstorm"
+        "level": 32,
+        "move": "Body Press"
       },
       {
-        "level": 48,
+        "level": 36,
+        "move": "Earthquake"
+      },
+      {
+        "level": 40,
         "move": "Stone Edge"
       },
       {
-        "level": 54,
+        "level": 44,
         "move": "Explosion"
       }
     ],
@@ -62735,7 +62580,8 @@ const pokedexData = [
       }
     ],
     "locations": [
-      "Hollowgrove"
+      "Hollowgrove",
+      "Pewter City"
     ]
   },
   {
@@ -67892,7 +67738,7 @@ const pokedexData = [
       },
       {
         "level": 6,
-        "move": "Fury Swipes"
+        "move": "Ice Shard"
       },
       {
         "level": 9,
@@ -67900,7 +67746,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Play Nice"
+        "move": "Slash"
       },
       {
         "level": 15,
@@ -67911,36 +67757,32 @@ const pokedexData = [
         "move": "Frost Breath"
       },
       {
-        "level": 21,
-        "move": "Slash"
-      },
-      {
-        "level": 24,
-        "move": "Flail"
-      },
-      {
         "level": 27,
         "move": "Charm"
       },
       {
         "level": 30,
-        "move": "Snowscape"
+        "move": "Brick Break"
       },
       {
-        "level": 33,
-        "move": "Thrash"
+        "level": 32,
+        "move": "Ice Punch"
       },
       {
         "level": 36,
         "move": "Rest"
       },
       {
-        "level": 39,
-        "move": "Blizzard"
+        "level": 40,
+        "move": "Superpower"
       },
       {
-        "level": 42,
-        "move": "Sheer Cold"
+        "level": 45,
+        "move": "Play Rough"
+      },
+      {
+        "level": 55,
+        "move": "Ice Hammer"
       }
     ],
     "locations": [
@@ -67983,27 +67825,27 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Endure"
-      },
-      {
-        "level": 1,
         "move": "Growl"
       },
       {
         "level": 1,
-        "move": "Fury Swipes"
+        "move": "Avalanche"
+      },
+      {
+        "level": 1,
+        "move": "Encore"
       },
       {
         "level": 1,
         "move": "Powder Snow"
       },
       {
-        "level": 1,
-        "move": "Charm"
+        "level": 3,
+        "move": "Endure"
       },
       {
-        "level": 1,
-        "move": "Aqua Jet"
+        "level": 6,
+        "move": "Ice Shard"
       },
       {
         "level": 9,
@@ -68011,7 +67853,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Play Nice"
+        "move": "Slash"
       },
       {
         "level": 15,
@@ -68022,40 +67864,32 @@ const pokedexData = [
         "move": "Frost Breath"
       },
       {
-        "level": 21,
-        "move": "Slash"
-      },
-      {
-        "level": 24,
-        "move": "Flail"
-      },
-      {
         "level": 27,
-        "move": "Swagger"
+        "move": "Charm"
       },
       {
         "level": 30,
-        "move": "Snowscape"
+        "move": "Brick Break"
       },
       {
-        "level": 33,
-        "move": "Thrash"
+        "level": 32,
+        "move": "Ice Punch"
       },
       {
         "level": 36,
         "move": "Rest"
       },
       {
-        "level": 41,
-        "move": "Blizzard"
-      },
-      {
-        "level": 46,
-        "move": "Sheer Cold"
-      },
-      {
-        "level": 51,
+        "level": 40,
         "move": "Superpower"
+      },
+      {
+        "level": 45,
+        "move": "Play Rough"
+      },
+      {
+        "level": 55,
+        "move": "Ice Hammer"
       }
     ],
     "locations": []
@@ -82955,7 +82789,9 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_ROCKRUFF_OWN_TEMPO",
@@ -91910,7 +91746,8 @@ const pokedexData = [
       }
     ],
     "locations": [
-      "Hollowgrove"
+      "Hollowgrove",
+      "Pewter City"
     ]
   },
   {
@@ -103582,7 +103419,9 @@ const pokedexData = [
         "move": "Lunge"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ]
   },
   {
     "id": "SPECIES_RABSCA",
