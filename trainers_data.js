@@ -1230,5 +1230,331 @@ const trainersData = [
         ]
       }
     ]
+  },
+  {
+    "id": "TRAINER_HIKER_MARCOS",
+    "name": "Hiker MARCOS",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Furret",
+        "item": "Rocky Helmet",
+        "ability": "Fur Coat",
+        "level": "29",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Zen Headbutt",
+          "Quick Attack",
+          "Slam",
+          "Knock Off"
+        ]
+      },
+      {
+        "species": "Wugtrio",
+        "item": "Sitrus Berry",
+        "ability": "Rattled",
+        "level": "28",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Triple Dive",
+          "Sucker Punch",
+          "Throat Chop",
+          "Slam"
+        ]
+      },
+      {
+        "species": "Dartrix",
+        "item": "Grass Gem",
+        "ability": "Long Reach",
+        "level": "27",
+        "moves": [
+          "Dual Wingbeat",
+          "Sucker Punch",
+          "Giga Drain",
+          "Roost"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Carkol",
+        "item": "Eviolite",
+        "ability": "Flame Body",
+        "level": "28",
+        "moves": [
+          "Will-O-Wisp",
+          "Rock Slide",
+          "Temper Flare"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_BUG_CATCHER_KENT",
+    "name": "Bug Catcher KENT",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Sneasel-Hisui",
+        "item": null,
+        "ability": "Pickpocket",
+        "level": "29",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Brick Break",
+          "Poison Jab",
+          "Fake Out",
+          "Toxic"
+        ]
+      },
+      {
+        "species": "Klefki",
+        "item": null,
+        "ability": "Magician",
+        "level": "29",
+        "moves": [
+          "Dazzling Gleam",
+          "Skitter Smack",
+          "Flash Cannon",
+          "Thunder Wave"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Golurk",
+        "item": "Expert Belt",
+        "ability": "Iron Fist",
+        "level": "29",
+        "moves": [
+          "Stomping Tantrum",
+          "Rock Slide",
+          "Hex",
+          "Drain Punch"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_YOUNGSTER_JOSH",
+    "name": "Youngster JOSH",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Primeape",
+        "item": "Muscle Band",
+        "ability": "Anger Point",
+        "level": "26",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Thief",
+          "Low Sweep",
+          "Bulldoze"
+        ]
+      },
+      {
+        "species": "Pikachu",
+        "item": "Eviolite",
+        "ability": "Lightning Rod",
+        "level": "29",
+        "nature": "Timid Nature",
+        "moves": [
+          "Zippy Zap",
+          "Electroweb",
+          "Swift",
+          "Alluring Voice"
+        ]
+      },
+      {
+        "species": "Pelipper",
+        "item": "Leftovers",
+        "ability": "Keen Eye",
+        "level": "30",
+        "moves": [
+          "Air Slash",
+          "Waterfall",
+          "Take Down"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_LASS_MIRIAM",
+    "name": "Lass MIRIAM",
+    "double_battle": false,
+    "partner": "JOVAN",
+    "team": [
+      {
+        "species": "Maushold",
+        "item": "Sitrus Berry",
+        "ability": "Cheek Pouch",
+        "level": "28",
+        "moves": [
+          "Follow Me",
+          "Double Hit",
+          "Trailblaze",
+          "Covet"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Furret",
+        "item": "Silk Scarf",
+        "ability": "Fur Coat",
+        "level": "28",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Chilling Water",
+          "Quick Attack",
+          "Knock Off",
+          "Follow Me"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_SUPER_NERD_JOVAN",
+    "name": "Super Nerd JOVAN",
+    "double_battle": false,
+    "partner": "MIRIAM",
+    "team": [
+      {
+        "species": "Lokix",
+        "item": "Muscle Band",
+        "ability": "Tinted Lens",
+        "level": "28",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Knock Off",
+          "Low Sweep",
+          "Sucker Punch",
+          "Pounce"
+        ]
+      },
+      {
+        "species": "Basculin",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "level": "28",
+        "moves": [
+          "Headbutt",
+          "Ice Fang",
+          "Bubble Beam",
+          "Crunch"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_LASS_IRIS",
+    "name": "Lass IRIS",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Klawf",
+        "item": "Air Balloon",
+        "ability": "Anger Shell",
+        "level": "29",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Rock Slide",
+          "Skitter Smack",
+          "Brick Break",
+          "Facade"
+        ]
+      },
+      {
+        "species": "Seviper",
+        "item": "Expert Belt",
+        "ability": "Infiltrator",
+        "level": "29",
+        "moves": [
+          "Fire Fang",
+          "Ice Fang",
+          "Poison Jab",
+          "Facade"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Zoroark",
+        "item": "Sitrus Berry",
+        "ability": "Illusion",
+        "level": "27",
+        "nature": "Timid Nature",
+        "moves": [
+          "Dark Pulse",
+          "U-turn",
+          "Extrasensory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_BUG_CATCHER_ROBBY",
+    "name": "Bug Catcher ROBBY",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Hypno",
+        "item": null,
+        "ability": "Insomnia",
+        "level": "29",
+        "moves": [
+          "Trick Room",
+          "Psyshock",
+          "Thunder Punch",
+          "Fire Punch"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Torkoal",
+        "item": null,
+        "ability": "Shell Armor",
+        "level": "29",
+        "moves": [
+          "Burning Jealousy",
+          "Rock Slide",
+          "Body Press",
+          "Will-O-Wisp"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Stantler",
+        "item": "Expert Belt",
+        "ability": "Intimidate",
+        "level": "28",
+        "moves": [
+          "Trick Room",
+          "Lunge",
+          "Body Slam",
+          "Psyshield Bash"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Clawitzer",
+        "item": "Sitrus Berry",
+        "ability": "Mega Launcher",
+        "level": "29",
+        "ivs": "0 Atk",
+        "moves": [
+          "Aura Sphere",
+          "Flash Cannon",
+          "Ice Beam",
+          "Surf"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
   }
 ];
