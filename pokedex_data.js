@@ -15,8 +15,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Overgrow",
-      "Chlorophyll"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_IVYSAUR"
@@ -101,8 +107,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Overgrow",
-      "Chlorophyll"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VENUSAUR"
@@ -187,8 +199,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Overgrow",
-      "Chlorophyll"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -278,8 +296,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Solar Power"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CHARMELEON"
@@ -351,8 +375,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Solar Power"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CHARIZARD"
@@ -421,8 +451,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Blaze",
-      "Solar Power"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -504,8 +540,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Rain Dish"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WARTORTLE"
@@ -585,8 +627,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Rain Dish"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BLASTOISE"
@@ -666,8 +714,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Rain Dish"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -749,8 +803,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shield Dust",
-      "Run Away"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_METAPOD"
@@ -791,7 +851,10 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_BUTTERFREE"
@@ -826,8 +889,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Shield Dust",
-      "Tinted Lens"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -930,8 +999,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Shield Dust",
-      "Run Away"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KAKUNA"
@@ -973,7 +1048,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Shed Skin"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_BEEDRILL"
@@ -1010,8 +1088,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Swarm",
-      "Sniper"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -1114,9 +1198,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PIDGEOTTO"
@@ -1212,9 +1305,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PIDGEOT"
@@ -1310,9 +1412,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -1406,9 +1517,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RATICATE"
@@ -1495,9 +1615,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -1600,8 +1729,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Gluttony",
-      "Thick Fat"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RATICATE_ALOLA"
@@ -1682,8 +1817,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Thick Fat"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -1766,7 +1907,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Thick Fat"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -1849,8 +1993,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sniper"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FEAROW"
@@ -1946,8 +2096,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sniper"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2053,9 +2209,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARBOK"
@@ -2155,9 +2320,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2268,8 +2442,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PIKACHU"
@@ -2319,7 +2499,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static"
+      {
+        "name": "Static",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2365,8 +2548,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RAICHU"
@@ -2416,8 +2605,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2463,8 +2658,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2510,8 +2711,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2557,8 +2764,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2604,8 +2817,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2651,8 +2870,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2698,8 +2923,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2745,8 +2976,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2792,8 +3029,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2839,8 +3082,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2886,8 +3135,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2933,8 +3188,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -2980,8 +3241,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3027,8 +3294,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3074,8 +3347,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3121,8 +3400,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Lightning Rod"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3213,7 +3498,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Surge Surfer"
+      {
+        "name": "Surge Surfer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3319,8 +3607,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Sand Rush"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SANDSLASH"
@@ -3412,8 +3706,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Sand Rush"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3508,8 +3808,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SANDSLASH_ALOLA"
@@ -3604,8 +3910,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3707,9 +4019,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NIDORINA"
@@ -3788,9 +4109,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NIDOQUEEN"
@@ -3870,9 +4200,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -3958,9 +4297,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NIDORINO"
@@ -4042,9 +4390,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NIDOKING"
@@ -4126,9 +4483,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -4214,9 +4580,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Friend Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CLEFAIRY"
@@ -4272,9 +4647,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Friend Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CLEFABLE"
@@ -4384,9 +4768,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Unaware"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -4492,8 +4885,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Magic Bounce",
-      "Drought"
+      {
+        "name": "Magic Bounce",
+        "is_hidden": false
+      },
+      {
+        "name": "Drought",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NINETALES"
@@ -4580,8 +4979,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Magic Bounce",
-      "Drought"
+      {
+        "name": "Magic Bounce",
+        "is_hidden": false
+      },
+      {
+        "name": "Drought",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -4639,8 +5044,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Snow Warning"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NINETALES_ALOLA"
@@ -4727,8 +5138,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Snow Warning"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -4819,9 +5236,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Friend Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_JIGGLYPUFF"
@@ -4878,9 +5304,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Friend Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WIGGLYTUFF"
@@ -4987,9 +5422,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Frisk"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -5096,8 +5540,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Inner Focus",
-      "Infiltrator"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOLBAT"
@@ -5211,8 +5661,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Inner Focus",
-      "Infiltrator"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CROBAT"
@@ -5323,8 +5779,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Inner Focus",
-      "Infiltrator"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -5411,8 +5873,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Run Away"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GLOOM"
@@ -5502,8 +5970,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Stench"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Stench",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VILEPLUME",
@@ -5586,8 +6060,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Effect Spore"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Effect Spore",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -5645,8 +6125,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Healer"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Healer",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -5705,8 +6191,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Effect Spore",
-      "Dry Skin"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PARASECT"
@@ -5795,8 +6287,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Effect Spore",
-      "Dry Skin"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -5893,9 +6391,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Compound Eyes",
-      "Tinted Lens",
-      "Run Away"
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VENOMOTH"
@@ -5981,9 +6488,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Shield Dust",
-      "Tinted Lens",
-      "Wonder Skin"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Wonder Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6069,9 +6585,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Arena Trap",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUGTRIO"
@@ -6149,9 +6674,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Arena Trap",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6240,9 +6774,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangling Hair",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUGTRIO_ALOLA"
@@ -6319,9 +6862,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangling Hair",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6495,9 +7047,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Limber",
-      "Technician",
-      "Unnerve"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6589,9 +7150,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Pickup",
-      "Technician",
-      "Rattled"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PERSIAN_ALOLA"
@@ -6673,9 +7243,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Fur Coat",
-      "Technician",
-      "Rattled"
+      {
+        "name": "Fur Coat",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6769,9 +7348,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Battle Armor",
-      "Tough Claws",
-      "Steely Spirit"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Tough Claws",
+        "is_hidden": false
+      },
+      {
+        "name": "Steely Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PERRSERKER"
@@ -6849,9 +7437,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Battle Armor",
-      "Tough Claws",
-      "Steely Spirit"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Tough Claws",
+        "is_hidden": false
+      },
+      {
+        "name": "Steely Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -6937,7 +7534,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_GOLDUCK"
@@ -7072,9 +7672,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -7165,8 +7774,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Vital Spirit",
-      "Defiant"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PRIMEAPE"
@@ -7253,8 +7868,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Vital Spirit",
-      "Defiant"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ANNIHILAPE"
@@ -7347,8 +7968,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Vital Spirit",
-      "Defiant"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -7434,8 +8061,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Intimidate",
-      "Flash Fire"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARCANINE"
@@ -7531,8 +8164,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Intimidate",
-      "Flash Fire"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -7587,9 +8226,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Rock Head"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARCANINE_HISUI"
@@ -7674,9 +8322,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Rock Head"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -7774,9 +8431,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_POLIWHIRL"
@@ -7861,12 +8527,22 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_POLIWRATH",
+      "SPECIES_POLITOED",
       "SPECIES_POLITOED"
     ],
     "learnset": [
@@ -7944,9 +8620,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -8020,9 +8705,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Drizzle"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Drizzle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -8104,9 +8798,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KADABRA"
@@ -8137,9 +8840,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ALAKAZAM",
@@ -8227,9 +8939,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -8307,9 +9028,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MACHOKE"
@@ -8404,9 +9134,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MACHAMP",
@@ -8504,9 +9243,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -8605,8 +9353,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Gluttony"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WEEPINBELL"
@@ -8683,8 +9437,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Gluttony"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VICTREEBEL"
@@ -8761,8 +9521,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Gluttony"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -8829,9 +9595,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Liquid Ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TENTACRUEL"
@@ -8942,9 +9717,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Liquid Ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -9043,9 +9827,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sand Veil"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRAVELER"
@@ -9148,9 +9941,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sand Veil"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOLEM",
@@ -9246,9 +10048,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sand Veil"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -9339,8 +10150,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Sturdy",
-      "Galvanize"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Galvanize",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRAVELER_ALOLA"
@@ -9423,8 +10240,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Sturdy",
-      "Galvanize"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Galvanize",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOLEM_ALOLA",
@@ -9510,8 +10333,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Sturdy",
-      "Galvanize"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Galvanize",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -9601,8 +10430,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Flash Fire"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RAPIDASH"
@@ -9686,8 +10521,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Flash Fire"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -9784,9 +10625,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Run Away",
-      "Pastel Veil",
-      "Anticipation"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Pastel Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RAPIDASH_GALAR"
@@ -9863,9 +10713,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Run Away",
-      "Pastel Veil",
-      "Anticipation"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Pastel Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -9956,12 +10815,22 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SLOWBRO",
+      "SPECIES_SLOWKING",
       "SPECIES_SLOWKING"
     ],
     "learnset": [
@@ -10052,9 +10921,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10153,9 +11031,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10261,9 +11148,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Gluttony",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SLOWBRO_GALAR",
@@ -10357,9 +11253,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Quick Draw",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Quick Draw",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10458,9 +11363,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Curious Medicine",
-      "Own Tempo",
-      "Regenerator"
+      {
+        "name": "Curious Medicine",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10579,8 +11493,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Analytic"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAGNETON"
@@ -10672,8 +11592,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Analytic"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAGNEZONE"
@@ -10771,8 +11697,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Analytic"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10867,9 +11799,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Inner Focus",
-      "Defiant"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -10951,8 +11892,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Steadfast",
-      "Scrappy"
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SIRFETCHD"
@@ -11036,8 +11983,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Steadfast",
-      "Scrappy"
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -11136,9 +12089,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DODRIO"
@@ -11221,9 +12183,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -11301,9 +12272,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DEWGONG"
@@ -11405,9 +12385,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -11502,9 +12491,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Poison Touch"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MUK"
@@ -11598,9 +12596,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Poison Touch"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -11687,9 +12694,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Poison Touch",
-      "Gluttony",
-      "Power Of Alchemy"
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Power Of Alchemy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MUK_ALOLA"
@@ -11778,9 +12794,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Poison Touch",
-      "Gluttony",
-      "Power Of Alchemy"
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Power Of Alchemy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -11866,9 +12891,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CLOYSTER"
@@ -11960,9 +12994,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -12017,7 +13060,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_HAUNTER"
@@ -12118,7 +13164,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_GENGAR",
@@ -12312,11 +13361,21 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Weak Armor"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_STEELIX",
       "SPECIES_STEELIX"
     ],
     "learnset": [
@@ -12420,9 +13479,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sheer Force"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -12540,9 +13608,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HYPNO"
@@ -12625,9 +13702,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -12711,9 +13797,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KINGLER"
@@ -12809,9 +13904,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -12897,9 +14001,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ELECTRODE"
@@ -12999,9 +14112,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13108,9 +14230,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ELECTRODE_HISUI"
@@ -13203,9 +14334,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13300,8 +14440,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Harvest"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_EXEGGUTOR"
@@ -13384,8 +14530,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Harvest"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13484,8 +14636,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Frisk",
-      "Harvest"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13583,9 +14741,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Lightning Rod",
-      "Battle Armor"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Battle Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAROWAK"
@@ -13674,9 +14841,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Rock Head",
-      "Lightning Rod",
-      "Battle Armor"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Battle Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13760,9 +14936,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Cursed Body",
-      "Lightning Rod",
-      "Rock Head"
+      {
+        "name": "Cursed Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13865,7 +15050,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Rock Head"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -13967,9 +15155,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Guts",
-      "Steadfast",
-      "Vital Spirit"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HITMONCHAN"
@@ -14009,9 +15206,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Limber",
-      "Reckless",
-      "Unburden"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14105,9 +15311,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Keen Eye",
-      "Iron Fist",
-      "Inner Focus"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14205,9 +15420,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Intimidate",
-      "Technician",
-      "Steadfast"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14301,9 +15525,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LICKILICKY"
@@ -14375,9 +15608,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14447,9 +15689,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Stench"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Neutralizing Gas",
+        "is_hidden": false
+      },
+      {
+        "name": "Stench",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WEEZING"
@@ -14539,9 +15790,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Stench"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Neutralizing Gas",
+        "is_hidden": false
+      },
+      {
+        "name": "Stench",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14637,9 +15897,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Misty Surge"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Neutralizing Gas",
+        "is_hidden": false
+      },
+      {
+        "name": "Misty Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -14750,9 +16019,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Rock Head",
-      "Reckless"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RHYDON"
@@ -14836,11 +16114,21 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Rock Head",
-      "Reckless"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_RHYPERIOR",
       "SPECIES_RHYPERIOR"
     ],
     "learnset": [
@@ -14923,9 +16211,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Solid Rock",
-      "Reckless"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Solid Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -15011,9 +16308,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Friend Guard"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Friend Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CHANSEY"
@@ -15065,9 +16371,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Healer"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Healer",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BLISSEY"
@@ -15173,9 +16488,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Healer"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Healer",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -15277,9 +16601,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TANGROWTH"
@@ -15362,9 +16695,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -15454,9 +16796,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Early Bird",
-      "Scrappy",
-      "Inner Focus"
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -15540,9 +16891,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SEADRA"
@@ -15647,11 +17007,21 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_KINGDRA",
       "SPECIES_KINGDRA"
     ],
     "learnset": [
@@ -15746,9 +17116,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -15834,8 +17213,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Lightning Rod"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SEAKING"
@@ -15929,8 +17314,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Lightning Rod"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16019,9 +17410,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_STARMIE"
@@ -16110,9 +17510,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16199,9 +17608,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Filter",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MR_MIME"
@@ -16294,9 +17712,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Filter",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16403,9 +17830,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Vital Spirit",
-      "Screen Cleaner",
-      "Ice Body"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Screen Cleaner",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MR_RIME"
@@ -16534,9 +17970,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Tangled Feet",
-      "Screen Cleaner",
-      "Ice Body"
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Screen Cleaner",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16679,12 +18124,23 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swarm",
-      "Technician",
-      "Steadfast"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
-      "SPECIES_SCIZOR"
+      "SPECIES_SCIZOR",
+      "SPECIES_SCIZOR",
+      "SPECIES_KLEAVOR"
     ],
     "learnset": [
       {
@@ -16760,9 +18216,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Swarm",
-      "Technician",
-      "Light Metal"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16853,9 +18318,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Swarm",
-      "Sheer Force",
-      "Sharpness"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Sharpness",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -16934,9 +18408,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Oblivious",
-      "Forewarn",
-      "Hydration"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_JYNX"
@@ -17017,9 +18500,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Oblivious",
-      "Forewarn",
-      "Dry Skin"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17101,8 +18593,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Vital Spirit"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ELECTABUZZ"
@@ -17182,10 +18680,17 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Vital Spirit"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_ELECTIVIRE",
       "SPECIES_ELECTIVIRE"
     ],
     "learnset": [
@@ -17269,8 +18774,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Motor Drive",
-      "Vital Spirit"
+      {
+        "name": "Motor Drive",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17352,8 +18863,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Vital Spirit"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAGMAR"
@@ -17433,10 +18950,17 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Vital Spirit"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_MAGMORTAR",
       "SPECIES_MAGMORTAR"
     ],
     "learnset": [
@@ -17518,8 +19042,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Vital Spirit"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17601,9 +19131,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Mold Breaker",
-      "Moxie"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17685,9 +19224,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Intimidate",
-      "Anger Point",
-      "Sheer Force"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17767,9 +19315,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Intimidate",
-      "Anger Point",
-      "Cud Chew"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Cud Chew",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17848,9 +19405,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Intimidate",
-      "Anger Point",
-      "Cud Chew"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Cud Chew",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -17929,9 +19495,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Intimidate",
-      "Anger Point",
-      "Cud Chew"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Cud Chew",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18009,8 +19584,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rattled"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GYARADOS"
@@ -18095,8 +19676,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18238,9 +19825,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Water Absorb",
-      "Shell Armor",
-      "Hydration"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18324,8 +19920,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Limber",
-      "Imposter"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Imposter",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18448,9 +20050,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Adaptability",
-      "Anticipation"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18536,8 +20147,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Absorb",
-      "Hydration"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18655,8 +20272,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Quick Feet"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18774,8 +20397,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flash Fire",
-      "Guts"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -18889,8 +20518,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize",
-      "Magic Bounce"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19004,8 +20639,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Synchronize",
-      "Inner Focus"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19123,8 +20764,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Chlorophyll"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19242,8 +20889,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Ice Body"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19357,8 +21010,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cute Charm",
-      "Pixilate"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Pixilate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19472,11 +21131,21 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
+      {
+        "name": "Trace",
+        "is_hidden": false
+      },
+      {
+        "name": "Download",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_PORYGON2",
       "SPECIES_PORYGON2"
     ],
     "learnset": [
@@ -19554,11 +21223,21 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
+      {
+        "name": "Trace",
+        "is_hidden": false
+      },
+      {
+        "name": "Download",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_PORYGON_Z",
       "SPECIES_PORYGON_Z"
     ],
     "learnset": [
@@ -19640,9 +21319,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Adaptability",
-      "Download",
-      "Analytic"
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Download",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19737,9 +21425,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_OMASTAR"
@@ -19826,9 +21523,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -19919,9 +21625,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Sharpness",
-      "Battle Armor",
-      "Swift Swim"
+      {
+        "name": "Sharpness",
+        "is_hidden": false
+      },
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KABUTOPS"
@@ -20004,9 +21719,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Sharpness",
-      "Battle Armor",
-      "Swift Swim"
+      {
+        "name": "Sharpness",
+        "is_hidden": false
+      },
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20093,9 +21817,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Rock Head",
-      "Pressure",
-      "Unnerve"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20173,9 +21906,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Pickup",
-      "Thick Fat",
-      "Gluttony"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SNORLAX"
@@ -20263,9 +22005,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Immunity",
-      "Thick Fat",
-      "Gluttony"
+      {
+        "name": "Immunity",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20396,8 +22147,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Snow Cloak"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20484,7 +22241,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Competitive"
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20567,8 +22327,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Static"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20655,7 +22421,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Defiant"
+      {
+        "name": "Defiant",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20742,8 +22511,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Flame Body"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20830,7 +22605,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Berserk"
+      {
+        "name": "Berserk",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -20916,8 +22694,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Shed Skin",
-      "Marvel Scale"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Marvel Scale",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAGONAIR"
@@ -21002,8 +22786,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Shed Skin",
-      "Marvel Scale"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Marvel Scale",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAGONITE"
@@ -21089,8 +22879,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Inner Focus",
-      "Multiscale"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Multiscale",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -21192,8 +22988,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pressure",
-      "Unnerve"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -21279,7 +23081,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -21349,8 +23154,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Leaf Guard"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BAYLEEF"
@@ -21430,8 +23241,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Leaf Guard"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MEGANIUM"
@@ -21511,8 +23328,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Flash Fire"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_QUILAVA"
@@ -21600,8 +23423,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Flash Fire"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TYPHLOSION"
@@ -21689,8 +23518,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Flash Fire"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -21781,8 +23616,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Blaze",
-      "Frisk"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -21876,8 +23717,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sheer Force"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CROCONAW"
@@ -21957,8 +23804,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sheer Force"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FERALIGATR"
@@ -22038,8 +23891,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sheer Force"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -22121,8 +23980,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Quick Feet",
-      "Fur Coat"
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Fur Coat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FURRET"
@@ -22213,8 +24078,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Quick Feet",
-      "Fur Coat"
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Fur Coat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -22317,9 +24188,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Tinted Lens",
-      "Keen Eye",
-      "No Guard"
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NOCTOWL"
@@ -22404,9 +24284,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Tinted Lens",
-      "Keen Eye",
-      "No Guard"
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -22493,9 +24382,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swarm",
-      "Early Bird",
-      "Rattled"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LEDIAN"
@@ -22578,9 +24476,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swarm",
-      "Early Bird",
-      "Iron Fist"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -22667,9 +24574,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARIADOS"
@@ -22760,9 +24676,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -22865,9 +24790,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LANTURN"
@@ -22944,9 +24878,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -23036,9 +24979,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOGETIC"
@@ -23123,9 +25075,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOGEKISS"
@@ -23218,9 +25179,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -23331,9 +25301,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_XATU"
@@ -23408,9 +25387,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -23492,8 +25480,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Plus"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Plus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLAAFFY"
@@ -23579,8 +25573,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Plus"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Plus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AMPHAROS"
@@ -23664,8 +25664,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Plus"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Plus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -23768,9 +25774,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Huge Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MARILL"
@@ -23834,8 +25849,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Huge Power",
-      "Sap Sipper"
+      {
+        "name": "Huge Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AZUMARILL"
@@ -23940,8 +25961,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Huge Power",
-      "Sap Sipper"
+      {
+        "name": "Huge Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -24035,9 +26062,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SUDOWOODO"
@@ -24113,9 +26149,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -24210,9 +26255,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SKIPLOOM"
@@ -24311,9 +26365,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_JUMPLUFF"
@@ -24406,9 +26469,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -24498,9 +26570,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Pickup",
-      "Skill Link"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AMBIPOM"
@@ -24582,9 +26663,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Technician",
-      "Pickup",
-      "Skill Link"
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -24662,9 +26752,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SUNFLORA"
@@ -24742,9 +26841,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -24835,9 +26943,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Speed Boost",
-      "Compound Eyes",
-      "Frisk"
+      {
+        "name": "Speed Boost",
+        "is_hidden": false
+      },
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_YANMEGA"
@@ -24924,9 +27041,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Speed Boost",
-      "Tinted Lens",
-      "Frisk"
+      {
+        "name": "Speed Boost",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25013,9 +27139,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_QUAGSIRE"
@@ -25096,9 +27231,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
+      {
+        "name": "Damp",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25173,9 +27317,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Poison Point",
-      "Water Absorb",
-      "Unaware"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CLODSIRE"
@@ -25250,9 +27403,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Poison Point",
-      "Water Absorb",
-      "Unaware"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25327,9 +27489,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Prankster"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HONCHKROW"
@@ -25421,9 +27592,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Moxie"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25489,7 +27669,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_MISMAGIUS"
@@ -25563,7 +27746,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25609,8 +27795,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Shadow Tag",
-      "Telepathy"
+      {
+        "name": "Shadow Tag",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WOBBUFFET"
@@ -25666,8 +27858,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Shadow Tag",
-      "Telepathy"
+      {
+        "name": "Shadow Tag",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25742,9 +27940,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Inner Focus",
-      "Early Bird",
-      "Sap Sipper"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FARIGIRAF"
@@ -25835,9 +28042,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Cud Chew",
-      "Armor Tail",
-      "Sap Sipper"
+      {
+        "name": "Cud Chew",
+        "is_hidden": false
+      },
+      {
+        "name": "Armor Tail",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -25923,8 +28139,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Sturdy",
-      "Overcoat"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FORRETRESS"
@@ -26007,8 +28229,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Overcoat"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26102,9 +28330,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUDUNSPARCE_TWO_SEGMENT"
@@ -26190,9 +28427,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26282,9 +28528,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26375,9 +28630,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Immunity"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Immunity",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GLISCOR"
@@ -26458,9 +28722,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Poison Heal"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Heal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26546,8 +28819,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Intimidate",
-      "Quick Feet"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRANBULL"
@@ -26639,8 +28918,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Intimidate",
-      "Quick Feet"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26727,9 +29012,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -26832,9 +29126,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_OVERQWIL"
@@ -26927,9 +29230,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27020,9 +29332,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Gluttony",
-      "Contrary"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27111,9 +29432,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Swarm",
-      "Guts",
-      "Moxie"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27198,9 +29528,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Inner Focus",
-      "Keen Eye",
-      "Pickpocket"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WEAVILE"
@@ -27275,8 +29614,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Pressure",
-      "Pickpocket"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27371,9 +29716,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Inner Focus",
-      "Keen Eye",
-      "Pickpocket"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SNEASLER"
@@ -27450,9 +29804,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Pressure",
-      "Unburden",
-      "Poison Touch"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27534,9 +29897,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Pickup",
-      "Quick Feet",
-      "Honey Gather"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Honey Gather",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_URSARING"
@@ -27622,9 +29994,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Guts",
-      "Quick Feet",
-      "Unnerve"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_URSALUNA"
@@ -27717,9 +30098,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Guts",
-      "Bulletproof",
-      "Unnerve"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27814,7 +30204,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Mind's Eye"
+      {
+        "name": "Mind's Eye",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -27904,9 +30297,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Weak Armor"
+      {
+        "name": "Magma Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAGCARGO"
@@ -27997,9 +30399,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Weak Armor"
+      {
+        "name": "Magma Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28088,9 +30499,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PILOSWINE"
@@ -28167,9 +30587,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAMOSWINE"
@@ -28254,9 +30683,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28343,9 +30781,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Hustle",
-      "Natural Cure",
-      "Regenerator"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28419,8 +30866,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Cursed Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CURSOLA"
@@ -28496,8 +30949,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Perish Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Perish Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28575,9 +31034,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hustle",
-      "Sniper",
-      "Moody"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_OCTILLERY"
@@ -28653,9 +31121,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Suction Cups",
-      "Sniper",
-      "Moody"
+      {
+        "name": "Suction Cups",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28750,9 +31227,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Vital Spirit",
-      "Hustle",
-      "Insomnia"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28786,9 +31272,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MANTINE",
@@ -28871,9 +31366,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -28964,9 +31468,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sturdy",
-      "Weak Armor"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29051,8 +31564,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Unnerve",
-      "Flash Fire"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HOUNDOOM"
@@ -29144,8 +31663,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Unnerve",
-      "Flash Fire"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29231,8 +31756,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sturdy",
-      "Sand Veil"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DONPHAN"
@@ -29310,8 +31841,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sturdy",
-      "Sand Veil"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29385,9 +31922,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Intimidate",
-      "Frisk",
-      "Sap Sipper"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WYRDEER"
@@ -29466,9 +32012,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Intimidate",
-      "Frisk",
-      "Sap Sipper"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29550,9 +32105,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Own Tempo",
-      "Technician",
-      "Moody"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29616,9 +32180,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Thick Fat",
-      "Scrappy",
-      "Sap Sipper"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29692,8 +32265,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Pressure",
-      "Inner Focus"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29787,8 +32366,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Pressure",
-      "Inner Focus"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29886,8 +32471,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Pressure",
-      "Inner Focus"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -29986,8 +32577,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Guts",
-      "Sand Veil"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PUPITAR"
@@ -30087,7 +32684,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Shed Skin"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_TYRANITAR"
@@ -30184,8 +32784,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Unnerve",
-      "Sand Stream"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Stream",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -30300,8 +32906,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Multiscale"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Multiscale",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -30384,8 +32996,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Regenerator"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -30468,7 +33086,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Natural Cure"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -30538,8 +33159,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Unburden"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GROVYLE"
@@ -30623,8 +33250,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Unburden"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SCEPTILE"
@@ -30724,8 +33357,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Unburden"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -30827,8 +33466,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Speed Boost"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_COMBUSKEN"
@@ -30913,8 +33558,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Speed Boost"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BLAZIKEN"
@@ -31011,8 +33662,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Speed Boost"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -31114,8 +33771,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Damp"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MARSHTOMP"
@@ -31200,8 +33863,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Torrent",
-      "Damp"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWAMPERT"
@@ -31290,8 +33959,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Torrent",
-      "Damp"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -31389,9 +34064,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Moxie"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MIGHTYENA"
@@ -31473,9 +34157,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Moxie"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -31573,8 +34266,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LINOONE"
@@ -31654,8 +34353,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -31754,8 +34459,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Gluttony",
-      "Quick Feet"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LINOONE_GALAR"
@@ -31844,8 +34555,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Gluttony",
-      "Quick Feet"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_OBSTAGOON"
@@ -31934,9 +34651,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Reckless",
-      "Guts",
-      "Defiant"
+      {
+        "name": "Reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32038,8 +34764,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shield Dust",
-      "Run Away"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SILCOON"
@@ -32081,7 +34813,10 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_BEAUTIFLY"
@@ -32114,8 +34849,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Swarm",
-      "Rivalry"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32217,7 +34958,10 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_DUSTOX"
@@ -32250,8 +34994,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Shield Dust",
-      "Compound Eyes"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Compound Eyes",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32350,9 +35100,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LOMBRE"
@@ -32434,9 +35193,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LUDICOLO"
@@ -32517,9 +35285,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32573,9 +35350,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Early Bird",
-      "Pickpocket"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NUZLEAF"
@@ -32646,9 +35432,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Early Bird",
-      "Pickpocket"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SHIFTRY"
@@ -32733,9 +35528,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Wind Rider",
-      "Pickpocket"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Wind Rider",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32798,8 +35602,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Guts",
-      "Scrappy"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWELLOW"
@@ -32876,8 +35686,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Guts",
-      "Scrappy"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -32972,8 +35788,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Rain Dish",
-      "Drizzle"
+      {
+        "name": "Rain Dish",
+        "is_hidden": false
+      },
+      {
+        "name": "Drizzle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PELIPPER"
@@ -33048,8 +35870,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Rain Dish",
-      "Drizzle"
+      {
+        "name": "Rain Dish",
+        "is_hidden": false
+      },
+      {
+        "name": "Drizzle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -33132,9 +35960,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Trace",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KIRLIA"
@@ -33219,9 +36056,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Trace",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GARDEVOIR",
@@ -33307,9 +36153,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Trace",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -33416,9 +36271,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Steadfast",
-      "Sharpness",
-      "Justified"
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Sharpness",
+        "is_hidden": false
+      },
+      {
+        "name": "Justified",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -33573,8 +36437,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rain Dish"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MASQUERAIN"
@@ -33641,8 +36511,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Unnerve"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -33716,9 +36592,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Quick Feet"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Heal",
+        "is_hidden": false
+      },
+      {
+        "name": "Quick Feet",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRELOOM"
@@ -33791,9 +36676,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Technician"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Heal",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -33891,7 +36785,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Truant"
+      {
+        "name": "Truant",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_VIGOROTH"
@@ -33959,7 +36856,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Vital Spirit"
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_SLAKING"
@@ -34027,7 +36927,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Truant"
+      {
+        "name": "Truant",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -34106,8 +37009,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Compound Eyes",
-      "Run Away"
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NINJASK",
@@ -34174,8 +37083,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Speed Boost",
-      "Infiltrator"
+      {
+        "name": "Speed Boost",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -34290,7 +37205,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Wonder Guard"
+      {
+        "name": "Wonder Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -34380,8 +37298,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Soundproof",
-      "Rattled"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LOUDRED"
@@ -34455,8 +37379,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Soundproof",
-      "Scrappy"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_EXPLOUD"
@@ -34536,8 +37466,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Soundproof",
-      "Scrappy"
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -34639,9 +37575,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HARIYAMA"
@@ -34733,9 +37678,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -34833,9 +37787,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Magnet Pull",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PROBOPASS"
@@ -34927,9 +37890,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Magnet Pull",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35031,9 +38003,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Normalize",
+        "is_hidden": false
+      },
+      {
+        "name": "Wonder Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DELCATTY"
@@ -35125,9 +38106,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Normalize",
+        "is_hidden": false
+      },
+      {
+        "name": "Wonder Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35218,9 +38208,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Keen Eye",
-      "Stall",
-      "Prankster"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Stall",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35321,9 +38320,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Intimidate",
-      "Sheer Force"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35410,9 +38418,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LAIRON"
@@ -35505,9 +38522,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AGGRON"
@@ -35600,9 +38626,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35693,8 +38728,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pure Power",
-      "Telepathy"
+      {
+        "name": "Pure Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MEDICHAM"
@@ -35783,8 +38824,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pure Power",
-      "Telepathy"
+      {
+        "name": "Pure Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -35882,8 +38929,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Minus"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MANECTRIC"
@@ -35961,8 +39014,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Minus"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36052,8 +39111,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Plus",
-      "Lightning Rod"
+      {
+        "name": "Plus",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36155,8 +39220,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Minus",
-      "Volt Absorb"
+      {
+        "name": "Minus",
+        "is_hidden": false
+      },
+      {
+        "name": "Volt Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36258,9 +39329,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Illuminate",
-      "Swarm",
-      "Prankster"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36338,9 +39418,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Oblivious",
-      "Tinted Lens",
-      "Prankster"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36423,9 +39512,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Leaf Guard"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ROSELIA"
@@ -36461,9 +39559,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Leaf Guard"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ROSERADE"
@@ -36540,9 +39647,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Technician"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36596,9 +39712,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
+      {
+        "name": "Liquid Ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWALOT"
@@ -36688,9 +39813,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
+      {
+        "name": "Liquid Ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36777,8 +39911,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Rough Skin",
-      "Speed Boost"
+      {
+        "name": "Rough Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SHARPEDO"
@@ -36866,8 +40006,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Rough Skin",
-      "Speed Boost"
+      {
+        "name": "Rough Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -36957,9 +40103,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Pressure"
+      {
+        "name": "Water Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WAILORD"
@@ -37047,9 +40202,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Pressure"
+      {
+        "name": "Water Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37144,9 +40308,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Simple",
-      "Own Tempo"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Simple",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CAMERUPT"
@@ -37227,9 +40400,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Magma Armor",
-      "Solid Rock",
-      "Anger Point"
+      {
+        "name": "Magma Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Solid Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37315,9 +40497,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "White Smoke",
-      "Drought",
-      "Shell Armor"
+      {
+        "name": "White Smoke",
+        "is_hidden": false
+      },
+      {
+        "name": "Drought",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37411,9 +40602,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRUMPIG"
@@ -37489,9 +40689,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37573,9 +40782,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Own Tempo",
-      "Tangled Feet",
-      "Contrary"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37645,9 +40863,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Arena Trap",
-      "Sheer Force"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Arena Trap",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VIBRAVA"
@@ -37724,7 +40951,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_FLYGON"
@@ -37833,7 +41063,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -37951,8 +41184,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Sand Veil",
-      "Water Absorb"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CACTURNE"
@@ -38045,8 +41284,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Sand Veil",
-      "Water Absorb"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38141,8 +41386,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Natural Cure",
-      "Cloud Nine"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ALTARIA"
@@ -38221,8 +41472,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Natural Cure",
-      "Cloud Nine"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38308,8 +41565,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Immunity",
-      "Toxic Boost"
+      {
+        "name": "Immunity",
+        "is_hidden": false
+      },
+      {
+        "name": "Toxic Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38443,8 +41706,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Shed Skin",
-      "Infiltrator"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38535,7 +41804,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38622,7 +41894,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38709,9 +41984,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WHISCASH"
@@ -38789,9 +42073,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -38885,9 +42178,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CRAWDAUNT"
@@ -38972,9 +42274,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39061,7 +42372,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_CLAYDOL"
@@ -39157,7 +42471,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39260,8 +42577,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Suction Cups",
-      "Storm Drain"
+      {
+        "name": "Suction Cups",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CRADILY"
@@ -39346,8 +42669,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Suction Cups",
-      "Storm Drain"
+      {
+        "name": "Suction Cups",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39434,8 +42763,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Battle Armor",
-      "Swift Swim"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARMALDO"
@@ -39512,8 +42847,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Battle Armor",
-      "Swift Swim"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39587,9 +42928,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Oblivious",
-      "Adaptability"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MILOTIC"
@@ -39625,9 +42975,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Marvel Scale",
-      "Competitive",
-      "Cute Charm"
+      {
+        "name": "Marvel Scale",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Cute Charm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39725,7 +43084,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Forecast"
+      {
+        "name": "Forecast",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39799,7 +43161,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Forecast"
+      {
+        "name": "Forecast",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39873,7 +43238,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Forecast"
+      {
+        "name": "Forecast",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -39947,7 +43315,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Forecast"
+      {
+        "name": "Forecast",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40021,8 +43392,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Color Change",
-      "Protean"
+      {
+        "name": "Color Change",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40120,9 +43497,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Insomnia",
-      "Frisk",
-      "Cursed Body"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BANETTE"
@@ -40198,9 +43584,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Insomnia",
-      "Frisk",
-      "Cursed Body"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40274,8 +43669,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Levitate",
-      "Frisk"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUSCLOPS"
@@ -40351,10 +43752,17 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Pressure",
-      "Frisk"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_DUSKNOIR",
       "SPECIES_DUSKNOIR"
     ],
     "learnset": [
@@ -40452,8 +43860,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Pressure",
-      "Frisk"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40556,9 +43970,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Harvest"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40640,7 +44063,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_CHIMECHO"
@@ -40696,7 +44122,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40774,9 +44203,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Pressure",
-      "Super Luck",
-      "Justified"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": false
+      },
+      {
+        "name": "Justified",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -40850,9 +44288,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GLALIE",
@@ -40939,9 +44386,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41032,8 +44488,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Cursed Body"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41140,9 +44602,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SEALEO"
@@ -41227,9 +44698,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WALREIN"
@@ -41322,9 +44802,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41418,11 +44907,20 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Shell Armor",
-      "Rattled"
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
-      "SPECIES_HUNTAIL"
+      "SPECIES_HUNTAIL",
+      "SPECIES_GOREBYSS",
+      "SPECIES_HUNTAIL",
+      "SPECIES_GOREBYSS"
     ],
     "learnset": [
       {
@@ -41465,8 +44963,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41552,8 +45056,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41640,9 +45150,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Swift Swim",
-      "Rock Head",
-      "Sturdy"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41716,8 +45235,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -41803,8 +45328,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rock Head",
-      "Sheer Force"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SHELGON"
@@ -41880,8 +45411,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rock Head",
-      "Overcoat"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SALAMENCE"
@@ -41962,8 +45499,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42054,8 +45597,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Clear Body",
-      "Light Metal"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_METANG"
@@ -42084,8 +45633,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Clear Body",
-      "Light Metal"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_METAGROSS"
@@ -42170,8 +45725,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Clear Body",
-      "Light Metal"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42261,8 +45822,14 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Clear Body",
-      "Sturdy"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42344,8 +45911,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Clear Body",
-      "Ice Body"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42427,8 +46000,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Clear Body",
-      "Light Metal"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42519,7 +46098,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42606,7 +46188,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42692,7 +46277,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Drizzle"
+      {
+        "name": "Drizzle",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42770,7 +46358,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Drought"
+      {
+        "name": "Drought",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42849,7 +46440,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Air Lock"
+      {
+        "name": "Air Lock",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -42932,7 +46526,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Serene Grace"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43014,7 +46611,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43092,7 +46692,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43170,7 +46773,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43256,7 +46862,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43334,8 +46943,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Shell Armor"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GROTLE"
@@ -43407,8 +47022,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Shell Armor"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TORTERRA"
@@ -43481,8 +47102,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Overgrow",
-      "Shell Armor"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43564,8 +47191,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Iron Fist"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MONFERNO"
@@ -43642,8 +47275,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Iron Fist"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_INFERNAPE"
@@ -43724,8 +47363,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Iron Fist"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -43811,8 +47456,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Competitive"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PRINPLUP"
@@ -43888,8 +47539,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Competitive"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_EMPOLEON"
@@ -43966,8 +47623,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Torrent",
-      "Competitive"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -44054,8 +47717,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Reckless"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_STARAVIA"
@@ -44139,8 +47808,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Reckless"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_STARAPTOR"
@@ -44225,8 +47900,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Reckless"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -44312,9 +47993,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
+      {
+        "name": "Simple",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BIBAREL"
@@ -44395,9 +48085,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
+      {
+        "name": "Simple",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -44487,8 +48186,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin",
-      "Run Away"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KRICKETUNE"
@@ -44530,8 +48235,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Swarm",
-      "Technician"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -44613,9 +48324,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LUXIO"
@@ -44695,9 +48415,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LUXRAY"
@@ -44777,9 +48506,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -44861,8 +48599,14 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RAMPARDOS"
@@ -44934,8 +48678,14 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45010,8 +48760,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Soundproof"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BASTIODON"
@@ -45084,8 +48840,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy",
-      "Soundproof"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45163,8 +48925,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin",
-      "Overcoat"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WORMADAM_PLANT"
@@ -45204,8 +48972,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin",
-      "Overcoat"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WORMADAM_SANDY"
@@ -45245,8 +49019,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shed Skin",
-      "Overcoat"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WORMADAM_TRASH"
@@ -45287,8 +49067,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Anticipation",
-      "Overcoat"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45387,8 +49173,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Anticipation",
-      "Overcoat"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45487,8 +49279,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Anticipation",
-      "Overcoat"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45591,8 +49389,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Honey Gather",
-      "Hustle"
+      {
+        "name": "Honey Gather",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VESPIQUEN"
@@ -45633,8 +49437,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Pressure",
-      "Unnerve"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45732,9 +49542,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Run Away",
-      "Pickup",
-      "Volt Absorb"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Volt Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45816,8 +49635,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLOATZEL"
@@ -45901,8 +49726,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -45988,7 +49819,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_CHERRIM_OVERCAST"
@@ -46056,7 +49890,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Flower Gift"
+      {
+        "name": "Flower Gift",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46138,7 +49975,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Flower Gift"
+      {
+        "name": "Flower Gift",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46220,9 +50060,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GASTRODON_WEST"
@@ -46290,9 +50139,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GASTRODON_EAST"
@@ -46361,9 +50219,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46430,9 +50297,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46499,9 +50375,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
+      {
+        "name": "Aftermath",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Flare Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRIFBLIM"
@@ -46586,9 +50471,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
+      {
+        "name": "Aftermath",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Flare Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46678,9 +50572,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Klutz",
-      "Limber"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "Limber",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LOPUNNY"
@@ -46766,9 +50669,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Klutz",
-      "Limber"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "Limber",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -46862,9 +50774,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Limber",
-      "Own Tempo",
-      "Keen Eye"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PURUGLY"
@@ -46944,9 +50865,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Defiant"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47045,9 +50975,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SKUNTANK"
@@ -47136,9 +51075,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47225,9 +51173,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRONZONG"
@@ -47304,9 +51261,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47397,9 +51363,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47494,8 +51469,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Pressure",
-      "Infiltrator"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47574,8 +51555,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Rough Skin"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Rough Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GABITE"
@@ -47648,8 +51635,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Rough Skin"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Rough Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GARCHOMP"
@@ -47722,8 +51715,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Veil",
-      "Rough Skin"
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Rough Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -47797,9 +51796,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Prankster"
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LUCARIO"
@@ -47888,9 +51896,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Justified"
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Justified",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48016,8 +52033,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sand Stream",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HIPPOWDON"
@@ -48101,8 +52124,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sand Stream",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48197,9 +52226,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAPION"
@@ -48296,9 +52334,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48405,9 +52452,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOXICROAK"
@@ -48488,9 +52544,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48568,7 +52633,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48646,8 +52714,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Storm Drain"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LUMINEON"
@@ -48729,8 +52803,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Storm Drain"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48813,8 +52893,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Warning",
-      "Soundproof"
+      {
+        "name": "Snow Warning",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ABOMASNOW"
@@ -48887,8 +52973,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Warning",
-      "Soundproof"
+      {
+        "name": "Snow Warning",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -48967,7 +53059,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49042,7 +53137,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49117,7 +53215,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49192,7 +53293,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49267,7 +53371,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49342,7 +53449,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49416,7 +53526,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49534,7 +53647,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49652,7 +53768,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49783,8 +53902,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure",
-      "Telepathy"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49859,8 +53984,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure",
-      "Telepathy"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -49935,8 +54066,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure",
-      "Telepathy"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50007,8 +54144,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure",
-      "Telepathy"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50079,8 +54222,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50158,7 +54307,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Slow Start"
+      {
+        "name": "Slow Start",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50241,8 +54393,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure",
-      "Telepathy"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50321,7 +54479,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50399,7 +54560,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50481,7 +54645,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hydration"
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50547,7 +54714,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Hydration"
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50621,7 +54791,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Bad Dreams"
+      {
+        "name": "Bad Dreams",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50687,7 +54860,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Natural Cure"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50758,7 +54934,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Serene Grace"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50829,7 +55008,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Victory Star"
+      {
+        "name": "Victory Star",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -50923,8 +55105,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Contrary"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SERVINE"
@@ -51004,8 +55192,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Contrary"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SERPERIOR"
@@ -51085,8 +55279,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Contrary"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -51164,8 +55364,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Thick Fat"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PIGNITE"
@@ -51250,8 +55456,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Thick Fat"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_EMBOAR"
@@ -51340,8 +55552,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Blaze",
-      "Reckless"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -51431,8 +55649,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Shell Armor"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DEWOTT"
@@ -51520,8 +55744,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Shell Armor"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SAMUROTT"
@@ -51605,8 +55835,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Shell Armor"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -51701,8 +55937,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Torrent",
-      "Sharpness"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sharpness",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -51796,9 +56038,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Analytic"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WATCHOG"
@@ -51890,9 +56141,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Illuminate",
-      "Keen Eye",
-      "Analytic"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52006,8 +56266,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Sand Rush",
-      "Scrappy"
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HERDIER"
@@ -52091,9 +56357,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Intimidate",
-      "Sand Rush",
-      "Scrappy"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_STOUTLAND"
@@ -52177,9 +56452,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Intimidate",
-      "Sand Rush",
-      "Scrappy"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52261,9 +56545,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LIEPARD"
@@ -52335,9 +56628,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52407,8 +56709,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SIMISAGE"
@@ -52490,8 +56798,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52585,8 +56899,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SIMISEAR"
@@ -52674,8 +56994,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52713,8 +57039,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SIMIPOUR"
@@ -52802,8 +57134,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gluttony",
-      "Adaptability"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -52841,9 +57179,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MUSHARNA"
@@ -52927,9 +57274,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
+      {
+        "name": "Forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53016,8 +57372,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Quick Feet",
-      "Rivalry"
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TRANQUILL"
@@ -53101,8 +57463,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Quick Feet",
-      "Rivalry"
+      {
+        "name": "Quick Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_UNFEZANT"
@@ -53183,9 +57551,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "is_hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53279,9 +57656,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Motor Drive",
-      "Sap Sipper"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Motor Drive",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ZEBSTRIKA"
@@ -53353,9 +57739,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Motor Drive",
-      "Sap Sipper"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Motor Drive",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53425,9 +57820,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BOLDORE"
@@ -53506,9 +57910,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GIGALITH",
@@ -53593,9 +58006,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Stream",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53674,9 +58096,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "Simple",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWOOBAT"
@@ -53753,9 +58184,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "Simple",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53829,9 +58269,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_EXCADRILL"
@@ -53912,9 +58361,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -53996,9 +58454,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Healer",
-      "Regenerator",
-      "Klutz"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54088,8 +58555,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Iron Fist",
-      "Guts"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GURDURR"
@@ -54177,8 +58650,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Iron Fist",
-      "Guts"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CONKELDURR",
@@ -54267,8 +58746,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Iron Fist",
-      "Guts"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54354,9 +58839,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PALPITOAD"
@@ -54437,9 +58931,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SEISMITOAD"
@@ -54520,9 +59023,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Swift Swim",
-      "Poison Touch",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54612,9 +59124,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Guts",
-      "Inner Focus",
-      "Mold Breaker"
+      {
+        "name": "Guts",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54688,9 +59209,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Sturdy",
-      "Inner Focus",
-      "Mold Breaker"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54765,9 +59295,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWADLOON"
@@ -54822,9 +59361,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Chlorophyll",
-      "Overcoat"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LEAVANNY"
@@ -54881,9 +59429,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -54966,9 +59523,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WHIRLIPEDE"
@@ -55045,9 +59611,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SCOLIPEDE"
@@ -55132,9 +59707,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55221,9 +59805,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WHIMSICOTT"
@@ -55316,9 +59909,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55428,9 +60030,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LILLIGANT"
@@ -55512,9 +60123,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55573,9 +60193,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Hustle",
-      "Leaf Guard"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55689,9 +60318,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Reckless",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55777,9 +60415,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Rock Head",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Rock Head",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -55865,9 +60512,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Rattled",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Rattled",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BASCULEGION_M"
@@ -55956,9 +60612,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Swift Swim",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56053,9 +60718,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Swift Swim",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56150,9 +60824,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KROKOROK"
@@ -56237,9 +60920,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KROOKODILE"
@@ -56324,9 +61016,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56412,8 +61113,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Hustle",
-      "Inner Focus"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DARMANITAN_STANDARD"
@@ -56493,8 +61200,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Sheer Force",
-      "Zen Mode"
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56581,8 +61294,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Sheer Force",
-      "Zen Mode"
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56668,8 +61387,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Hustle",
-      "Inner Focus"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DARMANITAN_GALAR_STANDARD"
@@ -56749,8 +61474,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Gorilla Tactics",
-      "Zen Mode"
+      {
+        "name": "Gorilla Tactics",
+        "is_hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56837,8 +61568,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Gorilla Tactics",
-      "Zen Mode"
+      {
+        "name": "Gorilla Tactics",
+        "is_hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -56924,9 +61661,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Water Absorb",
-      "Chlorophyll",
-      "Storm Drain"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57029,9 +61775,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CRUSTLE"
@@ -57115,9 +61870,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57204,9 +61968,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SCRAFTY"
@@ -57293,9 +62066,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57390,9 +62172,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Wonder Skin",
-      "Magic Guard",
-      "Tinted Lens"
+      {
+        "name": "Wonder Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57474,7 +62265,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Mummy"
+      {
+        "name": "Mummy",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_COFAGRIGUS"
@@ -57562,7 +62356,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Mummy"
+      {
+        "name": "Mummy",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57661,7 +62458,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Wandering Spirit"
+      {
+        "name": "Wandering Spirit",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_RUNERIGUS"
@@ -57750,7 +62550,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Wandering Spirit"
+      {
+        "name": "Wandering Spirit",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -57849,9 +62652,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
+      {
+        "name": "Solid Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CARRACOSTA"
@@ -57942,9 +62754,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
+      {
+        "name": "Solid Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58031,7 +62852,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Defeatist"
+      {
+        "name": "Defeatist",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_ARCHEOPS"
@@ -58124,7 +62948,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Defeatist"
+      {
+        "name": "Defeatist",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58214,9 +63041,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Aftermath"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GARBODOR"
@@ -58308,9 +63144,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Stench",
-      "Weak Armor",
-      "Aftermath"
+      {
+        "name": "Stench",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58408,7 +63253,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Illusion"
+      {
+        "name": "Illusion",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_ZOROARK"
@@ -58488,7 +63336,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Illusion"
+      {
+        "name": "Illusion",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58571,7 +63422,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Illusion"
+      {
+        "name": "Illusion",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_ZOROARK_HISUI"
@@ -58648,7 +63502,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Illusion"
+      {
+        "name": "Illusion",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58734,9 +63591,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CINCCINO"
@@ -58816,9 +63682,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -58904,9 +63779,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOTHORITA"
@@ -58986,9 +63870,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOTHITELLE"
@@ -59064,9 +63957,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -59144,9 +64046,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUOSION"
@@ -59230,9 +64141,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_REUNICLUS"
@@ -59316,9 +64236,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -59405,9 +64334,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SWANNA"
@@ -59488,9 +64426,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -59568,9 +64515,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VANILLISH"
@@ -59650,9 +64606,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VANILLUXE"
@@ -59732,9 +64697,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Warning",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -59825,8 +64799,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SAWSBUCK_SPRING"
@@ -59905,8 +64885,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SAWSBUCK_SUMMER"
@@ -59983,8 +64969,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SAWSBUCK_AUTUMN"
@@ -60061,8 +65053,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SAWSBUCK_WINTER"
@@ -60139,8 +65137,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60227,8 +65231,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60315,8 +65325,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60403,8 +65419,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Serene Grace"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60491,8 +65513,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Static",
-      "Motor Drive"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Motor Drive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60566,13 +65594,21 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Swarm",
-      "Shed Skin",
-      "No Guard"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
-      "SPECIES_ESCAVALIER",
-      "SPECIES_SHELMET"
+      "SPECIES_ESCAVALIER"
     ],
     "learnset": [
       {
@@ -60650,9 +65686,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Swarm",
-      "Shell Armor",
-      "Overcoat"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60759,8 +65804,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Effect Spore",
-      "Regenerator"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AMOONGUSS"
@@ -60841,8 +65892,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Effect Spore",
-      "Regenerator"
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -60921,9 +65978,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_JELLICENT"
@@ -61004,9 +66070,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Damp",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61088,9 +66163,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Healer",
-      "Hydration",
-      "Regenerator"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61173,9 +66257,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GALVANTULA"
@@ -61256,9 +66349,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61341,7 +66443,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Iron Barbs"
+      {
+        "name": "Iron Barbs",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_FERROTHORN"
@@ -61414,8 +66519,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Iron Barbs",
-      "Anticipation"
+      {
+        "name": "Iron Barbs",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61493,8 +66604,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Clear Body",
-      "Minus"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KLANG"
@@ -61576,8 +66693,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Clear Body",
-      "Minus"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KLINKLANG"
@@ -61661,8 +66784,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Clear Body",
-      "Minus"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61744,7 +66873,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_EELEKTRIK"
@@ -61784,7 +66916,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_EELEKTROSS"
@@ -61868,7 +67003,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -61930,9 +67068,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
+      {
+        "name": "Telepathy",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BEHEEYEM"
@@ -62008,9 +67155,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
+      {
+        "name": "Telepathy",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Analytic",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -62089,9 +67245,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LAMPENT"
@@ -62180,9 +67345,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CHANDELURE"
@@ -62271,9 +67445,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -62359,9 +67542,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FRAXURE"
@@ -62457,9 +67649,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HAXORUS"
@@ -62555,9 +67756,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -62651,9 +67861,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Rattled"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BEARTIC"
@@ -62743,9 +67962,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Swift Swim"
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -62847,7 +68075,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -62945,13 +68176,21 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Hydration",
-      "Shell Armor",
-      "Overcoat"
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
-      "SPECIES_ACCELGOR",
-      "SPECIES_KARRABLAST"
+      "SPECIES_ACCELGOR"
     ],
     "learnset": [
       {
@@ -63028,9 +68267,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Hydration",
-      "Sticky Hold",
-      "Unburden"
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63141,9 +68389,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Limber",
-      "Sand Veil"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63226,7 +68483,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Mimicry"
+      {
+        "name": "Mimicry",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63308,9 +68568,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MIENSHAO"
@@ -63390,9 +68659,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Reckless",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63482,9 +68760,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Rough Skin",
-      "Sheer Force",
-      "Mold Breaker"
+      {
+        "name": "Rough Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63559,9 +68846,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOLURK"
@@ -63650,9 +68946,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -63747,9 +69052,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
+      {
+        "name": "Defiant",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BISHARP"
@@ -63834,9 +69148,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
+      {
+        "name": "Defiant",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KINGAMBIT",
@@ -63926,9 +69249,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Defiant",
-      "Supreme Overlord",
-      "Pressure"
+      {
+        "name": "Defiant",
+        "is_hidden": false
+      },
+      {
+        "name": "Supreme Overlord",
+        "is_hidden": false
+      },
+      {
+        "name": "Pressure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64018,9 +69350,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Reckless",
-      "Sap Sipper",
-      "Soundproof"
+      {
+        "name": "Reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64095,9 +69436,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Hustle"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRAVIARY"
@@ -64188,9 +69538,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Defiant"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64281,9 +69640,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Tinted Lens"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64374,9 +69742,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MANDIBUZZ"
@@ -64457,9 +69834,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64549,9 +69935,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Gluttony",
-      "Flash Fire",
-      "White Smoke"
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "White Smoke",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64638,9 +70033,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Swarm",
-      "Hustle",
-      "Truant"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Truant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -64727,7 +70131,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Hustle"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_ZWEILOUS"
@@ -64820,7 +70227,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Hustle"
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_HYDREIGON"
@@ -64917,7 +70327,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65020,8 +70433,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Swarm"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_VOLCARONA"
@@ -65094,8 +70513,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flame Body",
-      "Swarm"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Swarm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65206,7 +70631,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65285,7 +70713,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65364,7 +70795,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65446,8 +70880,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Prankster",
-      "Defiant"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65537,7 +70977,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Regenerator"
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65628,8 +71071,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Prankster",
-      "Defiant"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65720,7 +71169,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Volt Absorb"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65811,7 +71263,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Turboblaze"
+      {
+        "name": "Turboblaze",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65894,7 +71349,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Teravolt"
+      {
+        "name": "Teravolt",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -65977,8 +71435,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Sand Force",
-      "Sheer Force"
+      {
+        "name": "Sand Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66069,7 +71533,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66160,7 +71627,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66243,7 +71713,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Turboblaze"
+      {
+        "name": "Turboblaze",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66326,7 +71799,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Teravolt"
+      {
+        "name": "Teravolt",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66409,7 +71885,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66492,7 +71971,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66575,7 +72057,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Serene Grace"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66658,7 +72143,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Serene Grace"
+      {
+        "name": "Serene Grace",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66740,8 +72228,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Bulletproof"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_QUILLADIN"
@@ -66813,8 +72307,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Bulletproof"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CHESNAUGHT"
@@ -66891,8 +72391,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Overgrow",
-      "Bulletproof"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -66986,8 +72492,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Magician"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Magician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRAIXEN"
@@ -67067,8 +72579,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Magician"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Magician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DELPHOX"
@@ -67153,8 +72671,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Blaze",
-      "Magician"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Magician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -67256,8 +72780,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Protean"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FROGADIER"
@@ -67337,8 +72867,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Protean"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRENINJA"
@@ -67419,8 +72955,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Torrent",
-      "Protean"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -67515,7 +73057,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Battle Bond"
+      {
+        "name": "Battle Bond",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -67610,7 +73155,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Battle Bond"
+      {
+        "name": "Battle Bond",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -67704,9 +73252,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Huge Power",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DIGGERSBY"
@@ -67791,9 +73348,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Huge Power",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -67880,8 +73446,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Big Pecks",
-      "Gale Wings"
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Gale Wings",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLETCHINDER"
@@ -67956,8 +73528,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Flame Body",
-      "Gale Wings"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Gale Wings",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TALONFLAME"
@@ -68038,8 +73616,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Flame Body",
-      "Gale Wings"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Gale Wings",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SPEWPA_"
@@ -68132,8 +73716,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Unnerve",
-      "Moxie"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PYROAR"
@@ -68220,8 +73810,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Unnerve",
-      "Moxie"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -68307,8 +73903,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Flower Veil",
-      "Symbiosis"
+      {
+        "name": "Flower Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Symbiosis",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLORGES_"
@@ -68388,8 +73990,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Flower Veil",
-      "Symbiosis"
+      {
+        "name": "Flower Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Symbiosis",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -68471,8 +74079,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Grass Pelt",
-      "Sap Sipper"
+      {
+        "name": "Grass Pelt",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOGOAT"
@@ -68554,8 +74168,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Grass Pelt",
-      "Sap Sipper"
+      {
+        "name": "Grass Pelt",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -68645,8 +74265,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Iron Fist",
-      "Mold Breaker"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PANGORO"
@@ -68723,8 +74349,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Iron Fist",
-      "Mold Breaker"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -68814,9 +74446,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Own Tempo"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MEOWSTIC_M"
@@ -68880,9 +74521,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Prankster"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -68980,9 +74630,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Competitive"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69081,7 +74740,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "No Guard"
+      {
+        "name": "No Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_DOUBLADE"
@@ -69162,7 +74824,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "No Guard"
+      {
+        "name": "No Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_AEGISLASH_SHIELD"
@@ -69243,7 +74908,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Stance Change"
+      {
+        "name": "Stance Change",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69334,7 +75002,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Stance Change"
+      {
+        "name": "Stance Change",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69424,10 +75095,17 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Healer",
-      "Aroma Veil"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_AROMATISSE",
       "SPECIES_AROMATISSE"
     ],
     "learnset": [
@@ -69505,8 +75183,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Healer",
-      "Aroma Veil"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69600,10 +75284,17 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Sweet Veil",
-      "Unburden"
+      {
+        "name": "Sweet Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
+      "SPECIES_SLURPUFF",
       "SPECIES_SLURPUFF"
     ],
     "learnset": [
@@ -69685,8 +75376,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Sweet Veil",
-      "Unburden"
+      {
+        "name": "Sweet Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69773,9 +75470,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
+      {
+        "name": "Contrary",
+        "is_hidden": false
+      },
+      {
+        "name": "Suction Cups",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MALAMAR"
@@ -69860,9 +75566,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
+      {
+        "name": "Contrary",
+        "is_hidden": false
+      },
+      {
+        "name": "Suction Cups",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -69949,9 +75664,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
+      {
+        "name": "Tough Claws",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BARBARACLE"
@@ -70028,9 +75752,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
+      {
+        "name": "Tough Claws",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70113,9 +75846,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAGALGE"
@@ -70192,9 +75934,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
+      {
+        "name": "Poison Point",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70272,7 +76023,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Mega Launcher"
+      {
+        "name": "Mega Launcher",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_CLAWITZER"
@@ -70358,7 +76112,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Mega Launcher"
+      {
+        "name": "Mega Launcher",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70449,9 +76206,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Solar Power",
-      "Sand Veil",
-      "Dry Skin"
+      {
+        "name": "Solar Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HELIOLISK"
@@ -70534,9 +76300,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Solar Power",
-      "Sand Veil",
-      "Dry Skin"
+      {
+        "name": "Solar Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70627,8 +76402,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Sturdy"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TYRANTRUM"
@@ -70709,8 +76490,14 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Rock Head"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70797,8 +76584,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Refrigerate",
-      "Snow Warning"
+      {
+        "name": "Refrigerate",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AURORUS"
@@ -70887,8 +76680,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Refrigerate",
-      "Snow Warning"
+      {
+        "name": "Refrigerate",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -70975,9 +76774,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Mold Breaker"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71064,9 +76872,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Cheek Pouch",
-      "Pickup",
-      "Plus"
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Plus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71149,8 +76966,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Clear Body",
-      "Sturdy"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71228,9 +77051,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Gooey",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SLIGGOO"
@@ -71302,9 +77134,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Gooey",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOODRA"
@@ -71384,9 +77225,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "Gooey",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71477,9 +77327,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sap Sipper",
-      "Shell Armor",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Gooey",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOODRA_HISUI"
@@ -71560,9 +77419,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sap Sipper",
-      "Shell Armor",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Gooey",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71661,8 +77529,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Magician"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Magician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71741,9 +77615,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TREVENANT",
@@ -71829,9 +77712,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -71918,9 +77810,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOURGEIST_AVERAGE",
@@ -72002,9 +77903,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOURGEIST_SMALL",
@@ -72086,9 +77996,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOURGEIST_LARGE",
@@ -72170,9 +78089,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GOURGEIST_SUPER",
@@ -72254,9 +78182,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72347,9 +78284,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72440,9 +78386,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72533,9 +78488,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72625,9 +78589,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_AVALUGG"
@@ -72715,9 +78688,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72816,9 +78798,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Ice Body",
-      "Sturdy"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -72921,9 +78912,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NOIVERN"
@@ -73008,9 +79008,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73104,7 +79113,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Fairy Aura"
+      {
+        "name": "Fairy Aura",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73202,7 +79214,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Fairy Aura"
+      {
+        "name": "Fairy Aura",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73301,7 +79316,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Dark Aura"
+      {
+        "name": "Dark Aura",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73400,7 +79418,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Aura Break"
+      {
+        "name": "Aura Break",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73495,7 +79516,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Power Construct"
+      {
+        "name": "Power Construct",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73590,7 +79614,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Aura Break"
+      {
+        "name": "Aura Break",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73685,7 +79712,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Power Construct"
+      {
+        "name": "Power Construct",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73780,7 +79810,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Power Construct"
+      {
+        "name": "Power Construct",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73875,7 +79908,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Clear Body"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -73958,7 +79994,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Magician"
+      {
+        "name": "Magician",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74053,7 +80092,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Magician"
+      {
+        "name": "Magician",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74140,7 +80182,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Absorb"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74235,8 +80280,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DARTRIX"
@@ -74317,8 +80368,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DECIDUEYE"
@@ -74399,8 +80456,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74499,8 +80562,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Overgrow",
-      "Scrappy"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74586,8 +80655,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TORRACAT"
@@ -74667,8 +80742,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_INCINEROAR"
@@ -74749,8 +80830,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -74844,8 +80931,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRIONNE"
@@ -74925,8 +81018,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PRIMARINA"
@@ -75007,8 +81106,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75091,8 +81196,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Skill Link",
-      "Sheer Force"
+      {
+        "name": "Skill Link",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TRUMBEAK"
@@ -75179,8 +81290,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Skill Link",
-      "Sheer Force"
+      {
+        "name": "Skill Link",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOUCANNON"
@@ -75269,8 +81386,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Skill Link",
-      "Sheer Force"
+      {
+        "name": "Skill Link",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75376,8 +81499,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Stakeout"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GUMSHOOS"
@@ -75457,8 +81586,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Stakeout"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75548,7 +81683,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Adaptability"
+      {
+        "name": "Adaptability",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75638,7 +81776,10 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Swarm"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_CHARJABUG"
@@ -75703,7 +81844,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Battery"
+      {
+        "name": "Battery",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_VIKAVOLT"
@@ -75780,7 +81924,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75879,7 +82026,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -75977,9 +82127,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CRABOMINABLE"
@@ -76056,9 +82215,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
+      {
+        "name": "Hyper Cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      },
+      {
+        "name": "Anger Point",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76133,7 +82301,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Dancer"
+      {
+        "name": "Dancer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76216,7 +82387,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Dancer"
+      {
+        "name": "Dancer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76299,7 +82473,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Dancer"
+      {
+        "name": "Dancer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76382,7 +82559,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Dancer"
+      {
+        "name": "Dancer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76465,9 +82645,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
+      {
+        "name": "Honey Gather",
+        "is_hidden": false
+      },
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RIBOMBEE",
@@ -76537,9 +82726,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
+      {
+        "name": "Honey Gather",
+        "is_hidden": false
+      },
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76610,7 +82808,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Sweet Veil"
+      {
+        "name": "Sweet Veil",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76680,9 +82881,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Keen Eye",
-      "Vital Spirit",
-      "Steadfast"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LYCANROC_MIDDAY"
@@ -76762,7 +82972,10 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Own Tempo"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_LYCANROC_DUSK"
@@ -76842,9 +83055,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Keen Eye",
-      "Sand Rush",
-      "Steadfast"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -76938,9 +83160,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Keen Eye",
-      "Vital Spirit",
-      "No Guard"
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Vital Spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "No Guard",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77034,7 +83265,10 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Tough Claws"
+      {
+        "name": "Tough Claws",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77148,7 +83382,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Schooling"
+      {
+        "name": "Schooling",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77226,7 +83463,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Schooling"
+      {
+        "name": "Schooling",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77305,9 +83545,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
+      {
+        "name": "Merciless",
+        "is_hidden": false
+      },
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOXAPEX"
@@ -77380,9 +83629,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
+      {
+        "name": "Merciless",
+        "is_hidden": false
+      },
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77456,9 +83714,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Stamina",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MUDSDALE"
@@ -77534,9 +83801,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Stamina",
+        "is_hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77611,8 +83887,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Water Bubble",
-      "Water Absorb"
+      {
+        "name": "Water Bubble",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARAQUANID",
@@ -77699,8 +83981,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Water Bubble",
-      "Water Absorb"
+      {
+        "name": "Water Bubble",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77783,7 +84071,10 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Water Bubble"
+      {
+        "name": "Water Bubble",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -77865,8 +84156,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Contrary"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LURANTIS"
@@ -77938,8 +84235,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Contrary"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78021,7 +84324,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78104,9 +84410,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SHIINOTIC"
@@ -78179,9 +84494,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
+      {
+        "name": "Illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "Effect Spore",
+        "is_hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78252,8 +84576,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Corrosion",
-      "Oblivious"
+      {
+        "name": "Corrosion",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SALAZZLE"
@@ -78330,8 +84660,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Corrosion",
-      "Oblivious"
+      {
+        "name": "Corrosion",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78434,7 +84770,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Corrosion"
+      {
+        "name": "Corrosion",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78537,8 +84876,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Fluffy",
-      "Cute Charm"
+      {
+        "name": "Fluffy",
+        "is_hidden": false
+      },
+      {
+        "name": "Cute Charm",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BEWEAR"
@@ -78619,8 +84964,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Fluffy",
-      "Unnerve"
+      {
+        "name": "Fluffy",
+        "is_hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78702,9 +85053,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_STEENEE"
@@ -78764,9 +85124,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TSAREENA"
@@ -78834,9 +85203,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard",
-      "Queenly Majesty",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Queenly Majesty",
+        "is_hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -78918,9 +85296,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Flower Veil",
-      "Triage",
-      "Natural Cure"
+      {
+        "name": "Flower Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Triage",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79015,9 +85402,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Inner Focus",
-      "Telepathy",
-      "Symbiosis"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": false
+      },
+      {
+        "name": "Symbiosis",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79095,8 +85491,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Receiver",
-      "Defiant"
+      {
+        "name": "Receiver",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79175,7 +85577,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Wimp Out"
+      {
+        "name": "Wimp Out",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_GOLISOPOD"
@@ -79212,7 +85617,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Emergency Exit"
+      {
+        "name": "Emergency Exit",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79303,8 +85711,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Water Compaction",
-      "Sand Veil"
+      {
+        "name": "Water Compaction",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PALOSSAND"
@@ -79385,8 +85799,14 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Water Compaction",
-      "Sand Veil"
+      {
+        "name": "Water Compaction",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79464,8 +85884,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Innards Out",
-      "Unaware"
+      {
+        "name": "Innards Out",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79543,7 +85969,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Battle Armor"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_SILVALLY_NORMAL"
@@ -79619,7 +86048,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Comatose"
+      {
+        "name": "Comatose",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79694,7 +86126,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Shell Armor"
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79777,9 +86212,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Iron Barbs",
-      "Lightning Rod",
-      "Sturdy"
+      {
+        "name": "Iron Barbs",
+        "is_hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79858,7 +86302,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sturdy"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -79937,7 +86384,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Disguise"
+      {
+        "name": "Disguise",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80020,7 +86470,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Disguise"
+      {
+        "name": "Disguise",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80103,7 +86556,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Disguise"
+      {
+        "name": "Disguise",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80186,7 +86642,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Disguise"
+      {
+        "name": "Disguise",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80269,9 +86728,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Dazzling",
-      "Strong Jaw",
-      "Wonder Skin"
+      {
+        "name": "Dazzling",
+        "is_hidden": false
+      },
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Wonder Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80344,9 +86812,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Berserk",
-      "Sap Sipper",
-      "Cloud Nine"
+      {
+        "name": "Berserk",
+        "is_hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "is_hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80421,7 +86898,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Steelworker"
+      {
+        "name": "Steelworker",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80515,9 +86995,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HAKAMO_O"
@@ -80594,9 +87083,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KOMMO_O",
@@ -80678,9 +87176,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80775,7 +87282,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Overcoat"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80870,8 +87380,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Electric Surge",
-      "Telepathy"
+      {
+        "name": "Electric Surge",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -80962,8 +87478,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Psychic Surge",
-      "Telepathy"
+      {
+        "name": "Psychic Surge",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81054,8 +87576,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Grassy Surge",
-      "Telepathy"
+      {
+        "name": "Grassy Surge",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81146,8 +87674,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Misty Surge",
-      "Telepathy"
+      {
+        "name": "Misty Surge",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81241,7 +87775,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Unaware"
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_COSMOEM"
@@ -81273,7 +87810,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Sturdy"
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_SOLGALEO"
@@ -81306,7 +87846,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Full Metal Body"
+      {
+        "name": "Full Metal Body",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81397,7 +87940,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Shadow Shield"
+      {
+        "name": "Shadow Shield",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81484,7 +88030,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81575,7 +88124,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81662,7 +88214,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81748,7 +88303,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81835,7 +88393,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -81922,7 +88483,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82009,7 +88573,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82099,7 +88666,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82186,7 +88756,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82273,7 +88846,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82360,7 +88936,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Neuroforce"
+      {
+        "name": "Neuroforce",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82447,7 +89026,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Soul-Heart"
+      {
+        "name": "Soul-Heart",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82538,7 +89120,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Soul-Heart"
+      {
+        "name": "Soul-Heart",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82629,7 +89214,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Technician"
+      {
+        "name": "Technician",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82723,7 +89311,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_NAGANADEL"
@@ -82804,7 +89395,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82899,7 +89493,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -82986,7 +89583,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Beast Boost"
+      {
+        "name": "Beast Boost",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83072,7 +89672,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Volt Absorb"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83166,7 +89769,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Magnet Pull"
+      {
+        "name": "Magnet Pull",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83216,7 +89822,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Iron Fist"
+      {
+        "name": "Iron Fist",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83302,8 +89911,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Grassy Surge"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Grassy Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_THWACKEY"
@@ -83379,8 +89994,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Grassy Surge"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Grassy Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RILLABOOM"
@@ -83464,8 +90085,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Grassy Surge"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Grassy Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83563,8 +90190,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Libero"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Libero",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RABOOT"
@@ -83640,8 +90273,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Libero"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Libero",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CINDERACE"
@@ -83725,8 +90364,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Libero"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Libero",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -83824,8 +90469,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sniper"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRIZZILE"
@@ -83905,8 +90556,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sniper"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_INTELEON"
@@ -83994,8 +90651,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Sniper"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Sniper",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84097,8 +90760,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cheek Pouch",
-      "Gluttony"
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GREEDENT"
@@ -84174,8 +90843,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Cheek Pouch",
-      "Gluttony"
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84253,8 +90928,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Unnerve",
-      "Mirror Armor"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Mirror Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CORVISQUIRE"
@@ -84321,8 +91002,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Unnerve",
-      "Mirror Armor"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Mirror Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CORVIKNIGHT"
@@ -84387,8 +91074,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Unnerve",
-      "Mirror Armor"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Mirror Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84458,9 +91151,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Swarm",
-      "Compound Eyes",
-      "Telepathy"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DOTTLER"
@@ -84492,9 +91194,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Swarm",
-      "Compound Eyes",
-      "Telepathy"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ORBEETLE"
@@ -84535,9 +91246,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Swarm",
-      "Frisk",
-      "Telepathy"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84627,9 +91347,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Run Away",
-      "Unburden",
-      "Stakeout"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_THIEVUL"
@@ -84703,9 +91432,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Run Away",
-      "Unburden",
-      "Stakeout"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84787,8 +91525,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Regenerator",
-      "Cotton Down"
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Cotton Down",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ELDEGOSS"
@@ -84862,8 +91606,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Regenerator",
-      "Cotton Down"
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Cotton Down",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -84937,9 +91687,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Fluffy",
-      "Run Away",
-      "Bulletproof"
+      {
+        "name": "Fluffy",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DUBWOOL"
@@ -85011,9 +91770,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Fluffy",
-      "Steadfast",
-      "Bulletproof"
+      {
+        "name": "Fluffy",
+        "is_hidden": false
+      },
+      {
+        "name": "Steadfast",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85087,9 +91855,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Strong Jaw"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Strong Jaw",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DREDNAW"
@@ -85152,9 +91929,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Strong Jaw"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Strong Jaw",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85232,8 +92018,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Ball Fetch",
-      "Rattled"
+      {
+        "name": "Ball Fetch",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BOLTUND"
@@ -85301,8 +92093,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Strong Jaw",
-      "Competitive"
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85376,9 +92174,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Steam Engine",
-      "Heatproof",
-      "Flash Fire"
+      {
+        "name": "Steam Engine",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CARKOL"
@@ -85443,9 +92250,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Steam Engine",
-      "Flame Body",
-      "Flash Fire"
+      {
+        "name": "Steam Engine",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_COALOSSAL"
@@ -85518,9 +92334,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Steam Engine",
-      "Flame Body",
-      "Flash Fire"
+      {
+        "name": "Steam Engine",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85595,9 +92420,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Ripen",
-      "Gluttony",
-      "Bulletproof"
+      {
+        "name": "Ripen",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Bulletproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLAPPLE",
@@ -85632,9 +92466,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Ripen",
-      "Gluttony",
-      "Hustle"
+      {
+        "name": "Ripen",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85725,9 +92568,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Ripen",
-      "Gluttony",
-      "Thick Fat"
+      {
+        "name": "Ripen",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -85818,9 +92670,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Supersweet Syrup",
-      "Gluttony",
-      "Sticky Hold"
+      {
+        "name": "Supersweet Syrup",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HYDRAPPLE"
@@ -85909,9 +92770,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Supersweet Syrup",
-      "Regenerator",
-      "Sticky Hold"
+      {
+        "name": "Supersweet Syrup",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86009,9 +92879,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Spit",
-      "Shed Skin",
-      "Sand Veil"
+      {
+        "name": "Sand Spit",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SANDACONDA"
@@ -86083,9 +92962,18 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Sand Spit",
-      "Shed Skin",
-      "Sand Veil"
+      {
+        "name": "Sand Spit",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86156,7 +93044,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gulp Missile"
+      {
+        "name": "Gulp Missile",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86231,7 +93122,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gulp Missile"
+      {
+        "name": "Gulp Missile",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86306,7 +93200,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gulp Missile"
+      {
+        "name": "Gulp Missile",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86380,8 +93277,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Propeller Tail"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Propeller Tail",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BARRASKEWDA"
@@ -86445,8 +93348,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Swift Swim",
-      "Propeller Tail"
+      {
+        "name": "Swift Swim",
+        "is_hidden": false
+      },
+      {
+        "name": "Propeller Tail",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86513,9 +93422,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Rattled",
-      "Static",
-      "Klutz"
+      {
+        "name": "Rattled",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TOXTRICITY_AMPED"
@@ -86564,9 +93482,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Punk Rock",
-      "Plus",
-      "Technician"
+      {
+        "name": "Punk Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Plus",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86681,9 +93608,18 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Punk Rock",
-      "Minus",
-      "Technician"
+      {
+        "name": "Punk Rock",
+        "is_hidden": false
+      },
+      {
+        "name": "Minus",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86798,9 +93734,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Flame Body",
-      "White Smoke",
-      "Flash Fire"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "White Smoke",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CENTISKORCH"
@@ -86875,9 +93820,18 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Flame Body",
-      "White Smoke",
-      "Flash Fire"
+      {
+        "name": "Flame Body",
+        "is_hidden": false
+      },
+      {
+        "name": "White Smoke",
+        "is_hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -86959,8 +93913,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Limber",
-      "Technician"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRAPPLOCT"
@@ -87028,8 +93988,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Limber",
-      "Technician"
+      {
+        "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -87111,8 +94077,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Cursed Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_POLTEAGEIST_PHONY"
@@ -87186,8 +94158,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Cursed Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_POLTEAGEIST_ANTIQUE"
@@ -87259,8 +94237,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Cursed Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -87342,8 +94326,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Weak Armor",
-      "Cursed Body"
+      {
+        "name": "Weak Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -87425,9 +94415,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Healer",
-      "Anticipation",
-      "Magic Bounce"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HATTREM"
@@ -87495,9 +94494,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Healer",
-      "Anticipation",
-      "Magic Bounce"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HATTERENE"
@@ -87570,9 +94578,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Healer",
-      "Anticipation",
-      "Magic Bounce"
+      {
+        "name": "Healer",
+        "is_hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Magic Bounce",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -87651,9 +94668,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Frisk",
-      "Pickpocket"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MORGREM"
@@ -87730,9 +94756,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Frisk",
-      "Pickpocket"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRIMMSNARL"
@@ -87813,9 +94848,18 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Prankster",
-      "Frisk",
-      "Pickpocket"
+      {
+        "name": "Prankster",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -87905,8 +94949,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Sweet Veil",
-      "Aroma Veil"
+      {
+        "name": "Sweet Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM"
@@ -87978,8 +95028,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Battle Armor",
-      "Defiant"
+      {
+        "name": "Battle Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Defiant",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88057,8 +95113,14 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Lightning Rod",
-      "Electric Surge"
+      {
+        "name": "Lightning Rod",
+        "is_hidden": false
+      },
+      {
+        "name": "Electric Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88137,8 +95199,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shield Dust",
-      "Ice Scales"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Scales",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FROSMOTH"
@@ -88171,8 +95239,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Shield Dust",
-      "Ice Scales"
+      {
+        "name": "Shield Dust",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Scales",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88266,7 +95340,10 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Power Spot"
+      {
+        "name": "Power Spot",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88340,7 +95417,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Ice Face"
+      {
+        "name": "Ice Face",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88410,7 +95490,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Ice Face"
+      {
+        "name": "Ice Face",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88481,9 +95564,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Inner Focus",
-      "Synchronize",
-      "Psychic Surge"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Psychic Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88558,9 +95650,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Own Tempo",
-      "Synchronize",
-      "Psychic Surge"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Psychic Surge",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88631,7 +95732,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Hunger Switch"
+      {
+        "name": "Hunger Switch",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88724,7 +95828,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Hunger Switch"
+      {
+        "name": "Hunger Switch",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88814,8 +95921,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sheer Force",
-      "Heavy Metal"
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_COPPERAJAH"
@@ -88891,8 +96004,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Sheer Force",
-      "Heavy Metal"
+      {
+        "name": "Sheer Force",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -88971,9 +96090,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Hustle",
-      "Sand Rush"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89048,9 +96176,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Static",
-      "Slush Rush"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89125,9 +96262,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Water Absorb",
-      "Strong Jaw",
-      "Sand Rush"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Strong Jaw",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89202,9 +96348,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Water Absorb",
-      "Ice Body",
-      "Slush Rush"
+      {
+        "name": "Water Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89279,9 +96434,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Light Metal",
-      "Heavy Metal",
-      "Stalwart"
+      {
+        "name": "Light Metal",
+        "is_hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "is_hidden": false
+      },
+      {
+        "name": "Stalwart",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARCHALUDON"
@@ -89358,9 +96522,18 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Stamina",
-      "Sturdy",
-      "Stalwart"
+      {
+        "name": "Stamina",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Stalwart",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89439,9 +96612,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Clear Body",
-      "Infiltrator",
-      "Cursed Body"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAKLOAK"
@@ -89482,9 +96664,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Clear Body",
-      "Infiltrator",
-      "Cursed Body"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DRAGAPULT"
@@ -89577,9 +96768,18 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Clear Body",
-      "Infiltrator",
-      "Cursed Body"
+      {
+        "name": "Clear Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89673,7 +96873,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Intrepid Sword"
+      {
+        "name": "Intrepid Sword",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89752,7 +96955,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Intrepid Sword"
+      {
+        "name": "Intrepid Sword",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89830,7 +97036,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Dauntless Shield"
+      {
+        "name": "Dauntless Shield",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89905,7 +97114,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Dauntless Shield"
+      {
+        "name": "Dauntless Shield",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -89980,7 +97192,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90062,7 +97277,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Inner Focus"
+      {
+        "name": "Inner Focus",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_URSHIFU_SINGLE_STRIKE",
@@ -90150,7 +97368,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Unseen Fist"
+      {
+        "name": "Unseen Fist",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90241,7 +97462,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Unseen Fist"
+      {
+        "name": "Unseen Fist",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90332,7 +97556,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90423,7 +97650,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Leaf Guard"
+      {
+        "name": "Leaf Guard",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90513,7 +97743,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Transistor"
+      {
+        "name": "Transistor",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90595,7 +97828,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Dragon's Maw"
+      {
+        "name": "Dragon's Maw",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90673,7 +97909,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Chilling Neigh"
+      {
+        "name": "Chilling Neigh",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90751,7 +97990,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Grim Neigh"
+      {
+        "name": "Grim Neigh",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90830,7 +98072,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Unnerve"
+      {
+        "name": "Unnerve",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -90917,7 +98162,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "As One"
+      {
+        "name": "As One",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91064,7 +98312,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "As One"
+      {
+        "name": "As One",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91211,8 +98462,14 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Cute Charm",
-      "Contrary"
+      {
+        "name": "Cute Charm",
+        "is_hidden": false
+      },
+      {
+        "name": "Contrary",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91303,7 +98560,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Overcoat"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91393,8 +98653,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Protean"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_FLORAGATO"
@@ -91470,8 +98736,14 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Overgrow",
-      "Protean"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MEOWSCARADA"
@@ -91552,8 +98824,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Overgrow",
-      "Protean"
+      {
+        "name": "Overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "Protean",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91655,8 +98933,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Unaware"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CROCALOR"
@@ -91728,8 +99012,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Blaze",
-      "Unaware"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SKELEDIRGE"
@@ -91810,8 +99100,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Blaze",
-      "Unaware"
+      {
+        "name": "Blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "Unaware",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -91913,8 +99209,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Moxie"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_QUAXWELL"
@@ -91986,8 +99288,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Torrent",
-      "Moxie"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_QUAQUAVAL"
@@ -92072,8 +99380,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Torrent",
-      "Moxie"
+      {
+        "name": "Torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "Moxie",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -92175,9 +99489,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Aroma Veil",
-      "Gluttony",
-      "Thick Fat"
+      {
+        "name": "Aroma Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_OINKOLOGNE_M"
@@ -92253,9 +99576,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Lingering Aroma",
-      "Gluttony",
-      "Thick Fat"
+      {
+        "name": "Lingering Aroma",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -92337,9 +99669,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Aroma Veil",
-      "Gluttony",
-      "Thick Fat"
+      {
+        "name": "Aroma Veil",
+        "is_hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "is_hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -92421,8 +99762,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Insomnia",
-      "Stakeout"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SPIDOPS"
@@ -92502,8 +99849,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Insomnia",
-      "Stakeout"
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -92585,8 +99938,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Swarm",
-      "Tinted Lens"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_LOKIX"
@@ -92663,8 +100022,14 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Swarm",
-      "Tinted Lens"
+      {
+        "name": "Swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -92762,9 +100127,18 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static",
-      "Natural Cure",
-      "Iron Fist"
+      {
+        "name": "Static",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PAWMO"
@@ -92849,9 +100223,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Natural Cure",
-      "Iron Fist"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_PAWMOT"
@@ -92940,9 +100323,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Volt Absorb",
-      "Natural Cure",
-      "Iron Fist"
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Natural Cure",
+        "is_hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93040,9 +100432,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Run Away",
-      "Pickup",
-      "Own Tempo"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MAUSHOLD_FOUR"
@@ -93122,9 +100523,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Friend Guard",
-      "Cheek Pouch",
-      "Technician"
+      {
+        "name": "Friend Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93210,9 +100620,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Friend Guard",
-      "Cheek Pouch",
-      "Technician"
+      {
+        "name": "Friend Guard",
+        "is_hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93298,8 +100717,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Own Tempo",
-      "Klutz"
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DACHSBUN"
@@ -93383,8 +100808,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Well-Baked Body",
-      "Aroma Veil"
+      {
+        "name": "Well-Baked Body",
+        "is_hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93467,8 +100898,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Early Bird",
-      "Harvest"
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_DOLLIV"
@@ -93545,8 +100982,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Early Bird",
-      "Harvest"
+      {
+        "name": "Early Bird",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARBOLIVA"
@@ -93623,8 +101066,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Seed Sower",
-      "Harvest"
+      {
+        "name": "Seed Sower",
+        "is_hidden": false
+      },
+      {
+        "name": "Harvest",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93715,9 +101164,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Hustle",
-      "Guts"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93804,9 +101262,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Hustle",
-      "Guts"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Guts",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93893,9 +101360,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Hustle",
-      "Sheer Force"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -93982,9 +101458,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Intimidate",
-      "Hustle",
-      "Sheer Force"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Hustle",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94070,9 +101555,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Purifying Salt",
-      "Sturdy",
-      "Clear Body"
+      {
+        "name": "Purifying Salt",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_NACLSTACK"
@@ -94152,9 +101646,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Purifying Salt",
-      "Sturdy",
-      "Clear Body"
+      {
+        "name": "Purifying Salt",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GARGANACL"
@@ -94238,9 +101741,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Purifying Salt",
-      "Sturdy",
-      "Clear Body"
+      {
+        "name": "Purifying Salt",
+        "is_hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94338,8 +101850,14 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARMAROUGE",
@@ -94405,8 +101923,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Flash Fire",
-      "Weak Armor"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94501,8 +102025,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Flash Fire",
-      "Weak Armor"
+      {
+        "name": "Flash Fire",
+        "is_hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94604,7 +102134,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Static"
+      {
+        "name": "Static",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_BELLIBOLT"
@@ -94682,7 +102215,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Electromorphosis"
+      {
+        "name": "Electromorphosis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94765,9 +102301,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Wind Power",
-      "Volt Absorb",
-      "Competitive"
+      {
+        "name": "Wind Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_KILOWATTREL"
@@ -94840,9 +102385,18 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Wind Power",
-      "Volt Absorb",
-      "Competitive"
+      {
+        "name": "Wind Power",
+        "is_hidden": false
+      },
+      {
+        "name": "Volt Absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "Competitive",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -94920,9 +102474,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Run Away",
-      "Stakeout"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_MABOSSTIFF"
@@ -95006,9 +102569,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Intimidate",
-      "Guard Dog",
-      "Stakeout"
+      {
+        "name": "Intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "Guard Dog",
+        "is_hidden": false
+      },
+      {
+        "name": "Stakeout",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95099,9 +102671,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Unburden",
-      "Pickpocket",
-      "Prankster"
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GRAFAIAI"
@@ -95186,9 +102767,18 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Unburden",
-      "Poison Touch",
-      "Prankster"
+      {
+        "name": "Unburden",
+        "is_hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "is_hidden": false
+      },
+      {
+        "name": "Prankster",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95271,8 +102861,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Wind Rider",
-      "Infiltrator"
+      {
+        "name": "Wind Rider",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BRAMBLEGHAST"
@@ -95357,8 +102953,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Wind Rider",
-      "Infiltrator"
+      {
+        "name": "Wind Rider",
+        "is_hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95441,7 +103043,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Mycelium Might"
+      {
+        "name": "Mycelium Might",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_TOEDSCRUEL"
@@ -95540,7 +103145,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Mycelium Might"
+      {
+        "name": "Mycelium Might",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95642,9 +103250,18 @@ const pokedexData = [
       "Rock"
     ],
     "abilities": [
-      "Anger Shell",
-      "Shell Armor",
-      "Regenerator"
+      {
+        "name": "Anger Shell",
+        "is_hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95726,9 +103343,18 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Insomnia",
-      "Klutz"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Klutz",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SCOVILLAIN"
@@ -95801,9 +103427,18 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Chlorophyll",
-      "Insomnia",
-      "Moody"
+      {
+        "name": "Chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "Moody",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -95893,8 +103528,14 @@ const pokedexData = [
       "Bug"
     ],
     "abilities": [
-      "Compound Eyes",
-      "Shed Skin"
+      {
+        "name": "Compound Eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_RABSCA"
@@ -95959,8 +103600,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Synchronize",
-      "Telepathy"
+      {
+        "name": "Synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96058,9 +103705,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Anticipation",
-      "Frisk",
-      "Speed Boost"
+      {
+        "name": "Anticipation",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ESPATHRA"
@@ -96124,9 +103780,18 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Opportunist",
-      "Frisk",
-      "Speed Boost"
+      {
+        "name": "Opportunist",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": false
+      },
+      {
+        "name": "Speed Boost",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96213,9 +103878,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Own Tempo",
-      "Pickpocket"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TINKATUFF"
@@ -96304,9 +103978,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Own Tempo",
-      "Pickpocket"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_TINKATON"
@@ -96395,9 +104078,18 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Own Tempo",
-      "Pickpocket"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96487,9 +104179,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gooey",
-      "Rattled",
-      "Sand Veil"
+      {
+        "name": "Gooey",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_WUGTRIO"
@@ -96561,9 +104262,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Gooey",
-      "Rattled",
-      "Sand Veil"
+      {
+        "name": "Gooey",
+        "is_hidden": false
+      },
+      {
+        "name": "Rattled",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96638,9 +104348,18 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Big Pecks",
-      "Keen Eye",
-      "Rocky Payload"
+      {
+        "name": "Big Pecks",
+        "is_hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "is_hidden": false
+      },
+      {
+        "name": "Rocky Payload",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96726,7 +104445,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Water Veil"
+      {
+        "name": "Water Veil",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_PALAFIN_ZERO"
@@ -96802,7 +104524,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Zero to Hero"
+      {
+        "name": "Zero to Hero",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96892,7 +104617,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Zero to Hero"
+      {
+        "name": "Zero to Hero",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -96983,8 +104711,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Overcoat",
-      "Slow Start"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Slow Start",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_REVAVROOM"
@@ -97069,8 +104803,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Overcoat",
-      "Filter"
+      {
+        "name": "Overcoat",
+        "is_hidden": false
+      },
+      {
+        "name": "Filter",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97161,8 +104901,14 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Shed Skin",
-      "Regenerator"
+      {
+        "name": "Shed Skin",
+        "is_hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97240,8 +104986,14 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Earth Eater",
-      "Sand Veil"
+      {
+        "name": "Earth Eater",
+        "is_hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97320,8 +105072,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Toxic Debris",
-      "Corrosion"
+      {
+        "name": "Toxic Debris",
+        "is_hidden": false
+      },
+      {
+        "name": "Corrosion",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_GLIMMORA"
@@ -97402,8 +105160,14 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Toxic Debris",
-      "Corrosion"
+      {
+        "name": "Toxic Debris",
+        "is_hidden": false
+      },
+      {
+        "name": "Corrosion",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97493,8 +105257,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Pickup",
-      "Fluffy"
+      {
+        "name": "Pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "Fluffy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_HOUNDSTONE"
@@ -97578,8 +105348,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Sand Rush",
-      "Fluffy"
+      {
+        "name": "Sand Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Fluffy",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97666,9 +105442,18 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Scrappy",
-      "Tangled Feet",
-      "Costar"
+      {
+        "name": "Scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "Tangled Feet",
+        "is_hidden": false
+      },
+      {
+        "name": "Costar",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97750,9 +105535,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thick Fat",
-      "Snow Cloak",
-      "Sheer Force"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_CETITAN"
@@ -97836,9 +105630,18 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thick Fat",
-      "Slush Rush",
-      "Sheer Force"
+      {
+        "name": "Thick Fat",
+        "is_hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "is_hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97921,8 +105724,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Mold Breaker",
-      "Sharpness"
+      {
+        "name": "Mold Breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "Sharpness",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -97996,9 +105805,18 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Unaware",
-      "Oblivious",
-      "Water Veil"
+      {
+        "name": "Unaware",
+        "is_hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98089,8 +105907,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Commander",
-      "Storm Drain"
+      {
+        "name": "Commander",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98161,8 +105985,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Commander",
-      "Storm Drain"
+      {
+        "name": "Commander",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98233,8 +106063,14 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Commander",
-      "Storm Drain"
+      {
+        "name": "Commander",
+        "is_hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98305,7 +106141,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98396,7 +106235,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98487,7 +106329,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98574,7 +106419,10 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98665,7 +106513,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98760,7 +106611,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98855,7 +106709,10 @@ const pokedexData = [
       "Steel"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -98942,7 +106799,10 @@ const pokedexData = [
       "Water"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99025,7 +106885,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99120,7 +106983,10 @@ const pokedexData = [
       "Flying"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99211,7 +107077,10 @@ const pokedexData = [
       "Poison"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99306,7 +107175,10 @@ const pokedexData = [
       "Electric"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99401,8 +107273,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thermal Exchange",
-      "Ice Body"
+      {
+        "name": "Thermal Exchange",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_ARCTIBAX"
@@ -99479,8 +107357,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thermal Exchange",
-      "Ice Body"
+      {
+        "name": "Thermal Exchange",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_BAXCALIBUR"
@@ -99553,8 +107437,14 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Thermal Exchange",
-      "Ice Body"
+      {
+        "name": "Thermal Exchange",
+        "is_hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99644,7 +107534,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Rattled"
+      {
+        "name": "Rattled",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_GHOLDENGO"
@@ -99676,7 +107569,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Run Away"
+      {
+        "name": "Run Away",
+        "is_hidden": false
+      }
     ],
     "evolutions": [
       "SPECIES_GHOLDENGO"
@@ -99709,7 +107605,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Good as Gold"
+      {
+        "name": "Good as Gold",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99780,7 +107679,10 @@ const pokedexData = [
       "Grass"
     ],
     "abilities": [
-      "Tablets of Ruin"
+      {
+        "name": "Tablets of Ruin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99879,7 +107781,10 @@ const pokedexData = [
       "Ice"
     ],
     "abilities": [
-      "Sword of Ruin"
+      {
+        "name": "Sword of Ruin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -99978,7 +107883,10 @@ const pokedexData = [
       "Ground"
     ],
     "abilities": [
-      "Vessel of Ruin"
+      {
+        "name": "Vessel of Ruin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100073,7 +107981,10 @@ const pokedexData = [
       "Fire"
     ],
     "abilities": [
-      "Beads of Ruin"
+      {
+        "name": "Beads of Ruin",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100168,7 +108079,10 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100275,7 +108189,10 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100374,7 +108291,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Orichalcum Pulse"
+      {
+        "name": "Orichalcum Pulse",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100461,7 +108381,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Hadron Engine"
+      {
+        "name": "Hadron Engine",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100548,7 +108471,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100639,7 +108565,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100738,8 +108667,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Hospitality",
-      "Heatproof"
+      {
+        "name": "Hospitality",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SINISTCHA_UNREMARKABLE"
@@ -100816,8 +108751,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Hospitality",
-      "Heatproof"
+      {
+        "name": "Hospitality",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [
       "SPECIES_SINISTCHA_MASTERPIECE"
@@ -100894,8 +108835,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Hospitality",
-      "Heatproof"
+      {
+        "name": "Hospitality",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -100974,8 +108921,14 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Hospitality",
-      "Heatproof"
+      {
+        "name": "Hospitality",
+        "is_hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101054,8 +109007,14 @@ const pokedexData = [
       "Fighting"
     ],
     "abilities": [
-      "Toxic Chain",
-      "Guard Dog"
+      {
+        "name": "Toxic Chain",
+        "is_hidden": false
+      },
+      {
+        "name": "Guard Dog",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101126,8 +109085,14 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Toxic Chain",
-      "Frisk"
+      {
+        "name": "Toxic Chain",
+        "is_hidden": false
+      },
+      {
+        "name": "Frisk",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101202,8 +109167,14 @@ const pokedexData = [
       "Fairy"
     ],
     "abilities": [
-      "Toxic Chain",
-      "Technician"
+      {
+        "name": "Toxic Chain",
+        "is_hidden": false
+      },
+      {
+        "name": "Technician",
+        "is_hidden": true
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101282,7 +109253,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101385,7 +109359,10 @@ const pokedexData = [
       "Dragon"
     ],
     "abilities": [
-      "Protosynthesis"
+      {
+        "name": "Protosynthesis",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101480,7 +109457,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101571,7 +109551,10 @@ const pokedexData = [
       "Psychic"
     ],
     "abilities": [
-      "Quark Drive"
+      {
+        "name": "Quark Drive",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101661,7 +109644,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Tera Shift"
+      {
+        "name": "Tera Shift",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101731,7 +109717,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Tera Shell"
+      {
+        "name": "Tera Shell",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101801,7 +109790,10 @@ const pokedexData = [
       "Normal"
     ],
     "abilities": [
-      "Teraform Zero"
+      {
+        "name": "Teraform Zero",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [
@@ -101872,7 +109864,10 @@ const pokedexData = [
       "Ghost"
     ],
     "abilities": [
-      "Poison Puppeteer"
+      {
+        "name": "Poison Puppeteer",
+        "is_hidden": false
+      }
     ],
     "evolutions": [],
     "learnset": [

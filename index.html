@@ -366,14 +366,14 @@
                     let match = true;
                     if (typeFilter && !p.types.some(t => t.toLowerCase() === typeFilter || t.toLowerCase().includes(typeFilter))) match = false;
                     if (locFilter && !p.locations.some(l => l.toLowerCase().includes(locFilter))) match = false;
-                    if (abilityFilter && !p.abilities.some(a => a.toLowerCase().includes(abilityFilter))) match = false;
+                    if (abilityFilter && !p.abilities.some(a => a.name.toLowerCase().includes(abilityFilter))) match = false;
                     
                     if (nameQuery) {
                         // if we only typed generic text, search everything
                         if (!typeFilter && !locFilter && !abilityFilter) {
                             match = match && (p.name.toLowerCase().includes(nameQuery) ||
                                p.types.some(t => t.toLowerCase().includes(nameQuery)) ||
-                               p.abilities.some(a => a.toLowerCase().includes(nameQuery)) ||
+                               p.abilities.some(a => a.name.toLowerCase().includes(nameQuery)) ||
                                p.locations.some(l => l.toLowerCase().includes(nameQuery)));
                         } else {
                             // if we have specific filters, just search name
@@ -455,7 +455,7 @@
                 let typesHtml = p.types.map(t => `<span class="type-badge" style="background-color: ${getTypeColor(t)}">${t}</span>`).join('');
                 
                 let abilitiesHtml = p.abilities.length > 0 
-                    ? p.abilities.map(a => `<span class="pill">${a}</span>`).join('') 
+                    ? p.abilities.map(a => `<span class="pill" ${a.is_hidden ? 'style="border-color: #a855f7; color: #d8b4fe;"' : ''}>${a.name}${a.is_hidden ? ' (Hidden)' : ''}</span>`).join('') 
                     : '<span class="empty-state">None</span>';
                     
                 let evosHtml = p.evolutions.length > 0 
