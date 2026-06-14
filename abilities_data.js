@@ -196,7 +196,6 @@ const abilitiesData = [
     "pokemon": [
       "Pichu",
       "Pikachu",
-      "Alolan Pikachu",
       "Raichu",
       "Voltorb",
       "Electrode",
@@ -668,7 +667,6 @@ const abilitiesData = [
     "pokemon": [
       "Pichu",
       "Pikachu",
-      "Alolan Pikachu",
       "Raichu",
       "Cubone",
       "Marowak",
@@ -1905,8 +1903,7 @@ const abilitiesData = [
       "Basculin",
       "Basculegion",
       "Skrelp",
-      "Dragalge",
-      "Gumshoos"
+      "Dragalge"
     ]
   },
   {
