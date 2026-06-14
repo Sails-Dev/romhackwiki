@@ -281,9 +281,6 @@ const abilitiesData = [
       "Lickilicky",
       "Smoochum",
       "Jynx",
-      "Swinub",
-      "Piloswine",
-      "Mamoswine",
       "Illumise",
       "Wailmer",
       "Wailord",
@@ -851,8 +848,6 @@ const abilitiesData = [
       "Nidoking",
       "Paldean Wooper",
       "Clodsire",
-      "Qwilfish",
-      "Hisuian Qwilfish",
       "Overqwil",
       "Budew",
       "Roselia",
@@ -883,6 +878,7 @@ const abilitiesData = [
       "Dragonite",
       "Girafarig",
       "Sneasel",
+      "Weavile",
       "Hisuian Sneasel",
       "Raikou",
       "Entei",
@@ -987,8 +983,7 @@ const abilitiesData = [
     "pokemon": [
       "Tyranitar",
       "Hippopotas",
-      "Hippowdon",
-      "Gigalith"
+      "Hippowdon"
     ]
   },
   {
@@ -1000,7 +995,6 @@ const abilitiesData = [
       "Zapdos",
       "Moltres",
       "Mewtwo",
-      "Weavile",
       "Sneasler",
       "Raikou",
       "Entei",
@@ -1126,7 +1120,6 @@ const abilitiesData = [
       "Nincada",
       "Kricketot",
       "Pachirisu",
-      "Buneary",
       "Patrat",
       "Nickit",
       "Thievul",
@@ -1149,7 +1142,6 @@ const abilitiesData = [
       "Hitmonchan",
       "Hoothoot",
       "Noctowl",
-      "Sneasel",
       "Hisuian Sneasel",
       "Skarmory",
       "Sableye",
@@ -1185,8 +1177,6 @@ const abilitiesData = [
       "Gliscor",
       "Mawile",
       "Trapinch",
-      "Corphish",
-      "Crawdaunt",
       "Crabrawler",
       "Crabominable"
     ]
@@ -1262,6 +1252,7 @@ const abilitiesData = [
       "Skitty",
       "Delcatty",
       "Milotic",
+      "Buneary",
       "Lopunny",
       "Minccino",
       "Cinccino",
@@ -1323,8 +1314,6 @@ const abilitiesData = [
     "pokemon": [
       "Metapod",
       "Kakuna",
-      "Ekans",
-      "Arbok",
       "Dratini",
       "Dragonair",
       "Pupitar",
@@ -1539,8 +1528,6 @@ const abilitiesData = [
       "Golem",
       "Onix",
       "Steelix",
-      "Cubone",
-      "Marowak",
       "Alolan Marowak",
       "Rhyhorn",
       "Rhydon",
@@ -1902,6 +1889,8 @@ const abilitiesData = [
     "pokemon": [
       "Eevee",
       "Porygon-Z",
+      "Qwilfish",
+      "Hisuian Qwilfish",
       "Zigzagoon",
       "Linoone",
       "Corphish",
@@ -2124,8 +2113,6 @@ const abilitiesData = [
     "name": "Klutz",
     "description": "Can't use hold items.",
     "pokemon": [
-      "Buneary",
-      "Lopunny",
       "Woobat",
       "Swoobat",
       "Audino",
@@ -2320,7 +2307,6 @@ const abilitiesData = [
       "Mr. Rime",
       "Glaceon",
       "Snorunt",
-      "Glalie",
       "Spheal",
       "Sealeo",
       "Walrein",
@@ -2343,6 +2329,9 @@ const abilitiesData = [
     "pokemon": [
       "Rhyperior",
       "Camerupt",
+      "Roggenrola",
+      "Boldore",
+      "Gigalith",
       "Tirtouga",
       "Carracosta"
     ]
@@ -2635,6 +2624,7 @@ const abilitiesData = [
       "Skarmory",
       "Roggenrola",
       "Boldore",
+      "Gigalith",
       "Dwebble",
       "Crustle",
       "Garbodor",
@@ -3092,9 +3082,6 @@ const abilitiesData = [
       "Gastrodon",
       "Hippopotas",
       "Hippowdon",
-      "Roggenrola",
-      "Boldore",
-      "Gigalith",
       "Drilbur",
       "Excadrill",
       "Landorus"
@@ -3824,6 +3811,8 @@ const abilitiesData = [
     "name": "Punk Rock",
     "description": "Ups and resists sound.",
     "pokemon": [
+      "Loudred",
+      "Exploud",
       "Toxtricity"
     ]
   },

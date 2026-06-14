@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex Database</title>
     <style>
+
         :root {
             --bg: #000000;
             --card-bg: #121212;
@@ -13,6 +14,7 @@
             --muted: #888888;
             --border: #333333;
             --accent: #aaaaaa;
+            --row-hover: #1e1e1e;
         }
 
         body {
@@ -21,6 +23,10 @@
             color: var(--text);
             margin: 0;
             padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
 
         header {
@@ -33,236 +39,225 @@
             gap: 1.5rem;
             border-bottom: 1px solid var(--border);
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            position: sticky;
-            top: 0;
             z-index: 100;
+            flex-shrink: 0;
         }
 
-        h1 {
-            margin: 0;
-            font-size: 1.5rem;
-            white-space: nowrap;
-            color: var(--text);
-        }
+        h1 { margin: 0; font-size: 1.5rem; white-space: nowrap; color: var(--text); }
 
-        .search-container {
-            flex: 1;
-            max-width: 600px;
-            position: relative;
-        }
-
+        .search-container { flex: 1; max-width: 600px; position: relative; }
         #searchInput {
-            width: 100%;
-            padding: 0.5rem 1rem;
-            font-size: 0.95rem;
-            border-radius: 4px;
-            border: 2px solid var(--border);
-            background-color: var(--bg);
-            color: var(--text);
-            outline: none;
-            transition: all 0.3s ease;
-            box-sizing: border-box;
+            width: 100%; padding: 0.5rem 1rem; font-size: 0.95rem; border-radius: 4px;
+            border: 2px solid var(--border); background-color: var(--bg); color: var(--text); outline: none; transition: all 0.3s;
         }
-
-        #searchInput:focus {
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
-        }
+        #searchInput:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); }
 
         .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        #loading {
-            text-align: center;
-            font-size: 1.2rem;
-            color: var(--muted);
-            margin-top: 3rem;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .card {
-            background-color: var(--card-bg);
-            border-radius: 4px;
-            padding: 1.5rem;
-            border: 1px solid var(--border);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
             display: flex;
-            flex-direction: column;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-            border-color: var(--primary);
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 0.5rem;
-        }
-
-        .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin: 0;
-            color: #e2e8f0;
-        }
-
-        .types {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .type-badge {
-            padding: 0.25rem 0.75rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-            color: white;
-            letter-spacing: 0.5px;
-        }
-
-        .section-title {
-            font-size: 0.9rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 1rem 0 0.5rem 0;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .section-title::after {
-            content: '';
             flex: 1;
-            height: 1px;
-            background-color: var(--border);
+            overflow: hidden;
+            width: 100%;
         }
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        .stat-row {
-            display: flex;
-            justify-content: space-between;
-            background-color: rgba(255,255,255,0.05);
-            padding: 0.35rem 0.6rem;
-            border-radius: 4px;
-        }
-
-        .stat-name {
-            color: var(--muted);
-        }
-
-        .stat-value {
-            font-weight: bold;
-            color: #f1f5f9;
-        }
-
-        .pill-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .pill {
-            background-color: var(--card-bg);
-            color: var(--text);
-            border: 1px solid var(--border);
-            padding: 0.3rem 0.6rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
+        /* SPLIT LAYOUT WITH ANIMATION */
+        .list-view {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
         
-        .empty-state {
-            color: var(--muted);
-            font-style: italic;
-            font-size: 0.85rem;
+        .expanded-view {
+            width: 0;
+            background-color: var(--card-bg);
+            border-left: 0px solid transparent;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            padding: 0;
+            opacity: 0;
+            visibility: hidden;
         }
 
-        .tabs {
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-top: 0;
+        .container.has-expanded .expanded-view {
+            width: 450px;
+            padding: 2rem;
+            border-left: 1px solid var(--border);
+            opacity: 1;
+            visibility: visible;
         }
-
-        .tab-btn {
-            background-color: transparent;
-            color: var(--muted);
-            border: 2px solid var(--border);
-            padding: 0.35rem 1rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: bold;
-            transition: all 0.2s ease;
-        }
-
-        .tab-btn.active {
-            background-color: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-
-        .tab-btn:hover:not(.active) {
-            border-color: var(--primary);
-            color: var(--text);
-        }
-
-        .trainer-team {
+        /* Fallback for other tabs using grid */
+        .grid-trainers {
             display: flex;
             flex-direction: column;
-            gap: 1rem;
-        }
-
-        .trainer-mon {
-            background-color: rgba(0,0,0,0.2);
-            padding: 0.75rem;
-            border-radius: 8px;
-            border-left: 3px solid var(--primary);
-        }
-
-        .mon-header {
-            display: flex;
-            justify-content: space-between;
-            font-weight: bold;
-            color: #f1f5f9;
-            margin-bottom: 0.5rem;
-        }
-
-        .mon-details {
-            font-size: 0.85rem;
-            color: var(--muted);
-            margin-bottom: 0.5rem;
+            gap: 1.5rem;
+            width: 100%;
         }
         
-        .moves-list {
+        .grid-cards {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.35rem;
-            font-size: 0.85rem;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
         }
+        
+        @media (max-width: 1000px) {
+            .grid-cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .grid-cards { grid-template-columns: 1fr; }
+        }
+        
+        .card {
+            background-color: var(--card-bg); border-radius: 4px; padding: 1.5rem; border: 1px solid var(--border);
+            width: 100%; box-sizing: border-box;
+        }
+
+        /* LIST ROW (Pokemon Tab) */
+        .list-row {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid var(--border);
+            background-color: var(--card-bg);
+            cursor: pointer;
+            transition: background-color 0.15s;
+            gap: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .list-row:hover { background-color: var(--row-hover); }
+        .list-row:first-child { border-top: 1px solid var(--border); border-top-left-radius: 4px; border-top-right-radius: 4px; }
+        .list-row:last-child { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+
+        .row-name { width: 150px; flex-shrink: 0; font-size: 1.1rem; }
+        .row-types { width: 140px; flex-shrink: 0; }
+        .row-abilities { width: 180px; flex-shrink: 0; display: flex; flex-direction: column; font-size: 0.85rem; }
+        .row-stats { display: flex; gap: 0.5rem; flex: 1; justify-content: flex-end; }
+        .stat-col { display: flex; flex-direction: column; align-items: center; width: 35px; font-size: 0.85rem; }
+        .stat-col div { color: var(--muted); font-size: 0.75rem; margin-bottom: 2px; }
+        .stat-col.bst { width: 45px; color: #fde047; }
+
+        /* BADGES AND PILLS */
+        .type-badge {
+            padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5); color: white; display: inline-block;
+        }
+        .pill { background-color: var(--bg); color: var(--text); border: 1px solid var(--border); padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.85rem; }
+        .pill-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .empty-state { color: var(--muted); font-style: italic; font-size: 0.85rem; }
+
+        /* EXPANDED VIEW */
+        .close-btn {
+            position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: var(--muted);
+            font-size: 1.5rem; cursor: pointer; transition: color 0.2s;
+            z-index: 10;
+        }
+        .close-btn:hover { color: white; }
+        
+        /* Mobile specific close button styles */
+        .mobile-back-btn {
+            display: none;
+        }
+        
+        .exp-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+        .exp-sprite { width: 96px; height: 96px; image-rendering: pixelated; object-fit: contain; }
+        
+        .section-title { font-size: 0.9rem; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin: 1.5rem 0 0.5rem 0; display: flex; align-items: center; gap: 0.5rem; }
+        .section-title::after { content: ''; flex: 1; height: 1px; background-color: var(--border); }
+        .section-title:first-child { margin-top: 0; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.9rem; }
+        .stat-row { display: flex; justify-content: space-between; background-color: rgba(255,255,255,0.05); padding: 0.35rem 0.6rem; border-radius: 4px; }
+        .stat-name { color: var(--muted); }
+        .stat-value { font-weight: bold; color: #f1f5f9; }
+        
+        .moves-scroll { max-height: 250px; overflow-y: auto; padding-right: 0.5rem; font-size: 0.85rem; border: 1px solid var(--border); border-radius: 4px; background: var(--bg); }
+        .move-row { display: flex; border-bottom: 1px solid var(--border); padding: 0.4rem; }
+        .move-row:last-child { border-bottom: none; }
+        .move-level { width: 50px; color: var(--muted); flex-shrink: 0; }
+        .move-name { font-weight: bold; }
+
+        /* TABS */
+        .tabs { display: flex; justify-content: center; gap: 0.5rem; }
+        .tab-btn { background-color: transparent; color: var(--muted); border: 2px solid var(--border); padding: 0.35rem 1rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; font-weight: bold; transition: all 0.2s; }
+        .tab-btn.active { background-color: var(--primary); color: white; border-color: var(--primary); }
+        .tab-btn:hover:not(.active) { border-color: var(--primary); color: var(--text); }
+        
+        /* TRAINER TEAM */
+        .trainer-team { 
+            display: flex; 
+            flex-direction: row; 
+            gap: 1rem; 
+            overflow-x: auto; 
+            padding-bottom: 1rem; 
+        }
+        .trainer-mon { 
+            background-color: rgba(0,0,0,0.2); 
+            padding: 1rem; 
+            border-radius: 8px; 
+            border: 1px solid var(--border);
+            border-top: 3px solid var(--primary); 
+            min-width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .mon-header { 
+            display: flex; 
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: bold; 
+            color: #f1f5f9; 
+            font-size: 1.1rem;
+        }
+        .mon-sprite {
+            width: 96px;
+            height: 96px;
+            image-rendering: pixelated;
+            object-fit: contain;
+        }
+        .mon-details { font-size: 0.85rem; color: var(--muted); }
+        .moves-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; font-size: 0.85rem; margin-top: auto; }
+        
+        /* SCROLLBARS */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--primary); }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 768px) {
+            .container.has-expanded .list-view { display: none; }
+            .container.has-expanded .expanded-view { width: 100%; border-left: none; }
+            .mobile-back-btn {
+                display: inline-block;
+                background: var(--primary);
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 4px;
+                margin-bottom: 1rem;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .close-btn { display: none; }
+            
+            .list-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            .row-name { width: auto; }
+            .row-types { width: auto; }
+            .row-abilities { width: auto; }
+            .row-stats { width: 100%; justify-content: space-between; }
+        }
+
     </style>
 </head>
 <body>
@@ -280,8 +275,9 @@
         </div>
     </header>
 
-    <div class="container">
-        <div id="pokedexGrid" class="grid"></div>
+    <div class="container" id="mainContainer">
+        <div id="pokedexGrid" class="list-view"></div>
+        <div id="expandedView" class="expanded-view" ></div>
     </div>
 
     <!-- Load the data from JS file instead of JSON to bypass local CORS rules -->
@@ -299,7 +295,7 @@
             return str.toLowerCase().replace(/\b\w/g, s => s.toUpperCase());
         }
 
-        function switchTab(tab, event) {
+                function switchTab(tab, event) {
             currentTab = tab;
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('active');
@@ -307,117 +303,40 @@
             event.target.classList.add('active');
             
             searchInput.value = '';
+            closeExpandedView();
             
+            // Adjust layout classes based on tab
+            const gridEl = document.getElementById('pokedexGrid');
             if (tab === 'pokemon') {
+                gridEl.className = 'list-view';
                 searchInput.placeholder = "Search by name, or use type:ice, loc:cave, ability:...";
                 if (typeof pokedexData !== 'undefined') renderDex(pokedexData.slice(0, 1500));
             } else if (tab === 'trainers') {
+                gridEl.className = 'list-view grid-trainers';
                 searchInput.placeholder = "Search by trainer name, class, or pokémon...";
                 if (typeof trainersData !== 'undefined') renderTrainers(trainersData.slice(0, 50));
             } else if (tab === 'abilities') {
+                gridEl.className = 'list-view grid-cards';
                 searchInput.placeholder = "Search by ability or pokémon...";
                 if (typeof abilitiesData !== 'undefined') renderAbilities(abilitiesData);
             } else if (tab === 'areas') {
+                gridEl.className = 'list-view grid-cards';
                 searchInput.placeholder = "Search by area or pokémon...";
                 if (typeof areasData !== 'undefined') renderAreas(areasData);
+            } else {
+                gridEl.className = 'list-view grid'; // fallback to grid for others
+                if (tab === 'trainers') {
+                    searchInput.placeholder = "Search by trainer name, class, or pokémon...";
+                    if (typeof trainersData !== 'undefined') renderTrainers(trainersData.slice(0, 50));
+                } else if (tab === 'abilities') {
+                    searchInput.placeholder = "Search by ability or pokémon...";
+                    if (typeof abilitiesData !== 'undefined') renderAbilities(abilitiesData);
+                } else if (tab === 'areas') {
+                    searchInput.placeholder = "Search by area or pokémon...";
+                    if (typeof areasData !== 'undefined') renderAreas(areasData);
+                }
             }
         }
-
-        // Initialize
-        if (typeof pokedexData !== 'undefined') {
-            renderDex(pokedexData.slice(0, 1500));
-        } else {
-            grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #ef4444; font-size: 1.2rem; padding: 3rem;">Error: pokedex_data.js is missing. Please run update_dex.bat first!</div>';
-        }
-
-        // Search listener
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().trim();
-            
-            if (currentTab === 'pokemon') {
-                if (typeof pokedexData === 'undefined') return;
-                if(!query) {
-                    renderDex(pokedexData.slice(0, 1500));
-                    return;
-                }
-                
-                let typeFilter = null;
-                let locFilter = null;
-                let abilityFilter = null;
-                
-                let searchTerms = query.split(' ');
-                let nameTerms = [];
-                
-                searchTerms.forEach(term => {
-                    if (term.startsWith('type:') || term.startsWith('t:')) {
-                        typeFilter = term.split(':')[1];
-                    } else if (term.startsWith('loc:') || term.startsWith('l:')) {
-                        locFilter = term.split(':')[1];
-                    } else if (term.startsWith('ability:') || term.startsWith('a:')) {
-                        abilityFilter = term.split(':')[1];
-                    } else {
-                        nameTerms.push(term);
-                    }
-                });
-                
-                let nameQuery = nameTerms.join(' ');
-                
-                const filtered = pokedexData.filter(p => {
-                    let match = true;
-                    if (typeFilter && !p.types.some(t => t.toLowerCase() === typeFilter || t.toLowerCase().includes(typeFilter))) match = false;
-                    if (locFilter && !p.locations.some(l => l.toLowerCase().includes(locFilter))) match = false;
-                    if (abilityFilter && !p.abilities.some(a => a.name.toLowerCase().includes(abilityFilter))) match = false;
-                    
-                    if (nameQuery) {
-                        // if we only typed generic text, search everything
-                        if (!typeFilter && !locFilter && !abilityFilter) {
-                            match = match && (p.name.toLowerCase().includes(nameQuery) ||
-                               p.types.some(t => t.toLowerCase().includes(nameQuery)) ||
-                               p.abilities.some(a => a.name.toLowerCase().includes(nameQuery)) ||
-                               p.locations.some(l => l.toLowerCase().includes(nameQuery)));
-                        } else {
-                            // if we have specific filters, just search name
-                            match = match && p.name.toLowerCase().includes(nameQuery);
-                        }
-                    }
-                    return match;
-                });
-                renderDex(filtered.slice(0, 1500));
-            } else if (currentTab === 'trainers') {
-                if (typeof trainersData === 'undefined') return;
-                if(!query) {
-                    renderTrainers(trainersData.slice(0, 50));
-                    return;
-                }
-                const filtered = trainersData.filter(t => {
-                    return t.name.toLowerCase().includes(query) ||
-                           t.team.some(mon => mon.species.toLowerCase().includes(query));
-                });
-                renderTrainers(filtered.slice(0, 50));
-            } else if (currentTab === 'abilities') {
-                if (typeof abilitiesData === 'undefined') return;
-                if(!query) {
-                    renderAbilities(abilitiesData);
-                    return;
-                }
-                const filtered = abilitiesData.filter(a => {
-                    return a.name.toLowerCase().includes(query) ||
-                           a.pokemon.some(p => p.toLowerCase().includes(query));
-                });
-                renderAbilities(filtered);
-            } else if (currentTab === 'areas') {
-                if (typeof areasData === 'undefined') return;
-                if(!query) {
-                    renderAreas(areasData);
-                    return;
-                }
-                const filtered = areasData.filter(a => 
-                    a.name.toLowerCase().includes(query) || 
-                    (a.encounters && Object.values(a.encounters).flat().some(p => p.toLowerCase().includes(query)))
-                );
-                renderAreas(filtered);
-            }
-        });
 
         function getTypeColor(type) {
             const colors = {
@@ -431,84 +350,141 @@
             return colors[type] || '#777';
         }
 
+        function getSpriteUrl(name) {
+            let n = name.toLowerCase().replace(/[^a-z0-9-]/g, '');
+            if (n.startsWith("alolan")) n = n.replace("alolan", "") + "-alola";
+            if (n.startsWith("galarian")) n = n.replace("galarian", "") + "-galar";
+            if (n.startsWith("hisuian")) n = n.replace("hisuian", "") + "-hisui";
+            if (n.startsWith("paldean")) n = n.replace("paldean", "") + "-paldea";
+            return `https://play.pokemonshowdown.com/sprites/gen5/${n}.png`;
+        }
+
         function renderDex(mons) {
             grid.innerHTML = '';
             
             if(mons.length === 0) {
-                grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem;">No Pokémon found matching your search.</div>';
+                grid.innerHTML = '<div style="text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem;">No Pokémon found matching your search.</div>';
                 return;
             }
 
             mons.forEach(p => {
                 const bst = p.stats.hp + p.stats.atk + p.stats.def + p.stats.spa + p.stats.spd + p.stats.spe;
                 
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.style.cursor = 'pointer';
-                card.onclick = () => {
-                    const ls = document.getElementById('ls-' + p.id);
-                    if (ls) {
-                        ls.style.display = ls.style.display === 'none' ? 'block' : 'none';
-                    }
-                };
+                const row = document.createElement('div');
+                row.className = 'list-row';
+                row.onclick = () => showExpandedView(p);
                 
-                let typesHtml = p.types.map(t => `<span class="type-badge" style="background-color: ${getTypeColor(t)}">${t}</span>`).join('');
+                let typesHtml = p.types.map(t => `<span class="type-badge" style="background-color: ${getTypeColor(t)}; margin-right: 0.25rem;">${t}</span>`).join('');
                 
                 let abilitiesHtml = p.abilities.length > 0 
-                    ? p.abilities.map(a => `<span class="pill" ${a.is_hidden ? 'style="border-color: #a855f7; color: #d8b4fe;"' : ''}>${a.name}${a.is_hidden ? ' (Hidden)' : ''}</span>`).join('') 
+                    ? p.abilities.map(a => `<div ${a.is_hidden ? 'style="color: #d8b4fe; font-style: italic;"' : ''}>${a.name}${a.is_hidden ? ' (H)' : ''}</div>`).join('') 
                     : '<span class="empty-state">None</span>';
                     
-                let evosHtml = p.evolutions.length > 0 
-                    ? p.evolutions.map(e => `<span class="pill">${titleCase(e.replace('SPECIES_', '').replace(/_/g, ' '))}</span>`).join('') 
-                    : '<span class="empty-state">Does not evolve</span>';
-
-                let locsHtml = p.locations.length > 0
-                    ? p.locations.map(l => `<span class="pill">${l}</span>`).join('')
-                    : '<span class="empty-state">Not found in the wild</span>';
-
-                card.innerHTML = `
-                    <div class="card-header">
-                        <h2 class="card-title">${p.name}</h2>
-                    </div>
-                    
-                    <div class="types">
-                        ${typesHtml}
-                    </div>
-
-                    <div class="section-title">Abilities</div>
-                    <div class="pill-list">${abilitiesHtml}</div>
-
-                    <div class="section-title">Evolutions</div>
-                    <div class="pill-list">${evosHtml}</div>
-                    
-                    <div id="ls-${p.id}" style="display: none; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border);">
-                        <div class="section-title">Base Stats (Total: ${bst})</div>
-                        <div class="stats-grid">
-                            <div class="stat-row"><span class="stat-name">HP</span><span class="stat-value">${p.stats.hp}</span></div>
-                            <div class="stat-row"><span class="stat-name">Attack</span><span class="stat-value">${p.stats.atk}</span></div>
-                            <div class="stat-row"><span class="stat-name">Defense</span><span class="stat-value">${p.stats.def}</span></div>
-                            <div class="stat-row"><span class="stat-name">Sp. Atk</span><span class="stat-value">${p.stats.spa}</span></div>
-                            <div class="stat-row"><span class="stat-name">Sp. Def</span><span class="stat-value">${p.stats.spd}</span></div>
-                            <div class="stat-row"><span class="stat-name">Speed</span><span class="stat-value">${p.stats.spe}</span></div>
-                        </div>
-                        
-                        <div class="section-title">Wild Locations</div>
-                        <div class="pill-list">${locsHtml}</div>
-
-                        <div class="section-title">Level Up Learnset</div>
-                        ${p.learnset && p.learnset.length > 0 ? `
-                            <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 0.5rem; font-size: 0.85rem; max-height: 200px; overflow-y: auto; padding-right: 0.5rem; margin-top: 0.5rem;">
-                                ${p.learnset.map(m => `
-                                    <div style="color: var(--muted);">${m.level === 0 ? 'Evo.' : `Lv. ${m.level}`}</div>
-                                    <div style="color: var(--text); font-weight: bold;">${m.move}</div>
-                                `).join('')}
-                            </div>
-                        ` : '<span class="empty-state">No learnset data available</span>'}
+                row.innerHTML = `
+                    <div class="row-name"><strong>${p.name}</strong></div>
+                    <div class="row-types">${typesHtml}</div>
+                    <div class="row-abilities">${abilitiesHtml}</div>
+                    <div class="row-stats">
+                        <div class="stat-col"><div>HP</div><strong>${p.stats.hp}</strong></div>
+                        <div class="stat-col"><div>Atk</div><strong>${p.stats.atk}</strong></div>
+                        <div class="stat-col"><div>Def</div><strong>${p.stats.def}</strong></div>
+                        <div class="stat-col"><div>SpA</div><strong>${p.stats.spa}</strong></div>
+                        <div class="stat-col"><div>SpD</div><strong>${p.stats.spd}</strong></div>
+                        <div class="stat-col"><div>Spe</div><strong>${p.stats.spe}</strong></div>
+                        <div class="stat-col bst"><div>BST</div><strong>${bst}</strong></div>
                     </div>
                 `;
                 
-                grid.appendChild(card);
+                grid.appendChild(row);
             });
+        }
+
+        function showExpandedView(p) {
+            const exp = document.getElementById('expandedView');
+            const container = document.getElementById('mainContainer');
+            
+            const bst = p.stats.hp + p.stats.atk + p.stats.def + p.stats.spa + p.stats.spd + p.stats.spe;
+            
+            let typesHtml = p.types.map(t => `<span class="type-badge" style="background-color: ${getTypeColor(t)}">${t}</span>`).join('');
+            let abilitiesHtml = p.abilities.length > 0 ? p.abilities.map(a => `<span class="pill" ${a.is_hidden ? 'style="border-color: #a855f7; color: #d8b4fe;"' : ''}>${a.name}${a.is_hidden ? ' (Hidden)' : ''}</span>`).join('') : '<span class="empty-state">None</span>';
+            let evosHtml = p.evolutions.length > 0 ? p.evolutions.map(e => `<span class="pill">${titleCase(e.replace('SPECIES_', '').replace(/_/g, ' '))}</span>`).join('') : '<span class="empty-state">Does not evolve</span>';
+            let locsHtml = p.locations.length > 0 ? p.locations.map(l => `<span class="pill">${l}</span>`).join('') : '<span class="empty-state">Not found in the wild</span>';
+            
+            let learnsetHtml = p.learnset && p.learnset.length > 0 ? `
+                <div class="moves-scroll">
+                    ${p.learnset.map(m => `
+                        <div class="move-row">
+                            <div class="move-level">${m.level === 0 ? 'Evo' : m.level}</div>
+                            <div class="move-name">${m.move}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<span class="empty-state">No learnset data</span>';
+            
+            let tmHtml = p.tm_moves && p.tm_moves.length > 0 ? `
+                <div class="moves-scroll">
+                    ${p.tm_moves.map(m => `
+                        <div class="move-row">
+                            <div class="move-level" style="color: var(--accent);">TM</div>
+                            <div class="move-name">${m}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<span class="empty-state">No TM/Tutor moves</span>';
+
+            exp.innerHTML = `
+                <button class="mobile-back-btn" onclick="closeExpandedView()">&larr; Back to List</button>
+                <button class="close-btn" onclick="closeExpandedView()">×</button>
+                <div class="exp-header">
+                    <img src="${getSpriteUrl(p.name)}" alt="${p.name}" class="exp-sprite" onerror="this.src='https://play.pokemonshowdown.com/sprites/gen5/0.png'">
+                    <div>
+                        <h2 style="margin: 0 0 0.5rem 0; font-size: 1.8rem; color: white;">${p.name}</h2>
+                        <div class="types" style="display: flex; gap: 0.5rem;">${typesHtml}</div>
+                    </div>
+                </div>
+                
+                <div class="section-title">Base Stats (Total: ${bst})</div>
+                <div class="stats-grid">
+                    <div class="stat-row"><span class="stat-name">HP</span><span class="stat-value">${p.stats.hp}</span></div>
+                    <div class="stat-row"><span class="stat-name">Attack</span><span class="stat-value">${p.stats.atk}</span></div>
+                    <div class="stat-row"><span class="stat-name">Defense</span><span class="stat-value">${p.stats.def}</span></div>
+                    <div class="stat-row"><span class="stat-name">Sp. Atk</span><span class="stat-value">${p.stats.spa}</span></div>
+                    <div class="stat-row"><span class="stat-name">Sp. Def</span><span class="stat-value">${p.stats.spd}</span></div>
+                    <div class="stat-row"><span class="stat-name">Speed</span><span class="stat-value">${p.stats.spe}</span></div>
+                </div>
+                
+                <div class="section-title">Abilities</div>
+                <div class="pill-list">${abilitiesHtml}</div>
+                
+                <div class="section-title">Evolutions</div>
+                <div class="pill-list">${evosHtml}</div>
+                
+                <div class="section-title">Wild Locations</div>
+                <div class="pill-list">${locsHtml}</div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;">
+                    <div>
+                        <div class="section-title" style="margin-top:0;">Level Up</div>
+                        ${learnsetHtml}
+                    </div>
+                    <div>
+                        <div class="section-title" style="margin-top:0;">TMs / Tutors</div>
+                        ${tmHtml}
+                    </div>
+                </div>
+            `;
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    container.classList.add('has-expanded');
+                });
+            });
+        }
+
+        function closeExpandedView() {
+            const exp = document.getElementById('expandedView');
+            if(exp) {}
+            const container = document.getElementById('mainContainer');
+            if(container) container.classList.remove('has-expanded');
         }
 
         function calculateSpeed(monData) {
@@ -549,55 +525,87 @@
             return speed;
         }
 
-        function renderTrainers(trainers) {
+                        function renderTrainers(trainers) {
             grid.innerHTML = '';
             
             if(trainers.length === 0) {
-                grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem;">No trainers found matching your search.</div>';
+                grid.innerHTML = '<div style="text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem;">No trainers found matching your search.</div>';
                 return;
             }
-
+            
+            let grouped = [];
+            let processed = new Set();
+            
             trainers.forEach(t => {
+                if (processed.has(t.id)) return;
+                
+                let group = [t];
+                processed.add(t.id);
+                
+                if (t.partner) {
+                    let partnerTrainer = trainers.find(p => p.name.toUpperCase().includes(t.partner.toUpperCase()) && !processed.has(p.id));
+                    if (partnerTrainer) {
+                        group.push(partnerTrainer);
+                        processed.add(partnerTrainer.id);
+                    }
+                }
+                
+                grouped.push(group);
+            });
+
+            grouped.forEach(group => {
                 const card = document.createElement('div');
                 card.className = 'card';
+                card.style.display = 'flex';
+                card.style.flexDirection = 'column';
+                card.style.gap = '2rem';
                 
-                let teamHtml = t.team.map(mon => {
-                    let details = [];
-                    if (mon.level) details.push(`Lv. ${mon.level}`);
-                    if (mon.ability) details.push(`${titleCase(mon.ability)}`);
-                    details.push(mon.nature || 'Neutral Nature');
-                    if (mon.item) details.push(`@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))}`);
-                    
-                    let speed = calculateSpeed(mon);
-                    let speedHtml = `<div style="margin-top: 0.4rem;"><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">⚡ Speed: ${speed}</span></div>`;
-                    
-                    let movesHtml = (mon.moves || []).map(m => `<span class="pill" style="background-color: rgba(255,255,255,0.05); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.1);">${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}</span>`).join('');
+                let groupHtml = group.map(t => {
+                    let teamHtml = t.team.map(mon => {
+                        let details = [];
+                        if (mon.level) details.push(`Lv. ${mon.level}`);
+                        if (mon.ability) details.push(`${titleCase(mon.ability)}`);
+                        details.push(mon.nature || 'Neutral Nature');
+                        if (mon.item) details.push(`@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))}`);
+                        
+                        let speed = calculateSpeed(mon);
+                        let speedHtml = `<div><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">⚡ Speed: ${speed}</span></div>`;
+                        
+                        let movesHtml = (mon.moves || []).map(m => `<span class="pill" style="background-color: rgba(255,255,255,0.05); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.1); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}">${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}</span>`).join('');
+                        
+                        let spriteUrl = getSpriteUrl(mon.species);
+                        let speciesName = titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' '));
+                        
+                        return `
+                            <div class="trainer-mon">
+                                <div class="mon-header">
+                                    <img src="${spriteUrl}" alt="${speciesName}" class="mon-sprite" onerror="this.src='https://play.pokemonshowdown.com/sprites/gen5/0.png'">
+                                    <span>${speciesName}</span>
+                                </div>
+                                <div class="mon-details">${details.join('<br>')}</div>
+                                ${speedHtml}
+                                <div class="moves-list">${movesHtml}</div>
+                            </div>
+                        `;
+                    }).join('');
                     
                     return `
-                        <div class="trainer-mon">
-                            <div class="mon-header">
-                                <span>${titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' '))}</span>
+                        <div>
+                            <div class="card-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+                                <h2 class="card-title" style="margin: 0; font-size: 1.4rem;">${t.name} <span style="color: var(--muted); font-size: 1rem; font-weight: normal;">(Party: ${t.team.length})</span></h2>
+                                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end;">
+                                    ${t.double_battle ? '<span class="pill" style="background-color: rgba(239, 68, 68, 0.2); color: #fca5a5; border-color: rgba(239, 68, 68, 0.4); font-size: 0.75rem; padding: 0.4rem 0.8rem;">Double Battle</span>' : ''}
+                                    ${t.partner ? `<span class="pill" style="background-color: rgba(245, 158, 11, 0.2); color: #fcd34d; border-color: rgba(245, 158, 11, 0.4); font-size: 0.75rem; padding: 0.4rem 0.8rem;">Fights alongside ${t.partner}</span>` : ''}
+                                </div>
                             </div>
-                            <div class="mon-details">${details.join(' • ')}</div>
-                            <div class="moves-list">${movesHtml}</div>
-                            ${speedHtml}
+                            <div class="trainer-team">
+                                ${teamHtml}
+                            </div>
                         </div>
                     `;
                 }).join('');
-                card.innerHTML = `
-                    <div class="card-header">
-                        <h2 class="card-title">${t.name}</h2>
-                        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end;">
-                            ${t.double_battle ? '<span class="pill" style="background-color: rgba(239, 68, 68, 0.2); color: #fca5a5; border-color: rgba(239, 68, 68, 0.4); font-size: 0.75rem;">Double Battle</span>' : ''}
-                            ${t.partner ? `<span class="pill" style="background-color: rgba(245, 158, 11, 0.2); color: #fcd34d; border-color: rgba(245, 158, 11, 0.4); font-size: 0.75rem;">Fights alongside ${t.partner}</span>` : ''}
-                        </div>
-                    </div>
-                    <div class="section-title">Party (${t.team.length})</div>
-                    <div class="trainer-team">
-                        ${teamHtml}
-                    </div>
-                `;
                 
+                card.innerHTML = groupHtml;
                 grid.appendChild(card);
             });
         }
@@ -611,19 +619,42 @@
                 
                 const card = document.createElement('div');
                 card.className = 'card';
+                card.style.padding = '1rem';
+                card.style.cursor = 'pointer';
                 
-                card.innerHTML = `
-                    <div class="card-header">
-                        <h2 class="card-title">${a.name}</h2>
-                    </div>
-                    <div class="section-title" style="color: var(--text); margin-bottom: 1rem; font-style: italic;">
-                        "${a.description}"
-                    </div>
-                    <div class="section-title">Pokémon (${a.pokemon.length})</div>
-                    <div class="trainer-team" style="display: flex; flex-wrap: wrap; gap: 0.5rem; flex-direction: row;">
-                        ${a.pokemon.map(p => `<span class="pill" style="background-color: var(--bg); border-color: var(--border);">${p}</span>`).join('')}
+                let desc = a.description || '';
+                if (desc) {
+                    desc = desc.charAt(0).toUpperCase() + desc.slice(1).toLowerCase();
+                }
+                
+                let monsHtml = `
+                    <div class="ability-mons" style="display: none; margin-top: 1rem; border-top: 1px solid var(--border); padding-top: 1rem;">
+                        <div class="section-title" style="margin-top: 0; font-size: 0.8rem;">Pokémon (${a.pokemon.length})</div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
+                            ${a.pokemon.map(p => `<span class="pill" style="background-color: var(--bg); border-color: var(--border); padding: 0.2rem 0.4rem; font-size: 0.75rem;">${p}</span>`).join('')}
+                        </div>
                     </div>
                 `;
+                
+                card.innerHTML = `
+                    <div class="card-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <h2 class="card-title" style="margin: 0; font-size: 1.1rem;">${a.name}</h2>
+                        <span style="color: var(--muted); font-size: 0.75rem;">Click to expand</span>
+                    </div>
+                    <div style="color: var(--text); font-style: italic; font-size: 0.9rem;">
+                        "${desc}"
+                    </div>
+                    ${monsHtml}
+                `;
+                
+                card.onclick = function() {
+                    const monsDiv = this.querySelector('.ability-mons');
+                    if (monsDiv.style.display === 'none') {
+                        monsDiv.style.display = 'block';
+                    } else {
+                        monsDiv.style.display = 'none';
+                    }
+                };
                 
                 grid.appendChild(card);
             });
@@ -632,11 +663,32 @@
         function renderAreas(data) {
             const grid = document.getElementById('pokedexGrid');
             grid.innerHTML = '';
-             data.forEach(area => {
-                if (!area.encounters || Object.keys(area.encounters).length === 0) return;
+            
+            const targetAreas = [
+                "pallet town", "pallet town garden", "route 21 north", "route 1",
+                "seabreeze glade", "cerulean path", "hollowgrove", "cerulean city",
+                "strange house", "strange house backrooms", "viridian forest",
+                "abandoned lodge", "route 2", "viridian city", "mt moon 1f",
+                "mt moon ice caverns", "pewter city"
+            ];
+            
+            const areaDict = {};
+            data.forEach(area => {
+                let norm = area.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+                areaDict[norm] = area;
+            });
+            
+            targetAreas.forEach(tName => {
+                let normTarget = tName.toLowerCase().replace(/[^a-z0-9]/g, '');
+                if (normTarget.startsWith('pallete')) normTarget = normTarget.replace('pallete', 'pallet');
+                if (normTarget.includes('abandones')) normTarget = normTarget.replace('abandones', 'abandoned');
+                
+                const area = areaDict[normTarget];
+                if (!area || !area.encounters || Object.keys(area.encounters).length === 0) return;
                 
                 const card = document.createElement('div');
                 card.className = 'card';
+                card.style.padding = '1rem';
                 
                 let encountersHtml = '';
                 const typeLabels = {
@@ -651,16 +703,16 @@
                     if (mons.length === 0) continue;
                     const label = typeLabels[type] || type;
                     encountersHtml += `
-                        <div class="section-title" style="margin-top: 0.8rem; font-size: 0.9rem; color: var(--text-muted);">${label} Encounters</div>
-                        <div class="trainer-team" style="display: flex; flex-wrap: wrap; gap: 0.5rem; flex-direction: row; margin-top: 0.5rem;">
-                            ${mons.map(p => `<span class="pill" style="background-color: var(--bg); border-color: var(--border);">${p}</span>`).join('')}
+                        <div class="section-title" style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">${label}</div>
+                        <div class="trainer-team" style="display: flex; flex-wrap: wrap; gap: 0.3rem; flex-direction: row; margin-top: 0.3rem; padding-bottom: 0;">
+                            ${mons.map(p => `<span class="pill" style="background-color: var(--bg); border-color: var(--border); padding: 0.2rem 0.4rem; font-size: 0.75rem;">${p}</span>`).join('')}
                         </div>
                     `;
                 }
                 
                 card.innerHTML = `
-                    <div class="card-header">
-                        <h2 class="card-title">${area.name}</h2>
+                    <div class="card-header" style="margin-bottom: 0;">
+                        <h2 class="card-title" style="font-size: 1.1rem; margin: 0;">${area.name}</h2>
                     </div>
                     ${encountersHtml}
                 `;

@@ -42,7 +42,7 @@ const pokedexData = [
       },
       {
         "level": 6,
-        "move": "Growth"
+        "move": "Sweet Scent"
       },
       {
         "level": 9,
@@ -70,7 +70,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Sweet Scent"
+        "move": "Energy Ball"
       },
       {
         "level": 27,
@@ -87,10 +87,54 @@ const pokedexData = [
       {
         "level": 36,
         "move": "Solar Beam"
+      },
+      {
+        "level": 37,
+        "move": "Toxic"
+      },
+      {
+        "level": 40,
+        "move": "Leaf Storm"
       }
     ],
     "locations": [
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -124,10 +168,6 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Vine Whip"
-      },
-      {
-        "level": 1,
         "move": "Tackle"
       },
       {
@@ -136,7 +176,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Growth"
+        "move": "Vine Whip"
+      },
+      {
+        "level": 1,
+        "move": "Sweet Scent"
       },
       {
         "level": 9,
@@ -155,35 +199,80 @@ const pokedexData = [
         "move": "Sleep Powder"
       },
       {
-        "level": 20,
+        "level": 18,
         "move": "Seed Bomb"
       },
       {
-        "level": 25,
+        "level": 21,
         "move": "Take Down"
       },
       {
-        "level": 30,
-        "move": "Sweet Scent"
+        "level": 24,
+        "move": "Energy Ball"
       },
       {
-        "level": 35,
+        "level": 27,
         "move": "Synthesis"
       },
       {
-        "level": 40,
+        "level": 30,
         "move": "Worry Seed"
       },
       {
-        "level": 45,
+        "level": 33,
         "move": "Power Whip"
       },
       {
-        "level": 50,
+        "level": 36,
         "move": "Solar Beam"
+      },
+      {
+        "level": 37,
+        "move": "Toxic"
+      },
+      {
+        "level": 40,
+        "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VENUSAUR",
@@ -218,15 +307,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Growth"
-      },
-      {
-        "level": 1,
         "move": "Petal Dance"
       },
       {
         "level": 1,
-        "move": "Vine Whip"
+        "move": "Knock Off"
       },
       {
         "level": 1,
@@ -235,6 +320,14 @@ const pokedexData = [
       {
         "level": 1,
         "move": "Growl"
+      },
+      {
+        "level": 1,
+        "move": "Vine Whip"
+      },
+      {
+        "level": 1,
+        "move": "Sweet Scent"
       },
       {
         "level": 9,
@@ -246,42 +339,89 @@ const pokedexData = [
       },
       {
         "level": 15,
-        "move": "Sleep Powder"
-      },
-      {
-        "level": 15,
         "move": "Poison Powder"
       },
       {
-        "level": 20,
+        "level": 15,
+        "move": "Sleep Powder"
+      },
+      {
+        "level": 18,
         "move": "Seed Bomb"
       },
       {
-        "level": 25,
+        "level": 21,
         "move": "Take Down"
       },
       {
-        "level": 30,
-        "move": "Sweet Scent"
+        "level": 24,
+        "move": "Energy Ball"
       },
       {
-        "level": 37,
+        "level": 27,
         "move": "Synthesis"
       },
       {
-        "level": 44,
+        "level": 30,
         "move": "Worry Seed"
       },
       {
-        "level": 51,
+        "level": 33,
         "move": "Power Whip"
       },
       {
-        "level": 58,
+        "level": 36,
         "move": "Solar Beam"
+      },
+      {
+        "level": 37,
+        "move": "Toxic"
+      },
+      {
+        "level": 40,
+        "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHARMANDER",
@@ -360,7 +500,56 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHARMELEON",
@@ -435,7 +624,56 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHARIZARD",
@@ -444,7 +682,7 @@ const pokedexData = [
       "hp": 78,
       "atk": 84,
       "def": 78,
-      "spa": 0,
+      "spa": 109,
       "spd": 85,
       "spe": 100
     },
@@ -525,7 +763,62 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SQUIRTLE",
@@ -612,7 +905,55 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WARTORTLE",
@@ -699,7 +1040,55 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BLASTOISE",
@@ -709,7 +1098,7 @@ const pokedexData = [
       "atk": 83,
       "def": 100,
       "spa": 85,
-      "spd": 0,
+      "spd": 105,
       "spe": 78
     },
     "types": [
@@ -788,7 +1177,58 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CATERPIE",
@@ -836,6 +1276,10 @@ const pokedexData = [
       "Route24",
       "Route25",
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Snore",
+      "Unavailable"
     ]
   },
   {
@@ -873,6 +1317,9 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Pattern Bush"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -983,7 +1430,42 @@ const pokedexData = [
         "move": "Defog"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WEEDLE",
@@ -1032,6 +1514,9 @@ const pokedexData = [
       "Six Island Pattern Bush",
       "Route24",
       "Route25"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -1072,6 +1557,9 @@ const pokedexData = [
       "Six Island Pattern Bush",
       "Route24",
       "Route25"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -1182,7 +1670,42 @@ const pokedexData = [
         "move": "Fell Stinger"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PIDGEY",
@@ -1289,6 +1812,34 @@ const pokedexData = [
       "Route15",
       "Route24",
       "Route25"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -1396,6 +1947,34 @@ const pokedexData = [
       "Route13",
       "Route14",
       "Route15"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -1502,7 +2081,36 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RATTATA",
@@ -1600,6 +2208,46 @@ const pokedexData = [
       "Route17",
       "Route18",
       "Route22"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -1713,6 +2361,50 @@ const pokedexData = [
       "Route16",
       "Route17",
       "Route18"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -1801,6 +2493,38 @@ const pokedexData = [
       "Route1",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -1891,7 +2615,43 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RATICATE_ALOLA_TOTEM",
@@ -1977,7 +2737,8 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SPEAROW",
@@ -2080,6 +2841,33 @@ const pokedexData = [
       "Route22",
       "Route23",
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -2194,6 +2982,34 @@ const pokedexData = [
       "Route17",
       "Route18",
       "Route23"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -2213,10 +3029,6 @@ const pokedexData = [
     "abilities": [
       {
         "name": "Intimidate",
-        "is_hidden": false
-      },
-      {
-        "name": "Shed Skin",
         "is_hidden": false
       },
       {
@@ -2301,6 +3113,40 @@ const pokedexData = [
       "Route10",
       "Route11",
       "Route23"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -2320,10 +3166,6 @@ const pokedexData = [
     "abilities": [
       {
         "name": "Intimidate",
-        "is_hidden": false
-      },
-      {
-        "name": "Shed Skin",
         "is_hidden": false
       },
       {
@@ -2411,6 +3253,41 @@ const pokedexData = [
       "Victory Road 2F",
       "Victory Road 3F",
       "Route23"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -2468,6 +3345,47 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -2517,7 +3435,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU",
@@ -2525,7 +3444,7 @@ const pokedexData = [
     "stats": {
       "hp": 35,
       "atk": 55,
-      "def": 0,
+      "def": 40,
       "spa": 50,
       "spd": 50,
       "spe": 90
@@ -2574,6 +3493,53 @@ const pokedexData = [
     ],
     "locations": [
       "Power Plant"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -2627,7 +3593,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_ROCK_STAR",
@@ -2680,7 +3647,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_BELLE",
@@ -2733,7 +3701,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_POP_STAR",
@@ -2786,7 +3755,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_PHD",
@@ -2839,7 +3809,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_LIBRE",
@@ -2892,7 +3863,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_ORIGINAL",
@@ -2945,7 +3917,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_HOENN",
@@ -2998,7 +3971,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_SINNOH",
@@ -3051,7 +4025,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_UNOVA",
@@ -3104,7 +4079,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_KALOS",
@@ -3157,7 +4133,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_ALOLA",
@@ -3210,7 +4187,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_PARTNER",
@@ -3263,7 +4241,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_WORLD",
@@ -3316,7 +4295,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PIKACHU_STARTER",
@@ -3369,7 +4349,8 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_RAICHU",
@@ -3466,7 +4447,56 @@ const pokedexData = [
         "move": "Volt Switch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAICHU_ALOLA",
@@ -3576,7 +4606,50 @@ const pokedexData = [
         "move": "Thunderbolt"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Skill Swap",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDSHREW",
@@ -3675,7 +4748,51 @@ const pokedexData = [
         "move": "Earthquake"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDSLASH",
@@ -3776,7 +4893,52 @@ const pokedexData = [
         "move": "Earthquake"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDSHREW_ALOLA",
@@ -3795,11 +4957,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Snow Cloak",
+        "name": "Slush Rush",
         "is_hidden": false
       },
       {
-        "name": "Slush Rush",
+        "name": "Snow Cloak",
         "is_hidden": true
       }
     ],
@@ -3870,6 +5032,49 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -3889,11 +5094,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Snow Cloak",
+        "name": "Slush Rush",
         "is_hidden": false
       },
       {
-        "name": "Slush Rush",
+        "name": "Snow Cloak",
         "is_hidden": true
       }
     ],
@@ -3932,7 +5137,51 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NIDORAN_F",
@@ -4022,6 +5271,45 @@ const pokedexData = [
     "locations": [
       "Safari Zone East",
       "Safari Zone West"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -4112,6 +5400,45 @@ const pokedexData = [
     "locations": [
       "Safari Zone Center",
       "Safari Zone North Frlg"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -4210,7 +5537,68 @@ const pokedexData = [
         "move": "Tail Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NIDORAN_M",
@@ -4303,6 +5691,44 @@ const pokedexData = [
       "Safari Zone North Frlg",
       "Safari Zone West",
       "Route3"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -4395,6 +5821,44 @@ const pokedexData = [
       "Safari Zone East",
       "Safari Zone North Frlg",
       "Safari Zone West"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -4493,7 +5957,67 @@ const pokedexData = [
         "move": "Focus Energy"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CLEFFA",
@@ -4560,7 +6084,60 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CLEFAIRY",
@@ -4681,6 +6258,70 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon B2F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -4798,7 +6439,72 @@ const pokedexData = [
         "move": "Life Dew"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VULPIX",
@@ -4892,6 +6598,37 @@ const pokedexData = [
     "locations": [
       "Route1",
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -4957,7 +6694,43 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VULPIX_ALOLA",
@@ -5046,6 +6819,37 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -5104,7 +6908,42 @@ const pokedexData = [
         "move": "Aurora Veil"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IGGLYBUFF",
@@ -5172,7 +7011,52 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JIGGLYPUFF",
@@ -5290,6 +7174,68 @@ const pokedexData = [
     ],
     "locations": [
       "Route3"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -5299,7 +7245,7 @@ const pokedexData = [
       "hp": 140,
       "atk": 70,
       "def": 45,
-      "spa": 0,
+      "spa": 50,
       "spd": 50,
       "spe": 45
     },
@@ -5408,7 +7354,70 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZUBAT",
@@ -5529,6 +7538,39 @@ const pokedexData = [
       "Five Island Lost Cave Room14",
       "Six Island Altering Cave",
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -5647,6 +7689,40 @@ const pokedexData = [
       "Five Island Lost Cave Room12",
       "Five Island Lost Cave Room13",
       "Five Island Lost Cave Room14"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -5741,7 +7817,41 @@ const pokedexData = [
         "move": "Tailwind"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ODDISH",
@@ -5838,6 +7948,34 @@ const pokedexData = [
       "Route2 2",
       "Seabreeze Glade",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -5928,6 +8066,34 @@ const pokedexData = [
       "Route13",
       "Route14",
       "Route15"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -5994,7 +8160,38 @@ const pokedexData = [
         "move": "Petal Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BELLOSSOM",
@@ -6059,7 +8256,36 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PARAS",
@@ -6155,6 +8381,43 @@ const pokedexData = [
       "Safari Zone East",
       "Safari Zone North Frlg",
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -6259,6 +8522,44 @@ const pokedexData = [
       "Cerulean Cave 1F",
       "Cerulean Cave 2F",
       "Cerulean Cave B1F"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -6356,6 +8657,35 @@ const pokedexData = [
       "Route13",
       "Route14",
       "Route15"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -6454,6 +8784,39 @@ const pokedexData = [
       "Safari Zone North Frlg",
       "Safari Zone West",
       "Three Island Berry Forest"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -6543,6 +8906,38 @@ const pokedexData = [
     ],
     "locations": [
       "Digletts Cave B1F"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -6642,6 +9037,39 @@ const pokedexData = [
     ],
     "locations": [
       "Digletts Cave B1F"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -6730,7 +9158,36 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUGTRIO_ALOLA",
@@ -6828,7 +9285,38 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEOWTH",
@@ -6916,6 +9404,48 @@ const pokedexData = [
       "Route6",
       "Route7",
       "Route8"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -7019,6 +9549,50 @@ const pokedexData = [
       "Six Island Ruin Valley",
       "Seven Island Sevault Canyon Entrance",
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -7112,6 +9686,44 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -7217,7 +9829,47 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEOWTH_GALAR",
@@ -7306,6 +9958,36 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -7403,7 +10085,38 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PSYDUCK",
@@ -7541,6 +10254,60 @@ const pokedexData = [
       "Four Island",
       "Five Island",
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Skill Swap",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -7643,6 +10410,62 @@ const pokedexData = [
       "Seafoam Islands B4F",
       "Three Island Berry Forest",
       "Two Island Cape Brink"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Skill Swap",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -7737,6 +10560,56 @@ const pokedexData = [
       "Route4",
       "Route22",
       "Route23"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -7836,6 +10709,57 @@ const pokedexData = [
       "Victory Road 2F",
       "Cerulean Cave 1F",
       "Route23"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -7930,7 +10854,45 @@ const pokedexData = [
         "move": "Rage Fist"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROWLITHE",
@@ -8033,6 +10995,41 @@ const pokedexData = [
       "Route7",
       "Route8",
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -8094,7 +11091,44 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROWLITHE_HISUI",
@@ -8190,7 +11224,34 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCANINE_HISUI",
@@ -8300,7 +11361,37 @@ const pokedexData = [
         "move": "Raging Fury"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POLIWAG",
@@ -8396,6 +11487,42 @@ const pokedexData = [
       "Route25",
       "Fuchsia City",
       "Four Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -8488,6 +11615,53 @@ const pokedexData = [
       "Route23",
       "Route25",
       "Four Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -8574,7 +11748,60 @@ const pokedexData = [
         "move": "Hypnosis"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POLITOED",
@@ -8667,7 +11894,56 @@ const pokedexData = [
         "move": "Rain Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ABRA",
@@ -8709,6 +11985,55 @@ const pokedexData = [
     "locations": [
       "Route24",
       "Route25"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -8808,6 +12133,56 @@ const pokedexData = [
     "locations": [
       "Cerulean Cave 2F",
       "Cerulean Cave B1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -8818,7 +12193,7 @@ const pokedexData = [
       "atk": 50,
       "def": 45,
       "spa": 135,
-      "spd": 0,
+      "spd": 135,
       "spe": 120
     },
     "types": [
@@ -8897,7 +12272,58 @@ const pokedexData = [
         "move": "Calm Mind"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MACHOP",
@@ -9003,6 +12429,50 @@ const pokedexData = [
       "Mt Ember Summit Path 2F",
       "Mt Ember Summit Path 3F",
       "Mt Ember Ruby Path 1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -9112,6 +12582,50 @@ const pokedexData = [
       "Cerulean Cave B1F",
       "Mt Ember Summit Path 2F",
       "Mt Ember Ruby Path 1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -9221,7 +12735,52 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BELLSPROUT",
@@ -9305,7 +12864,36 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WEEPINBELL",
@@ -9389,7 +12977,38 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VICTREEBEL",
@@ -9399,7 +13018,7 @@ const pokedexData = [
       "atk": 105,
       "def": 65,
       "spa": 100,
-      "spd": 0,
+      "spd": 100,
       "spe": 70
     },
     "types": [
@@ -9463,7 +13082,39 @@ const pokedexData = [
         "move": "Leaf Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TENTACOOL",
@@ -9585,6 +13236,43 @@ const pokedexData = [
       "Cinnabar Island",
       "One Island",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -9695,6 +13383,44 @@ const pokedexData = [
       "Seven Island Tanoby Ruins",
       "One Island",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -9810,6 +13536,49 @@ const pokedexData = [
       "Seven Island Sevault Canyon",
       "Hollowgrove",
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -9917,6 +13686,49 @@ const pokedexData = [
       "Mt Ember Ruby Path B2F Stairs",
       "One Island Kindle Road",
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -10019,7 +13831,54 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GEODUDE_ALOLA",
@@ -10109,6 +13968,48 @@ const pokedexData = [
     ],
     "locations": [
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -10202,7 +14103,51 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOLEM_ALOLA",
@@ -10300,7 +14245,54 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PONYTA",
@@ -10391,6 +14383,35 @@ const pokedexData = [
       "Mt Ember Exterior",
       "One Island Kindle Road",
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -10495,6 +14516,37 @@ const pokedexData = [
     "locations": [
       "Mt Ember Exterior",
       "One Island Kindle Road"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -10582,7 +14634,31 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAPIDASH_GALAR",
@@ -10684,7 +14760,33 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWPOKE",
@@ -10790,7 +14892,54 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWBRO",
@@ -10900,7 +15049,67 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWKING",
@@ -11018,7 +15227,70 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWPOKE_GALAR",
@@ -11122,7 +15394,45 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWBRO_GALAR",
@@ -11232,7 +15542,57 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLOWKING_GALAR",
@@ -11362,7 +15722,57 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGNEMITE",
@@ -11461,6 +15871,36 @@ const pokedexData = [
     "locations": [
       "Power Plant",
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -11566,6 +16006,37 @@ const pokedexData = [
       "Cerulean Cave 2F",
       "Cerulean Cave B1F",
       "Power Plant"
+    ],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -11668,7 +16139,39 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FARFETCHD",
@@ -11762,7 +16265,41 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FARFETCHD_GALAR",
@@ -11853,7 +16390,32 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Defog",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SIRFETCHD",
@@ -11958,7 +16520,32 @@ const pokedexData = [
         "move": "Meteor Assault"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Defog",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DODUO",
@@ -12052,6 +16639,36 @@ const pokedexData = [
       "Route16",
       "Route17",
       "Route18"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -12142,7 +16759,40 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEEL",
@@ -12254,6 +16904,39 @@ const pokedexData = [
       "Four Island Icefall Cave 1F",
       "Four Island Icefall Cave B1F",
       "Four Island Icefall Cave Back"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -12361,6 +17044,40 @@ const pokedexData = [
       "Seafoam Islands B4F",
       "Four Island Icefall Cave Entrance",
       "Four Island Icefall Cave Back"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -12466,6 +17183,49 @@ const pokedexData = [
       "Pokemon Mansion 3F",
       "Pokemon Mansion B1F",
       "Celadon City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -12563,7 +17323,55 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRIMER_ALOLA",
@@ -12663,7 +17471,50 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUK_ALOLA",
@@ -12761,7 +17612,52 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHELLDER",
@@ -12863,6 +17759,37 @@ const pokedexData = [
       "Palette Town Garden",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -12929,7 +17856,42 @@ const pokedexData = [
         "move": "Liquidation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GASTLY",
@@ -13033,6 +17995,44 @@ const pokedexData = [
       "Five Island Lost Cave Room12",
       "Five Island Lost Cave Room13",
       "Five Island Lost Cave Room14"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -13141,6 +18141,45 @@ const pokedexData = [
       "Five Island Lost Cave Room12",
       "Five Island Lost Cave Room13",
       "Five Island Lost Cave Room14"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -13151,7 +18190,7 @@ const pokedexData = [
       "atk": 65,
       "def": 60,
       "spa": 130,
-      "spd": 0,
+      "spd": 75,
       "spe": 110
     },
     "types": [
@@ -13230,7 +18269,59 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ONIX",
@@ -13336,6 +18427,42 @@ const pokedexData = [
       "Rock Tunnel 1F",
       "Rock Tunnel B1F",
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -13438,7 +18565,45 @@ const pokedexData = [
         "move": "High Horsepower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DROWZEE",
@@ -13532,6 +18697,55 @@ const pokedexData = [
     "locations": [
       "Three Island Berry Forest",
       "Route11"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -13627,6 +18841,56 @@ const pokedexData = [
     ],
     "locations": [
       "Three Island Berry Forest"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -13734,6 +18998,45 @@ const pokedexData = [
       "Cerulean City",
       "Vermilion City",
       "Cinnabar Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -13831,7 +19134,47 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VOLTORB",
@@ -13942,6 +19285,38 @@ const pokedexData = [
       "Power Plant",
       "Route10",
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -14059,6 +19434,39 @@ const pokedexData = [
       "Cerulean Cave 1F",
       "Cerulean Cave 2F",
       "Cerulean Cave B1F"
+    ],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -14163,7 +19571,34 @@ const pokedexData = [
         "move": "Grassy Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ELECTRODE_HISUI",
@@ -14269,7 +19704,35 @@ const pokedexData = [
         "move": "Grassy Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EXEGGCUTE",
@@ -14359,6 +19822,42 @@ const pokedexData = [
       "Safari Zone North Frlg",
       "Safari Zone West",
       "Three Island Berry Forest"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -14465,7 +19964,47 @@ const pokedexData = [
         "move": "Giga Drain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EXEGGUTOR_ALOLA",
@@ -14571,7 +20110,47 @@ const pokedexData = [
         "move": "Absorb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CUBONE",
@@ -14589,15 +20168,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Rock Head",
+        "name": "Battle Armor",
         "is_hidden": false
       },
       {
         "name": "Lightning Rod",
-        "is_hidden": false
-      },
-      {
-        "name": "Battle Armor",
         "is_hidden": true
       }
     ],
@@ -14671,6 +20246,54 @@ const pokedexData = [
       "Pokemon Tower 6F",
       "Pokemon Tower 7F",
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -14689,15 +20312,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Rock Head",
+        "name": "Battle Armor",
         "is_hidden": false
       },
       {
         "name": "Lightning Rod",
-        "is_hidden": false
-      },
-      {
-        "name": "Battle Armor",
         "is_hidden": true
       }
     ],
@@ -14769,6 +20388,55 @@ const pokedexData = [
       "Victory Road 2F",
       "Victory Road 3F",
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -14883,7 +20551,55 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAROWAK_ALOLA_TOTEM",
@@ -14989,7 +20705,8 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TYROGUE",
@@ -15040,7 +20757,42 @@ const pokedexData = [
         "move": "Helping Hand"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HITMONLEE",
@@ -15145,7 +20897,48 @@ const pokedexData = [
         "move": "Axe Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HITMONCHAN",
@@ -15254,7 +21047,51 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HITMONTOP",
@@ -15359,7 +21196,45 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LICKITUNG",
@@ -15442,7 +21317,66 @@ const pokedexData = [
         "move": "Belly Drum"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LICKILICKY",
@@ -15523,7 +21457,64 @@ const pokedexData = [
         "move": "Belly Drum"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KOFFING",
@@ -15624,6 +21615,40 @@ const pokedexData = [
       "Pokemon Mansion 3F",
       "Pokemon Mansion B1F",
       "Celadon City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -15730,6 +21755,41 @@ const pokedexData = [
       "Pokemon Mansion 2F",
       "Pokemon Mansion 3F",
       "Pokemon Mansion B1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -15852,7 +21912,39 @@ const pokedexData = [
         "move": "Misty Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Defog",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RHYHORN",
@@ -15947,6 +22039,48 @@ const pokedexData = [
     "locations": [
       "Safari Zone Center",
       "Safari Zone North Frlg"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -16044,7 +22178,62 @@ const pokedexData = [
         "move": "Horn Drill"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RHYPERIOR",
@@ -16142,7 +22331,60 @@ const pokedexData = [
         "move": "Rock Wrecker"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HAPPINY",
@@ -16205,7 +22447,49 @@ const pokedexData = [
         "move": "Charm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHANSEY",
@@ -16322,6 +22606,73 @@ const pokedexData = [
     ],
     "locations": [
       "Safari Zone North Frlg"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -16435,7 +22786,73 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TANGELA",
@@ -16529,6 +22946,40 @@ const pokedexData = [
     "locations": [
       "One Island Treasure Beach",
       "Route21 South"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -16630,7 +23081,47 @@ const pokedexData = [
         "move": "Rage Powder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KANGASKHAN",
@@ -16725,6 +23216,64 @@ const pokedexData = [
     ],
     "locations": [
       "Safari Zone East"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -16842,6 +23391,34 @@ const pokedexData = [
       "Five Island",
       "Cerulean City Frlg 2",
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -16950,6 +23527,35 @@ const pokedexData = [
       "Cinnabar Island",
       "One Island",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -17048,7 +23654,37 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOLDEEN",
@@ -17150,6 +23786,40 @@ const pokedexData = [
       "Fuchsia City",
       "Four Island",
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -17246,6 +23916,40 @@ const pokedexData = [
       "Safari Zone West",
       "Three Island Berry Forest",
       "Fuchsia City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -17345,7 +24049,46 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STARMIE",
@@ -17443,7 +24186,50 @@ const pokedexData = [
         "move": "Confuse Ray"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bulk Up",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MIME_JR",
@@ -17547,7 +24333,49 @@ const pokedexData = [
         "move": "Teeter Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MR_MIME",
@@ -17665,7 +24493,62 @@ const pokedexData = [
         "move": "Teeter Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MR_MIME_GALAR",
@@ -17805,7 +24688,47 @@ const pokedexData = [
         "move": "Teeter Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MR_RIME",
@@ -17959,7 +24882,47 @@ const pokedexData = [
         "move": "Teeter Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCYTHER",
@@ -18051,6 +25014,41 @@ const pokedexData = [
     ],
     "locations": [
       "Safari Zone Center"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -18153,7 +25151,43 @@ const pokedexData = [
         "move": "Swords Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KLEAVOR",
@@ -18243,7 +25277,37 @@ const pokedexData = [
         "move": "Swords Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SMOOCHUM",
@@ -18335,7 +25399,50 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JYNX",
@@ -18429,7 +25536,55 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ELEKID",
@@ -18516,7 +25671,50 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ELECTABUZZ",
@@ -18610,6 +25808,55 @@ const pokedexData = [
     ],
     "locations": [
       "Power Plant"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -18699,7 +25946,60 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGBY",
@@ -18786,7 +26086,45 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGMAR",
@@ -18878,7 +26216,50 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGMORTAR",
@@ -18967,7 +26348,54 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PINSIR",
@@ -19060,7 +26488,44 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAUROS",
@@ -19151,6 +26616,48 @@ const pokedexData = [
     ],
     "locations": [
       "Safari Zone West"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -19240,7 +26747,32 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAUROS_PALDEA_BLAZE",
@@ -19330,7 +26862,34 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAUROS_PALDEA_AQUA",
@@ -19420,7 +26979,33 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGIKARP",
@@ -19511,6 +27096,9 @@ const pokedexData = [
       "One Island",
       "Four Island",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -19660,6 +27248,48 @@ const pokedexData = [
       "One Island",
       "Four Island",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -19756,6 +27386,49 @@ const pokedexData = [
     ],
     "locations": [
       "Four Island Icefall Cave Back"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -19797,6 +27470,9 @@ const pokedexData = [
       "Route13",
       "Route14",
       "Route15"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -19806,7 +27482,7 @@ const pokedexData = [
       "hp": 55,
       "atk": 55,
       "def": 50,
-      "spa": 0,
+      "spa": 45,
       "spd": 65,
       "spe": 55
     },
@@ -19886,7 +27562,36 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EEVEE_STARTER",
@@ -19983,7 +27688,8 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_VAPOREON",
@@ -20108,7 +27814,48 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JOLTEON",
@@ -20233,7 +27980,45 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLAREON",
@@ -20354,7 +28139,44 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ESPEON",
@@ -20475,7 +28297,47 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_UMBREON",
@@ -20600,7 +28462,50 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LEAFEON",
@@ -20725,7 +28630,46 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLACEON",
@@ -20846,7 +28790,44 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SYLVEON",
@@ -20967,7 +28948,46 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PORYGON",
@@ -21059,7 +29079,45 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PORYGON2",
@@ -21155,7 +29213,45 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PORYGON_Z",
@@ -21260,7 +29356,45 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OMANYTE",
@@ -21358,6 +29492,42 @@ const pokedexData = [
     ],
     "locations": [
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -21460,7 +29630,45 @@ const pokedexData = [
         "move": "Meteor Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KABUTO",
@@ -21554,6 +29762,44 @@ const pokedexData = [
     ],
     "locations": [
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -21652,7 +29898,53 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AERODACTYL",
@@ -21742,7 +30034,47 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUNCHLAX",
@@ -21841,7 +30173,60 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNORLAX",
@@ -21982,7 +30367,65 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARTICUNO",
@@ -22076,7 +30519,42 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARTICUNO_GALAR",
@@ -22162,7 +30640,34 @@ const pokedexData = [
         "move": "Trick Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Steel Wing",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZAPDOS",
@@ -22256,7 +30761,42 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZAPDOS_GALAR",
@@ -22346,7 +30886,35 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MOLTRES",
@@ -22440,7 +31008,41 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MOLTRES_GALAR",
@@ -22530,7 +31132,31 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRATINI",
@@ -22622,6 +31248,46 @@ const pokedexData = [
       "Safari Zone East",
       "Safari Zone North Frlg",
       "Safari Zone West"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -22714,6 +31380,46 @@ const pokedexData = [
       "Safari Zone East",
       "Safari Zone North Frlg",
       "Safari Zone West"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -22824,7 +31530,71 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEWTWO",
@@ -22917,7 +31687,74 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEW",
@@ -22990,7 +31827,101 @@ const pokedexData = [
         "move": "Psychic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hail",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rain Dance",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Sandstorm",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Sunny Day",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHIKORITA",
@@ -23077,7 +32008,41 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BAYLEEF",
@@ -23164,7 +32129,43 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CYNDAQUIL",
@@ -23259,7 +32260,40 @@ const pokedexData = [
         "move": "Eruption"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QUILAVA",
@@ -23354,7 +32388,45 @@ const pokedexData = [
         "move": "Eruption"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYPHLOSION",
@@ -23451,7 +32523,58 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYPHLOSION_HISUI",
@@ -23553,7 +32676,44 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOTODILE",
@@ -23640,7 +32800,53 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CROCONAW",
@@ -23727,7 +32933,57 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FERALIGATR",
@@ -23816,7 +33072,59 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SENTRET",
@@ -23914,6 +33222,53 @@ const pokedexData = [
       "Route1",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -24023,7 +33378,57 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HOOTHOOT",
@@ -24119,7 +33524,43 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NOCTOWL",
@@ -24217,7 +33658,45 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LEDYBA",
@@ -24310,7 +33789,47 @@ const pokedexData = [
       }
     ],
     "locations": [
-      "Six Island Pattern Bush"
+      "Six Island Pattern Bush",
+      "Pewter City"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -24345,6 +33864,10 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
+        "level": 0,
+        "move": "Tailwind"
+      },
+      {
         "level": 1,
         "move": "Tackle"
       },
@@ -24357,23 +33880,15 @@ const pokedexData = [
         "move": "Swift"
       },
       {
-        "level": 5,
-        "move": "Supersonic"
-      },
-      {
-        "level": 8,
-        "move": "Swift"
-      },
-      {
-        "level": 12,
+        "level": 1,
         "move": "Light Screen"
       },
       {
-        "level": 12,
+        "level": 1,
         "move": "Reflect"
       },
       {
-        "level": 12,
+        "level": 1,
         "move": "Safeguard"
       },
       {
@@ -24381,36 +33896,77 @@ const pokedexData = [
         "move": "Mach Punch"
       },
       {
-        "level": 20,
-        "move": "Roost"
+        "level": 19,
+        "move": "Defog"
       },
       {
-        "level": 24,
-        "move": "Struggle Bug"
+        "level": 22,
+        "move": "Comet Punch"
+      },
+      {
+        "level": 26,
+        "move": "Encore"
       },
       {
         "level": 29,
-        "move": "Baton Pass"
-      },
-      {
-        "level": 33,
         "move": "Agility"
       },
       {
-        "level": 38,
+        "level": 33,
         "move": "Bug Buzz"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Air Slash"
       },
       {
-        "level": 47,
+        "level": 40,
         "move": "Double Edge"
       }
     ],
-    "locations": [
-      "Pewter City"
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -24513,6 +34069,34 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Pattern Bush"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -24627,7 +34211,37 @@ const pokedexData = [
         "move": "Toxic Thread"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHINCHOU",
@@ -24715,7 +34329,39 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LANTURN",
@@ -24817,7 +34463,40 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOGEPI",
@@ -24912,7 +34591,55 @@ const pokedexData = [
         "move": "Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOGETIC",
@@ -25016,7 +34743,61 @@ const pokedexData = [
         "move": "Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Soft Boiled",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOGEKISS",
@@ -25138,7 +34919,57 @@ const pokedexData = [
         "move": "Life Dew"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NATU",
@@ -25224,6 +35055,43 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Ruin Valley"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -25318,7 +35186,47 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAREEP",
@@ -25411,6 +35319,39 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -25502,7 +35443,53 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AMPHAROS",
@@ -25611,7 +35598,54 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AZURILL",
@@ -25686,6 +35720,39 @@ const pokedexData = [
       "Route2 2",
       "Cerulean City Frlg 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -25798,7 +35865,52 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AZUMARILL",
@@ -25900,7 +36012,53 @@ const pokedexData = [
         "move": "Aqua Tail"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BONSLY",
@@ -25943,8 +36101,8 @@ const pokedexData = [
         "move": "Copycat"
       },
       {
-        "level": 4,
-        "move": "Flail"
+        "level": 5,
+        "move": "Reversal"
       },
       {
         "level": 8,
@@ -25952,7 +36110,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Block"
+        "move": "Low Kick"
       },
       {
         "level": 16,
@@ -25964,7 +36122,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Tearful Look"
+        "move": "Accelerock"
       },
       {
         "level": 28,
@@ -25975,20 +36133,54 @@ const pokedexData = [
         "move": "Rock Slide"
       },
       {
-        "level": 36,
-        "move": "Low Kick"
-      },
-      {
         "level": 40,
         "move": "Counter"
       },
       {
         "level": 44,
-        "move": "Double Edge"
+        "move": "Earthquake"
+      },
+      {
+        "level": 55,
+        "move": "Stone Edge"
       }
     ],
     "locations": [
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -26022,16 +36214,12 @@ const pokedexData = [
     "evolutions": [],
     "learnset": [
       {
-        "level": 0,
-        "move": "Slam"
+        "level": 1,
+        "move": "Fake Tears"
       },
       {
         "level": 1,
-        "move": "Wood Hammer"
-      },
-      {
-        "level": 1,
-        "move": "Stone Edge"
+        "move": "Explosion"
       },
       {
         "level": 1,
@@ -26039,23 +36227,31 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Hammer Arm"
+        "move": "Wood Hammer"
       },
       {
         "level": 1,
-        "move": "Flail"
+        "move": "Block"
       },
       {
         "level": 1,
-        "move": "Fake Tears"
+        "move": "Rock Polish"
       },
       {
         "level": 1,
+        "move": "Trailblaze"
+      },
+      {
+        "level": 5,
         "move": "Rock Throw"
       },
       {
+        "level": 8,
+        "move": "Headbutt"
+      },
+      {
         "level": 12,
-        "move": "Block"
+        "move": "Low Sweep"
       },
       {
         "level": 16,
@@ -26067,7 +36263,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Tearful Look"
+        "move": "Low Kick"
       },
       {
         "level": 28,
@@ -26079,7 +36275,7 @@ const pokedexData = [
       },
       {
         "level": 36,
-        "move": "Low Kick"
+        "move": "Reversal"
       },
       {
         "level": 40,
@@ -26087,14 +36283,65 @@ const pokedexData = [
       },
       {
         "level": 44,
-        "move": "Double Edge"
+        "move": "Earthquake"
       },
       {
-        "level": 48,
+        "level": 55,
+        "move": "Stone Edge"
+      },
+      {
+        "level": 60,
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HOPPIP",
@@ -26204,6 +36451,37 @@ const pokedexData = [
       "Five Island Meadow",
       "Five Island Memorial Pillar",
       "Five Island"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -26308,7 +36586,38 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JUMPLUFF",
@@ -26410,7 +36719,39 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AIPOM",
@@ -26503,6 +36844,59 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -26592,7 +36986,55 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SUNKERN",
@@ -26681,6 +37123,36 @@ const pokedexData = [
     ],
     "locations": [
       "Viridian Forest"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -26782,7 +37254,38 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_YANMA",
@@ -26880,6 +37383,39 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Ruin Valley"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -26978,7 +37514,42 @@ const pokedexData = [
         "move": "U Turn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WOOPER",
@@ -27070,6 +37641,50 @@ const pokedexData = [
       "Four Island Icefall Cave Entrance",
       "Six Island Ruin Valley",
       "Four Island"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -27156,7 +37771,59 @@ const pokedexData = [
         "move": "Earthquake"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WOOPER_PALDEA",
@@ -27179,11 +37846,11 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Water Absorb",
+        "name": "Unaware",
         "is_hidden": false
       },
       {
-        "name": "Unaware",
+        "name": "Water Absorb",
         "is_hidden": true
       }
     ],
@@ -27254,6 +37921,34 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
     ]
   },
   {
@@ -27277,11 +37972,11 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Water Absorb",
+        "name": "Unaware",
         "is_hidden": false
       },
       {
-        "name": "Unaware",
+        "name": "Water Absorb",
         "is_hidden": true
       }
     ],
@@ -27348,7 +38043,36 @@ const pokedexData = [
         "move": "Gunk Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MURKROW",
@@ -27451,6 +38175,45 @@ const pokedexData = [
       "Five Island Lost Cave Room12",
       "Five Island Lost Cave Room13",
       "Five Island Lost Cave Room14"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -27529,7 +38292,46 @@ const pokedexData = [
         "move": "Comeuppance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MISDREAVUS",
@@ -27606,6 +38408,46 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -27655,7 +38497,45 @@ const pokedexData = [
         "move": "Mystical Fire"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WYNAUT",
@@ -27718,7 +38598,12 @@ const pokedexData = [
         "move": "Amnesia"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Safeguard",
+      "Counter",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WOBBUFFET",
@@ -27799,6 +38684,11 @@ const pokedexData = [
       "Cerulean Cave 1F",
       "Cerulean Cave 2F",
       "Six Island Ruin Valley"
+    ],
+    "tm_moves": [
+      "Safeguard",
+      "Counter",
+      "Unavailable"
     ]
   },
   {
@@ -27905,6 +38795,48 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -28007,7 +38939,38 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PINECO",
@@ -28096,6 +39059,43 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -28198,7 +39198,46 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUNSPARCE",
@@ -28295,6 +39334,54 @@ const pokedexData = [
     ],
     "locations": [
       "Three Island Port"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -28396,7 +39483,8 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DUDUNSPARCE_THREE_SEGMENT",
@@ -28497,7 +39585,8 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GLIGAR",
@@ -28589,7 +39678,49 @@ const pokedexData = [
         "move": "Swords Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Steel Wing",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLISCOR",
@@ -28687,7 +39818,49 @@ const pokedexData = [
         "move": "Swords Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Steel Wing",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNUBBULL",
@@ -28786,6 +39959,61 @@ const pokedexData = [
       "Route1",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -28879,7 +40107,66 @@ const pokedexData = [
         "move": "Roar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QWILFISH",
@@ -28898,7 +40185,7 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Poison Point",
+        "name": "Intimidate",
         "is_hidden": false
       },
       {
@@ -28906,7 +40193,7 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Intimidate",
+        "name": "Adaptability",
         "is_hidden": true
       }
     ],
@@ -28997,6 +40284,44 @@ const pokedexData = [
       "Seven Island Tanoby Ruins",
       "Route2",
       "Viridian City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -29016,7 +40341,7 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Poison Point",
+        "name": "Intimidate",
         "is_hidden": false
       },
       {
@@ -29024,7 +40349,7 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Intimidate",
+        "name": "Adaptability",
         "is_hidden": true
       }
     ],
@@ -29101,7 +40426,35 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OVERQWIL",
@@ -29203,7 +40556,36 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHUCKLE",
@@ -29303,6 +40685,39 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -29399,6 +40814,46 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Pattern Bush"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -29419,10 +40874,6 @@ const pokedexData = [
     "abilities": [
       {
         "name": "Inner Focus",
-        "is_hidden": false
-      },
-      {
-        "name": "Keen Eye",
         "is_hidden": false
       },
       {
@@ -29493,6 +40944,58 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -29512,7 +41015,7 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Pressure",
+        "name": "Inner Focus",
         "is_hidden": false
       },
       {
@@ -29583,7 +41086,58 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Counter",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNEASEL_HISUI",
@@ -29671,7 +41225,37 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNEASLER",
@@ -29765,7 +41349,41 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TEDDIURSA",
@@ -29862,6 +41480,57 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -29965,7 +41634,59 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_URSALUNA",
@@ -30071,7 +41792,46 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_URSALUNA_BLOODMOON",
@@ -30165,7 +41925,43 @@ const pokedexData = [
         "move": "Blood Moon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLUGMA",
@@ -30266,6 +42062,39 @@ const pokedexData = [
       "Mt Ember Ruby Path B3F",
       "Mt Ember Ruby Path B1F Stairs",
       "Mt Ember Ruby Path B2F Stairs"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -30366,6 +42195,43 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Ember Ruby Path B3F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -30385,15 +42251,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Oblivious",
+        "name": "Thick Fat",
         "is_hidden": false
       },
       {
         "name": "Snow Cloak",
-        "is_hidden": false
-      },
-      {
-        "name": "Thick Fat",
         "is_hidden": true
       }
     ],
@@ -30454,6 +42316,42 @@ const pokedexData = [
       "Four Island Icefall Cave 1F",
       "Four Island Icefall Cave B1F",
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -30473,15 +42371,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Oblivious",
+        "name": "Thick Fat",
         "is_hidden": false
       },
       {
         "name": "Snow Cloak",
-        "is_hidden": false
-      },
-      {
-        "name": "Thick Fat",
         "is_hidden": true
       }
     ],
@@ -30550,7 +42444,44 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAMOSWINE",
@@ -30569,15 +42500,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Oblivious",
+        "name": "Thick Fat",
         "is_hidden": false
       },
       {
         "name": "Snow Cloak",
-        "is_hidden": false
-      },
-      {
-        "name": "Thick Fat",
         "is_hidden": true
       }
     ],
@@ -30652,7 +42579,44 @@ const pokedexData = [
         "move": "Headlong Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CORSOLA",
@@ -30738,7 +42702,49 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CORSOLA_GALAR",
@@ -30821,7 +42827,41 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CURSOLA",
@@ -30906,7 +42946,42 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REMORAID",
@@ -30993,7 +43068,45 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bullet Seed",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OCTILLERY",
@@ -31098,7 +43211,47 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bullet Seed",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DELIBIRD",
@@ -31143,6 +43296,49 @@ const pokedexData = [
     "locations": [
       "Four Island Icefall Cave 1F",
       "Four Island Icefall Cave B1F"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -31237,7 +43433,40 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MANTINE",
@@ -31339,7 +43568,45 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Bullet Seed",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKARMORY",
@@ -31435,6 +43702,46 @@ const pokedexData = [
     ],
     "locations": [
       "Seven Island Sevault Canyon"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -31534,6 +43841,44 @@ const pokedexData = [
     "locations": [
       "Route21 North",
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -31628,7 +43973,47 @@ const pokedexData = [
         "move": "Inferno"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PHANPY",
@@ -31713,6 +44098,41 @@ const pokedexData = [
       "Seven Island Sevault Canyon Entrance",
       "Seven Island Sevault Canyon",
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -31794,7 +44214,43 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STANTLER",
@@ -31883,6 +44339,49 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -31977,7 +44476,41 @@ const pokedexData = [
         "move": "Megahorn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SMEARGLE",
@@ -32052,6 +44585,9 @@ const pokedexData = [
     ],
     "locations": [
       "Six Island Altering Cave"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -32137,7 +44673,61 @@ const pokedexData = [
         "move": "High Horsepower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAIKOU",
@@ -32238,7 +44828,46 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ENTEI",
@@ -32343,7 +44972,45 @@ const pokedexData = [
         "move": "Eruption"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SUICUNE",
@@ -32448,7 +45115,46 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LARVITAR",
@@ -32555,6 +45261,38 @@ const pokedexData = [
     "locations": [
       "Seven Island Sevault Canyon",
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -32655,7 +45393,40 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYRANITAR",
@@ -32777,7 +45548,65 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUGIA",
@@ -32867,7 +45696,61 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Calm Mind",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Steel Wing",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HO_OH",
@@ -32957,7 +45840,56 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CELEBI",
@@ -33031,7 +45963,49 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TREECKO",
@@ -33122,7 +46096,54 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROVYLE",
@@ -33229,7 +46250,54 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCEPTILE",
@@ -33338,7 +46406,58 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TORCHIC",
@@ -33429,7 +46548,46 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COMBUSKEN",
@@ -33533,7 +46691,54 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BLAZIKEN",
@@ -33643,7 +46848,58 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUDKIP",
@@ -33734,7 +46990,46 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MARSHTOMP",
@@ -33830,7 +47125,54 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWAMPERT",
@@ -33936,7 +47278,56 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POOCHYENA",
@@ -34029,6 +47420,39 @@ const pokedexData = [
     ],
     "locations": [
       "Route1"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -34138,7 +47562,42 @@ const pokedexData = [
         "move": "Sucker Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZIGZAGOON",
@@ -34225,7 +47684,48 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LINOONE",
@@ -34330,7 +47830,51 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZIGZAGOON_GALAR",
@@ -34426,6 +47970,38 @@ const pokedexData = [
       "Route2 2",
       "Cerulean Path",
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -34522,7 +48098,40 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OBSTAGOON",
@@ -34636,7 +48245,47 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WURMPLE",
@@ -34685,6 +48334,10 @@ const pokedexData = [
     ],
     "locations": [
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Snore",
+      "Unavailable"
     ]
   },
   {
@@ -34720,7 +48373,10 @@ const pokedexData = [
         "move": "Harden"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BEAUTIFLY",
@@ -34830,7 +48486,38 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CASCOON",
@@ -34865,7 +48552,10 @@ const pokedexData = [
         "move": "Harden"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUSTOX",
@@ -34971,7 +48661,39 @@ const pokedexData = [
         "move": "Quiver Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LOTAD",
@@ -35064,6 +48786,39 @@ const pokedexData = [
       "Pallet Town",
       "Cerulean City Frlg 2",
       "Seabreeze Glade"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -35156,7 +48911,53 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bullet Seed",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUDICOLO",
@@ -35222,7 +49023,57 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bullet Seed",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEEDOT",
@@ -35303,6 +49154,39 @@ const pokedexData = [
     ],
     "locations": [
       "Viridian Forest"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -35399,7 +49283,53 @@ const pokedexData = [
         "move": "Leaf Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHIFTRY",
@@ -35473,7 +49403,56 @@ const pokedexData = [
         "move": "Leaf Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAILLOW",
@@ -35557,7 +49536,35 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWELLOW",
@@ -35659,7 +49666,36 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WINGULL",
@@ -35741,6 +49777,40 @@ const pokedexData = [
     ],
     "locations": [
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -35831,7 +49901,43 @@ const pokedexData = [
         "move": "U Turn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RALTS",
@@ -35927,7 +50033,56 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KIRLIA",
@@ -36024,7 +50179,57 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GARDEVOIR",
@@ -36142,7 +50347,57 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GALLADE",
@@ -36308,7 +50563,67 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SURSKIT",
@@ -36382,6 +50697,41 @@ const pokedexData = [
     ],
     "locations": [
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -36464,7 +50814,45 @@ const pokedexData = [
         "move": "Air Slash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHROOMISH",
@@ -36547,7 +50935,38 @@ const pokedexData = [
         "move": "Spore"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRELOOM",
@@ -36657,7 +51076,57 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLAKOTH",
@@ -36728,7 +51197,60 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VIGOROTH",
@@ -36799,7 +51321,65 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLAKING",
@@ -36880,7 +51460,66 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NINCADA",
@@ -36954,7 +51593,35 @@ const pokedexData = [
         "move": "Dig"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NINJASK",
@@ -37076,7 +51743,41 @@ const pokedexData = [
         "move": "X Scissor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHEDINJA",
@@ -37170,7 +51871,38 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WHISMUR",
@@ -37255,6 +51987,49 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -37278,6 +52053,10 @@ const pokedexData = [
       },
       {
         "name": "Scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "Punk Rock",
         "is_hidden": true
       }
     ],
@@ -37342,7 +52121,59 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EXPLOUD",
@@ -37365,6 +52196,10 @@ const pokedexData = [
       },
       {
         "name": "Scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "Punk Rock",
         "is_hidden": true
       }
     ],
@@ -37435,7 +52270,61 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAKUHITA",
@@ -37538,7 +52427,51 @@ const pokedexData = [
         "move": "Heavy Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HARIYAMA",
@@ -37647,7 +52580,52 @@ const pokedexData = [
         "move": "Headlong Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NOSEPASS",
@@ -37745,6 +52723,46 @@ const pokedexData = [
     "locations": [
       "Mt Moon 1F",
       "Mt Moon B1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -37855,7 +52873,46 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKITTY",
@@ -37958,7 +53015,49 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DELCATTY",
@@ -38059,7 +53158,52 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SABLEYE",
@@ -38171,6 +53315,66 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -38269,7 +53473,55 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARON",
@@ -38373,7 +53625,44 @@ const pokedexData = [
         "move": "Metal Burst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LAIRON",
@@ -38477,7 +53766,44 @@ const pokedexData = [
         "move": "Metal Burst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AGGRON",
@@ -38579,7 +53905,67 @@ const pokedexData = [
         "move": "Metal Burst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEDITITE",
@@ -38675,7 +54061,58 @@ const pokedexData = [
         "move": "Counter"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEDICHAM",
@@ -38781,7 +54218,59 @@ const pokedexData = [
         "move": "Axe Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ELECTRIKE",
@@ -38866,6 +54355,40 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -38963,7 +54486,43 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PLUSLE",
@@ -39072,7 +54631,47 @@ const pokedexData = [
         "move": "Entrainment"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Skill Swap",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MINUN",
@@ -39181,7 +54780,46 @@ const pokedexData = [
         "move": "Entrainment"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VOLBEAT",
@@ -39270,7 +54908,55 @@ const pokedexData = [
         "move": "Infestation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ILLUMISE",
@@ -39363,7 +55049,54 @@ const pokedexData = [
         "move": "Infestation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BUDEW",
@@ -39410,6 +55143,37 @@ const pokedexData = [
     "locations": [
       "Cerulean City Frlg 2",
       "Seabreeze Glade"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -39498,7 +55262,40 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROSERADE",
@@ -39564,7 +55361,40 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GULPIN",
@@ -39657,6 +55487,51 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -39762,7 +55637,56 @@ const pokedexData = [
         "move": "Venom Drench"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CARVANHA",
@@ -39857,6 +55781,39 @@ const pokedexData = [
     "locations": [
       "Viridian Forest",
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -39955,7 +55912,46 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WAILMER",
@@ -40054,7 +56050,42 @@ const pokedexData = [
         "move": "Water Spout"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WAILORD",
@@ -40159,7 +56190,43 @@ const pokedexData = [
         "move": "Water Spout"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NUMEL",
@@ -40251,7 +56318,41 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CAMERUPT",
@@ -40349,7 +56450,44 @@ const pokedexData = [
         "move": "Earthquake"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TORKOAL",
@@ -40454,7 +56592,44 @@ const pokedexData = [
         "move": "Eruption"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPOINK",
@@ -40541,7 +56716,46 @@ const pokedexData = [
         "move": "Bounce"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRUMPIG",
@@ -40634,7 +56848,60 @@ const pokedexData = [
         "move": "Bounce"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPINDA",
@@ -40715,7 +56982,62 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TRAPINCH",
@@ -40802,7 +57124,39 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VIBRAVA",
@@ -40914,7 +57268,45 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLYGON",
@@ -41036,7 +57428,52 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CACNEA",
@@ -41135,7 +57572,46 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CACTURNE",
@@ -41237,7 +57713,51 @@ const pokedexData = [
         "move": "Sandstorm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWABLU",
@@ -41331,6 +57851,40 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -41429,7 +57983,49 @@ const pokedexData = [
         "move": "Draco Meteor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZANGOOSE",
@@ -41570,7 +58166,69 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEVIPER",
@@ -41667,7 +58325,46 @@ const pokedexData = [
         "move": "Sludge Bomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUNATONE",
@@ -41757,7 +58454,48 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SOLROCK",
@@ -41847,7 +58585,50 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BARBOACH",
@@ -41936,6 +58717,38 @@ const pokedexData = [
       "Route2",
       "Hollowgrove",
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -42042,7 +58855,44 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CORPHISH",
@@ -42060,10 +58910,6 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Hyper Cutter",
-        "is_hidden": false
-      },
-      {
         "name": "Shell Armor",
         "is_hidden": false
       },
@@ -42078,11 +58924,11 @@ const pokedexData = [
     "learnset": [
       {
         "level": 1,
-        "move": "Water Gun"
+        "move": "Vise Grip"
       },
       {
         "level": 1,
-        "move": "Harden"
+        "move": "Water Gun"
       },
       {
         "level": 4,
@@ -42090,7 +58936,7 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Taunt"
+        "move": "Aqua Jet"
       },
       {
         "level": 12,
@@ -42118,7 +58964,7 @@ const pokedexData = [
       },
       {
         "level": 36,
-        "move": "Swords Dance"
+        "move": "X Scissor"
       },
       {
         "level": 40,
@@ -42130,15 +58976,53 @@ const pokedexData = [
       },
       {
         "level": 48,
-        "move": "Endeavor"
-      },
-      {
-        "level": 52,
-        "move": "Guillotine"
+        "move": "Superpower"
       }
     ],
     "locations": [
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -42158,10 +59042,6 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Hyper Cutter",
-        "is_hidden": false
-      },
-      {
         "name": "Shell Armor",
         "is_hidden": false
       },
@@ -42178,7 +59058,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Leer"
+        "move": "Vise Grip"
       },
       {
         "level": 1,
@@ -42186,11 +59066,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Harden"
+        "move": "Leer"
       },
       {
         "level": 1,
-        "move": "Taunt"
+        "move": "Aqua Jet"
       },
       {
         "level": 12,
@@ -42213,31 +59093,72 @@ const pokedexData = [
         "move": "Night Slash"
       },
       {
-        "level": 34,
+        "level": 32,
         "move": "Razor Shell"
       },
       {
-        "level": 40,
-        "move": "Swords Dance"
+        "level": 36,
+        "move": "X Scissor"
       },
       {
-        "level": 46,
+        "level": 40,
         "move": "Crunch"
       },
       {
-        "level": 52,
+        "level": 44,
         "move": "Crabhammer"
       },
       {
-        "level": 58,
-        "move": "Endeavor"
-      },
-      {
-        "level": 64,
-        "move": "Guillotine"
+        "level": 48,
+        "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BALTOY",
@@ -42344,6 +59265,44 @@ const pokedexData = [
     "locations": [
       "Mt Moon 1F",
       "Mt Moon B1F"
+    ],
+    "tm_moves": [
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -42454,7 +59413,48 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LILEEP",
@@ -42546,7 +59546,38 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRADILY",
@@ -42640,7 +59671,43 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ANORITH",
@@ -42724,7 +59791,40 @@ const pokedexData = [
         "move": "X Scissor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARMALDO",
@@ -42806,7 +59906,45 @@ const pokedexData = [
         "move": "X Scissor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FEEBAS",
@@ -42853,7 +59991,38 @@ const pokedexData = [
         "move": "Flail"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MILOTIC",
@@ -42962,7 +60131,43 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CASTFORM_NORMAL",
@@ -43039,7 +60244,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CASTFORM_SUNNY",
@@ -43116,7 +60322,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CASTFORM_RAINY",
@@ -43193,7 +60400,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CASTFORM_SNOWY",
@@ -43270,7 +60478,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_KECLEON",
@@ -43375,7 +60584,69 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHUPPET",
@@ -43462,7 +60733,46 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BANETTE",
@@ -43547,7 +60857,48 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUSKULL",
@@ -43630,7 +60981,43 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUSCLOPS",
@@ -43738,7 +61125,61 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUSKNOIR",
@@ -43847,7 +61288,58 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TROPIUS",
@@ -43941,7 +61433,47 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHINGLING",
@@ -44000,7 +61532,45 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHIMECHO",
@@ -44081,7 +61651,47 @@ const pokedexData = [
         "move": "Heal Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ABSOL",
@@ -44166,7 +61776,60 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNORUNT",
@@ -44252,6 +61915,36 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -44271,10 +61964,6 @@ const pokedexData = [
     "abilities": [
       {
         "name": "Inner Focus",
-        "is_hidden": false
-      },
-      {
-        "name": "Ice Body",
         "is_hidden": false
       },
       {
@@ -44337,7 +62026,43 @@ const pokedexData = [
         "move": "Weather Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FROSLASS",
@@ -44423,7 +62148,51 @@ const pokedexData = [
         "move": "Weather Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPHEAL",
@@ -44519,7 +62288,44 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEALEO",
@@ -44623,7 +62429,45 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WALREIN",
@@ -44729,7 +62573,48 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CLAMPERL",
@@ -44785,6 +62670,34 @@ const pokedexData = [
       "Palette Town Garden",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -44878,7 +62791,40 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOREBYSS",
@@ -44971,7 +62917,42 @@ const pokedexData = [
         "move": "Sparkling Aria"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RELICANTH",
@@ -45057,7 +63038,44 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUVDISC",
@@ -45150,7 +63168,37 @@ const pokedexData = [
         "move": "Safeguard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BAGON",
@@ -45233,7 +63281,42 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHELGON",
@@ -45320,7 +63403,43 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SALAMENCE",
@@ -45418,7 +63537,50 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BELDUM",
@@ -45454,7 +63616,10 @@ const pokedexData = [
         "move": "Tackle"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_METANG",
@@ -45546,7 +63711,54 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_METAGROSS",
@@ -45644,7 +63856,54 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REGIROCK",
@@ -45733,7 +63992,54 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REGICE",
@@ -45822,7 +64128,55 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REGISTEEL",
@@ -45919,7 +64273,53 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Explosion",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LATIAS",
@@ -46009,7 +64409,60 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LATIOS",
@@ -46099,7 +64552,60 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KYOGRE",
@@ -46180,7 +64686,52 @@ const pokedexData = [
         "move": "Water Spout"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROUDON",
@@ -46261,7 +64812,65 @@ const pokedexData = [
         "move": "Eruption"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAYQUAZA",
@@ -46347,7 +64956,61 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JIRACHI",
@@ -46433,7 +65096,55 @@ const pokedexData = [
         "move": "Doom Desire"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEOXYS_NORMAL",
@@ -46514,7 +65225,63 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEOXYS_ATTACK",
@@ -46595,7 +65362,66 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEOXYS_DEFENSE",
@@ -46684,7 +65510,66 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEOXYS_SPEED",
@@ -46765,7 +65650,67 @@ const pokedexData = [
         "move": "Extreme Speed"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dream Eater",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TURTWIG",
@@ -46844,7 +65789,42 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROTLE",
@@ -46923,7 +65903,42 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TORTERRA",
@@ -47013,7 +66028,46 @@ const pokedexData = [
         "move": "Headlong Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHIMCHAR",
@@ -47096,7 +66150,53 @@ const pokedexData = [
         "move": "Flamethrower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MONFERNO",
@@ -47184,7 +66284,53 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_INFERNAPE",
@@ -47278,7 +66424,59 @@ const pokedexData = [
         "move": "Raging Fury"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PIPLUP",
@@ -47361,7 +66559,45 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PRINPLUP",
@@ -47444,7 +66680,46 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EMPOLEON",
@@ -47538,7 +66813,54 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STARLY",
@@ -47629,6 +66951,33 @@ const pokedexData = [
     "locations": [
       "Route1",
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -47721,7 +67070,34 @@ const pokedexData = [
         "move": "Final Gambit"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STARAPTOR",
@@ -47815,7 +67191,35 @@ const pokedexData = [
         "move": "Final Gambit"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BIDOOF",
@@ -47906,7 +67310,47 @@ const pokedexData = [
         "move": "Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BIBAREL",
@@ -48008,7 +67452,54 @@ const pokedexData = [
         "move": "Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KRICKETOT",
@@ -48057,6 +67548,12 @@ const pokedexData = [
     ],
     "locations": [
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Rapid Spin",
+      "Mud Slap",
+      "Snore",
+      "Unavailable"
     ]
   },
   {
@@ -48146,7 +67643,39 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHINX",
@@ -48237,7 +67766,40 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUXIO",
@@ -48328,7 +67890,40 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUXRAY",
@@ -48421,7 +68016,42 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRANIDOS",
@@ -48500,7 +68130,48 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAMPARDOS",
@@ -48581,7 +68252,54 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHIELDON",
@@ -48661,7 +68379,47 @@ const pokedexData = [
         "move": "Heavy Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BASTIODON",
@@ -48747,7 +68505,49 @@ const pokedexData = [
         "move": "Heavy Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BURMY_PLANT",
@@ -48794,7 +68594,8 @@ const pokedexData = [
         "move": "String Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BURMY_SANDY",
@@ -48841,7 +68642,8 @@ const pokedexData = [
         "move": "String Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BURMY_TRASH",
@@ -48888,7 +68690,8 @@ const pokedexData = [
         "move": "String Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_WORMADAM_PLANT",
@@ -48994,7 +68797,39 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WORMADAM_SANDY",
@@ -49100,7 +68935,42 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WORMADAM_TRASH",
@@ -49210,7 +69080,38 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COMBEE",
@@ -49258,7 +69159,14 @@ const pokedexData = [
         "move": "Struggle Bug"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VESPIQUEN",
@@ -49364,7 +69272,37 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PACHIRISU",
@@ -49457,7 +69395,43 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BUIZEL",
@@ -49548,7 +69522,48 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLOATZEL",
@@ -49641,7 +69656,53 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHERUBI",
@@ -49673,15 +69734,15 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Absorb"
       },
       {
         "level": 5,
-        "move": "Leafage"
+        "move": "Leech Seed"
       },
       {
         "level": 10,
-        "move": "Growth"
+        "move": "Magical Leaf"
       },
       {
         "level": 15,
@@ -49689,30 +69750,68 @@ const pokedexData = [
       },
       {
         "level": 20,
-        "move": "Magical Leaf"
+        "move": "Mega Drain"
       },
       {
         "level": 26,
-        "move": "Leech Seed"
+        "move": "Worry Seed"
       },
       {
         "level": 30,
-        "move": "Take Down"
+        "move": "Giga Drain"
       },
       {
         "level": 35,
-        "move": "Petal Blizzard"
+        "move": "Cotton Spore"
+      },
+      {
+        "level": 38,
+        "move": "Sappy Seed"
       },
       {
         "level": 40,
-        "move": "Worry Seed"
+        "move": "Leaf Storm"
       },
       {
         "level": 45,
         "move": "Solar Beam"
+      },
+      {
+        "level": 55,
+        "move": "Chloroblast"
       }
     ],
-    "locations": []
+    "locations": [
+      "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHERRIM_OVERCAST",
@@ -49738,14 +69837,6 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Sunny Day"
-      },
-      {
-        "level": 1,
-        "move": "Sunny Day"
-      },
-      {
-        "level": 1,
         "move": "Flower Shield"
       },
       {
@@ -49754,52 +69845,63 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Solar Blade"
       },
       {
         "level": 1,
-        "move": "Leafage"
-      },
-      {
-        "level": 1,
-        "move": "Growth"
-      },
-      {
-        "level": 15,
         "move": "Helping Hand"
       },
       {
-        "level": 20,
-        "move": "Magical Leaf"
+        "level": 1,
+        "move": "Absorb"
       },
       {
-        "level": 28,
+        "level": 1,
+        "move": "Aromatherapy"
+      },
+      {
+        "level": 5,
         "move": "Leech Seed"
       },
       {
-        "level": 34,
-        "move": "Take Down"
+        "level": 10,
+        "move": "Magical Leaf"
       },
       {
-        "level": 41,
-        "move": "Petal Blizzard"
+        "level": 20,
+        "move": "Mega Drain"
       },
       {
-        "level": 48,
+        "level": 26,
         "move": "Worry Seed"
       },
       {
-        "level": 55,
+        "level": 30,
+        "move": "Giga Drain"
+      },
+      {
+        "level": 35,
+        "move": "Cotton Spore"
+      },
+      {
+        "level": 38,
+        "move": "Sappy Seed"
+      },
+      {
+        "level": 40,
+        "move": "Leaf Storm"
+      },
+      {
+        "level": 45,
         "move": "Solar Beam"
       },
       {
-        "level": 62,
-        "move": "Petal Dance"
+        "level": 55,
+        "move": "Chloroblast"
       }
     ],
-    "locations": [
-      "Pewter City"
-    ]
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CHERRIM_SUNSHINE",
@@ -49825,14 +69927,6 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Sunny Day"
-      },
-      {
-        "level": 1,
-        "move": "Sunny Day"
-      },
-      {
-        "level": 1,
         "move": "Flower Shield"
       },
       {
@@ -49841,50 +69935,63 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Solar Blade"
       },
       {
         "level": 1,
-        "move": "Leafage"
-      },
-      {
-        "level": 1,
-        "move": "Growth"
-      },
-      {
-        "level": 15,
         "move": "Helping Hand"
       },
       {
-        "level": 20,
-        "move": "Magical Leaf"
+        "level": 1,
+        "move": "Absorb"
       },
       {
-        "level": 28,
+        "level": 1,
+        "move": "Aromatherapy"
+      },
+      {
+        "level": 5,
         "move": "Leech Seed"
       },
       {
-        "level": 34,
-        "move": "Take Down"
+        "level": 10,
+        "move": "Magical Leaf"
       },
       {
-        "level": 41,
-        "move": "Petal Blizzard"
+        "level": 20,
+        "move": "Mega Drain"
       },
       {
-        "level": 48,
+        "level": 26,
         "move": "Worry Seed"
       },
       {
-        "level": 55,
+        "level": 30,
+        "move": "Giga Drain"
+      },
+      {
+        "level": 35,
+        "move": "Cotton Spore"
+      },
+      {
+        "level": 38,
+        "move": "Sappy Seed"
+      },
+      {
+        "level": 40,
+        "move": "Leaf Storm"
+      },
+      {
+        "level": 45,
         "move": "Solar Beam"
       },
       {
-        "level": 62,
-        "move": "Petal Dance"
+        "level": 55,
+        "move": "Chloroblast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SHELLOS_WEST",
@@ -49963,7 +70070,8 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SHELLOS_EAST",
@@ -50042,7 +70150,8 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GASTRODON_WEST",
@@ -50120,7 +70229,8 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GASTRODON_EAST",
@@ -50198,7 +70308,8 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DRIFLOON",
@@ -50294,7 +70405,49 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRIFBLIM",
@@ -50396,7 +70549,50 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BUNEARY",
@@ -50414,15 +70610,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Run Away",
-        "is_hidden": false
-      },
-      {
-        "name": "Klutz",
-        "is_hidden": false
-      },
-      {
         "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Cute Charm",
         "is_hidden": true
       }
     ],
@@ -50493,6 +70685,47 @@ const pokedexData = [
     ],
     "locations": [
       "Route2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -50511,15 +70744,11 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Cute Charm",
-        "is_hidden": false
-      },
-      {
-        "name": "Klutz",
-        "is_hidden": false
-      },
-      {
         "name": "Limber",
+        "is_hidden": false
+      },
+      {
+        "name": "Cute Charm",
         "is_hidden": true
       }
     ],
@@ -50602,7 +70831,54 @@ const pokedexData = [
         "move": "High Jump Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLAMEOW",
@@ -50693,7 +70969,46 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PURUGLY",
@@ -50802,7 +71117,50 @@ const pokedexData = [
         "move": "Hone Claws"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STUNKY",
@@ -50902,7 +71260,47 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKUNTANK",
@@ -51000,7 +71398,49 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRONZOR",
@@ -51088,7 +71528,41 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRONZONG",
@@ -51190,7 +71664,45 @@ const pokedexData = [
         "move": "Rain Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHATOT",
@@ -51296,7 +71808,35 @@ const pokedexData = [
         "move": "Hyper Voice"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPIRITOMB",
@@ -51382,7 +71922,43 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GIBLE",
@@ -51462,7 +72038,45 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GABITE",
@@ -51542,7 +72156,46 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GARCHOMP",
@@ -51624,7 +72277,48 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RIOLU",
@@ -51723,7 +72417,48 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUCARIO",
@@ -51861,7 +72596,55 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HIPPOPOTAS",
@@ -51952,7 +72735,38 @@ const pokedexData = [
         "move": "Slack Off"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HIPPOWDON",
@@ -52053,7 +72867,39 @@ const pokedexData = [
         "move": "Slack Off"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKORUPI",
@@ -52161,7 +73007,43 @@ const pokedexData = [
         "move": "Crunch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRAPION",
@@ -52279,7 +73161,47 @@ const pokedexData = [
         "move": "Crunch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CROAGUNK",
@@ -52371,7 +73293,51 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOXICROAK",
@@ -52461,7 +73427,54 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Dynamic Punch",
+      "Endure",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CARNIVINE",
@@ -52542,7 +73555,38 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FINNEON",
@@ -52631,6 +73675,38 @@ const pokedexData = [
     ],
     "locations": [
       "Pallet Town"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -52720,7 +73796,41 @@ const pokedexData = [
         "move": "Soak"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNOVER",
@@ -52800,7 +73910,44 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ABOMASNOW",
@@ -52886,7 +74033,53 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bullet Seed",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROTOM",
@@ -52964,7 +74157,40 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROTOM_HEAT",
@@ -53042,7 +74268,8 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ROTOM_WASH",
@@ -53120,7 +74347,8 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ROTOM_FROST",
@@ -53198,7 +74426,8 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ROTOM_FAN",
@@ -53276,7 +74505,8 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ROTOM_MOW",
@@ -53354,7 +74584,8 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_UXIE",
@@ -53475,7 +74706,50 @@ const pokedexData = [
         "move": "Mystical Power"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MESPRIT",
@@ -53596,7 +74870,51 @@ const pokedexData = [
         "move": "Mystical Power"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AZELF",
@@ -53729,7 +75047,54 @@ const pokedexData = [
         "move": "Mystical Power"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DIALGA",
@@ -53811,7 +75176,54 @@ const pokedexData = [
         "move": "Roar Of Time"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DIALGA_ORIGIN",
@@ -53893,7 +75305,8 @@ const pokedexData = [
         "move": "Roar Of Time"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PALKIA",
@@ -53971,7 +75384,57 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PALKIA_ORIGIN",
@@ -54049,7 +75512,8 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_HEATRAN",
@@ -54135,7 +75599,43 @@ const pokedexData = [
         "move": "Magma Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REGIGIGAS",
@@ -54220,7 +75720,49 @@ const pokedexData = [
         "move": "Crush Grip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GIRATINA_ALTERED",
@@ -54306,7 +75848,8 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GIRATINA_ORIGIN",
@@ -54388,7 +75931,8 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CRESSELIA",
@@ -54473,7 +76017,47 @@ const pokedexData = [
         "move": "Lunar Blessing"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PHIONE",
@@ -54542,7 +76126,38 @@ const pokedexData = [
         "move": "Take Heart"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MANAPHY",
@@ -54619,7 +76234,45 @@ const pokedexData = [
         "move": "Take Heart"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DARKRAI",
@@ -54688,7 +76341,56 @@ const pokedexData = [
         "move": "Dark Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHAYMIN_LAND",
@@ -54761,7 +76463,39 @@ const pokedexData = [
         "move": "Seed Flare"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHAYMIN_SKY",
@@ -54835,7 +76569,38 @@ const pokedexData = [
         "move": "Seed Flare"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VICTINI",
@@ -54933,7 +76698,50 @@ const pokedexData = [
         "move": "Final Gambit"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNIVY",
@@ -55020,7 +76828,44 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SERVINE",
@@ -55107,7 +76952,44 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SERPERIOR",
@@ -55192,7 +77074,48 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TEPIG",
@@ -55283,7 +77206,43 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PIGNITE",
@@ -55379,7 +77338,48 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EMBOAR",
@@ -55477,7 +77477,50 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OSHAWOTT",
@@ -55572,6 +77615,43 @@ const pokedexData = [
       "Route2",
       "Pallet Town",
       "Viridian City"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -55663,7 +77743,45 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SAMUROTT",
@@ -55764,7 +77882,48 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SAMUROTT_HISUI",
@@ -55866,7 +78025,39 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PATRAT",
@@ -55969,7 +78160,34 @@ const pokedexData = [
         "move": "Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WATCHOG",
@@ -56094,7 +78312,50 @@ const pokedexData = [
         "move": "Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LILLIPUP",
@@ -56185,6 +78446,35 @@ const pokedexData = [
       "Route1",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -56280,7 +78570,38 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STOUTLAND",
@@ -56373,7 +78694,40 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PURRLOIN",
@@ -56456,7 +78810,38 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LIEPARD",
@@ -56537,7 +78922,40 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PANSAGE",
@@ -56626,6 +79044,41 @@ const pokedexData = [
     ],
     "locations": [
       "Seabreeze Glade"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -56727,7 +79180,43 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PANSEAR",
@@ -56822,7 +79311,43 @@ const pokedexData = [
         "move": "Crunch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SIMISEAR",
@@ -56867,7 +79392,44 @@ const pokedexData = [
         "move": "Flame Burst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PANPOUR",
@@ -56962,7 +79524,46 @@ const pokedexData = [
         "move": "Crunch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SIMIPOUR",
@@ -57007,7 +79608,47 @@ const pokedexData = [
         "move": "Scald"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUNNA",
@@ -57102,7 +79743,43 @@ const pokedexData = [
         "move": "Wonder Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Torment",
+      "Toxic",
+      "Defense Curl",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUSHARNA",
@@ -57199,7 +79876,44 @@ const pokedexData = [
         "move": "Psybeam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Torment",
+      "Toxic",
+      "Defense Curl",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PIDOVE",
@@ -57290,6 +80004,31 @@ const pokedexData = [
     "locations": [
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -57378,7 +80117,32 @@ const pokedexData = [
         "move": "Facade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_UNFEZANT",
@@ -57484,7 +80248,34 @@ const pokedexData = [
         "move": "Facade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BLITZLE",
@@ -57567,7 +80358,36 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Snatch",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZEBSTRIKA",
@@ -57648,7 +80468,41 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROGGENROLA",
@@ -57670,11 +80524,11 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Weak Armor",
+        "name": "Solid Rock",
         "is_hidden": false
       },
       {
-        "name": "Sand Force",
+        "name": "Weak Armor",
         "is_hidden": true
       }
     ],
@@ -57738,6 +80592,32 @@ const pokedexData = [
     "locations": [
       "Mt Moon 1F",
       "Mt Moon B1F"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -57760,11 +80640,11 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Weak Armor",
+        "name": "Solid Rock",
         "is_hidden": false
       },
       {
-        "name": "Sand Force",
+        "name": "Weak Armor",
         "is_hidden": true
       }
     ],
@@ -57830,7 +80710,33 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GIGALITH",
@@ -57852,11 +80758,11 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Sand Stream",
+        "name": "Solid Rock",
         "is_hidden": false
       },
       {
-        "name": "Sand Force",
+        "name": "Weak Armor",
         "is_hidden": true
       }
     ],
@@ -57923,7 +80829,35 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WOOBAT",
@@ -58011,7 +80945,47 @@ const pokedexData = [
         "move": "Simple Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWOOBAT",
@@ -58097,7 +81071,48 @@ const pokedexData = [
         "move": "Simple Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRILBUR",
@@ -58188,7 +81203,40 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EXCADRILL",
@@ -58282,7 +81330,42 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AUDINO",
@@ -58383,7 +81466,58 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TIMBURR",
@@ -58478,7 +81612,45 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GURDURR",
@@ -58574,7 +81746,45 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CONKELDURR",
@@ -58667,7 +81877,48 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYMPOLE",
@@ -58758,7 +82009,31 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PALPITOAD",
@@ -58850,7 +82125,33 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEISMITOAD",
@@ -58952,7 +82253,44 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_THROH",
@@ -59037,7 +82375,43 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SAWK",
@@ -59122,7 +82496,42 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SEWADDLE",
@@ -59188,6 +82597,33 @@ const pokedexData = [
     ],
     "locations": [
       "Viridian Forest"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -59256,7 +82692,34 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LEAVANNY",
@@ -59350,7 +82813,40 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VENIPEDE",
@@ -59438,7 +82934,34 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WHIRLIPEDE",
@@ -59534,7 +83057,34 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCOLIPEDE",
@@ -59632,7 +83182,43 @@ const pokedexData = [
         "move": "Megahorn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COTTONEE",
@@ -59736,7 +83322,34 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WHIMSICOTT",
@@ -59858,7 +83471,39 @@ const pokedexData = [
         "move": "Gust"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PETILIL",
@@ -59951,6 +83596,32 @@ const pokedexData = [
     ],
     "locations": [
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -60020,7 +83691,37 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LILLIGANT_HISUI",
@@ -60146,7 +83847,33 @@ const pokedexData = [
         "move": "Axe Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bullet Seed",
+      "Defog",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Mega Kick",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BASCULIN_RED_STRIPED",
@@ -60243,7 +83970,8 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BASCULIN_BLUE_STRIPED",
@@ -60340,7 +84068,8 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BASCULIN_WHITE_STRIPED",
@@ -60439,7 +84168,29 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BASCULEGION_M",
@@ -60545,7 +84296,8 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BASCULEGION_F",
@@ -60651,7 +84403,8 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SANDILE",
@@ -60747,7 +84500,45 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KROKOROK",
@@ -60843,7 +84634,50 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KROOKODILE",
@@ -60941,7 +84775,52 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DARUMAKA",
@@ -61028,7 +84907,45 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DARMANITAN_STANDARD",
@@ -61121,7 +85038,8 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DARMANITAN_ZEN",
@@ -61215,7 +85133,8 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DARUMAKA_GALAR",
@@ -61302,7 +85221,40 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DARMANITAN_GALAR_STANDARD",
@@ -61395,7 +85347,8 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DARMANITAN_GALAR_ZEN",
@@ -61489,7 +85442,8 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MARACTUS",
@@ -61602,7 +85556,31 @@ const pokedexData = [
         "move": "Cotton Guard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DWEBBLE",
@@ -61697,6 +85675,38 @@ const pokedexData = [
     "locations": [
       "Hollowgrove",
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -61795,7 +85805,40 @@ const pokedexData = [
         "move": "Leech Life"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCRAGGY",
@@ -61893,6 +85936,49 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
     ]
   },
   {
@@ -61999,7 +86085,54 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SIGILYPH",
@@ -62093,7 +86226,48 @@ const pokedexData = [
         "move": "Skill Swap"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_YAMASK",
@@ -62184,7 +86358,38 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COFAGRIGUS",
@@ -62285,7 +86490,39 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_YAMASK_GALAR",
@@ -62377,7 +86614,33 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RUNERIGUS",
@@ -62479,7 +86742,35 @@ const pokedexData = [
         "move": "Destiny Bond"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TIRTOUGA",
@@ -62582,6 +86873,41 @@ const pokedexData = [
     "locations": [
       "Hollowgrove",
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -62680,7 +87006,43 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCHEN",
@@ -62776,7 +87138,41 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCHEOPS",
@@ -62870,7 +87266,43 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TRUBBISH",
@@ -62973,7 +87405,33 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GARBODOR",
@@ -63082,7 +87540,38 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZORUA",
@@ -63165,7 +87654,41 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZOROARK",
@@ -63250,7 +87773,49 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZORUA_HISUI",
@@ -63330,7 +87895,35 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZOROARK_HISUI",
@@ -63420,7 +88013,41 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MINCCINO",
@@ -63511,7 +88138,37 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CINCCINO",
@@ -63608,7 +88265,41 @@ const pokedexData = [
         "move": "Bullet Seed"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOTHITA",
@@ -63699,7 +88390,46 @@ const pokedexData = [
         "move": "Magic Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOTHORITA",
@@ -63786,7 +88516,47 @@ const pokedexData = [
         "move": "Magic Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOTHITELLE",
@@ -63875,7 +88645,50 @@ const pokedexData = [
         "move": "Magic Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SOLOSIS",
@@ -63970,7 +88783,45 @@ const pokedexData = [
         "move": "Wonder Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thunder",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUOSION",
@@ -64065,7 +88916,45 @@ const pokedexData = [
         "move": "Wonder Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thunder",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REUNICLUS",
@@ -64162,7 +89051,54 @@ const pokedexData = [
         "move": "Wonder Room"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Strength",
+      "Thunder",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUCKLETT",
@@ -64254,7 +89190,37 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWANNA",
@@ -64344,7 +89310,38 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VANILLITE",
@@ -64435,7 +89432,33 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VANILLISH",
@@ -64526,7 +89549,33 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VANILLUXE",
@@ -64627,7 +89676,34 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEERLING_SPRING",
@@ -64713,7 +89789,8 @@ const pokedexData = [
     ],
     "locations": [
       "Seabreeze Glade"
-    ]
+    ],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DEERLING_SUMMER",
@@ -64797,7 +89874,8 @@ const pokedexData = [
         "move": "Synthesis"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DEERLING_AUTUMN",
@@ -64881,7 +89959,8 @@ const pokedexData = [
         "move": "Synthesis"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DEERLING_WINTER",
@@ -64965,7 +90044,8 @@ const pokedexData = [
         "move": "Synthesis"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SAWSBUCK_SPRING",
@@ -65059,7 +90139,8 @@ const pokedexData = [
         "move": "Horn Leech"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SAWSBUCK_SUMMER",
@@ -65153,7 +90234,8 @@ const pokedexData = [
         "move": "Horn Leech"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SAWSBUCK_AUTUMN",
@@ -65247,7 +90329,8 @@ const pokedexData = [
         "move": "Horn Leech"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SAWSBUCK_WINTER",
@@ -65341,7 +90424,8 @@ const pokedexData = [
         "move": "Horn Leech"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_EMOLGA",
@@ -65423,7 +90507,39 @@ const pokedexData = [
         "move": "Agility"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KARRABLAST",
@@ -65514,7 +90630,33 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ESCAVALIER",
@@ -65632,7 +90774,36 @@ const pokedexData = [
         "move": "Metal Burst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FOONGUS",
@@ -65720,7 +90891,34 @@ const pokedexData = [
         "move": "Spore"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AMOONGUSS",
@@ -65806,7 +91004,35 @@ const pokedexData = [
         "move": "Spore"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FRILLISH",
@@ -65898,7 +91124,43 @@ const pokedexData = [
         "move": "Water Spout"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JELLICENT",
@@ -65992,7 +91254,44 @@ const pokedexData = [
         "move": "Water Spout"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ALOMOMOLA",
@@ -66085,7 +91384,42 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JOLTIK",
@@ -66177,7 +91511,37 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GALVANTULA",
@@ -66271,7 +91635,38 @@ const pokedexData = [
         "move": "Bug Buzz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FERROSEED",
@@ -66347,7 +91742,35 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FERROTHORN",
@@ -66433,7 +91856,41 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KLINK",
@@ -66522,6 +91979,30 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -66613,7 +92094,31 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KLINKLANG",
@@ -66702,7 +92207,32 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYNAMO",
@@ -66745,7 +92275,12 @@ const pokedexData = [
         "move": "Charge Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Protect",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EELEKTRIK",
@@ -66832,7 +92367,35 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EELEKTROSS",
@@ -66897,7 +92460,51 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ELGYEM",
@@ -66984,7 +92591,44 @@ const pokedexData = [
         "move": "Psychic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Steel Wing",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BEHEEYEM",
@@ -67073,7 +92717,45 @@ const pokedexData = [
         "move": "Psychic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Steel Wing",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LITWICK",
@@ -67173,7 +92855,41 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LAMPENT",
@@ -67273,7 +92989,41 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHANDELURE",
@@ -67371,7 +93121,42 @@ const pokedexData = [
         "move": "Inferno"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AXEW",
@@ -67478,7 +93263,43 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FRAXURE",
@@ -67585,7 +93406,43 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HAXORUS",
@@ -67690,7 +93547,47 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CUBCHOO",
@@ -67787,6 +93684,45 @@ const pokedexData = [
     ],
     "locations": [
       "Mt Moon Ice Cavern"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -67892,7 +93828,54 @@ const pokedexData = [
         "move": "Ice Hammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRYOGONAL",
@@ -67993,7 +93976,39 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHELMET",
@@ -68084,7 +94099,31 @@ const pokedexData = [
         "move": "Final Gambit"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ACCELGOR",
@@ -68205,7 +94244,33 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STUNFISK",
@@ -68299,7 +94364,39 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STUNFISK_GALAR",
@@ -68385,7 +94482,33 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MIENFOO",
@@ -68476,7 +94599,43 @@ const pokedexData = [
         "move": "High Jump Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MIENSHAO",
@@ -68577,7 +94736,45 @@ const pokedexData = [
         "move": "High Jump Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRUDDIGON",
@@ -68662,7 +94859,49 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOLETT",
@@ -68762,7 +95001,54 @@ const pokedexData = [
         "move": "Dynamic Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOLURK",
@@ -68868,7 +95154,58 @@ const pokedexData = [
         "move": "Dynamic Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PAWNIARD",
@@ -68964,7 +95301,39 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BISHARP",
@@ -69065,7 +95434,40 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KINGAMBIT",
@@ -69167,7 +95569,32 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BOUFFALANT",
@@ -69252,7 +95679,38 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RUFFLET",
@@ -69354,6 +95812,38 @@ const pokedexData = [
     ],
     "locations": [
       "Palette Town Garden"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bulk Up",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -69456,7 +95946,40 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bulk Up",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRAVIARY_HISUI",
@@ -69558,7 +96081,37 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bulk Up",
+      "Calm Mind",
+      "Defog",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VULLABY",
@@ -69650,7 +96203,41 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MANDIBUZZ",
@@ -69752,7 +96339,42 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HEATMOR",
@@ -69849,7 +96471,43 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DURANT",
@@ -69947,7 +96605,35 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEINO",
@@ -70043,7 +96729,36 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZWEILOUS",
@@ -70143,7 +96858,36 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HYDREIGON",
@@ -70249,7 +96993,48 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LARVESTA",
@@ -70329,7 +97114,37 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VOLCARONA",
@@ -70447,7 +97262,41 @@ const pokedexData = [
         "move": "Rage Powder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COBALION",
@@ -70529,7 +97378,42 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TERRAKION",
@@ -70611,7 +97495,44 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VIRIZION",
@@ -70697,7 +97618,46 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bullet Seed",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TORNADUS_INCARNATE",
@@ -70794,7 +97754,8 @@ const pokedexData = [
         "move": "Bleakwind Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TORNADUS_THERIAN",
@@ -70887,7 +97848,8 @@ const pokedexData = [
         "move": "Bleakwind Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_THUNDURUS_INCARNATE",
@@ -70985,7 +97947,8 @@ const pokedexData = [
         "move": "Wildbolt Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_THUNDURUS_THERIAN",
@@ -71079,7 +98042,8 @@ const pokedexData = [
         "move": "Wildbolt Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_RESHIRAM",
@@ -71165,7 +98129,48 @@ const pokedexData = [
         "move": "Blue Flare"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZEKROM",
@@ -71251,7 +98256,53 @@ const pokedexData = [
         "move": "Bolt Strike"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Flash",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Steel Wing",
+      "Strength",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LANDORUS_INCARNATE",
@@ -71349,7 +98400,8 @@ const pokedexData = [
         "move": "Sandsear Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_LANDORUS_THERIAN",
@@ -71443,7 +98495,8 @@ const pokedexData = [
         "move": "Sandsear Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_KYUREM",
@@ -71529,7 +98582,46 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Cut",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Steel Wing",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KYUREM_WHITE",
@@ -71615,7 +98707,8 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_KYUREM_BLACK",
@@ -71701,7 +98794,8 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_KELDEO_ORDINARY",
@@ -71787,7 +98881,8 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_KELDEO_RESOLUTE",
@@ -71873,7 +98968,8 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MELOETTA_ARIA",
@@ -71959,7 +99055,8 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MELOETTA_PIROUETTE",
@@ -72045,7 +99142,8 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CHESPIN",
@@ -72124,7 +99222,51 @@ const pokedexData = [
         "move": "Wood Hammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QUILLADIN",
@@ -72207,7 +99349,51 @@ const pokedexData = [
         "move": "Wood Hammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHESNAUGHT",
@@ -72309,7 +99495,56 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FENNEKIN",
@@ -72396,7 +99631,42 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRAIXEN",
@@ -72487,7 +99757,46 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DELPHOX",
@@ -72597,7 +99906,50 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FROAKIE",
@@ -72684,7 +100036,46 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Counter",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FROGADIER",
@@ -72771,7 +100162,49 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Counter",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRENINJA",
@@ -72873,7 +100306,51 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Counter",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRENINJA_BATTLE_BOND",
@@ -72971,7 +100448,8 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GRENINJA_ASH",
@@ -73069,7 +100547,8 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BUNNELBY",
@@ -73164,7 +100643,44 @@ const pokedexData = [
         "move": "Super Fang"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DIGGERSBY",
@@ -73262,7 +100778,53 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLETCHLING",
@@ -73344,6 +100906,36 @@ const pokedexData = [
     ],
     "locations": [
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -73432,7 +101024,39 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Snatch",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TALONFLAME",
@@ -73532,7 +101156,42 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bulk Up",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LITLEO",
@@ -73626,6 +101285,41 @@ const pokedexData = [
     ],
     "locations": [
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -73720,7 +101414,43 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Snatch",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLABEBE_WHITE",
@@ -73807,7 +101537,8 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_FLOETTE_ETERNAL",
@@ -73896,7 +101627,37 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKIDDO",
@@ -73985,6 +101746,42 @@ const pokedexData = [
     ],
     "locations": [
       "Hollowgrove"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -74082,7 +101879,46 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PANCHAM",
@@ -74165,7 +102001,50 @@ const pokedexData = [
         "move": "Entrainment"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PANGORO",
@@ -74263,7 +102142,55 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ESPURR",
@@ -74338,7 +102265,44 @@ const pokedexData = [
         "move": "Psyshock"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEOWSTIC_M",
@@ -74447,7 +102411,47 @@ const pokedexData = [
         "move": "Misty Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEOWSTIC_F",
@@ -74556,7 +102560,47 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HONEDGE",
@@ -74640,7 +102684,35 @@ const pokedexData = [
         "move": "Sacred Sword"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DOUBLADE",
@@ -74724,7 +102796,35 @@ const pokedexData = [
         "move": "Sacred Sword"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AEGISLASH_SHIELD",
@@ -74732,9 +102832,9 @@ const pokedexData = [
     "stats": {
       "hp": 60,
       "atk": 50,
-      "def": 0,
+      "def": 140,
       "spa": 50,
-      "spd": 0,
+      "spd": 140,
       "spe": 60
     },
     "types": [
@@ -74818,16 +102918,17 @@ const pokedexData = [
         "move": "Autotomize"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_AEGISLASH_BLADE",
     "name": "Aegislash",
     "stats": {
       "hp": 60,
-      "atk": 0,
+      "atk": 140,
       "def": 50,
-      "spa": 0,
+      "spa": 140,
       "spd": 50,
       "spe": 60
     },
@@ -74912,7 +103013,8 @@ const pokedexData = [
         "move": "Autotomize"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SPRITZEE",
@@ -75000,7 +103102,36 @@ const pokedexData = [
         "move": "Skill Swap"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AROMATISSE",
@@ -75101,7 +103232,39 @@ const pokedexData = [
         "move": "Psych Up"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SWIRLIX",
@@ -75193,7 +103356,38 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLURPUFF",
@@ -75286,7 +103480,41 @@ const pokedexData = [
         "move": "Sticky Web"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_INKAY",
@@ -75382,7 +103610,43 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MALAMAR",
@@ -75480,7 +103744,45 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bulk Up",
+      "Calm Mind",
+      "Cut",
+      "Double Team",
+      "Facade",
+      "Flamethrower",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BINACLE",
@@ -75568,7 +103870,49 @@ const pokedexData = [
         "move": "Cross Chop"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BARBARACLE",
@@ -75662,7 +104006,53 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Dig",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKRELP",
@@ -75750,7 +104140,39 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRAGALGE",
@@ -75840,7 +104262,41 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CLAUNCHER",
@@ -75929,6 +104385,39 @@ const pokedexData = [
       "Palette Town Garden",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -76022,7 +104511,43 @@ const pokedexData = [
         "move": "Crabhammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Cut",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HELIOPTILE",
@@ -76116,6 +104641,40 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -76218,7 +104777,47 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYRUNT",
@@ -76306,7 +104905,38 @@ const pokedexData = [
         "move": "Horn Drill"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYRANTRUM",
@@ -76400,7 +105030,39 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AMAURA",
@@ -76496,7 +105158,47 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AURORUS",
@@ -76590,7 +105292,50 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HAWLUCHA",
@@ -76688,7 +105433,50 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Steel Wing",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEDENNE",
@@ -76782,7 +105570,40 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CARBINK",
@@ -76868,7 +105689,39 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOOMY",
@@ -76951,7 +105804,35 @@ const pokedexData = [
         "move": "Muddy Water"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLIGGOO",
@@ -77042,7 +105923,38 @@ const pokedexData = [
         "move": "Muddy Water"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOODRA",
@@ -77143,7 +106055,51 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Strength",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLIGGOO_HISUI",
@@ -77235,7 +106191,34 @@ const pokedexData = [
         "move": "Muddy Water"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOODRA_HISUI",
@@ -77345,7 +106328,42 @@ const pokedexData = [
         "move": "Heavy Slam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Fire Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KLEFKI",
@@ -77431,7 +106449,39 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PHANTUMP",
@@ -77528,7 +106578,41 @@ const pokedexData = [
         "move": "Forests Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TREVENANT",
@@ -77626,7 +106710,45 @@ const pokedexData = [
         "move": "Forests Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Cut",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Strength",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PUMPKABOO_AVERAGE",
@@ -77719,7 +106841,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PUMPKABOO_SMALL",
@@ -77812,7 +106935,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PUMPKABOO_LARGE",
@@ -77905,7 +107029,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PUMPKABOO_SUPER",
@@ -77998,7 +107123,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GOURGEIST_AVERAGE",
@@ -78100,7 +107226,8 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GOURGEIST_SMALL",
@@ -78202,7 +107329,8 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GOURGEIST_LARGE",
@@ -78304,7 +107432,8 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GOURGEIST_SUPER",
@@ -78406,7 +107535,8 @@ const pokedexData = [
         "move": "Phantom Force"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BERGMITE",
@@ -78505,7 +107635,40 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AVALUGG",
@@ -78614,7 +107777,43 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Strength",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_AVALUGG_HISUI",
@@ -78728,7 +107927,35 @@ const pokedexData = [
         "move": "Mountain Gale"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NOIBAT",
@@ -78824,7 +108051,44 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Solar Beam",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NOIVERN",
@@ -78930,7 +108194,48 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Solar Beam",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_XERNEAS_NEUTRAL",
@@ -79031,7 +108336,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_XERNEAS_ACTIVE",
@@ -79132,7 +108438,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_YVELTAL",
@@ -79234,7 +108541,41 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZYGARDE_50",
@@ -79332,7 +108673,8 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZYGARDE_50_POWER_CONSTRUCT",
@@ -79430,7 +108772,8 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZYGARDE_10_AURA_BREAK",
@@ -79528,7 +108871,8 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
@@ -79626,7 +108970,8 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZYGARDE_COMPLETE",
@@ -79724,7 +109069,8 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_DIANCIE",
@@ -79810,7 +109156,40 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HOOPA_CONFINED",
@@ -79908,7 +109287,50 @@ const pokedexData = [
         "move": "Hyperspace Hole"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HOOPA_UNBOUND",
@@ -79998,7 +109420,50 @@ const pokedexData = [
         "move": "Hyperspace Fury"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VOLCANION",
@@ -80096,7 +109561,47 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Cut",
+      "Defog",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROWLET",
@@ -80184,7 +109689,37 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DARTRIX",
@@ -80272,7 +109807,37 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DECIDUEYE",
@@ -80378,7 +109943,39 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Steel Wing",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DECIDUEYE_HISUI",
@@ -80472,7 +110069,38 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LITTEN",
@@ -80559,7 +110187,36 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TORRACAT",
@@ -80646,7 +110303,36 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_INCINEROAR",
@@ -80748,7 +110434,47 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POPPLIO",
@@ -80835,7 +110561,35 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRIONNE",
@@ -80922,7 +110676,36 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PRIMARINA",
@@ -81012,7 +110795,44 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PIKIPEK",
@@ -81106,6 +110926,34 @@ const pokedexData = [
     ],
     "locations": [
       "Route1"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -81202,7 +111050,36 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOUCANNON",
@@ -81316,7 +111193,39 @@ const pokedexData = [
         "move": "Sky Attack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_YUNGOOS",
@@ -81403,6 +111312,35 @@ const pokedexData = [
       "Route1",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -81500,7 +111438,43 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GUMSHOOS_TOTEM",
@@ -81593,7 +111567,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GRUBBIN",
@@ -81660,7 +111635,32 @@ const pokedexData = [
         "move": "Dig"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHARJABUG",
@@ -81740,7 +111740,33 @@ const pokedexData = [
         "move": "Discharge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VIKAVOLT",
@@ -81842,7 +111868,37 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VIKAVOLT_TOTEM",
@@ -81944,7 +112000,8 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CRABRAWLER",
@@ -82031,7 +112088,41 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRABOMINABLE",
@@ -82117,7 +112208,45 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ORICORIO_BAILE",
@@ -82203,7 +112332,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ORICORIO_POM_POM",
@@ -82289,7 +112419,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ORICORIO_PAU",
@@ -82375,7 +112506,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ORICORIO_SENSU",
@@ -82461,7 +112593,8 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CUTIEFLY",
@@ -82542,7 +112675,38 @@ const pokedexData = [
         "move": "Quiver Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RIBOMBEE",
@@ -82624,7 +112788,40 @@ const pokedexData = [
         "move": "Quiver Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RIBOMBEE_TOTEM",
@@ -82698,7 +112895,8 @@ const pokedexData = [
         "move": "Quiver Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ROCKRUFF",
@@ -82746,7 +112944,7 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Double Team"
+        "move": "Endeavor"
       },
       {
         "level": 12,
@@ -82754,11 +112952,11 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Howl"
+        "move": "Bite"
       },
       {
         "level": 20,
-        "move": "Bite"
+        "move": "Play Rough"
       },
       {
         "level": 24,
@@ -82782,15 +112980,40 @@ const pokedexData = [
       },
       {
         "level": 44,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 48,
         "move": "Stone Edge"
       }
     ],
     "locations": [
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -82831,7 +113054,7 @@ const pokedexData = [
       },
       {
         "level": 8,
-        "move": "Double Team"
+        "move": "Endeavor"
       },
       {
         "level": 12,
@@ -82839,11 +113062,11 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Howl"
+        "move": "Bite"
       },
       {
         "level": 20,
-        "move": "Bite"
+        "move": "Play Rough"
       },
       {
         "level": 24,
@@ -82867,14 +113090,11 @@ const pokedexData = [
       },
       {
         "level": 44,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 48,
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_LYCANROC_MIDDAY",
@@ -82908,10 +113128,6 @@ const pokedexData = [
     "learnset": [
       {
         "level": 0,
-        "move": "Sucker Punch"
-      },
-      {
-        "level": 1,
         "move": "Accelerock"
       },
       {
@@ -82920,15 +113136,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Double Team"
-      },
-      {
-        "level": 1,
-        "move": "Quick Attack"
-      },
-      {
-        "level": 1,
-        "move": "Sand Attack"
+        "move": "Tackle"
       },
       {
         "level": 1,
@@ -82936,7 +113144,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Sand Attack"
+      },
+      {
+        "level": 1,
+        "move": "Endeavor"
       },
       {
         "level": 12,
@@ -82944,42 +113156,70 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Howl"
+        "move": "Bite"
       },
       {
         "level": 20,
-        "move": "Bite"
+        "move": "Play Rough"
       },
       {
         "level": 24,
         "move": "Rock Tomb"
       },
       {
-        "level": 30,
+        "level": 28,
         "move": "Roar"
       },
       {
-        "level": 36,
+        "level": 32,
         "move": "Rock Slide"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Crunch"
       },
       {
-        "level": 48,
+        "level": 40,
         "move": "Scary Face"
       },
       {
-        "level": 54,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 60,
+        "level": 44,
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LYCANROC_MIDNIGHT",
@@ -83017,7 +113257,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Sand Attack"
+        "move": "Reversal"
       },
       {
         "level": 1,
@@ -83029,19 +113269,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Double Team"
+        "move": "Sand Attack"
       },
       {
         "level": 1,
-        "move": "Reversal"
-      },
-      {
-        "level": 1,
-        "move": "Endure"
-      },
-      {
-        "level": 1,
-        "move": "Taunt"
+        "move": "Endeavor"
       },
       {
         "level": 12,
@@ -83049,42 +113281,75 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Howl"
+        "move": "Bite"
       },
       {
         "level": 20,
-        "move": "Bite"
+        "move": "Play Rough"
       },
       {
         "level": 24,
         "move": "Rock Tomb"
       },
       {
-        "level": 30,
+        "level": 28,
         "move": "Roar"
       },
       {
-        "level": 36,
+        "level": 32,
         "move": "Rock Slide"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Crunch"
       },
       {
-        "level": 48,
+        "level": 40,
         "move": "Scary Face"
       },
       {
-        "level": 54,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 60,
+        "level": 44,
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LYCANROC_DUSK",
@@ -83118,15 +113383,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Sucker Punch"
-      },
-      {
-        "level": 1,
-        "move": "Taunt"
-      },
-      {
-        "level": 1,
-        "move": "Endure"
+        "move": "Counter"
       },
       {
         "level": 1,
@@ -83138,15 +113395,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Double Team"
-      },
-      {
-        "level": 1,
-        "move": "Sand Attack"
-      },
-      {
-        "level": 1,
-        "move": "Counter"
+        "move": "Tackle"
       },
       {
         "level": 1,
@@ -83154,11 +113403,11 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Sand Attack"
       },
       {
         "level": 1,
-        "move": "Quick Attack"
+        "move": "Endeavor"
       },
       {
         "level": 12,
@@ -83166,42 +113415,70 @@ const pokedexData = [
       },
       {
         "level": 16,
-        "move": "Howl"
+        "move": "Bite"
       },
       {
         "level": 20,
-        "move": "Bite"
+        "move": "Play Rough"
       },
       {
         "level": 24,
         "move": "Rock Tomb"
       },
       {
-        "level": 30,
+        "level": 28,
         "move": "Roar"
       },
       {
-        "level": 36,
+        "level": 32,
         "move": "Rock Slide"
       },
       {
-        "level": 42,
+        "level": 36,
         "move": "Crunch"
       },
       {
-        "level": 48,
+        "level": 40,
         "move": "Scary Face"
       },
       {
-        "level": 54,
-        "move": "Stealth Rock"
-      },
-      {
-        "level": 60,
+        "level": 44,
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WISHIWASHI_SOLO",
@@ -83282,7 +113559,8 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_WISHIWASHI_SCHOOL",
@@ -83363,7 +113641,8 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MAREANIE",
@@ -83447,7 +113726,35 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOXAPEX",
@@ -83533,7 +113840,38 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Surf",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUDBRAY",
@@ -83620,7 +113958,37 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUDSDALE",
@@ -83705,7 +114073,38 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DEWPIDER",
@@ -83799,6 +114198,32 @@ const pokedexData = [
       "Palette Town Garden",
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
     ]
   },
   {
@@ -83889,7 +114314,38 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARAQUANID_TOTEM",
@@ -83975,7 +114431,8 @@ const pokedexData = [
         "move": "Mirror Coat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_FOMANTIS",
@@ -84054,7 +114511,33 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LURANTIS",
@@ -84143,7 +114626,36 @@ const pokedexData = [
         "move": "Solar Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bullet Seed",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LURANTIS_TOTEM",
@@ -84228,7 +114740,8 @@ const pokedexData = [
         "move": "Solar Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MORELULL",
@@ -84312,7 +114825,34 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHIINOTIC",
@@ -84394,7 +114934,35 @@ const pokedexData = [
         "move": "Dream Eater"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Flash",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SALANDIT",
@@ -84478,7 +115046,39 @@ const pokedexData = [
         "move": "Endeavor"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SALAZZLE",
@@ -84588,7 +115188,41 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SALAZZLE_TOTEM",
@@ -84694,7 +115328,8 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_STUFFUL",
@@ -84782,7 +115417,44 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BEWEAR",
@@ -84872,7 +115544,47 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BOUNSWEET",
@@ -84943,7 +115655,34 @@ const pokedexData = [
         "move": "Aromatic Mist"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STEENEE",
@@ -85022,7 +115761,34 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TSAREENA",
@@ -85115,7 +115881,37 @@ const pokedexData = [
         "move": "High Jump Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COMFEY",
@@ -85220,7 +116016,38 @@ const pokedexData = [
         "move": "Grassy Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ORANGURU",
@@ -85310,7 +116137,47 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Snatch",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Dream Eater",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PASSIMIAN",
@@ -85395,7 +116262,47 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WIMPOD",
@@ -85435,7 +116342,32 @@ const pokedexData = [
         "move": "Defense Curl"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOLISOPOD",
@@ -85529,7 +116461,48 @@ const pokedexData = [
         "move": "Liquidation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Bulk Up",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Surf",
+      "Taunt",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Defense Curl",
+      "Endure",
+      "Fury Cutter",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDYGAST",
@@ -85617,7 +116590,35 @@ const pokedexData = [
         "move": "Sandstorm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PALOSSAND",
@@ -85703,7 +116704,37 @@ const pokedexData = [
         "move": "Sandstorm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PYUKUMUKU",
@@ -85788,7 +116819,25 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Safeguard",
+      "Taunt",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TYPE_NULL",
@@ -85867,7 +116916,35 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KOMALA",
@@ -85944,7 +117021,40 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TURTONATOR",
@@ -86030,7 +117140,44 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOGEDEMARU",
@@ -86120,7 +117267,37 @@ const pokedexData = [
         "move": "Spiky Shield"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOGEDEMARU_TOTEM",
@@ -86202,7 +117379,8 @@ const pokedexData = [
         "move": "Spiky Shield"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MIMIKYU_DISGUISED",
@@ -86288,7 +117466,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MIMIKYU_BUSTED",
@@ -86374,7 +117553,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MIMIKYU_TOTEM_DISGUISED",
@@ -86460,7 +117640,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MIMIKYU_BUSTED_TOTEM",
@@ -86546,7 +117727,8 @@ const pokedexData = [
         "move": "Pain Split"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_BRUXISH",
@@ -86630,6 +117812,45 @@ const pokedexData = [
     ],
     "locations": [
       "Viridian City"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Snatch",
+      "Surf",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
     ]
   },
   {
@@ -86716,7 +117937,52 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Steel Wing",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DHELMISE",
@@ -86814,7 +118080,38 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Surf",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_JANGMO_O",
@@ -86901,7 +118198,41 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HAKAMO_O",
@@ -86994,7 +118325,44 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KOMMO_O",
@@ -87100,7 +118468,51 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Taunt",
+      "Toxic",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KOMMO_O_TOTEM",
@@ -87198,7 +118610,8 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TAPU_KOKO",
@@ -87296,7 +118709,45 @@ const pokedexData = [
         "move": "Electric Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAPU_LELE",
@@ -87394,7 +118845,39 @@ const pokedexData = [
         "move": "Psychic Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAPU_BULU",
@@ -87492,7 +118975,44 @@ const pokedexData = [
         "move": "Grassy Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Calm Mind",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TAPU_FINI",
@@ -87594,7 +119114,44 @@ const pokedexData = [
         "move": "Misty Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Calm Mind",
+      "Defog",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COSMOG",
@@ -87629,7 +119186,10 @@ const pokedexData = [
         "move": "Teleport"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COSMOEM",
@@ -87664,7 +119224,10 @@ const pokedexData = [
         "move": "Teleport"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SOLGALEO",
@@ -87758,7 +119321,47 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LUNALA",
@@ -87848,7 +119451,47 @@ const pokedexData = [
         "move": "Wide Guard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Calm Mind",
+      "Defog",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Dream Eater",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NIHILEGO",
@@ -87942,7 +119585,36 @@ const pokedexData = [
         "move": "Head Smash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BUZZWOLE",
@@ -88032,7 +119704,38 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PHEROMOSA",
@@ -88122,7 +119825,36 @@ const pokedexData = [
         "move": "High Jump Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Brick Break",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_XURKITREE",
@@ -88211,7 +119943,35 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CELESTEELA",
@@ -88301,7 +120061,37 @@ const pokedexData = [
         "move": "Skull Bash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KARTANA",
@@ -88391,7 +120181,32 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Cut",
+      "Defog",
+      "Double Team",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Toxic",
+      "Endure",
+      "Fury Cutter",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GUZZLORD",
@@ -88485,7 +120300,39 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Double Team",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NECROZMA",
@@ -88574,7 +120421,42 @@ const pokedexData = [
         "move": "Prismatic Laser"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NECROZMA_DUSK_MANE",
@@ -88664,7 +120546,8 @@ const pokedexData = [
         "move": "Prismatic Laser"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_NECROZMA_DAWN_WINGS",
@@ -88754,7 +120637,8 @@ const pokedexData = [
         "move": "Prismatic Laser"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_NECROZMA_ULTRA",
@@ -88844,7 +120728,8 @@ const pokedexData = [
         "move": "Prismatic Laser"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MAGEARNA",
@@ -88938,7 +120823,42 @@ const pokedexData = [
         "move": "Fleur Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Shock Wave",
+      "Skill Swap",
+      "Solar Beam",
+      "Thunderbolt",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAGEARNA_ORIGINAL",
@@ -89032,7 +120952,8 @@ const pokedexData = [
         "move": "Fleur Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MARSHADOW",
@@ -89130,7 +121051,43 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Shadow Ball",
+      "Snatch",
+      "Thief",
+      "Toxic",
+      "Counter",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POIPOLE",
@@ -89213,7 +121170,26 @@ const pokedexData = [
         "move": "Toxic"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Snatch",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NAGANADEL",
@@ -89311,7 +121287,37 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Snatch",
+      "Thief",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STAKATAKA",
@@ -89401,7 +121407,33 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BLACEPHALON",
@@ -89491,7 +121523,39 @@ const pokedexData = [
         "move": "Mind Blown"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZERAORA",
@@ -89588,7 +121652,42 @@ const pokedexData = [
         "move": "Close Combat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Calm Mind",
+      "Double Team",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Snatch",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MELTAN",
@@ -89641,7 +121740,25 @@ const pokedexData = [
         "move": "Flash Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MELMETAL",
@@ -89730,7 +121847,39 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Body Slam",
+      "Dynamic Punch",
+      "Endure",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GROOKEY",
@@ -89813,7 +121962,34 @@ const pokedexData = [
         "move": "Wood Hammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_THWACKEY",
@@ -89904,7 +122080,35 @@ const pokedexData = [
         "move": "Wood Hammer"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RILLABOOM",
@@ -90009,7 +122213,40 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Strength",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCORBUNNY",
@@ -90092,7 +122329,31 @@ const pokedexData = [
         "move": "U Turn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RABOOT",
@@ -90183,7 +122444,33 @@ const pokedexData = [
         "move": "U Turn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CINDERACE",
@@ -90288,7 +122575,37 @@ const pokedexData = [
         "move": "U Turn"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SOBBLE",
@@ -90375,7 +122692,33 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRIZZILE",
@@ -90470,7 +122813,33 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_INTELEON",
@@ -90579,7 +122948,42 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Surf",
+      "Taunt",
+      "Waterfall",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKWOVET",
@@ -90662,7 +123066,33 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GREEDENT",
@@ -90747,7 +123177,36 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROOKIDEE",
@@ -90821,6 +123280,30 @@ const pokedexData = [
     "locations": [
       "Route2 2",
       "Cerulean Path"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -90892,7 +123375,31 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Defog",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CORVIKNIGHT",
@@ -90970,7 +123477,38 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bulk Up",
+      "Defog",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Steel Wing",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BLIPBUG",
@@ -91012,6 +123550,9 @@ const pokedexData = [
     "locations": [
       "Viridian Forest",
       "Route1"
+    ],
+    "tm_moves": [
+      "Unavailable"
     ]
   },
   {
@@ -91064,7 +123605,31 @@ const pokedexData = [
         "move": "Struggle Bug"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ORBEETLE",
@@ -91166,7 +123731,33 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NICKIT",
@@ -91251,6 +123842,27 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -91344,7 +123956,31 @@ const pokedexData = [
         "move": "Parting Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOSSIFLEUR",
@@ -91425,6 +124061,27 @@ const pokedexData = [
     ],
     "locations": [
       "Seabreeze Glade"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
     ]
   },
   {
@@ -91506,7 +124163,29 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WOOLOO",
@@ -91589,7 +124268,28 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DUBWOOL",
@@ -91674,7 +124374,32 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Counter",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHEWTLE",
@@ -91748,6 +124473,29 @@ const pokedexData = [
     "locations": [
       "Hollowgrove",
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
     ]
   },
   {
@@ -91838,7 +124586,40 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Dig",
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_YAMPER",
@@ -91913,7 +124694,30 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BOLTUND",
@@ -91994,7 +124798,32 @@ const pokedexData = [
         "move": "Electric Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROLYCOLY",
@@ -92069,7 +124898,31 @@ const pokedexData = [
         "move": "Rock Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CARKOL",
@@ -92153,7 +125006,34 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COALOSSAL",
@@ -92239,7 +125119,40 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_APPLIN",
@@ -92285,7 +125198,13 @@ const pokedexData = [
         "move": "Withdraw"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Defense Curl",
+      "Rollout",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLAPPLE",
@@ -92387,7 +125306,31 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Bullet Seed",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_APPLETUN",
@@ -92489,7 +125432,34 @@ const pokedexData = [
         "move": "Energy Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Bullet Seed",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DIPPLIN",
@@ -92589,7 +125559,29 @@ const pokedexData = [
         "move": "Substitute"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Body Slam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HYDRAPPLE",
@@ -92699,7 +125691,31 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SILICOBRA",
@@ -92782,7 +125798,29 @@ const pokedexData = [
         "move": "Sand Tomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDACONDA",
@@ -92863,7 +125901,30 @@ const pokedexData = [
         "move": "Sand Tomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRAMORANT",
@@ -92941,7 +126002,35 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Blizzard",
+      "Defog",
+      "Dive",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Steel Wing",
+      "Surf",
+      "Thief",
+      "Water Pulse",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CRAMORANT_GULPING",
@@ -93019,7 +126108,8 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CRAMORANT_GORGING",
@@ -93097,7 +126187,8 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ARROKUDA",
@@ -93168,7 +126259,30 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BARRASKEWDA",
@@ -93241,7 +126355,33 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Brick Break",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOXEL",
@@ -93301,7 +126441,23 @@ const pokedexData = [
         "move": "Tearful Look"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOXTRICITY_AMPED",
@@ -93427,7 +126583,40 @@ const pokedexData = [
         "move": "Shift Gear"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOXTRICITY_LOW_KEY",
@@ -93553,7 +126742,40 @@ const pokedexData = [
         "move": "Magnetic Flux"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Endure",
+      "Fire Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SIZZLIPEDE",
@@ -93639,6 +126861,24 @@ const pokedexData = [
     ],
     "locations": [
       "Route21 North"
+    ],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
     ]
   },
   {
@@ -93733,7 +126973,30 @@ const pokedexData = [
         "move": "Burn Up"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CLOBBOPUS",
@@ -93808,7 +127071,33 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Taunt",
+      "Waterfall",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRAPPLOCT",
@@ -93897,7 +127186,36 @@ const pokedexData = [
         "move": "Topsy Turvy"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Waterfall",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Mega Punch",
+      "Mimic",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SINISTEA_PHONY",
@@ -93978,7 +127296,8 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
-    ]
+    ],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SINISTEA_ANTIQUE",
@@ -94057,7 +127376,8 @@ const pokedexData = [
         "move": "Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_POLTEAGEIST_PHONY",
@@ -94146,7 +127466,8 @@ const pokedexData = [
         "move": "Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_POLTEAGEIST_ANTIQUE",
@@ -94235,7 +127556,8 @@ const pokedexData = [
         "move": "Curse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_HATENNA",
@@ -94314,7 +127636,34 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HATTREM",
@@ -94397,7 +127746,34 @@ const pokedexData = [
         "move": "Healing Wish"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HATTERENE",
@@ -94487,7 +127863,37 @@ const pokedexData = [
         "move": "Magic Powder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IMPIDIMP",
@@ -94575,7 +127981,33 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MORGREM",
@@ -94667,7 +128099,33 @@ const pokedexData = [
         "move": "Foul Play"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRIMMSNARL",
@@ -94769,7 +128227,41 @@ const pokedexData = [
         "move": "Hammer Arm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Body Slam",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MILCERY",
@@ -94848,7 +128340,23 @@ const pokedexData = [
         "move": "Entrainment"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FALINKS",
@@ -94933,7 +128441,32 @@ const pokedexData = [
         "move": "Counter"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PINCURCHIN",
@@ -95018,7 +128551,30 @@ const pokedexData = [
         "move": "Discharge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SNOM",
@@ -95058,7 +128614,24 @@ const pokedexData = [
         "move": "Powder Snow"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FROSMOTH",
@@ -95160,7 +128733,34 @@ const pokedexData = [
         "move": "Quiver Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Blizzard",
+      "Calm Mind",
+      "Defog",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_STONJOURNER",
@@ -95237,7 +128837,31 @@ const pokedexData = [
         "move": "Mega Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_EISCUE_ICE",
@@ -95310,7 +128934,8 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_EISCUE_NOICE",
@@ -95383,7 +129008,8 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_INDEEDEE_M",
@@ -95469,7 +129095,31 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Body Slam",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_INDEEDEE_F",
@@ -95551,7 +129201,34 @@ const pokedexData = [
         "move": "Psychic Terrain"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Body Slam",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MORPEKO_FULL_BELLY",
@@ -95647,7 +129324,8 @@ const pokedexData = [
     ],
     "locations": [
       "Abandoned Lodge"
-    ]
+    ],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MORPEKO_HANGRY",
@@ -95741,7 +129419,8 @@ const pokedexData = [
         "move": "Super Fang"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_CUFANT",
@@ -95824,7 +129503,36 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_COPPERAJAH",
@@ -95909,7 +129617,38 @@ const pokedexData = [
         "move": "Superpower"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Strength",
+      "Taunt",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRACOZOLT",
@@ -95995,7 +129734,39 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCTOZOLT",
@@ -96081,7 +129852,38 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRACOVISH",
@@ -96167,7 +129969,31 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Body Slam",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCTOVISH",
@@ -96253,7 +130079,32 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DURALUDON",
@@ -96341,7 +130192,39 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Brick Break",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCHALUDON",
@@ -96431,7 +130314,38 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DREEPY",
@@ -96483,7 +130397,26 @@ const pokedexData = [
         "move": "Infestation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRAKLOAK",
@@ -96587,7 +130520,38 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Steel Wing",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DRAGAPULT",
@@ -96693,7 +130657,43 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Attract",
+      "Dive",
+      "Double Team",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Steel Wing",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZACIAN_HERO",
@@ -96774,7 +130774,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZACIAN_CROWNED",
@@ -96856,7 +130857,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZAMAZENTA_HERO",
@@ -96933,7 +130935,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ZAMAZENTA_CROWNED",
@@ -97011,7 +131014,8 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ETERNATUS",
@@ -97097,7 +131101,33 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KUBFU",
@@ -97187,7 +131217,39 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Secret Power",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_URSHIFU_SINGLE_STRIKE",
@@ -97281,7 +131343,44 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_URSHIFU_RAPID_STRIKE",
@@ -97375,7 +131474,45 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dive",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Waterfall",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Dynamic Punch",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZARUDE",
@@ -97469,7 +131606,44 @@ const pokedexData = [
         "move": "Jungle Healing"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Bullet Seed",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mega Kick",
+      "Mega Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ZARUDE_DADA",
@@ -97563,7 +131737,8 @@ const pokedexData = [
         "move": "Jungle Healing"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_REGIELEKI",
@@ -97648,7 +131823,33 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REGIDRAGO",
@@ -97729,7 +131930,30 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLASTRIER",
@@ -97810,7 +132034,32 @@ const pokedexData = [
         "move": "Swords Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Torment",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPECTRIER",
@@ -97891,7 +132140,31 @@ const pokedexData = [
         "move": "Nasty Plot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CALYREX",
@@ -97981,7 +132254,35 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Solar Beam",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CALYREX_ICE",
@@ -98131,7 +132432,44 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Bullet Seed",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Safeguard",
+      "Secret Power",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Torment",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CALYREX_SHADOW",
@@ -98281,7 +132619,40 @@ const pokedexData = [
         "move": "Future Sight"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Snore",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ENAMORUS_INCARNATE",
@@ -98379,7 +132750,8 @@ const pokedexData = [
         "move": "Springtide Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_ENAMORUS_THERIAN",
@@ -98473,7 +132845,8 @@ const pokedexData = [
         "move": "Springtide Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SPRIGATITO",
@@ -98556,7 +132929,27 @@ const pokedexData = [
         "move": "Play Rough"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLORAGATO",
@@ -98643,7 +133036,29 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MEOWSCARADA",
@@ -98753,7 +133168,36 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bullet Seed",
+      "Double Team",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FUECOCO",
@@ -98832,7 +133276,28 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CROCALOR",
@@ -98919,7 +133384,28 @@ const pokedexData = [
         "move": "Fire Blast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SKELEDIRGE",
@@ -99029,7 +133515,32 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QUAXLY",
@@ -99108,7 +133619,26 @@ const pokedexData = [
         "move": "Liquidation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QUAXWELL",
@@ -99199,7 +133729,27 @@ const pokedexData = [
         "move": "Feather Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_QUAQUAVAL",
@@ -99309,7 +133859,35 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Taunt",
+      "Water Pulse",
+      "Counter",
+      "Endure",
+      "Icy Wind",
+      "Mega Kick",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LECHONK",
@@ -99396,7 +133974,27 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_OINKOLOGNE_M",
@@ -99489,7 +134087,8 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_OINKOLOGNE_F",
@@ -99582,7 +134181,8 @@ const pokedexData = [
         "move": "Belch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TAROUNTULA",
@@ -99669,7 +134269,26 @@ const pokedexData = [
         "move": "Skitter Smack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SPIDOPS",
@@ -99758,7 +134377,30 @@ const pokedexData = [
         "move": "Skitter Smack"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NYMBLE",
@@ -99841,7 +134483,23 @@ const pokedexData = [
         "move": "First Impression"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Counter",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_LOKIX",
@@ -99947,7 +134605,28 @@ const pokedexData = [
         "move": "Axe Kick"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PAWMI",
@@ -100042,7 +134721,27 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PAWMO",
@@ -100142,7 +134841,29 @@ const pokedexData = [
         "move": "Wild Charge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PAWMOT",
@@ -100252,7 +134973,37 @@ const pokedexData = [
         "move": "Double Shock"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TANDEMAUS",
@@ -100343,7 +135094,31 @@ const pokedexData = [
         "move": "Population Bomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bullet Seed",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Water Pulse",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MAUSHOLD_THREE",
@@ -100440,7 +135215,8 @@ const pokedexData = [
         "move": "Population Bomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_MAUSHOLD_FOUR",
@@ -100537,7 +135313,8 @@ const pokedexData = [
         "move": "Population Bomb"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_FIDOUGH",
@@ -100628,7 +135405,27 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DACHSBUN",
@@ -100717,7 +135514,28 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SMOLIV",
@@ -100801,7 +135619,25 @@ const pokedexData = [
         "move": "Terrain Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DOLLIV",
@@ -100885,7 +135721,25 @@ const pokedexData = [
         "move": "Terrain Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARBOLIVA",
@@ -100983,7 +135837,31 @@ const pokedexData = [
         "move": "Petal Dance"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Safeguard",
+      "Secret Power",
+      "Solar Beam",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SQUAWKABILLY_GREEN",
@@ -101081,7 +135959,8 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SQUAWKABILLY_BLUE",
@@ -101179,7 +136058,8 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SQUAWKABILLY_YELLOW",
@@ -101277,7 +136157,8 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SQUAWKABILLY_WHITE",
@@ -101375,7 +136256,8 @@ const pokedexData = [
         "move": "Reversal"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_NACLI",
@@ -101466,7 +136348,25 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_NACLSTACK",
@@ -101561,7 +136461,27 @@ const pokedexData = [
         "move": "Stone Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GARGANACL",
@@ -101670,7 +136590,34 @@ const pokedexData = [
         "move": "Explosion"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Explosion",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHARCADET",
@@ -101742,7 +136689,24 @@ const pokedexData = [
         "move": "Lava Plume"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARMAROUGE",
@@ -101844,7 +136808,32 @@ const pokedexData = [
         "move": "Armor Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CERULEDGE",
@@ -101954,7 +136943,33 @@ const pokedexData = [
         "move": "Flare Blitz"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TADBULB",
@@ -102035,6 +137050,27 @@ const pokedexData = [
     ],
     "locations": [
       "Strange House Backrooms"
+    ],
+    "tm_moves": [
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
     ]
   },
   {
@@ -102120,7 +137156,30 @@ const pokedexData = [
         "move": "Zap Cannon"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WATTREL",
@@ -102204,7 +137263,27 @@ const pokedexData = [
         "move": "Discharge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KILOWATTREL",
@@ -102294,7 +137373,28 @@ const pokedexData = [
         "move": "Hurricane"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MASCHIFF",
@@ -102389,7 +137489,28 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MABOSSTIFF",
@@ -102490,7 +137611,29 @@ const pokedexData = [
         "move": "Outrage"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SHROODLE",
@@ -102586,7 +137729,32 @@ const pokedexData = [
         "move": "Gunk Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GRAFAIAI",
@@ -102680,7 +137848,32 @@ const pokedexData = [
         "move": "Gunk Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Double Edge",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRAMBLIN",
@@ -102772,7 +137965,29 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Thief",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRAMBLEGHAST",
@@ -102862,7 +138077,30 @@ const pokedexData = [
         "move": "Power Whip"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Solar Beam",
+      "Thief",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TOEDSCOOL",
@@ -102964,6 +138202,30 @@ const pokedexData = [
     ],
     "locations": [
       "Cerulean City Frlg 2"
+    ],
+    "tm_moves": [
+      "Bullet Seed",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
     ]
   },
   {
@@ -103070,7 +138332,32 @@ const pokedexData = [
         "move": "Spore"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rapid Spin",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Taunt",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KLAWF",
@@ -103163,7 +138450,31 @@ const pokedexData = [
         "move": "Guillotine"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Thief",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CAPSAKID",
@@ -103246,7 +138557,26 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCOVILLAIN",
@@ -103348,7 +138678,30 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RELLOR",
@@ -103388,11 +138741,11 @@ const pokedexData = [
       },
       {
         "level": 4,
-        "move": "Sand Attack"
+        "move": "Struggle Bug"
       },
       {
         "level": 7,
-        "move": "Struggle Bug"
+        "move": "Confusion"
       },
       {
         "level": 11,
@@ -103400,7 +138753,7 @@ const pokedexData = [
       },
       {
         "level": 15,
-        "move": "Mud Shot"
+        "move": "Psybeam"
       },
       {
         "level": 20,
@@ -103408,19 +138761,56 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Take Down"
+        "move": "Signal Beam"
       },
       {
         "level": 29,
-        "move": "Dig"
+        "move": "Extrasensory"
       },
       {
         "level": 35,
-        "move": "Lunge"
+        "move": "Bug Buzz"
+      },
+      {
+        "level": 40,
+        "move": "Psychic"
+      },
+      {
+        "level": 46,
+        "move": "Future Sight"
+      },
+      {
+        "level": 50,
+        "move": "Speed Swap"
+      },
+      {
+        "level": 55,
+        "move": "Teleport"
       }
     ],
     "locations": [
       "Pewter City"
+    ],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Thief",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
     ]
   },
   {
@@ -103456,7 +138846,7 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Safeguard"
+        "move": "Tackle"
       },
       {
         "level": 1,
@@ -103464,23 +138854,27 @@ const pokedexData = [
       },
       {
         "level": 1,
-        "move": "Tackle"
+        "move": "Magic Coat"
+      },
+      {
+        "level": 1,
+        "move": "Magic Room"
+      },
+      {
+        "level": 1,
+        "move": "Recover"
       },
       {
         "level": 1,
         "move": "Defense Curl"
       },
       {
-        "level": 1,
-        "move": "Confusion"
-      },
-      {
         "level": 4,
-        "move": "Sand Attack"
+        "move": "Struggle Bug"
       },
       {
         "level": 7,
-        "move": "Struggle Bug"
+        "move": "Confusion"
       },
       {
         "level": 11,
@@ -103496,7 +138890,7 @@ const pokedexData = [
       },
       {
         "level": 24,
-        "move": "Take Down"
+        "move": "Signal Beam"
       },
       {
         "level": 29,
@@ -103504,30 +138898,56 @@ const pokedexData = [
       },
       {
         "level": 35,
-        "move": "Lunge"
-      },
-      {
-        "level": 40,
-        "move": "Speed Swap"
-      },
-      {
-        "level": 40,
-        "move": "Power Swap"
-      },
-      {
-        "level": 40,
-        "move": "Guard Swap"
-      },
-      {
-        "level": 45,
         "move": "Bug Buzz"
       },
       {
-        "level": 50,
+        "level": 40,
         "move": "Psychic"
+      },
+      {
+        "level": 46,
+        "move": "Future Sight"
+      },
+      {
+        "level": 50,
+        "move": "Speed Swap"
+      },
+      {
+        "level": 55,
+        "move": "Teleport"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Safeguard",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Thief",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLITTLE",
@@ -103602,7 +139022,29 @@ const pokedexData = [
         "move": "Uproar"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Skill Swap",
+      "Thief",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ESPATHRA",
@@ -103699,7 +139141,35 @@ const pokedexData = [
         "move": "Last Resort"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TINKATINK",
@@ -103799,7 +139269,31 @@ const pokedexData = [
         "move": "Knock Off"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Skill Swap",
+      "Thief",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TINKATUFF",
@@ -103899,7 +139393,32 @@ const pokedexData = [
         "move": "Knock Off"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Skill Swap",
+      "Thief",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TINKATON",
@@ -104001,7 +139520,32 @@ const pokedexData = [
         "move": "Knock Off"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Smash",
+      "Rock Tomb",
+      "Secret Power",
+      "Skill Swap",
+      "Thief",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WIGLETT",
@@ -104084,7 +139628,28 @@ const pokedexData = [
         "move": "Liquidation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WUGTRIO",
@@ -104169,7 +139734,29 @@ const pokedexData = [
         "move": "Liquidation"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Water Pulse",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BOMBIRDIER",
@@ -104267,7 +139854,31 @@ const pokedexData = [
         "move": "Parting Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FINIZEN",
@@ -104346,7 +139957,33 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dive",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Counter",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_PALAFIN_ZERO",
@@ -104439,7 +140076,8 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PALAFIN_HERO",
@@ -104532,7 +140170,8 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_VAROOM",
@@ -104624,7 +140263,30 @@ const pokedexData = [
         "move": "Gunk Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_REVAVROOM",
@@ -104722,7 +140384,32 @@ const pokedexData = [
         "move": "Gunk Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Torment",
+      "Toxic",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CYCLIZAR",
@@ -104808,7 +140495,33 @@ const pokedexData = [
         "move": "Dragon Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Overheat",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ORTHWORM",
@@ -104893,7 +140606,30 @@ const pokedexData = [
         "move": "Shed Tail"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Iron Tail",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLIMMET",
@@ -104981,7 +140717,28 @@ const pokedexData = [
         "move": "Sludge Wave"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GLIMMORA",
@@ -105079,7 +140836,30 @@ const pokedexData = [
         "move": "Sludge Wave"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Explosion",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GREAVARD",
@@ -105170,7 +140950,27 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Thief",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_HOUNDSTONE",
@@ -105263,7 +141063,28 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shadow Ball",
+      "Thief",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLAMIGO",
@@ -105357,7 +141178,32 @@ const pokedexData = [
         "move": "Brave Bird"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Bulk Up",
+      "Double Team",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Water Pulse",
+      "Endure",
+      "Mega Kick",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CETODDLE",
@@ -105452,7 +141298,29 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CETITAN",
@@ -105545,7 +141413,30 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_VELUZA",
@@ -105627,7 +141518,30 @@ const pokedexData = [
         "move": "Final Gambit"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_DONDOZO",
@@ -105728,7 +141642,30 @@ const pokedexData = [
         "move": "Wave Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dive",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TATSUGIRI_CURLY",
@@ -105806,7 +141743,8 @@ const pokedexData = [
         "move": "Dragon Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TATSUGIRI_DROOPY",
@@ -105884,7 +141822,8 @@ const pokedexData = [
         "move": "Dragon Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TATSUGIRI_STRETCHY",
@@ -105962,7 +141901,8 @@ const pokedexData = [
         "move": "Dragon Pulse"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GREAT_TUSK",
@@ -106056,7 +141996,36 @@ const pokedexData = [
         "move": "Headlong Rush"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SCREAM_TAIL",
@@ -106150,7 +142119,45 @@ const pokedexData = [
         "move": "Boomburst"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Bulk Up",
+      "Calm Mind",
+      "Dig",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BRUTE_BONNET",
@@ -106240,7 +142247,29 @@ const pokedexData = [
         "move": "Solar Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Thief",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FLUTTER_MANE",
@@ -106334,7 +142363,29 @@ const pokedexData = [
         "move": "Perish Song"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SLITHER_WING",
@@ -106432,7 +142483,29 @@ const pokedexData = [
         "move": "Thrash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Bulk Up",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_SANDY_SHOCKS",
@@ -106530,7 +142603,30 @@ const pokedexData = [
         "move": "Magnetic Flux"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_TREADS",
@@ -106620,7 +142716,31 @@ const pokedexData = [
         "move": "Steel Roller"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rapid Spin",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thunder",
+      "Body Slam",
+      "Defense Curl",
+      "Double Edge",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_BUNDLE",
@@ -106706,7 +142826,31 @@ const pokedexData = [
         "move": "Blizzard"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Thief",
+      "Water Pulse",
+      "Body Slam",
+      "Endure",
+      "Ice Punch",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_HANDS",
@@ -106804,7 +142948,37 @@ const pokedexData = [
         "move": "Focus Punch"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Earthquake",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Metronome",
+      "Mimic",
+      "Rock Slide",
+      "Seismic Toss",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_JUGULIS",
@@ -106898,7 +143072,30 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_MOTH",
@@ -106996,7 +143193,30 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Toxic",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_THORNS",
@@ -107094,7 +143314,42 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FRIGIBAX",
@@ -107178,7 +143433,28 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Blizzard",
+      "Dig",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ARCTIBAX",
@@ -107258,7 +143534,30 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_BAXCALIBUR",
@@ -107356,7 +143655,33 @@ const pokedexData = [
         "move": "Icicle Crash"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Dig",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Ice Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GIMMIGHOUL_CHEST",
@@ -107391,7 +143716,8 @@ const pokedexData = [
         "move": "Tackle"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GIMMIGHOUL_ROAMING",
@@ -107426,7 +143752,8 @@ const pokedexData = [
         "move": "Tackle"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_GHOLDENGO",
@@ -107500,7 +143827,31 @@ const pokedexData = [
         "move": "Memento"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WO_CHIEN",
@@ -107602,7 +143953,30 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Bullet Seed",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHIEN_PAO",
@@ -107704,7 +144078,29 @@ const pokedexData = [
         "move": "Sheer Cold"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Blizzard",
+      "Brick Break",
+      "Facade",
+      "Frustration",
+      "Haze",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TING_LU",
@@ -107802,7 +144198,30 @@ const pokedexData = [
         "move": "Fissure"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dig",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_CHI_YU",
@@ -107900,7 +144319,30 @@ const pokedexData = [
         "move": "Overheat"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Taunt",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_ROARING_MOON",
@@ -108010,7 +144452,35 @@ const pokedexData = [
         "move": "Double Edge"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Dig",
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Rock Slide",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_VALIANT",
@@ -108112,7 +144582,42 @@ const pokedexData = [
         "move": "Spirit Break"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Double Team",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Skill Swap",
+      "Taunt",
+      "Thunderbolt",
+      "Endure",
+      "Fire Punch",
+      "Fury Cutter",
+      "Ice Punch",
+      "Icy Wind",
+      "Metronome",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_KORAIDON",
@@ -108202,7 +144707,39 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Dragon Claw",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Smash",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Mud Slap",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MIRAIDON",
@@ -108292,7 +144829,35 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Dragon Claw",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Overheat",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_WALKING_WAKE",
@@ -108386,7 +144951,31 @@ const pokedexData = [
         "move": "Hydro Pump"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dragon Claw",
+      "Facade",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Surf",
+      "Waterfall",
+      "Water Pulse",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_LEAVES",
@@ -108488,7 +145077,31 @@ const pokedexData = [
         "move": "Solar Blade"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Giga Drain",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Solar Beam",
+      "Taunt",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_POLTCHAGEIST_COUNTERFEIT",
@@ -108572,7 +145185,8 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_POLTCHAGEIST_ARTISAN",
@@ -108656,7 +145270,8 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SINISTCHA_UNREMARKABLE",
@@ -108742,7 +145357,8 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_SINISTCHA_MASTERPIECE",
@@ -108828,7 +145444,8 @@ const pokedexData = [
         "move": "Leaf Storm"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_OKIDOGI",
@@ -108906,7 +145523,38 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Bulk Up",
+      "Dig",
+      "Facade",
+      "Focus Punch",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Rock Tomb",
+      "Secret Power",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Fire Punch",
+      "Ice Punch",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Punch",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_MUNKIDORI",
@@ -108988,7 +145636,34 @@ const pokedexData = [
         "move": "Parting Shot"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Metronome",
+      "Mimic",
+      "Mud Slap",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swift",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_FEZANDIPITI",
@@ -109074,7 +145749,37 @@ const pokedexData = [
         "move": "Moonblast"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Attract",
+      "Calm Mind",
+      "Facade",
+      "Fly",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Light Screen",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Taunt",
+      "Thief",
+      "Toxic",
+      "Endure",
+      "Icy Wind",
+      "Mimic",
+      "Psych Up",
+      "Sleep Talk",
+      "Substitute",
+      "Swagger",
+      "Swift",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_GOUGING_FIRE",
@@ -109180,7 +145885,30 @@ const pokedexData = [
         "move": "Raging Fury"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Dragon Claw",
+      "Earthquake",
+      "Facade",
+      "Fire Blast",
+      "Flamethrower",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Overheat",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_RAGING_BOLT",
@@ -109278,7 +146006,33 @@ const pokedexData = [
         "move": "Thunder"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Calm Mind",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Rest",
+      "Return",
+      "Roar",
+      "Secret Power",
+      "Shock Wave",
+      "Solar Beam",
+      "Taunt",
+      "Thunder",
+      "Thunderbolt",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Thunder Wave",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_BOULDER",
@@ -109372,7 +146126,32 @@ const pokedexData = [
         "move": "Giga Impact"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Aerial Ace",
+      "Brick Break",
+      "Earthquake",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Rock Tomb",
+      "Secret Power",
+      "Taunt",
+      "Body Slam",
+      "Counter",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_IRON_CROWN",
@@ -109466,7 +146245,28 @@ const pokedexData = [
         "move": "Hyper Beam"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Brick Break",
+      "Calm Mind",
+      "Facade",
+      "Frustration",
+      "Hidden Power",
+      "Hyper Beam",
+      "Protect",
+      "Psychic",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Body Slam",
+      "Double Edge",
+      "Endure",
+      "Mimic",
+      "Sleep Talk",
+      "Substitute",
+      "Swords Dance",
+      "Unavailable"
+    ]
   },
   {
     "id": "SPECIES_TERAPAGOS_NORMAL",
@@ -109539,7 +146339,8 @@ const pokedexData = [
         "move": "Gyro Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TERAPAGOS_TERASTAL",
@@ -109612,7 +146413,8 @@ const pokedexData = [
         "move": "Gyro Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_TERAPAGOS_STELLAR",
@@ -109685,7 +146487,8 @@ const pokedexData = [
         "move": "Gyro Ball"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": []
   },
   {
     "id": "SPECIES_PECHARUNT",
@@ -109775,6 +146578,24 @@ const pokedexData = [
         "move": "Recover"
       }
     ],
-    "locations": []
+    "locations": [],
+    "tm_moves": [
+      "Frustration",
+      "Hidden Power",
+      "Protect",
+      "Rest",
+      "Return",
+      "Secret Power",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Toxic",
+      "Defense Curl",
+      "Endure",
+      "Mimic",
+      "Rollout",
+      "Sleep Talk",
+      "Substitute",
+      "Unavailable"
+    ]
   }
 ];
