@@ -1,6 +1,7 @@
 const pokedexData = [
   {
     "id": "SPECIES_BULBASAUR",
+    "dexNum": 1,
     "name": "Bulbasaur",
     "stats": {
       "hp": 45,
@@ -139,6 +140,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IVYSAUR",
+    "dexNum": 2,
     "name": "Ivysaur",
     "stats": {
       "hp": 60,
@@ -276,6 +278,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VENUSAUR",
+    "dexNum": 3,
     "name": "Venusaur",
     "stats": {
       "hp": 80,
@@ -425,6 +428,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHARMANDER",
+    "dexNum": 4,
     "name": "Charmander",
     "stats": {
       "hp": 39,
@@ -553,6 +557,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHARMELEON",
+    "dexNum": 5,
     "name": "Charmeleon",
     "stats": {
       "hp": 58,
@@ -677,6 +682,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHARIZARD",
+    "dexNum": 6,
     "name": "Charizard",
     "stats": {
       "hp": 78,
@@ -822,6 +828,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SQUIRTLE",
+    "dexNum": 7,
     "name": "Squirtle",
     "stats": {
       "hp": 44,
@@ -957,6 +964,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WARTORTLE",
+    "dexNum": 8,
     "name": "Wartortle",
     "stats": {
       "hp": 59,
@@ -1092,6 +1100,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLASTOISE",
+    "dexNum": 9,
     "name": "Blastoise",
     "stats": {
       "hp": 79,
@@ -1232,6 +1241,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CATERPIE",
+    "dexNum": 10,
     "name": "Caterpie",
     "stats": {
       "hp": 45,
@@ -1284,6 +1294,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_METAPOD",
+    "dexNum": 11,
     "name": "Metapod",
     "stats": {
       "hp": 50,
@@ -1324,6 +1335,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUTTERFREE",
+    "dexNum": 12,
     "name": "Butterfree",
     "stats": {
       "hp": 60,
@@ -1469,6 +1481,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WEEDLE",
+    "dexNum": 13,
     "name": "Weedle",
     "stats": {
       "hp": 40,
@@ -1521,6 +1534,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KAKUNA",
+    "dexNum": 14,
     "name": "Kakuna",
     "stats": {
       "hp": 45,
@@ -1564,6 +1578,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BEEDRILL",
+    "dexNum": 15,
     "name": "Beedrill",
     "stats": {
       "hp": 65,
@@ -1709,6 +1724,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIDGEY",
+    "dexNum": 16,
     "name": "Pidgey",
     "stats": {
       "hp": 40,
@@ -1844,6 +1860,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIDGEOTTO",
+    "dexNum": 17,
     "name": "Pidgeotto",
     "stats": {
       "hp": 63,
@@ -1979,6 +1996,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIDGEOT",
+    "dexNum": 18,
     "name": "Pidgeot",
     "stats": {
       "hp": 83,
@@ -2114,6 +2132,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RATTATA",
+    "dexNum": 19,
     "name": "Rattata",
     "stats": {
       "hp": 30,
@@ -2252,6 +2271,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RATICATE",
+    "dexNum": 20,
     "name": "Raticate",
     "stats": {
       "hp": 55,
@@ -2409,6 +2429,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RATTATA_ALOLA",
+    "dexNum": 956,
     "name": "Alolan Rattata",
     "stats": {
       "hp": 30,
@@ -2529,6 +2550,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RATICATE_ALOLA",
+    "dexNum": 957,
     "name": "Alolan Raticate",
     "stats": {
       "hp": 75,
@@ -2655,6 +2677,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPEAROW",
+    "dexNum": 21,
     "name": "Spearow",
     "stats": {
       "hp": 40,
@@ -2785,6 +2808,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FEAROW",
+    "dexNum": 22,
     "name": "Fearow",
     "stats": {
       "hp": 65,
@@ -2927,6 +2951,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EKANS",
+    "dexNum": 23,
     "name": "Ekans",
     "stats": {
       "hp": 35,
@@ -3064,6 +3089,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARBOK",
+    "dexNum": 24,
     "name": "Arbok",
     "stats": {
       "hp": 60,
@@ -3205,6 +3231,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PICHU",
+    "dexNum": 172,
     "name": "Pichu",
     "stats": {
       "hp": 20,
@@ -3303,6 +3330,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIKACHU",
+    "dexNum": 25,
     "name": "Pikachu",
     "stats": {
       "hp": 35,
@@ -3407,6 +3435,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAICHU",
+    "dexNum": 26,
     "name": "Raichu",
     "stats": {
       "hp": 60,
@@ -3553,6 +3582,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAICHU_ALOLA",
+    "dexNum": 958,
     "name": "Alolan Raichu",
     "stats": {
       "hp": 60,
@@ -3706,6 +3736,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDSHREW",
+    "dexNum": 27,
     "name": "Sandshrew",
     "stats": {
       "hp": 50,
@@ -3849,6 +3880,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDSLASH",
+    "dexNum": 28,
     "name": "Sandslash",
     "stats": {
       "hp": 75,
@@ -3995,6 +4027,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDSHREW_ALOLA",
+    "dexNum": 959,
     "name": "Alolan Sandshrew",
     "stats": {
       "hp": 50,
@@ -4132,6 +4165,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDSLASH_ALOLA",
+    "dexNum": 960,
     "name": "Alolan Sandslash",
     "stats": {
       "hp": 75,
@@ -4238,6 +4272,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDORAN_F",
+    "dexNum": 29,
     "name": "Nidoran\u2640",
     "stats": {
       "hp": 55,
@@ -4367,6 +4402,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDORINA",
+    "dexNum": 30,
     "name": "Nidorina",
     "stats": {
       "hp": 70,
@@ -4496,6 +4532,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDOQUEEN",
+    "dexNum": 31,
     "name": "Nidoqueen",
     "stats": {
       "hp": 90,
@@ -4655,6 +4692,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDORAN_M",
+    "dexNum": 32,
     "name": "Nidoran\u2642",
     "stats": {
       "hp": 46,
@@ -4786,6 +4824,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDORINO",
+    "dexNum": 33,
     "name": "Nidorino",
     "stats": {
       "hp": 61,
@@ -4916,6 +4955,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIDOKING",
+    "dexNum": 34,
     "name": "Nidoking",
     "stats": {
       "hp": 81,
@@ -5074,6 +5114,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLEFFA",
+    "dexNum": 173,
     "name": "Cleffa",
     "stats": {
       "hp": 50,
@@ -5194,6 +5235,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLEFAIRY",
+    "dexNum": 35,
     "name": "Clefairy",
     "stats": {
       "hp": 70,
@@ -5379,6 +5421,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLEFABLE",
+    "dexNum": 36,
     "name": "Clefable",
     "stats": {
       "hp": 95,
@@ -5561,6 +5604,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VULPIX",
+    "dexNum": 37,
     "name": "Vulpix",
     "stats": {
       "hp": 38,
@@ -5686,6 +5730,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NINETALES",
+    "dexNum": 38,
     "name": "Ninetales",
     "stats": {
       "hp": 73,
@@ -5787,6 +5832,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VULPIX_ALOLA",
+    "dexNum": 961,
     "name": "Alolan Vulpix",
     "stats": {
       "hp": 38,
@@ -5907,6 +5953,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NINETALES_ALOLA",
+    "dexNum": 962,
     "name": "Alolan Ninetales",
     "stats": {
       "hp": 73,
@@ -6000,6 +6047,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IGGLYBUFF",
+    "dexNum": 174,
     "name": "Igglybuff",
     "stats": {
       "hp": 90,
@@ -6113,6 +6161,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JIGGLYPUFF",
+    "dexNum": 39,
     "name": "Jigglypuff",
     "stats": {
       "hp": 115,
@@ -6293,6 +6342,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WIGGLYTUFF",
+    "dexNum": 40,
     "name": "Wigglytuff",
     "stats": {
       "hp": 140,
@@ -6474,6 +6524,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZUBAT",
+    "dexNum": 41,
     "name": "Zubat",
     "stats": {
       "hp": 40,
@@ -6628,6 +6679,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLBAT",
+    "dexNum": 42,
     "name": "Golbat",
     "stats": {
       "hp": 75,
@@ -6780,6 +6832,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CROBAT",
+    "dexNum": 169,
     "name": "Crobat",
     "stats": {
       "hp": 85,
@@ -6908,6 +6961,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ODDISH",
+    "dexNum": 43,
     "name": "Oddish",
     "stats": {
       "hp": 45,
@@ -7033,6 +7087,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLOOM",
+    "dexNum": 44,
     "name": "Gloom",
     "stats": {
       "hp": 60,
@@ -7151,6 +7206,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VILEPLUME",
+    "dexNum": 45,
     "name": "Vileplume",
     "stats": {
       "hp": 75,
@@ -7248,6 +7304,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BELLOSSOM",
+    "dexNum": 182,
     "name": "Bellossom",
     "stats": {
       "hp": 75,
@@ -7342,6 +7399,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PARAS",
+    "dexNum": 46,
     "name": "Paras",
     "stats": {
       "hp": 35,
@@ -7475,6 +7533,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PARASECT",
+    "dexNum": 47,
     "name": "Parasect",
     "stats": {
       "hp": 60,
@@ -7617,6 +7676,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VENONAT",
+    "dexNum": 48,
     "name": "Venonat",
     "stats": {
       "hp": 60,
@@ -7743,6 +7803,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VENOMOTH",
+    "dexNum": 49,
     "name": "Venomoth",
     "stats": {
       "hp": 70,
@@ -7874,6 +7935,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIGLETT",
+    "dexNum": 50,
     "name": "Diglett",
     "stats": {
       "hp": 10,
@@ -7995,6 +8057,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUGTRIO",
+    "dexNum": 51,
     "name": "Dugtrio",
     "stats": {
       "hp": 35,
@@ -8127,6 +8190,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIGLETT_ALOLA",
+    "dexNum": 963,
     "name": "Alolan Diglett",
     "stats": {
       "hp": 10,
@@ -8244,6 +8308,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUGTRIO_ALOLA",
+    "dexNum": 964,
     "name": "Alolan Dugtrio",
     "stats": {
       "hp": 35,
@@ -8373,6 +8438,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWTH",
+    "dexNum": 52,
     "name": "Meowth",
     "stats": {
       "hp": 40,
@@ -8503,6 +8569,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PERSIAN",
+    "dexNum": 53,
     "name": "Persian",
     "stats": {
       "hp": 65,
@@ -8650,6 +8717,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWTH_ALOLA",
+    "dexNum": 965,
     "name": "Alolan Meowth",
     "stats": {
       "hp": 40,
@@ -8781,6 +8849,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PERSIAN_ALOLA",
+    "dexNum": 966,
     "name": "Alolan Persian",
     "stats": {
       "hp": 65,
@@ -8926,6 +8995,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWTH_GALAR",
+    "dexNum": 974,
     "name": "Galarian Meowth",
     "stats": {
       "hp": 50,
@@ -9045,6 +9115,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PERRSERKER",
+    "dexNum": 863,
     "name": "Perrserker",
     "stats": {
       "hp": 70,
@@ -9173,6 +9244,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PSYDUCK",
+    "dexNum": 54,
     "name": "Psyduck",
     "stats": {
       "hp": 50,
@@ -9365,6 +9437,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLDUCK",
+    "dexNum": 55,
     "name": "Golduck",
     "stats": {
       "hp": 80,
@@ -9523,6 +9596,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANKEY",
+    "dexNum": 56,
     "name": "Mankey",
     "stats": {
       "hp": 40,
@@ -9667,6 +9741,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PRIMEAPE",
+    "dexNum": 57,
     "name": "Primeape",
     "stats": {
       "hp": 65,
@@ -9817,6 +9892,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ANNIHILAPE",
+    "dexNum": 1370,
     "name": "Annihilape",
     "stats": {
       "hp": 110,
@@ -9949,6 +10025,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROWLITHE",
+    "dexNum": 58,
     "name": "Growlithe",
     "stats": {
       "hp": 55,
@@ -10087,6 +10164,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCANINE",
+    "dexNum": 59,
     "name": "Arcanine",
     "stats": {
       "hp": 90,
@@ -10185,6 +10263,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROWLITHE_HISUI",
+    "dexNum": 993,
     "name": "Hisuian Growlithe",
     "stats": {
       "hp": 60,
@@ -10308,6 +10387,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCANINE_HISUI",
+    "dexNum": 994,
     "name": "Hisuian Arcanine",
     "stats": {
       "hp": 95,
@@ -10448,6 +10528,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLIWAG",
+    "dexNum": 60,
     "name": "Poliwag",
     "stats": {
       "hp": 40,
@@ -10580,6 +10661,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLIWHIRL",
+    "dexNum": 61,
     "name": "Poliwhirl",
     "stats": {
       "hp": 65,
@@ -10719,6 +10801,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLIWRATH",
+    "dexNum": 62,
     "name": "Poliwrath",
     "stats": {
       "hp": 90,
@@ -10858,6 +10941,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLITOED",
+    "dexNum": 186,
     "name": "Politoed",
     "stats": {
       "hp": 90,
@@ -11000,6 +11084,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ABRA",
+    "dexNum": 63,
     "name": "Abra",
     "stats": {
       "hp": 25,
@@ -11091,6 +11176,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KADABRA",
+    "dexNum": 64,
     "name": "Kadabra",
     "stats": {
       "hp": 40,
@@ -11240,6 +11326,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ALAKAZAM",
+    "dexNum": 65,
     "name": "Alakazam",
     "stats": {
       "hp": 55,
@@ -11380,6 +11467,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MACHOP",
+    "dexNum": 66,
     "name": "Machop",
     "stats": {
       "hp": 70,
@@ -11530,6 +11618,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MACHOKE",
+    "dexNum": 67,
     "name": "Machoke",
     "stats": {
       "hp": 80,
@@ -11683,6 +11772,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MACHAMP",
+    "dexNum": 68,
     "name": "Machamp",
     "stats": {
       "hp": 90,
@@ -11837,6 +11927,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BELLSPROUT",
+    "dexNum": 69,
     "name": "Bellsprout",
     "stats": {
       "hp": 50,
@@ -11950,6 +12041,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WEEPINBELL",
+    "dexNum": 70,
     "name": "Weepinbell",
     "stats": {
       "hp": 65,
@@ -12065,6 +12157,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VICTREEBEL",
+    "dexNum": 71,
     "name": "Victreebel",
     "stats": {
       "hp": 80,
@@ -12171,6 +12264,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TENTACOOL",
+    "dexNum": 72,
     "name": "Tentacool",
     "stats": {
       "hp": 40,
@@ -12330,6 +12424,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TENTACRUEL",
+    "dexNum": 73,
     "name": "Tentacruel",
     "stats": {
       "hp": 80,
@@ -12478,6 +12573,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GEODUDE",
+    "dexNum": 74,
     "name": "Geodude",
     "stats": {
       "hp": 40,
@@ -12636,6 +12732,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRAVELER",
+    "dexNum": 75,
     "name": "Graveler",
     "stats": {
       "hp": 55,
@@ -12786,6 +12883,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLEM",
+    "dexNum": 76,
     "name": "Golem",
     "stats": {
       "hp": 80,
@@ -12935,6 +13033,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GEODUDE_ALOLA",
+    "dexNum": 967,
     "name": "Alolan Geodude",
     "stats": {
       "hp": 40,
@@ -13067,6 +13166,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRAVELER_ALOLA",
+    "dexNum": 968,
     "name": "Alolan Graveler",
     "stats": {
       "hp": 55,
@@ -13204,6 +13304,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLEM_ALOLA",
+    "dexNum": 969,
     "name": "Alolan Golem",
     "stats": {
       "hp": 80,
@@ -13349,6 +13450,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PONYTA",
+    "dexNum": 77,
     "name": "Ponyta",
     "stats": {
       "hp": 50,
@@ -13469,6 +13571,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAPIDASH",
+    "dexNum": 78,
     "name": "Rapidash",
     "stats": {
       "hp": 65,
@@ -13604,6 +13707,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PONYTA_GALAR",
+    "dexNum": 975,
     "name": "Galarian Ponyta",
     "stats": {
       "hp": 50,
@@ -13715,6 +13819,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAPIDASH_GALAR",
+    "dexNum": 976,
     "name": "Galarian Rapidash",
     "stats": {
       "hp": 65,
@@ -13843,6 +13948,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWPOKE",
+    "dexNum": 79,
     "name": "Slowpoke",
     "stats": {
       "hp": 90,
@@ -13996,6 +14102,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWBRO",
+    "dexNum": 80,
     "name": "Slowbro",
     "stats": {
       "hp": 95,
@@ -14166,6 +14273,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWKING",
+    "dexNum": 199,
     "name": "Slowking",
     "stats": {
       "hp": 95,
@@ -14347,6 +14455,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWPOKE_GALAR",
+    "dexNum": 977,
     "name": "Galarian Slowpoke",
     "stats": {
       "hp": 90,
@@ -14489,6 +14598,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWBRO_GALAR",
+    "dexNum": 978,
     "name": "Galarian Slowbro",
     "stats": {
       "hp": 95,
@@ -14649,6 +14759,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLOWKING_GALAR",
+    "dexNum": 985,
     "name": "Galarian Slowking",
     "stats": {
       "hp": 95,
@@ -14829,6 +14940,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGNEMITE",
+    "dexNum": 81,
     "name": "Magnemite",
     "stats": {
       "hp": 25,
@@ -14958,6 +15070,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGNETON",
+    "dexNum": 82,
     "name": "Magneton",
     "stats": {
       "hp": 50,
@@ -15094,6 +15207,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGNEZONE",
+    "dexNum": 462,
     "name": "Magnezone",
     "stats": {
       "hp": 70,
@@ -15228,6 +15342,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FARFETCHD",
+    "dexNum": 83,
     "name": "Farfetch'd",
     "stats": {
       "hp": 52,
@@ -15356,6 +15471,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FARFETCHD_GALAR",
+    "dexNum": 979,
     "name": "Galarian Farfetch'd",
     "stats": {
       "hp": 52,
@@ -15472,6 +15588,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIRFETCHD",
+    "dexNum": 865,
     "name": "Sirfetch'd",
     "stats": {
       "hp": 62,
@@ -15602,6 +15719,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DODUO",
+    "dexNum": 84,
     "name": "Doduo",
     "stats": {
       "hp": 35,
@@ -15726,6 +15844,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DODRIO",
+    "dexNum": 85,
     "name": "Dodrio",
     "stats": {
       "hp": 60,
@@ -15849,6 +15968,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEEL",
+    "dexNum": 86,
     "name": "Seel",
     "stats": {
       "hp": 65,
@@ -15994,6 +16114,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEWGONG",
+    "dexNum": 87,
     "name": "Dewgong",
     "stats": {
       "hp": 90,
@@ -16135,6 +16256,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRIMER",
+    "dexNum": 88,
     "name": "Grimer",
     "stats": {
       "hp": 80,
@@ -16283,6 +16405,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUK",
+    "dexNum": 89,
     "name": "Muk",
     "stats": {
       "hp": 105,
@@ -16428,6 +16551,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRIMER_ALOLA",
+    "dexNum": 970,
     "name": "Alolan Grimer",
     "stats": {
       "hp": 80,
@@ -16571,6 +16695,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUK_ALOLA",
+    "dexNum": 971,
     "name": "Alolan Muk",
     "stats": {
       "hp": 105,
@@ -16714,6 +16839,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHELLDER",
+    "dexNum": 90,
     "name": "Shellder",
     "stats": {
       "hp": 30,
@@ -16847,6 +16973,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLOYSTER",
+    "dexNum": 91,
     "name": "Cloyster",
     "stats": {
       "hp": 50,
@@ -16948,6 +17075,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GASTLY",
+    "dexNum": 92,
     "name": "Gastly",
     "stats": {
       "hp": 30,
@@ -17090,6 +17218,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HAUNTER",
+    "dexNum": 93,
     "name": "Haunter",
     "stats": {
       "hp": 45,
@@ -17237,6 +17366,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GENGAR",
+    "dexNum": 94,
     "name": "Gengar",
     "stats": {
       "hp": 60,
@@ -17378,6 +17508,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ONIX",
+    "dexNum": 95,
     "name": "Onix",
     "stats": {
       "hp": 35,
@@ -17520,6 +17651,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STEELIX",
+    "dexNum": 208,
     "name": "Steelix",
     "stats": {
       "hp": 75,
@@ -17660,6 +17792,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DROWZEE",
+    "dexNum": 96,
     "name": "Drowzee",
     "stats": {
       "hp": 60,
@@ -17803,6 +17936,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HYPNO",
+    "dexNum": 97,
     "name": "Hypno",
     "stats": {
       "hp": 85,
@@ -17948,6 +18082,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KRABBY",
+    "dexNum": 98,
     "name": "Krabby",
     "stats": {
       "hp": 30,
@@ -18094,6 +18229,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KINGLER",
+    "dexNum": 99,
     "name": "Kingler",
     "stats": {
       "hp": 55,
@@ -18231,6 +18367,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VOLTORB",
+    "dexNum": 100,
     "name": "Voltorb",
     "stats": {
       "hp": 40,
@@ -18374,6 +18511,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELECTRODE",
+    "dexNum": 101,
     "name": "Electrode",
     "stats": {
       "hp": 60,
@@ -18524,6 +18662,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VOLTORB_HISUI",
+    "dexNum": 995,
     "name": "Hisuian Voltorb",
     "stats": {
       "hp": 40,
@@ -18655,6 +18794,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELECTRODE_HISUI",
+    "dexNum": 996,
     "name": "Hisuian Electrode",
     "stats": {
       "hp": 60,
@@ -18789,6 +18929,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EXEGGCUTE",
+    "dexNum": 102,
     "name": "Exeggcute",
     "stats": {
       "hp": 60,
@@ -18915,6 +19056,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EXEGGUTOR",
+    "dexNum": 103,
     "name": "Exeggutor",
     "stats": {
       "hp": 95,
@@ -19061,6 +19203,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EXEGGUTOR_ALOLA",
+    "dexNum": 972,
     "name": "Alolan Exeggutor",
     "stats": {
       "hp": 95,
@@ -19207,6 +19350,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CUBONE",
+    "dexNum": 104,
     "name": "Cubone",
     "stats": {
       "hp": 50,
@@ -19351,6 +19495,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAROWAK",
+    "dexNum": 105,
     "name": "Marowak",
     "stats": {
       "hp": 60,
@@ -19494,6 +19639,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAROWAK_ALOLA",
+    "dexNum": 973,
     "name": "Alolan Marowak",
     "stats": {
       "hp": 60,
@@ -19656,6 +19802,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYROGUE",
+    "dexNum": 236,
     "name": "Tyrogue",
     "stats": {
       "hp": 35,
@@ -19742,6 +19889,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HITMONLEE",
+    "dexNum": 106,
     "name": "Hitmonlee",
     "stats": {
       "hp": 50,
@@ -19888,6 +20036,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HITMONCHAN",
+    "dexNum": 107,
     "name": "Hitmonchan",
     "stats": {
       "hp": 50,
@@ -20041,6 +20190,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HITMONTOP",
+    "dexNum": 237,
     "name": "Hitmontop",
     "stats": {
       "hp": 50,
@@ -20184,6 +20334,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LICKITUNG",
+    "dexNum": 108,
     "name": "Lickitung",
     "stats": {
       "hp": 90,
@@ -20326,6 +20477,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LICKILICKY",
+    "dexNum": 463,
     "name": "Lickilicky",
     "stats": {
       "hp": 110,
@@ -20464,6 +20616,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KOFFING",
+    "dexNum": 109,
     "name": "Koffing",
     "stats": {
       "hp": 40,
@@ -20599,6 +20752,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WEEZING",
+    "dexNum": 110,
     "name": "Weezing",
     "stats": {
       "hp": 65,
@@ -20740,6 +20894,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WEEZING_GALAR",
+    "dexNum": 980,
     "name": "Galarian Weezing",
     "stats": {
       "hp": 65,
@@ -20894,6 +21049,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RHYHORN",
+    "dexNum": 111,
     "name": "Rhyhorn",
     "stats": {
       "hp": 80,
@@ -21031,6 +21187,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RHYDON",
+    "dexNum": 112,
     "name": "Rhydon",
     "stats": {
       "hp": 105,
@@ -21183,6 +21340,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RHYPERIOR",
+    "dexNum": 464,
     "name": "Rhyperior",
     "stats": {
       "hp": 115,
@@ -21334,6 +21492,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HAPPINY",
+    "dexNum": 440,
     "name": "Happiny",
     "stats": {
       "hp": 100,
@@ -21439,6 +21598,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHANSEY",
+    "dexNum": 113,
     "name": "Chansey",
     "stats": {
       "hp": 250,
@@ -21623,6 +21783,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLISSEY",
+    "dexNum": 242,
     "name": "Blissey",
     "stats": {
       "hp": 255,
@@ -21802,6 +21963,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TANGELA",
+    "dexNum": 114,
     "name": "Tangela",
     "stats": {
       "hp": 65,
@@ -21930,6 +22092,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TANGROWTH",
+    "dexNum": 465,
     "name": "Tangrowth",
     "stats": {
       "hp": 100,
@@ -22071,6 +22234,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KANGASKHAN",
+    "dexNum": 115,
     "name": "Kangaskhan",
     "stats": {
       "hp": 105,
@@ -22224,6 +22388,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HORSEA",
+    "dexNum": 116,
     "name": "Horsea",
     "stats": {
       "hp": 30,
@@ -22369,6 +22534,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEADRA",
+    "dexNum": 117,
     "name": "Seadra",
     "stats": {
       "hp": 55,
@@ -22506,6 +22672,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KINGDRA",
+    "dexNum": 230,
     "name": "Kingdra",
     "stats": {
       "hp": 75,
@@ -22634,6 +22801,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLDEEN",
+    "dexNum": 118,
     "name": "Goldeen",
     "stats": {
       "hp": 45,
@@ -22770,6 +22938,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEAKING",
+    "dexNum": 119,
     "name": "Seaking",
     "stats": {
       "hp": 80,
@@ -22900,6 +23069,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STARYU",
+    "dexNum": 120,
     "name": "Staryu",
     "stats": {
       "hp": 30,
@@ -23038,6 +23208,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STARMIE",
+    "dexNum": 121,
     "name": "Starmie",
     "stats": {
       "hp": 60,
@@ -23179,6 +23350,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIME_JR",
+    "dexNum": 439,
     "name": "Mime Jr.",
     "stats": {
       "hp": 20,
@@ -23325,6 +23497,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MR_MIME",
+    "dexNum": 122,
     "name": "Mr. Mime",
     "stats": {
       "hp": 40,
@@ -23498,6 +23671,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MR_MIME_GALAR",
+    "dexNum": 981,
     "name": "Galarian Mr. Mime",
     "stats": {
       "hp": 50,
@@ -23678,6 +23852,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MR_RIME",
+    "dexNum": 866,
     "name": "Mr. Rime",
     "stats": {
       "hp": 80,
@@ -23872,6 +24047,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCYTHER",
+    "dexNum": 123,
     "name": "Scyther",
     "stats": {
       "hp": 70,
@@ -23999,6 +24175,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCIZOR",
+    "dexNum": 212,
     "name": "Scizor",
     "stats": {
       "hp": 70,
@@ -24137,6 +24314,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLEAVOR",
+    "dexNum": 900,
     "name": "Kleavor",
     "stats": {
       "hp": 70,
@@ -24257,6 +24435,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SMOOCHUM",
+    "dexNum": 238,
     "name": "Smoochum",
     "stats": {
       "hp": 45,
@@ -24392,6 +24571,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JYNX",
+    "dexNum": 124,
     "name": "Jynx",
     "stats": {
       "hp": 65,
@@ -24534,6 +24714,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELEKID",
+    "dexNum": 239,
     "name": "Elekid",
     "stats": {
       "hp": 45,
@@ -24664,6 +24845,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELECTABUZZ",
+    "dexNum": 125,
     "name": "Electabuzz",
     "stats": {
       "hp": 65,
@@ -24807,6 +24989,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELECTIVIRE",
+    "dexNum": 466,
     "name": "Electivire",
     "stats": {
       "hp": 75,
@@ -24949,6 +25132,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGBY",
+    "dexNum": 240,
     "name": "Magby",
     "stats": {
       "hp": 45,
@@ -25074,6 +25258,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGMAR",
+    "dexNum": 126,
     "name": "Magmar",
     "stats": {
       "hp": 65,
@@ -25209,6 +25394,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGMORTAR",
+    "dexNum": 467,
     "name": "Magmortar",
     "stats": {
       "hp": 75,
@@ -25345,6 +25531,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PINSIR",
+    "dexNum": 127,
     "name": "Pinsir",
     "stats": {
       "hp": 65,
@@ -25475,6 +25662,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAUROS",
+    "dexNum": 128,
     "name": "Tauros",
     "stats": {
       "hp": 75,
@@ -25608,6 +25796,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAUROS_PALDEA_COMBAT",
+    "dexNum": 1402,
     "name": "Paldean Tauros",
     "stats": {
       "hp": 75,
@@ -25722,6 +25911,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAUROS_PALDEA_BLAZE",
+    "dexNum": 1403,
     "name": "Paldean Tauros",
     "stats": {
       "hp": 75,
@@ -25839,6 +26029,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAUROS_PALDEA_AQUA",
+    "dexNum": 1404,
     "name": "Paldean Tauros",
     "stats": {
       "hp": 75,
@@ -25955,6 +26146,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGIKARP",
+    "dexNum": 129,
     "name": "Magikarp",
     "stats": {
       "hp": 20,
@@ -26049,6 +26241,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GYARADOS",
+    "dexNum": 130,
     "name": "Gyarados",
     "stats": {
       "hp": 95,
@@ -26240,6 +26433,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LAPRAS",
+    "dexNum": 131,
     "name": "Lapras",
     "stats": {
       "hp": 130,
@@ -26379,6 +26573,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DITTO",
+    "dexNum": 132,
     "name": "Ditto",
     "stats": {
       "hp": 48,
@@ -26423,6 +26618,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EEVEE",
+    "dexNum": 133,
     "name": "Eevee",
     "stats": {
       "hp": 55,
@@ -26541,6 +26737,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EEVEE_STARTER",
+    "dexNum": 1488,
     "name": "Eevee",
     "stats": {
       "hp": 65,
@@ -26639,6 +26836,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VAPOREON",
+    "dexNum": 134,
     "name": "Vaporeon",
     "stats": {
       "hp": 130,
@@ -26805,6 +27003,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JOLTEON",
+    "dexNum": 135,
     "name": "Jolteon",
     "stats": {
       "hp": 65,
@@ -26968,6 +27167,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLAREON",
+    "dexNum": 136,
     "name": "Flareon",
     "stats": {
       "hp": 65,
@@ -27126,6 +27326,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ESPEON",
+    "dexNum": 196,
     "name": "Espeon",
     "stats": {
       "hp": 65,
@@ -27287,6 +27488,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_UMBREON",
+    "dexNum": 197,
     "name": "Umbreon",
     "stats": {
       "hp": 95,
@@ -27455,6 +27657,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LEAFEON",
+    "dexNum": 470,
     "name": "Leafeon",
     "stats": {
       "hp": 65,
@@ -27619,6 +27822,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLACEON",
+    "dexNum": 471,
     "name": "Glaceon",
     "stats": {
       "hp": 65,
@@ -27777,6 +27981,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SYLVEON",
+    "dexNum": 700,
     "name": "Sylveon",
     "stats": {
       "hp": 95,
@@ -27937,6 +28142,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PORYGON",
+    "dexNum": 137,
     "name": "Porygon",
     "stats": {
       "hp": 65,
@@ -28067,6 +28273,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PORYGON2",
+    "dexNum": 233,
     "name": "Porygon2",
     "stats": {
       "hp": 85,
@@ -28201,6 +28408,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PORYGON_Z",
+    "dexNum": 474,
     "name": "Porygon-Z",
     "stats": {
       "hp": 85,
@@ -28344,6 +28552,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OMANYTE",
+    "dexNum": 138,
     "name": "Omanyte",
     "stats": {
       "hp": 35,
@@ -28478,6 +28687,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OMASTAR",
+    "dexNum": 139,
     "name": "Omastar",
     "stats": {
       "hp": 70,
@@ -28618,6 +28828,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KABUTO",
+    "dexNum": 140,
     "name": "Kabuto",
     "stats": {
       "hp": 30,
@@ -28750,6 +28961,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KABUTOPS",
+    "dexNum": 141,
     "name": "Kabutops",
     "stats": {
       "hp": 60,
@@ -28894,6 +29106,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AERODACTYL",
+    "dexNum": 142,
     "name": "Aerodactyl",
     "stats": {
       "hp": 80,
@@ -29024,6 +29237,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUNCHLAX",
+    "dexNum": 446,
     "name": "Munchlax",
     "stats": {
       "hp": 135,
@@ -29176,6 +29390,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNORLAX",
+    "dexNum": 143,
     "name": "Snorlax",
     "stats": {
       "hp": 160,
@@ -29375,6 +29590,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARTICUNO",
+    "dexNum": 144,
     "name": "Articuno",
     "stats": {
       "hp": 90,
@@ -29504,6 +29720,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARTICUNO_GALAR",
+    "dexNum": 982,
     "name": "Galarian Articuno",
     "stats": {
       "hp": 90,
@@ -29617,6 +29834,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZAPDOS",
+    "dexNum": 145,
     "name": "Zapdos",
     "stats": {
       "hp": 90,
@@ -29746,6 +29964,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZAPDOS_GALAR",
+    "dexNum": 983,
     "name": "Galarian Zapdos",
     "stats": {
       "hp": 90,
@@ -29864,6 +30083,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MOLTRES",
+    "dexNum": 146,
     "name": "Moltres",
     "stats": {
       "hp": 90,
@@ -29992,6 +30212,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MOLTRES_GALAR",
+    "dexNum": 984,
     "name": "Galarian Moltres",
     "stats": {
       "hp": 90,
@@ -30106,6 +30327,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRATINI",
+    "dexNum": 147,
     "name": "Dratini",
     "stats": {
       "hp": 41,
@@ -30238,6 +30460,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAGONAIR",
+    "dexNum": 148,
     "name": "Dragonair",
     "stats": {
       "hp": 61,
@@ -30370,6 +30593,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAGONITE",
+    "dexNum": 149,
     "name": "Dragonite",
     "stats": {
       "hp": 91,
@@ -30544,6 +30768,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEWTWO",
+    "dexNum": 150,
     "name": "Mewtwo",
     "stats": {
       "hp": 106,
@@ -30704,6 +30929,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEW",
+    "dexNum": 151,
     "name": "Mew",
     "stats": {
       "hp": 100,
@@ -30871,6 +31097,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHIKORITA",
+    "dexNum": 152,
     "name": "Chikorita",
     "stats": {
       "hp": 45,
@@ -30992,6 +31219,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BAYLEEF",
+    "dexNum": 153,
     "name": "Bayleef",
     "stats": {
       "hp": 60,
@@ -31115,6 +31343,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CYNDAQUIL",
+    "dexNum": 155,
     "name": "Cyndaquil",
     "stats": {
       "hp": 39,
@@ -31243,6 +31472,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUILAVA",
+    "dexNum": 156,
     "name": "Quilava",
     "stats": {
       "hp": 58,
@@ -31376,6 +31606,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYPHLOSION",
+    "dexNum": 157,
     "name": "Typhlosion",
     "stats": {
       "hp": 78,
@@ -31524,6 +31755,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYPHLOSION_HISUI",
+    "dexNum": 997,
     "name": "Hisuian Typhlosion",
     "stats": {
       "hp": 73,
@@ -31663,6 +31895,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOTODILE",
+    "dexNum": 158,
     "name": "Totodile",
     "stats": {
       "hp": 50,
@@ -31796,6 +32029,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CROCONAW",
+    "dexNum": 159,
     "name": "Croconaw",
     "stats": {
       "hp": 65,
@@ -31933,6 +32167,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FERALIGATR",
+    "dexNum": 160,
     "name": "Feraligatr",
     "stats": {
       "hp": 85,
@@ -32074,6 +32309,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SENTRET",
+    "dexNum": 161,
     "name": "Sentret",
     "stats": {
       "hp": 35,
@@ -32219,6 +32455,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FURRET",
+    "dexNum": 162,
     "name": "Furret",
     "stats": {
       "hp": 85,
@@ -32378,6 +32615,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOOTHOOT",
+    "dexNum": 163,
     "name": "Hoothoot",
     "stats": {
       "hp": 60,
@@ -32510,6 +32748,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NOCTOWL",
+    "dexNum": 164,
     "name": "Noctowl",
     "stats": {
       "hp": 100,
@@ -32646,6 +32885,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LEDYBA",
+    "dexNum": 165,
     "name": "Ledyba",
     "stats": {
       "hp": 40,
@@ -32780,6 +33020,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LEDIAN",
+    "dexNum": 166,
     "name": "Ledian",
     "stats": {
       "hp": 55,
@@ -32917,6 +33158,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPINARAK",
+    "dexNum": 167,
     "name": "Spinarak",
     "stats": {
       "hp": 40,
@@ -33047,6 +33289,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARIADOS",
+    "dexNum": 168,
     "name": "Ariados",
     "stats": {
       "hp": 70,
@@ -33191,6 +33434,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHINCHOU",
+    "dexNum": 170,
     "name": "Chinchou",
     "stats": {
       "hp": 75,
@@ -33311,6 +33555,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LANTURN",
+    "dexNum": 171,
     "name": "Lanturn",
     "stats": {
       "hp": 125,
@@ -33446,6 +33691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOGEPI",
+    "dexNum": 175,
     "name": "Togepi",
     "stats": {
       "hp": 35,
@@ -33589,6 +33835,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOGETIC",
+    "dexNum": 176,
     "name": "Togetic",
     "stats": {
       "hp": 55,
@@ -33747,6 +33994,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOGEKISS",
+    "dexNum": 468,
     "name": "Togekiss",
     "stats": {
       "hp": 85,
@@ -33919,6 +34167,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NATU",
+    "dexNum": 177,
     "name": "Natu",
     "stats": {
       "hp": 40,
@@ -34042,6 +34291,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_XATU",
+    "dexNum": 178,
     "name": "Xatu",
     "stats": {
       "hp": 65,
@@ -34176,6 +34426,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAREEP",
+    "dexNum": 179,
     "name": "Mareep",
     "stats": {
       "hp": 55,
@@ -34302,6 +34553,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLAAFFY",
+    "dexNum": 180,
     "name": "Flaaffy",
     "stats": {
       "hp": 70,
@@ -34439,6 +34691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AMPHAROS",
+    "dexNum": 181,
     "name": "Ampharos",
     "stats": {
       "hp": 90,
@@ -34595,6 +34848,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AZURILL",
+    "dexNum": 298,
     "name": "Azurill",
     "stats": {
       "hp": 50,
@@ -34703,6 +34957,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MARILL",
+    "dexNum": 183,
     "name": "Marill",
     "stats": {
       "hp": 70,
@@ -34860,6 +35115,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AZUMARILL",
+    "dexNum": 184,
     "name": "Azumarill",
     "stats": {
       "hp": 100,
@@ -35008,6 +35264,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BONSLY",
+    "dexNum": 438,
     "name": "Bonsly",
     "stats": {
       "hp": 50,
@@ -35131,6 +35388,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SUDOWOODO",
+    "dexNum": 185,
     "name": "Sudowoodo",
     "stats": {
       "hp": 70,
@@ -35291,6 +35549,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOPPIP",
+    "dexNum": 187,
     "name": "Hoppip",
     "stats": {
       "hp": 35,
@@ -35432,6 +35691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKIPLOOM",
+    "dexNum": 188,
     "name": "Skiploom",
     "stats": {
       "hp": 55,
@@ -35567,6 +35827,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JUMPLUFF",
+    "dexNum": 189,
     "name": "Jumpluff",
     "stats": {
       "hp": 75,
@@ -35701,6 +35962,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AIPOM",
+    "dexNum": 190,
     "name": "Aipom",
     "stats": {
       "hp": 55,
@@ -35847,6 +36109,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AMBIPOM",
+    "dexNum": 424,
     "name": "Ambipom",
     "stats": {
       "hp": 75,
@@ -35984,6 +36247,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SUNKERN",
+    "dexNum": 191,
     "name": "Sunkern",
     "stats": {
       "hp": 50,
@@ -36103,6 +36367,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SUNFLORA",
+    "dexNum": 192,
     "name": "Sunflora",
     "stats": {
       "hp": 75,
@@ -36235,6 +36500,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YANMA",
+    "dexNum": 193,
     "name": "Yanma",
     "stats": {
       "hp": 65,
@@ -36366,6 +36632,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YANMEGA",
+    "dexNum": 469,
     "name": "Yanmega",
     "stats": {
       "hp": 86,
@@ -36499,6 +36766,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WOOPER",
+    "dexNum": 194,
     "name": "Wooper",
     "stats": {
       "hp": 55,
@@ -36635,6 +36903,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUAGSIRE",
+    "dexNum": 195,
     "name": "Quagsire",
     "stats": {
       "hp": 95,
@@ -36773,6 +37042,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WOOPER_PALDEA",
+    "dexNum": 1405,
     "name": "Paldean Wooper",
     "stats": {
       "hp": 55,
@@ -36899,6 +37169,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLODSIRE",
+    "dexNum": 1371,
     "name": "Clodsire",
     "stats": {
       "hp": 130,
@@ -37022,6 +37293,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MURKROW",
+    "dexNum": 198,
     "name": "Murkrow",
     "stats": {
       "hp": 60,
@@ -37164,6 +37436,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HONCHKROW",
+    "dexNum": 430,
     "name": "Honchkrow",
     "stats": {
       "hp": 100,
@@ -37281,6 +37554,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MISDREAVUS",
+    "dexNum": 200,
     "name": "Misdreavus",
     "stats": {
       "hp": 60,
@@ -37398,6 +37672,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MISMAGIUS",
+    "dexNum": 429,
     "name": "Mismagius",
     "stats": {
       "hp": 60,
@@ -37485,6 +37760,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WYNAUT",
+    "dexNum": 360,
     "name": "Wynaut",
     "stats": {
       "hp": 95,
@@ -37553,6 +37829,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WOBBUFFET",
+    "dexNum": 202,
     "name": "Wobbuffet",
     "stats": {
       "hp": 190,
@@ -37639,6 +37916,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIRAFARIG",
+    "dexNum": 203,
     "name": "Girafarig",
     "stats": {
       "hp": 70,
@@ -37787,6 +38065,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FARIGIRAF",
+    "dexNum": 1372,
     "name": "Farigiraf",
     "stats": {
       "hp": 120,
@@ -37920,6 +38199,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PINECO",
+    "dexNum": 204,
     "name": "Pineco",
     "stats": {
       "hp": 50,
@@ -38046,6 +38326,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FORRETRESS",
+    "dexNum": 205,
     "name": "Forretress",
     "stats": {
       "hp": 75,
@@ -38187,6 +38468,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUNSPARCE",
+    "dexNum": 206,
     "name": "Dunsparce",
     "stats": {
       "hp": 100,
@@ -38332,6 +38614,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUDUNSPARCE_TWO_SEGMENT",
+    "dexNum": 1373,
     "name": "Dudunsparce",
     "stats": {
       "hp": 125,
@@ -38434,6 +38717,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUDUNSPARCE_THREE_SEGMENT",
+    "dexNum": 1374,
     "name": "Dudunsparce",
     "stats": {
       "hp": 125,
@@ -38536,6 +38820,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLIGAR",
+    "dexNum": 207,
     "name": "Gligar",
     "stats": {
       "hp": 65,
@@ -38670,6 +38955,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLISCOR",
+    "dexNum": 472,
     "name": "Gliscor",
     "stats": {
       "hp": 75,
@@ -38810,6 +39096,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNUBBULL",
+    "dexNum": 209,
     "name": "Snubbull",
     "stats": {
       "hp": 60,
@@ -38964,6 +39251,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRANBULL",
+    "dexNum": 210,
     "name": "Granbull",
     "stats": {
       "hp": 90,
@@ -39116,6 +39404,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QWILFISH",
+    "dexNum": 211,
     "name": "Qwilfish",
     "stats": {
       "hp": 65,
@@ -39272,6 +39561,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QWILFISH_HISUI",
+    "dexNum": 998,
     "name": "Hisuian Qwilfish",
     "stats": {
       "hp": 65,
@@ -39404,6 +39694,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OVERQWIL",
+    "dexNum": 904,
     "name": "Overqwil",
     "stats": {
       "hp": 85,
@@ -39535,6 +39826,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHUCKLE",
+    "dexNum": 213,
     "name": "Shuckle",
     "stats": {
       "hp": 20,
@@ -39668,6 +39960,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HERACROSS",
+    "dexNum": 214,
     "name": "Heracross",
     "stats": {
       "hp": 80,
@@ -39804,6 +40097,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNEASEL",
+    "dexNum": 215,
     "name": "Sneasel",
     "stats": {
       "hp": 55,
@@ -39946,6 +40240,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WEAVILE",
+    "dexNum": 461,
     "name": "Weavile",
     "stats": {
       "hp": 70,
@@ -40087,6 +40382,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNEASEL_HISUI",
+    "dexNum": 999,
     "name": "Hisuian Sneasel",
     "stats": {
       "hp": 55,
@@ -40205,6 +40501,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNEASLER",
+    "dexNum": 903,
     "name": "Sneasler",
     "stats": {
       "hp": 80,
@@ -40333,6 +40630,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TEDDIURSA",
+    "dexNum": 216,
     "name": "Teddiursa",
     "stats": {
       "hp": 60,
@@ -40481,6 +40779,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_URSARING",
+    "dexNum": 217,
     "name": "Ursaring",
     "stats": {
       "hp": 90,
@@ -40636,6 +40935,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_URSALUNA",
+    "dexNum": 901,
     "name": "Ursaluna",
     "stats": {
       "hp": 130,
@@ -40781,6 +41081,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_URSALUNA_BLOODMOON",
+    "dexNum": 1424,
     "name": "Ursaluna",
     "stats": {
       "hp": 113,
@@ -40911,6 +41212,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLUGMA",
+    "dexNum": 218,
     "name": "Slugma",
     "stats": {
       "hp": 40,
@@ -41045,6 +41347,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGCARGO",
+    "dexNum": 219,
     "name": "Magcargo",
     "stats": {
       "hp": 60,
@@ -41182,6 +41485,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWINUB",
+    "dexNum": 220,
     "name": "Swinub",
     "stats": {
       "hp": 50,
@@ -41302,6 +41606,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PILOSWINE",
+    "dexNum": 221,
     "name": "Piloswine",
     "stats": {
       "hp": 100,
@@ -41431,6 +41736,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAMOSWINE",
+    "dexNum": 473,
     "name": "Mamoswine",
     "stats": {
       "hp": 110,
@@ -41566,6 +41872,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CORSOLA",
+    "dexNum": 222,
     "name": "Corsola",
     "stats": {
       "hp": 65,
@@ -41694,6 +42001,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CORSOLA_GALAR",
+    "dexNum": 986,
     "name": "Galarian Corsola",
     "stats": {
       "hp": 60,
@@ -41811,6 +42119,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CURSOLA",
+    "dexNum": 864,
     "name": "Cursola",
     "stats": {
       "hp": 60,
@@ -41931,6 +42240,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REMORAID",
+    "dexNum": 223,
     "name": "Remoraid",
     "stats": {
       "hp": 35,
@@ -42056,6 +42366,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OCTILLERY",
+    "dexNum": 224,
     "name": "Octillery",
     "stats": {
       "hp": 75,
@@ -42201,6 +42512,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DELIBIRD",
+    "dexNum": 225,
     "name": "Delibird",
     "stats": {
       "hp": 45,
@@ -42289,6 +42601,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANTYKE",
+    "dexNum": 458,
     "name": "Mantyke",
     "stats": {
       "hp": 45,
@@ -42416,6 +42729,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANTINE",
+    "dexNum": 226,
     "name": "Mantine",
     "stats": {
       "hp": 85,
@@ -42556,6 +42870,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKARMORY",
+    "dexNum": 227,
     "name": "Skarmory",
     "stats": {
       "hp": 65,
@@ -42692,6 +43007,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOUNDOUR",
+    "dexNum": 228,
     "name": "Houndour",
     "stats": {
       "hp": 45,
@@ -42829,6 +43145,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOUNDOOM",
+    "dexNum": 229,
     "name": "Houndoom",
     "stats": {
       "hp": 75,
@@ -42963,6 +43280,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PHANPY",
+    "dexNum": 231,
     "name": "Phanpy",
     "stats": {
       "hp": 90,
@@ -43083,6 +43401,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DONPHAN",
+    "dexNum": 232,
     "name": "Donphan",
     "stats": {
       "hp": 90,
@@ -43200,6 +43519,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STANTLER",
+    "dexNum": 234,
     "name": "Stantler",
     "stats": {
       "hp": 73,
@@ -43332,6 +43652,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WYRDEER",
+    "dexNum": 899,
     "name": "Wyrdeer",
     "stats": {
       "hp": 103,
@@ -43460,6 +43781,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SMEARGLE",
+    "dexNum": 235,
     "name": "Smeargle",
     "stats": {
       "hp": 55,
@@ -43538,6 +43860,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MILTANK",
+    "dexNum": 241,
     "name": "Miltank",
     "stats": {
       "hp": 95,
@@ -43677,6 +44000,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAIKOU",
+    "dexNum": 243,
     "name": "Raikou",
     "stats": {
       "hp": 90,
@@ -43817,6 +44141,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ENTEI",
+    "dexNum": 244,
     "name": "Entei",
     "stats": {
       "hp": 115,
@@ -43960,6 +44285,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SUICUNE",
+    "dexNum": 245,
     "name": "Suicune",
     "stats": {
       "hp": 100,
@@ -44104,6 +44430,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LARVITAR",
+    "dexNum": 246,
     "name": "Larvitar",
     "stats": {
       "hp": 50,
@@ -44243,6 +44570,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PUPITAR",
+    "dexNum": 247,
     "name": "Pupitar",
     "stats": {
       "hp": 70,
@@ -44376,6 +44704,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYRANITAR",
+    "dexNum": 248,
     "name": "Tyranitar",
     "stats": {
       "hp": 100,
@@ -44556,6 +44885,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUGIA",
+    "dexNum": 249,
     "name": "Lugia",
     "stats": {
       "hp": 106,
@@ -44700,6 +45030,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HO_OH",
+    "dexNum": 250,
     "name": "Ho-Oh",
     "stats": {
       "hp": 106,
@@ -44839,6 +45170,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CELEBI",
+    "dexNum": 251,
     "name": "Celebi",
     "stats": {
       "hp": 100,
@@ -44955,6 +45287,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TREECKO",
+    "dexNum": 252,
     "name": "Treecko",
     "stats": {
       "hp": 40,
@@ -45093,6 +45426,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROVYLE",
+    "dexNum": 253,
     "name": "Grovyle",
     "stats": {
       "hp": 50,
@@ -45247,6 +45581,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCEPTILE",
+    "dexNum": 254,
     "name": "Sceptile",
     "stats": {
       "hp": 70,
@@ -45407,6 +45742,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORCHIC",
+    "dexNum": 255,
     "name": "Torchic",
     "stats": {
       "hp": 45,
@@ -45537,6 +45873,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COMBUSKEN",
+    "dexNum": 256,
     "name": "Combusken",
     "stats": {
       "hp": 60,
@@ -45688,6 +46025,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLAZIKEN",
+    "dexNum": 257,
     "name": "Blaziken",
     "stats": {
       "hp": 80,
@@ -45849,6 +46187,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUDKIP",
+    "dexNum": 258,
     "name": "Mudkip",
     "stats": {
       "hp": 50,
@@ -45979,6 +46318,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MARSHTOMP",
+    "dexNum": 259,
     "name": "Marshtomp",
     "stats": {
       "hp": 70,
@@ -46122,6 +46462,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWAMPERT",
+    "dexNum": 260,
     "name": "Swampert",
     "stats": {
       "hp": 100,
@@ -46277,6 +46618,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POOCHYENA",
+    "dexNum": 261,
     "name": "Poochyena",
     "stats": {
       "hp": 35,
@@ -46403,6 +46745,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIGHTYENA",
+    "dexNum": 262,
     "name": "Mightyena",
     "stats": {
       "hp": 70,
@@ -46547,6 +46890,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZIGZAGOON",
+    "dexNum": 263,
     "name": "Zigzagoon",
     "stats": {
       "hp": 38,
@@ -46675,6 +47019,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LINOONE",
+    "dexNum": 264,
     "name": "Linoone",
     "stats": {
       "hp": 78,
@@ -46824,6 +47169,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZIGZAGOON_GALAR",
+    "dexNum": 987,
     "name": "Galarian Zigzagoon",
     "stats": {
       "hp": 38,
@@ -46952,6 +47298,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LINOONE_GALAR",
+    "dexNum": 988,
     "name": "Galarian Linoone",
     "stats": {
       "hp": 78,
@@ -47081,6 +47428,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OBSTAGOON",
+    "dexNum": 862,
     "name": "Obstagoon",
     "stats": {
       "hp": 93,
@@ -47235,6 +47583,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WURMPLE",
+    "dexNum": 265,
     "name": "Wurmple",
     "stats": {
       "hp": 45,
@@ -47288,6 +47637,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SILCOON",
+    "dexNum": 266,
     "name": "Silcoon",
     "stats": {
       "hp": 50,
@@ -47326,6 +47676,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BEAUTIFLY",
+    "dexNum": 267,
     "name": "Beautifly",
     "stats": {
       "hp": 60,
@@ -47467,6 +47818,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CASCOON",
+    "dexNum": 268,
     "name": "Cascoon",
     "stats": {
       "hp": 50,
@@ -47505,6 +47857,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUSTOX",
+    "dexNum": 269,
     "name": "Dustox",
     "stats": {
       "hp": 60,
@@ -47643,6 +47996,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LOTAD",
+    "dexNum": 270,
     "name": "Lotad",
     "stats": {
       "hp": 40,
@@ -47769,6 +48123,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LOMBRE",
+    "dexNum": 271,
     "name": "Lombre",
     "stats": {
       "hp": 60,
@@ -47907,6 +48262,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUDICOLO",
+    "dexNum": 272,
     "name": "Ludicolo",
     "stats": {
       "hp": 80,
@@ -48023,6 +48379,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEEDOT",
+    "dexNum": 273,
     "name": "Seedot",
     "stats": {
       "hp": 40,
@@ -48137,6 +48494,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NUZLEAF",
+    "dexNum": 274,
     "name": "Nuzleaf",
     "stats": {
       "hp": 70,
@@ -48279,6 +48637,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHIFTRY",
+    "dexNum": 275,
     "name": "Shiftry",
     "stats": {
       "hp": 90,
@@ -48402,6 +48761,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAILLOW",
+    "dexNum": 276,
     "name": "Taillow",
     "stats": {
       "hp": 40,
@@ -48514,6 +48874,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWELLOW",
+    "dexNum": 277,
     "name": "Swellow",
     "stats": {
       "hp": 60,
@@ -48645,6 +49006,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WINGULL",
+    "dexNum": 278,
     "name": "Wingull",
     "stats": {
       "hp": 40,
@@ -48761,6 +49123,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PELIPPER",
+    "dexNum": 279,
     "name": "Pelipper",
     "stats": {
       "hp": 60,
@@ -48887,6 +49250,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RALTS",
+    "dexNum": 280,
     "name": "Ralts",
     "stats": {
       "hp": 28,
@@ -49032,6 +49396,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KIRLIA",
+    "dexNum": 281,
     "name": "Kirlia",
     "stats": {
       "hp": 38,
@@ -49179,6 +49544,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GARDEVOIR",
+    "dexNum": 282,
     "name": "Gardevoir",
     "stats": {
       "hp": 68,
@@ -49347,6 +49713,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GALLADE",
+    "dexNum": 475,
     "name": "Gallade",
     "stats": {
       "hp": 68,
@@ -49573,6 +49940,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SURSKIT",
+    "dexNum": 283,
     "name": "Surskit",
     "stats": {
       "hp": 40,
@@ -49682,6 +50050,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MASQUERAIN",
+    "dexNum": 284,
     "name": "Masquerain",
     "stats": {
       "hp": 70,
@@ -49802,6 +50171,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHROOMISH",
+    "dexNum": 285,
     "name": "Shroomish",
     "stats": {
       "hp": 60,
@@ -49916,6 +50286,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRELOOM",
+    "dexNum": 286,
     "name": "Breloom",
     "stats": {
       "hp": 60,
@@ -50076,6 +50447,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLAKOTH",
+    "dexNum": 287,
     "name": "Slakoth",
     "stats": {
       "hp": 60,
@@ -50200,6 +50572,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VIGOROTH",
+    "dexNum": 288,
     "name": "Vigoroth",
     "stats": {
       "hp": 80,
@@ -50329,6 +50702,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLAKING",
+    "dexNum": 289,
     "name": "Slaking",
     "stats": {
       "hp": 150,
@@ -50469,6 +50843,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NINCADA",
+    "dexNum": 290,
     "name": "Nincada",
     "stats": {
       "hp": 31,
@@ -50571,6 +50946,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NINJASK",
+    "dexNum": 291,
     "name": "Ninjask",
     "stats": {
       "hp": 61,
@@ -50727,6 +51103,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHEDINJA",
+    "dexNum": 292,
     "name": "Shedinja",
     "stats": {
       "hp": 1,
@@ -50852,6 +51229,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WHISMUR",
+    "dexNum": 293,
     "name": "Whismur",
     "stats": {
       "hp": 64,
@@ -50980,6 +51358,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LOUDRED",
+    "dexNum": 294,
     "name": "Loudred",
     "stats": {
       "hp": 84,
@@ -51123,6 +51502,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EXPLOUD",
+    "dexNum": 295,
     "name": "Exploud",
     "stats": {
       "hp": 104,
@@ -51274,6 +51654,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAKUHITA",
+    "dexNum": 296,
     "name": "Makuhita",
     "stats": {
       "hp": 72,
@@ -51421,6 +51802,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HARIYAMA",
+    "dexNum": 297,
     "name": "Hariyama",
     "stats": {
       "hp": 144,
@@ -51575,6 +51957,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NOSEPASS",
+    "dexNum": 299,
     "name": "Nosepass",
     "stats": {
       "hp": 30,
@@ -51713,6 +52096,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PROBOPASS",
+    "dexNum": 476,
     "name": "Probopass",
     "stats": {
       "hp": 60,
@@ -51862,6 +52246,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKITTY",
+    "dexNum": 300,
     "name": "Skitty",
     "stats": {
       "hp": 50,
@@ -52007,6 +52392,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DELCATTY",
+    "dexNum": 301,
     "name": "Delcatty",
     "stats": {
       "hp": 70,
@@ -52153,6 +52539,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SABLEYE",
+    "dexNum": 302,
     "name": "Sableye",
     "stats": {
       "hp": 50,
@@ -52325,6 +52712,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAWILE",
+    "dexNum": 303,
     "name": "Mawile",
     "stats": {
       "hp": 50,
@@ -52471,6 +52859,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARON",
+    "dexNum": 304,
     "name": "Aron",
     "stats": {
       "hp": 50,
@@ -52612,6 +53001,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LAIRON",
+    "dexNum": 305,
     "name": "Lairon",
     "stats": {
       "hp": 60,
@@ -52753,6 +53143,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AGGRON",
+    "dexNum": 306,
     "name": "Aggron",
     "stats": {
       "hp": 70,
@@ -52915,6 +53306,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEDITITE",
+    "dexNum": 307,
     "name": "Meditite",
     "stats": {
       "hp": 30,
@@ -53062,6 +53454,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEDICHAM",
+    "dexNum": 308,
     "name": "Medicham",
     "stats": {
       "hp": 60,
@@ -53220,6 +53613,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELECTRIKE",
+    "dexNum": 309,
     "name": "Electrike",
     "stats": {
       "hp": 40,
@@ -53339,6 +53733,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANECTRIC",
+    "dexNum": 310,
     "name": "Manectric",
     "stats": {
       "hp": 70,
@@ -53472,6 +53867,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PLUSLE",
+    "dexNum": 311,
     "name": "Plusle",
     "stats": {
       "hp": 60,
@@ -53621,6 +54017,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MINUN",
+    "dexNum": 312,
     "name": "Minun",
     "stats": {
       "hp": 60,
@@ -53769,6 +54166,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VOLBEAT",
+    "dexNum": 313,
     "name": "Volbeat",
     "stats": {
       "hp": 65,
@@ -53906,6 +54304,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ILLUMISE",
+    "dexNum": 314,
     "name": "Illumise",
     "stats": {
       "hp": 65,
@@ -54046,6 +54445,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUDEW",
+    "dexNum": 406,
     "name": "Budew",
     "stats": {
       "hp": 40,
@@ -54124,6 +54524,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROSELIA",
+    "dexNum": 315,
     "name": "Roselia",
     "stats": {
       "hp": 50,
@@ -54245,6 +54646,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROSERADE",
+    "dexNum": 407,
     "name": "Roserade",
     "stats": {
       "hp": 60,
@@ -54344,6 +54746,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GULPIN",
+    "dexNum": 316,
     "name": "Gulpin",
     "stats": {
       "hp": 70,
@@ -54482,6 +54885,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWALOT",
+    "dexNum": 317,
     "name": "Swalot",
     "stats": {
       "hp": 100,
@@ -54636,6 +55040,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CARVANHA",
+    "dexNum": 318,
     "name": "Carvanha",
     "stats": {
       "hp": 45,
@@ -54764,6 +55169,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHARPEDO",
+    "dexNum": 319,
     "name": "Sharpedo",
     "stats": {
       "hp": 70,
@@ -54901,6 +55307,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WAILMER",
+    "dexNum": 320,
     "name": "Wailmer",
     "stats": {
       "hp": 130,
@@ -55035,6 +55442,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WAILORD",
+    "dexNum": 321,
     "name": "Wailord",
     "stats": {
       "hp": 170,
@@ -55176,6 +55584,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NUMEL",
+    "dexNum": 322,
     "name": "Numel",
     "stats": {
       "hp": 60,
@@ -55302,6 +55711,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CAMERUPT",
+    "dexNum": 323,
     "name": "Camerupt",
     "stats": {
       "hp": 70,
@@ -55437,6 +55847,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORKOAL",
+    "dexNum": 324,
     "name": "Torkoal",
     "stats": {
       "hp": 70,
@@ -55579,6 +55990,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPOINK",
+    "dexNum": 325,
     "name": "Spoink",
     "stats": {
       "hp": 60,
@@ -55705,6 +56117,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRUMPIG",
+    "dexNum": 326,
     "name": "Grumpig",
     "stats": {
       "hp": 80,
@@ -55851,6 +56264,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPINDA",
+    "dexNum": 327,
     "name": "Spinda",
     "stats": {
       "hp": 60,
@@ -55987,6 +56401,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TRAPINCH",
+    "dexNum": 328,
     "name": "Trapinch",
     "stats": {
       "hp": 45,
@@ -56106,6 +56521,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VIBRAVA",
+    "dexNum": 329,
     "name": "Vibrava",
     "stats": {
       "hp": 50,
@@ -56256,6 +56672,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLYGON",
+    "dexNum": 330,
     "name": "Flygon",
     "stats": {
       "hp": 80,
@@ -56423,6 +56840,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CACNEA",
+    "dexNum": 331,
     "name": "Cacnea",
     "stats": {
       "hp": 50,
@@ -56561,6 +56979,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CACTURNE",
+    "dexNum": 332,
     "name": "Cacturne",
     "stats": {
       "hp": 70,
@@ -56707,6 +57126,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWABLU",
+    "dexNum": 333,
     "name": "Swablu",
     "stats": {
       "hp": 45,
@@ -56835,6 +57255,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ALTARIA",
+    "dexNum": 334,
     "name": "Altaria",
     "stats": {
       "hp": 75,
@@ -56975,6 +57396,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZANGOOSE",
+    "dexNum": 335,
     "name": "Zangoose",
     "stats": {
       "hp": 73,
@@ -57178,6 +57600,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEVIPER",
+    "dexNum": 336,
     "name": "Seviper",
     "stats": {
       "hp": 73,
@@ -57314,6 +57737,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUNATONE",
+    "dexNum": 337,
     "name": "Lunatone",
     "stats": {
       "hp": 90,
@@ -57445,6 +57869,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SOLROCK",
+    "dexNum": 338,
     "name": "Solrock",
     "stats": {
       "hp": 90,
@@ -57578,6 +58003,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BARBOACH",
+    "dexNum": 339,
     "name": "Barboach",
     "stats": {
       "hp": 50,
@@ -57699,6 +58125,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WHISCASH",
+    "dexNum": 340,
     "name": "Whiscash",
     "stats": {
       "hp": 110,
@@ -57842,6 +58269,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CORPHISH",
+    "dexNum": 341,
     "name": "Corphish",
     "stats": {
       "hp": 43,
@@ -57973,6 +58401,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRAWDAUNT",
+    "dexNum": 342,
     "name": "Crawdaunt",
     "stats": {
       "hp": 63,
@@ -58108,6 +58537,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BALTOY",
+    "dexNum": 343,
     "name": "Baltoy",
     "stats": {
       "hp": 40,
@@ -58253,6 +58683,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLAYDOL",
+    "dexNum": 344,
     "name": "Claydol",
     "stats": {
       "hp": 60,
@@ -58404,6 +58835,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LILEEP",
+    "dexNum": 345,
     "name": "Lileep",
     "stats": {
       "hp": 66,
@@ -58527,6 +58959,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRADILY",
+    "dexNum": 346,
     "name": "Cradily",
     "stats": {
       "hp": 86,
@@ -58657,6 +59090,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ANORITH",
+    "dexNum": 347,
     "name": "Anorith",
     "stats": {
       "hp": 45,
@@ -58774,6 +59208,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARMALDO",
+    "dexNum": 348,
     "name": "Armaldo",
     "stats": {
       "hp": 75,
@@ -58894,6 +59329,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FEEBAS",
+    "dexNum": 349,
     "name": "Feebas",
     "stats": {
       "hp": 20,
@@ -58972,6 +59408,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MILOTIC",
+    "dexNum": 350,
     "name": "Milotic",
     "stats": {
       "hp": 95,
@@ -59117,6 +59554,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CASTFORM_NORMAL",
+    "dexNum": 351,
     "name": "Castform",
     "stats": {
       "hp": 70,
@@ -59195,6 +59633,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CASTFORM_SUNNY",
+    "dexNum": 1051,
     "name": "Castform",
     "stats": {
       "hp": 70,
@@ -59273,6 +59712,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CASTFORM_RAINY",
+    "dexNum": 1052,
     "name": "Castform",
     "stats": {
       "hp": 70,
@@ -59351,6 +59791,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CASTFORM_SNOWY",
+    "dexNum": 1053,
     "name": "Castform",
     "stats": {
       "hp": 70,
@@ -59429,6 +59870,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KECLEON",
+    "dexNum": 352,
     "name": "Kecleon",
     "stats": {
       "hp": 60,
@@ -59596,6 +60038,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHUPPET",
+    "dexNum": 353,
     "name": "Shuppet",
     "stats": {
       "hp": 44,
@@ -59722,6 +60165,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BANETTE",
+    "dexNum": 354,
     "name": "Banette",
     "stats": {
       "hp": 64,
@@ -59848,6 +60292,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUSKULL",
+    "dexNum": 355,
     "name": "Duskull",
     "stats": {
       "hp": 20,
@@ -59967,6 +60412,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUSCLOPS",
+    "dexNum": 356,
     "name": "Dusclops",
     "stats": {
       "hp": 40,
@@ -60129,6 +60575,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUSKNOIR",
+    "dexNum": 477,
     "name": "Dusknoir",
     "stats": {
       "hp": 45,
@@ -60289,6 +60736,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TROPIUS",
+    "dexNum": 357,
     "name": "Tropius",
     "stats": {
       "hp": 99,
@@ -60423,6 +60871,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHINGLING",
+    "dexNum": 433,
     "name": "Chingling",
     "stats": {
       "hp": 45,
@@ -60520,6 +60969,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHIMECHO",
+    "dexNum": 358,
     "name": "Chimecho",
     "stats": {
       "hp": 75,
@@ -60641,6 +61091,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ABSOL",
+    "dexNum": 359,
     "name": "Absol",
     "stats": {
       "hp": 65,
@@ -60779,6 +61230,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNORUNT",
+    "dexNum": 361,
     "name": "Snorunt",
     "stats": {
       "hp": 50,
@@ -60895,6 +61347,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLALIE",
+    "dexNum": 362,
     "name": "Glalie",
     "stats": {
       "hp": 80,
@@ -61012,6 +61465,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FROSLASS",
+    "dexNum": 478,
     "name": "Froslass",
     "stats": {
       "hp": 70,
@@ -61142,6 +61596,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPHEAL",
+    "dexNum": 363,
     "name": "Spheal",
     "stats": {
       "hp": 70,
@@ -61275,6 +61730,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEALEO",
+    "dexNum": 364,
     "name": "Sealeo",
     "stats": {
       "hp": 90,
@@ -61417,6 +61873,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WALREIN",
+    "dexNum": 365,
     "name": "Walrein",
     "stats": {
       "hp": 110,
@@ -61564,6 +62021,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLAMPERL",
+    "dexNum": 366,
     "name": "Clamperl",
     "stats": {
       "hp": 35,
@@ -61648,6 +62106,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HUNTAIL",
+    "dexNum": 367,
     "name": "Huntail",
     "stats": {
       "hp": 55,
@@ -61774,6 +62233,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOREBYSS",
+    "dexNum": 368,
     "name": "Gorebyss",
     "stats": {
       "hp": 55,
@@ -61902,6 +62362,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RELICANTH",
+    "dexNum": 369,
     "name": "Relicanth",
     "stats": {
       "hp": 100,
@@ -62025,6 +62486,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUVDISC",
+    "dexNum": 370,
     "name": "Luvdisc",
     "stats": {
       "hp": 43,
@@ -62148,6 +62610,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BAGON",
+    "dexNum": 371,
     "name": "Bagon",
     "stats": {
       "hp": 45,
@@ -62266,6 +62729,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHELGON",
+    "dexNum": 372,
     "name": "Shelgon",
     "stats": {
       "hp": 65,
@@ -62389,6 +62853,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SALAMENCE",
+    "dexNum": 373,
     "name": "Salamence",
     "stats": {
       "hp": 95,
@@ -62530,6 +62995,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BELDUM",
+    "dexNum": 374,
     "name": "Beldum",
     "stats": {
       "hp": 40,
@@ -62569,6 +63035,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_METANG",
+    "dexNum": 375,
     "name": "Metang",
     "stats": {
       "hp": 60,
@@ -62708,6 +63175,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_METAGROSS",
+    "dexNum": 376,
     "name": "Metagross",
     "stats": {
       "hp": 80,
@@ -62853,6 +63321,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGIROCK",
+    "dexNum": 377,
     "name": "Regirock",
     "stats": {
       "hp": 80,
@@ -62989,6 +63458,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGICE",
+    "dexNum": 378,
     "name": "Regice",
     "stats": {
       "hp": 80,
@@ -63126,6 +63596,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGISTEEL",
+    "dexNum": 379,
     "name": "Registeel",
     "stats": {
       "hp": 80,
@@ -63269,6 +63740,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LATIAS",
+    "dexNum": 380,
     "name": "Latias",
     "stats": {
       "hp": 80,
@@ -63412,6 +63884,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LATIOS",
+    "dexNum": 381,
     "name": "Latios",
     "stats": {
       "hp": 80,
@@ -63555,6 +64028,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KYOGRE",
+    "dexNum": 382,
     "name": "Kyogre",
     "stats": {
       "hp": 100,
@@ -63681,6 +64155,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROUDON",
+    "dexNum": 383,
     "name": "Groudon",
     "stats": {
       "hp": 100,
@@ -63820,6 +64295,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAYQUAZA",
+    "dexNum": 384,
     "name": "Rayquaza",
     "stats": {
       "hp": 105,
@@ -63960,6 +64436,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JIRACHI",
+    "dexNum": 385,
     "name": "Jirachi",
     "stats": {
       "hp": 100,
@@ -64094,6 +64571,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEOXYS_NORMAL",
+    "dexNum": 386,
     "name": "Deoxys",
     "stats": {
       "hp": 50,
@@ -64231,6 +64709,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEOXYS_ATTACK",
+    "dexNum": 1054,
     "name": "Deoxys",
     "stats": {
       "hp": 50,
@@ -64371,6 +64850,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEOXYS_DEFENSE",
+    "dexNum": 1055,
     "name": "Deoxys",
     "stats": {
       "hp": 50,
@@ -64519,6 +64999,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEOXYS_SPEED",
+    "dexNum": 1056,
     "name": "Deoxys",
     "stats": {
       "hp": 50,
@@ -64660,6 +65141,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TURTWIG",
+    "dexNum": 387,
     "name": "Turtwig",
     "stats": {
       "hp": 55,
@@ -64774,6 +65256,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROTLE",
+    "dexNum": 388,
     "name": "Grotle",
     "stats": {
       "hp": 75,
@@ -64888,6 +65371,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORTERRA",
+    "dexNum": 389,
     "name": "Torterra",
     "stats": {
       "hp": 95,
@@ -65017,6 +65501,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHIMCHAR",
+    "dexNum": 390,
     "name": "Chimchar",
     "stats": {
       "hp": 44,
@@ -65146,6 +65631,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MONFERNO",
+    "dexNum": 391,
     "name": "Monferno",
     "stats": {
       "hp": 64,
@@ -65280,6 +65766,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INFERNAPE",
+    "dexNum": 392,
     "name": "Infernape",
     "stats": {
       "hp": 76,
@@ -65426,6 +65913,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIPLUP",
+    "dexNum": 393,
     "name": "Piplup",
     "stats": {
       "hp": 53,
@@ -65547,6 +66035,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PRINPLUP",
+    "dexNum": 394,
     "name": "Prinplup",
     "stats": {
       "hp": 64,
@@ -65669,6 +66158,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EMPOLEON",
+    "dexNum": 395,
     "name": "Empoleon",
     "stats": {
       "hp": 84,
@@ -65810,6 +66300,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STARLY",
+    "dexNum": 396,
     "name": "Starly",
     "stats": {
       "hp": 40,
@@ -65928,6 +66419,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STARAVIA",
+    "dexNum": 397,
     "name": "Staravia",
     "stats": {
       "hp": 55,
@@ -66047,6 +66539,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STARAPTOR",
+    "dexNum": 398,
     "name": "Staraptor",
     "stats": {
       "hp": 85,
@@ -66169,6 +66662,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BIDOOF",
+    "dexNum": 399,
     "name": "Bidoof",
     "stats": {
       "hp": 59,
@@ -66300,6 +66794,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BIBAREL",
+    "dexNum": 400,
     "name": "Bibarel",
     "stats": {
       "hp": 79,
@@ -66449,6 +66944,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KRICKETOT",
+    "dexNum": 401,
     "name": "Kricketot",
     "stats": {
       "hp": 37,
@@ -66504,6 +67000,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KRICKETUNE",
+    "dexNum": 402,
     "name": "Kricketune",
     "stats": {
       "hp": 77,
@@ -66625,6 +67122,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHINX",
+    "dexNum": 403,
     "name": "Shinx",
     "stats": {
       "hp": 45,
@@ -66749,6 +67247,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUXIO",
+    "dexNum": 404,
     "name": "Luxio",
     "stats": {
       "hp": 60,
@@ -66873,6 +67372,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUXRAY",
+    "dexNum": 405,
     "name": "Luxray",
     "stats": {
       "hp": 80,
@@ -67001,6 +67501,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRANIDOS",
+    "dexNum": 408,
     "name": "Cranidos",
     "stats": {
       "hp": 67,
@@ -67121,6 +67622,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAMPARDOS",
+    "dexNum": 409,
     "name": "Rampardos",
     "stats": {
       "hp": 97,
@@ -67249,6 +67751,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHIELDON",
+    "dexNum": 410,
     "name": "Shieldon",
     "stats": {
       "hp": 30,
@@ -67369,6 +67872,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASTIODON",
+    "dexNum": 411,
     "name": "Bastiodon",
     "stats": {
       "hp": 60,
@@ -67497,6 +68001,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BURMY_PLANT",
+    "dexNum": 412,
     "name": "Burmy",
     "stats": {
       "hp": 40,
@@ -67545,6 +68050,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BURMY_SANDY",
+    "dexNum": 1057,
     "name": "Burmy",
     "stats": {
       "hp": 40,
@@ -67593,6 +68099,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BURMY_TRASH",
+    "dexNum": 1058,
     "name": "Burmy",
     "stats": {
       "hp": 40,
@@ -67641,6 +68148,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WORMADAM_PLANT",
+    "dexNum": 413,
     "name": "Wormadam",
     "stats": {
       "hp": 60,
@@ -67779,6 +68287,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WORMADAM_SANDY",
+    "dexNum": 1059,
     "name": "Wormadam",
     "stats": {
       "hp": 60,
@@ -67920,6 +68429,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WORMADAM_TRASH",
+    "dexNum": 1060,
     "name": "Wormadam",
     "stats": {
       "hp": 60,
@@ -68061,6 +68571,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COMBEE",
+    "dexNum": 415,
     "name": "Combee",
     "stats": {
       "hp": 30,
@@ -68116,6 +68627,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VESPIQUEN",
+    "dexNum": 416,
     "name": "Vespiquen",
     "stats": {
       "hp": 70,
@@ -68252,6 +68764,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PACHIRISU",
+    "dexNum": 417,
     "name": "Pachirisu",
     "stats": {
       "hp": 60,
@@ -68381,6 +68894,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUIZEL",
+    "dexNum": 418,
     "name": "Buizel",
     "stats": {
       "hp": 55,
@@ -68513,6 +69027,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLOATZEL",
+    "dexNum": 419,
     "name": "Floatzel",
     "stats": {
       "hp": 85,
@@ -68652,6 +69167,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHERUBI",
+    "dexNum": 420,
     "name": "Cherubi",
     "stats": {
       "hp": 45,
@@ -68761,6 +69277,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHERRIM_OVERCAST",
+    "dexNum": 421,
     "name": "Cherrim",
     "stats": {
       "hp": 70,
@@ -68851,6 +69368,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHERRIM_SUNSHINE",
+    "dexNum": 1061,
     "name": "Cherrim",
     "stats": {
       "hp": 70,
@@ -68941,6 +69459,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHELLOS_WEST",
+    "dexNum": 422,
     "name": "Shellos",
     "stats": {
       "hp": 76,
@@ -69021,6 +69540,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHELLOS_EAST",
+    "dexNum": 1062,
     "name": "Shellos",
     "stats": {
       "hp": 76,
@@ -69101,6 +69621,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GASTRODON_WEST",
+    "dexNum": 423,
     "name": "Gastrodon",
     "stats": {
       "hp": 111,
@@ -69180,6 +69701,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GASTRODON_EAST",
+    "dexNum": 1063,
     "name": "Gastrodon",
     "stats": {
       "hp": 111,
@@ -69259,6 +69781,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRIFLOON",
+    "dexNum": 425,
     "name": "Drifloon",
     "stats": {
       "hp": 90,
@@ -69397,6 +69920,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRIFBLIM",
+    "dexNum": 426,
     "name": "Drifblim",
     "stats": {
       "hp": 150,
@@ -69542,6 +70066,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUNEARY",
+    "dexNum": 427,
     "name": "Buneary",
     "stats": {
       "hp": 55,
@@ -69676,6 +70201,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LOPUNNY",
+    "dexNum": 428,
     "name": "Lopunny",
     "stats": {
       "hp": 65,
@@ -69828,6 +70354,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLAMEOW",
+    "dexNum": 431,
     "name": "Glameow",
     "stats": {
       "hp": 49,
@@ -69958,6 +70485,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PURUGLY",
+    "dexNum": 432,
     "name": "Purugly",
     "stats": {
       "hp": 71,
@@ -70110,6 +70638,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STUNKY",
+    "dexNum": 434,
     "name": "Stunky",
     "stats": {
       "hp": 63,
@@ -70250,6 +70779,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKUNTANK",
+    "dexNum": 435,
     "name": "Skuntank",
     "stats": {
       "hp": 103,
@@ -70390,6 +70920,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRONZOR",
+    "dexNum": 436,
     "name": "Bronzor",
     "stats": {
       "hp": 57,
@@ -70512,6 +71043,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRONZONG",
+    "dexNum": 437,
     "name": "Bronzong",
     "stats": {
       "hp": 67,
@@ -70652,6 +71184,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHATOT",
+    "dexNum": 441,
     "name": "Chatot",
     "stats": {
       "hp": 76,
@@ -70786,6 +71319,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPIRITOMB",
+    "dexNum": 442,
     "name": "Spiritomb",
     "stats": {
       "hp": 50,
@@ -70908,6 +71442,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIBLE",
+    "dexNum": 443,
     "name": "Gible",
     "stats": {
       "hp": 58,
@@ -71026,6 +71561,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GABITE",
+    "dexNum": 444,
     "name": "Gabite",
     "stats": {
       "hp": 68,
@@ -71145,6 +71681,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GARCHOMP",
+    "dexNum": 445,
     "name": "Garchomp",
     "stats": {
       "hp": 108,
@@ -71268,6 +71805,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RIOLU",
+    "dexNum": 447,
     "name": "Riolu",
     "stats": {
       "hp": 40,
@@ -71408,6 +71946,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUCARIO",
+    "dexNum": 448,
     "name": "Lucario",
     "stats": {
       "hp": 70,
@@ -71594,6 +72133,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HIPPOPOTAS",
+    "dexNum": 449,
     "name": "Hippopotas",
     "stats": {
       "hp": 68,
@@ -71716,6 +72256,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HIPPOWDON",
+    "dexNum": 450,
     "name": "Hippowdon",
     "stats": {
       "hp": 108,
@@ -71849,6 +72390,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKORUPI",
+    "dexNum": 451,
     "name": "Skorupi",
     "stats": {
       "hp": 40,
@@ -71993,6 +72535,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAPION",
+    "dexNum": 452,
     "name": "Drapion",
     "stats": {
       "hp": 70,
@@ -72151,6 +72694,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CROAGUNK",
+    "dexNum": 453,
     "name": "Croagunk",
     "stats": {
       "hp": 48,
@@ -72287,6 +72831,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOXICROAK",
+    "dexNum": 454,
     "name": "Toxicroak",
     "stats": {
       "hp": 83,
@@ -72424,6 +72969,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CARNIVINE",
+    "dexNum": 455,
     "name": "Carnivine",
     "stats": {
       "hp": 74,
@@ -72536,6 +73082,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FINNEON",
+    "dexNum": 456,
     "name": "Finneon",
     "stats": {
       "hp": 49,
@@ -72657,6 +73204,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUMINEON",
+    "dexNum": 457,
     "name": "Lumineon",
     "stats": {
       "hp": 69,
@@ -72780,6 +73328,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNOVER",
+    "dexNum": 459,
     "name": "Snover",
     "stats": {
       "hp": 60,
@@ -72897,6 +73446,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ABOMASNOW",
+    "dexNum": 460,
     "name": "Abomasnow",
     "stats": {
       "hp": 90,
@@ -73029,6 +73579,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM",
+    "dexNum": 479,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73140,6 +73691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM_HEAT",
+    "dexNum": 1064,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73219,6 +73771,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM_WASH",
+    "dexNum": 1065,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73298,6 +73851,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM_FROST",
+    "dexNum": 1066,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73377,6 +73931,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM_FAN",
+    "dexNum": 1067,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73456,6 +74011,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROTOM_MOW",
+    "dexNum": 1068,
     "name": "Rotom",
     "stats": {
       "hp": 50,
@@ -73535,6 +74091,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_UXIE",
+    "dexNum": 480,
     "name": "Uxie",
     "stats": {
       "hp": 75,
@@ -73699,6 +74256,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MESPRIT",
+    "dexNum": 481,
     "name": "Mesprit",
     "stats": {
       "hp": 80,
@@ -73864,6 +74422,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AZELF",
+    "dexNum": 482,
     "name": "Azelf",
     "stats": {
       "hp": 75,
@@ -74044,6 +74603,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIALGA",
+    "dexNum": 483,
     "name": "Dialga",
     "stats": {
       "hp": 100,
@@ -74173,6 +74733,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIALGA_ORIGIN",
+    "dexNum": 1069,
     "name": "Dialga",
     "stats": {
       "hp": 100,
@@ -74256,6 +74817,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALKIA",
+    "dexNum": 484,
     "name": "Palkia",
     "stats": {
       "hp": 90,
@@ -74384,6 +74946,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALKIA_ORIGIN",
+    "dexNum": 1070,
     "name": "Palkia",
     "stats": {
       "hp": 90,
@@ -74463,6 +75026,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HEATRAN",
+    "dexNum": 485,
     "name": "Heatran",
     "stats": {
       "hp": 91,
@@ -74585,6 +75149,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGIGIGAS",
+    "dexNum": 486,
     "name": "Regigigas",
     "stats": {
       "hp": 110,
@@ -74712,6 +75277,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIRATINA_ALTERED",
+    "dexNum": 487,
     "name": "Giratina",
     "stats": {
       "hp": 150,
@@ -74799,6 +75365,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIRATINA_ORIGIN",
+    "dexNum": 1071,
     "name": "Giratina",
     "stats": {
       "hp": 150,
@@ -74882,6 +75449,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRESSELIA",
+    "dexNum": 488,
     "name": "Cresselia",
     "stats": {
       "hp": 120,
@@ -75007,6 +75575,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PHIONE",
+    "dexNum": 489,
     "name": "Phione",
     "stats": {
       "hp": 80,
@@ -75107,6 +75676,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANAPHY",
+    "dexNum": 490,
     "name": "Manaphy",
     "stats": {
       "hp": 100,
@@ -75222,6 +75792,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARKRAI",
+    "dexNum": 491,
     "name": "Darkrai",
     "stats": {
       "hp": 70,
@@ -75340,6 +75911,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHAYMIN_LAND",
+    "dexNum": 492,
     "name": "Shaymin",
     "stats": {
       "hp": 100,
@@ -75445,6 +76017,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHAYMIN_SKY",
+    "dexNum": 1072,
     "name": "Shaymin",
     "stats": {
       "hp": 100,
@@ -75550,6 +76123,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VICTINI",
+    "dexNum": 494,
     "name": "Victini",
     "stats": {
       "hp": 100,
@@ -75691,6 +76265,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNIVY",
+    "dexNum": 495,
     "name": "Snivy",
     "stats": {
       "hp": 45,
@@ -75815,6 +76390,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SERVINE",
+    "dexNum": 496,
     "name": "Servine",
     "stats": {
       "hp": 60,
@@ -75939,6 +76515,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SERPERIOR",
+    "dexNum": 497,
     "name": "Serperior",
     "stats": {
       "hp": 75,
@@ -76065,6 +76642,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TEPIG",
+    "dexNum": 498,
     "name": "Tepig",
     "stats": {
       "hp": 65,
@@ -76192,6 +76770,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIGNITE",
+    "dexNum": 499,
     "name": "Pignite",
     "stats": {
       "hp": 90,
@@ -76329,6 +76908,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EMBOAR",
+    "dexNum": 500,
     "name": "Emboar",
     "stats": {
       "hp": 110,
@@ -76470,6 +77050,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OSHAWOTT",
+    "dexNum": 501,
     "name": "Oshawott",
     "stats": {
       "hp": 55,
@@ -76602,6 +77183,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEWOTT",
+    "dexNum": 502,
     "name": "Dewott",
     "stats": {
       "hp": 75,
@@ -76731,6 +77313,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SAMUROTT",
+    "dexNum": 503,
     "name": "Samurott",
     "stats": {
       "hp": 95,
@@ -76873,6 +77456,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SAMUROTT_HISUI",
+    "dexNum": 1000,
     "name": "Hisuian Samurott",
     "stats": {
       "hp": 90,
@@ -77007,6 +77591,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PATRAT",
+    "dexNum": 504,
     "name": "Patrat",
     "stats": {
       "hp": 45,
@@ -77137,6 +77722,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WATCHOG",
+    "dexNum": 505,
     "name": "Watchog",
     "stats": {
       "hp": 60,
@@ -77305,6 +77891,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LILLIPUP",
+    "dexNum": 506,
     "name": "Lillipup",
     "stats": {
       "hp": 45,
@@ -77425,6 +78012,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HERDIER",
+    "dexNum": 507,
     "name": "Herdier",
     "stats": {
       "hp": 65,
@@ -77551,6 +78139,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STOUTLAND",
+    "dexNum": 508,
     "name": "Stoutland",
     "stats": {
       "hp": 85,
@@ -77677,6 +78266,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PURRLOIN",
+    "dexNum": 509,
     "name": "Purrloin",
     "stats": {
       "hp": 41,
@@ -77791,6 +78381,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LIEPARD",
+    "dexNum": 510,
     "name": "Liepard",
     "stats": {
       "hp": 64,
@@ -77905,6 +78496,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PANSAGE",
+    "dexNum": 511,
     "name": "Pansage",
     "stats": {
       "hp": 50,
@@ -78029,6 +78621,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIMISAGE",
+    "dexNum": 512,
     "name": "Simisage",
     "stats": {
       "hp": 75,
@@ -78166,6 +78759,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PANSEAR",
+    "dexNum": 513,
     "name": "Pansear",
     "stats": {
       "hp": 50,
@@ -78297,6 +78891,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIMISEAR",
+    "dexNum": 514,
     "name": "Simisear",
     "stats": {
       "hp": 75,
@@ -78379,6 +78974,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PANPOUR",
+    "dexNum": 515,
     "name": "Panpour",
     "stats": {
       "hp": 50,
@@ -78513,6 +79109,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIMIPOUR",
+    "dexNum": 516,
     "name": "Simipour",
     "stats": {
       "hp": 75,
@@ -78598,6 +79195,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUNNA",
+    "dexNum": 517,
     "name": "Munna",
     "stats": {
       "hp": 76,
@@ -78729,6 +79327,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUSHARNA",
+    "dexNum": 518,
     "name": "Musharna",
     "stats": {
       "hp": 116,
@@ -78863,6 +79462,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIDOVE",
+    "dexNum": 519,
     "name": "Pidove",
     "stats": {
       "hp": 50,
@@ -78979,6 +79579,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TRANQUILL",
+    "dexNum": 520,
     "name": "Tranquill",
     "stats": {
       "hp": 62,
@@ -79092,6 +79693,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_UNFEZANT",
+    "dexNum": 521,
     "name": "Unfezant",
     "stats": {
       "hp": 80,
@@ -79225,6 +79827,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLITZLE",
+    "dexNum": 522,
     "name": "Blitzle",
     "stats": {
       "hp": 45,
@@ -79337,6 +79940,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZEBSTRIKA",
+    "dexNum": 523,
     "name": "Zebstrika",
     "stats": {
       "hp": 75,
@@ -79452,6 +80056,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROGGENROLA",
+    "dexNum": 524,
     "name": "Roggenrola",
     "stats": {
       "hp": 55,
@@ -79568,6 +80173,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BOLDORE",
+    "dexNum": 525,
     "name": "Boldore",
     "stats": {
       "hp": 70,
@@ -79686,6 +80292,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIGALITH",
+    "dexNum": 526,
     "name": "Gigalith",
     "stats": {
       "hp": 85,
@@ -79807,6 +80414,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WOOBAT",
+    "dexNum": 527,
     "name": "Woobat",
     "stats": {
       "hp": 65,
@@ -79935,6 +80543,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWOOBAT",
+    "dexNum": 528,
     "name": "Swoobat",
     "stats": {
       "hp": 67,
@@ -80062,6 +80671,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRILBUR",
+    "dexNum": 529,
     "name": "Drilbur",
     "stats": {
       "hp": 60,
@@ -80186,6 +80796,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EXCADRILL",
+    "dexNum": 530,
     "name": "Excadrill",
     "stats": {
       "hp": 110,
@@ -80315,6 +80926,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AUDINO",
+    "dexNum": 531,
     "name": "Audino",
     "stats": {
       "hp": 103,
@@ -80467,6 +81079,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TIMBURR",
+    "dexNum": 532,
     "name": "Timburr",
     "stats": {
       "hp": 75,
@@ -80600,6 +81213,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GURDURR",
+    "dexNum": 533,
     "name": "Gurdurr",
     "stats": {
       "hp": 85,
@@ -80734,6 +81348,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CONKELDURR",
+    "dexNum": 534,
     "name": "Conkeldurr",
     "stats": {
       "hp": 105,
@@ -80868,6 +81483,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYMPOLE",
+    "dexNum": 535,
     "name": "Tympole",
     "stats": {
       "hp": 50,
@@ -80983,6 +81599,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALPITOAD",
+    "dexNum": 536,
     "name": "Palpitoad",
     "stats": {
       "hp": 75,
@@ -81101,6 +81718,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEISMITOAD",
+    "dexNum": 537,
     "name": "Seismitoad",
     "stats": {
       "hp": 105,
@@ -81240,6 +81858,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_THROH",
+    "dexNum": 538,
     "name": "Throh",
     "stats": {
       "hp": 120,
@@ -81361,6 +81980,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SAWK",
+    "dexNum": 539,
     "name": "Sawk",
     "stats": {
       "hp": 75,
@@ -81481,6 +82101,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SEWADDLE",
+    "dexNum": 540,
     "name": "Sewaddle",
     "stats": {
       "hp": 45,
@@ -81574,6 +82195,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWADLOON",
+    "dexNum": 541,
     "name": "Swadloon",
     "stats": {
       "hp": 55,
@@ -81669,6 +82291,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LEAVANNY",
+    "dexNum": 542,
     "name": "Leavanny",
     "stats": {
       "hp": 75,
@@ -81796,6 +82419,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VENIPEDE",
+    "dexNum": 543,
     "name": "Venipede",
     "stats": {
       "hp": 30,
@@ -81911,6 +82535,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WHIRLIPEDE",
+    "dexNum": 544,
     "name": "Whirlipede",
     "stats": {
       "hp": 40,
@@ -82034,6 +82659,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCOLIPEDE",
+    "dexNum": 545,
     "name": "Scolipede",
     "stats": {
       "hp": 60,
@@ -82168,6 +82794,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COTTONEE",
+    "dexNum": 546,
     "name": "Cottonee",
     "stats": {
       "hp": 40,
@@ -82299,6 +82926,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WHIMSICOTT",
+    "dexNum": 547,
     "name": "Whimsicott",
     "stats": {
       "hp": 60,
@@ -82453,6 +83081,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PETILIL",
+    "dexNum": 548,
     "name": "Petilil",
     "stats": {
       "hp": 45,
@@ -82572,6 +83201,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LILLIGANT",
+    "dexNum": 549,
     "name": "Lilligant",
     "stats": {
       "hp": 70,
@@ -82671,6 +83301,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LILLIGANT_HISUI",
+    "dexNum": 1001,
     "name": "Hisuian Lilligant",
     "stats": {
       "hp": 70,
@@ -82823,6 +83454,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASCULIN_RED_STRIPED",
+    "dexNum": 550,
     "name": "Basculin",
     "stats": {
       "hp": 70,
@@ -82921,6 +83553,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASCULIN_BLUE_STRIPED",
+    "dexNum": 1090,
     "name": "Basculin",
     "stats": {
       "hp": 70,
@@ -83019,6 +83652,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASCULIN_WHITE_STRIPED",
+    "dexNum": 1091,
     "name": "Basculin",
     "stats": {
       "hp": 70,
@@ -83140,6 +83774,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASCULEGION_M",
+    "dexNum": 902,
     "name": "Basculegion",
     "stats": {
       "hp": 120,
@@ -83247,6 +83882,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BASCULEGION_F",
+    "dexNum": 1234,
     "name": "Basculegion",
     "stats": {
       "hp": 120,
@@ -83354,6 +83990,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDILE",
+    "dexNum": 551,
     "name": "Sandile",
     "stats": {
       "hp": 50,
@@ -83488,6 +84125,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KROKOROK",
+    "dexNum": 552,
     "name": "Krokorok",
     "stats": {
       "hp": 60,
@@ -83627,6 +84265,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KROOKODILE",
+    "dexNum": 553,
     "name": "Krookodile",
     "stats": {
       "hp": 95,
@@ -83770,6 +84409,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARUMAKA",
+    "dexNum": 554,
     "name": "Darumaka",
     "stats": {
       "hp": 70,
@@ -83895,6 +84535,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARMANITAN_STANDARD",
+    "dexNum": 555,
     "name": "Darmanitan",
     "stats": {
       "hp": 105,
@@ -83989,6 +84630,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARMANITAN_ZEN",
+    "dexNum": 1092,
     "name": "Darmanitan",
     "stats": {
       "hp": 105,
@@ -84084,6 +84726,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARUMAKA_GALAR",
+    "dexNum": 989,
     "name": "Galarian Darumaka",
     "stats": {
       "hp": 70,
@@ -84204,6 +84847,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARMANITAN_GALAR_STANDARD",
+    "dexNum": 990,
     "name": "Galarian Darmanitan",
     "stats": {
       "hp": 105,
@@ -84298,6 +84942,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARMANITAN_GALAR_ZEN",
+    "dexNum": 1093,
     "name": "Galarian Darmanitan",
     "stats": {
       "hp": 105,
@@ -84393,6 +85038,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MARACTUS",
+    "dexNum": 556,
     "name": "Maractus",
     "stats": {
       "hp": 75,
@@ -84530,6 +85176,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DWEBBLE",
+    "dexNum": 557,
     "name": "Dwebble",
     "stats": {
       "hp": 50,
@@ -84657,6 +85304,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRUSTLE",
+    "dexNum": 558,
     "name": "Crustle",
     "stats": {
       "hp": 70,
@@ -84788,6 +85436,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCRAGGY",
+    "dexNum": 559,
     "name": "Scraggy",
     "stats": {
       "hp": 50,
@@ -84929,6 +85578,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCRAFTY",
+    "dexNum": 560,
     "name": "Scrafty",
     "stats": {
       "hp": 65,
@@ -85082,6 +85732,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIGILYPH",
+    "dexNum": 561,
     "name": "Sigilyph",
     "stats": {
       "hp": 72,
@@ -85217,6 +85868,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YAMASK",
+    "dexNum": 562,
     "name": "Yamask",
     "stats": {
       "hp": 38,
@@ -85339,6 +85991,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COFAGRIGUS",
+    "dexNum": 563,
     "name": "Cofagrigus",
     "stats": {
       "hp": 58,
@@ -85472,6 +86125,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YAMASK_GALAR",
+    "dexNum": 991,
     "name": "Galarian Yamask",
     "stats": {
       "hp": 38,
@@ -85590,6 +86244,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RUNERIGUS",
+    "dexNum": 867,
     "name": "Runerigus",
     "stats": {
       "hp": 58,
@@ -85720,6 +86375,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TIRTOUGA",
+    "dexNum": 564,
     "name": "Tirtouga",
     "stats": {
       "hp": 54,
@@ -85858,6 +86514,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CARRACOSTA",
+    "dexNum": 565,
     "name": "Carracosta",
     "stats": {
       "hp": 74,
@@ -85992,6 +86649,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCHEN",
+    "dexNum": 566,
     "name": "Archen",
     "stats": {
       "hp": 55,
@@ -86122,6 +86780,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCHEOPS",
+    "dexNum": 567,
     "name": "Archeops",
     "stats": {
       "hp": 75,
@@ -86252,6 +86911,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TRUBBISH",
+    "dexNum": 568,
     "name": "Trubbish",
     "stats": {
       "hp": 50,
@@ -86381,6 +87041,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GARBODOR",
+    "dexNum": 569,
     "name": "Garbodor",
     "stats": {
       "hp": 80,
@@ -86521,6 +87182,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZORUA",
+    "dexNum": 570,
     "name": "Zorua",
     "stats": {
       "hp": 40,
@@ -86638,6 +87300,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZOROARK",
+    "dexNum": 571,
     "name": "Zoroark",
     "stats": {
       "hp": 60,
@@ -86765,6 +87428,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZORUA_HISUI",
+    "dexNum": 1002,
     "name": "Hisuian Zorua",
     "stats": {
       "hp": 35,
@@ -86873,6 +87537,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZOROARK_HISUI",
+    "dexNum": 1003,
     "name": "Hisuian Zoroark",
     "stats": {
       "hp": 55,
@@ -86997,6 +87662,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MINCCINO",
+    "dexNum": 572,
     "name": "Minccino",
     "stats": {
       "hp": 55,
@@ -87118,6 +87784,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CINCCINO",
+    "dexNum": 573,
     "name": "Cinccino",
     "stats": {
       "hp": 75,
@@ -87249,6 +87916,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOTHITA",
+    "dexNum": 574,
     "name": "Gothita",
     "stats": {
       "hp": 45,
@@ -87379,6 +88047,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOTHORITA",
+    "dexNum": 575,
     "name": "Gothorita",
     "stats": {
       "hp": 60,
@@ -87506,6 +88175,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOTHITELLE",
+    "dexNum": 576,
     "name": "Gothitelle",
     "stats": {
       "hp": 70,
@@ -87638,6 +88308,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SOLOSIS",
+    "dexNum": 577,
     "name": "Solosis",
     "stats": {
       "hp": 45,
@@ -87771,6 +88442,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUOSION",
+    "dexNum": 578,
     "name": "Duosion",
     "stats": {
       "hp": 65,
@@ -87904,6 +88576,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REUNICLUS",
+    "dexNum": 579,
     "name": "Reuniclus",
     "stats": {
       "hp": 110,
@@ -88048,6 +88721,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUCKLETT",
+    "dexNum": 580,
     "name": "Ducklett",
     "stats": {
       "hp": 62,
@@ -88170,6 +88844,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWANNA",
+    "dexNum": 581,
     "name": "Swanna",
     "stats": {
       "hp": 75,
@@ -88291,6 +88966,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VANILLITE",
+    "dexNum": 582,
     "name": "Vanillite",
     "stats": {
       "hp": 36,
@@ -88408,6 +89084,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VANILLISH",
+    "dexNum": 583,
     "name": "Vanillish",
     "stats": {
       "hp": 51,
@@ -88525,6 +89202,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VANILLUXE",
+    "dexNum": 584,
     "name": "Vanilluxe",
     "stats": {
       "hp": 71,
@@ -88653,6 +89331,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEERLING_SPRING",
+    "dexNum": 585,
     "name": "Deerling",
     "stats": {
       "hp": 60,
@@ -88740,6 +89419,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SAWSBUCK_SPRING",
+    "dexNum": 586,
     "name": "Sawsbuck",
     "stats": {
       "hp": 80,
@@ -88835,6 +89515,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EMOLGA",
+    "dexNum": 587,
     "name": "Emolga",
     "stats": {
       "hp": 55,
@@ -88949,6 +89630,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KARRABLAST",
+    "dexNum": 588,
     "name": "Karrablast",
     "stats": {
       "hp": 50,
@@ -89066,6 +89748,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ESCAVALIER",
+    "dexNum": 589,
     "name": "Escavalier",
     "stats": {
       "hp": 70,
@@ -89213,6 +89896,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FOONGUS",
+    "dexNum": 590,
     "name": "Foongus",
     "stats": {
       "hp": 69,
@@ -89328,6 +90012,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AMOONGUSS",
+    "dexNum": 591,
     "name": "Amoonguss",
     "stats": {
       "hp": 114,
@@ -89442,6 +90127,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FRILLISH",
+    "dexNum": 592,
     "name": "Frillish",
     "stats": {
       "hp": 55,
@@ -89570,6 +90256,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JELLICENT",
+    "dexNum": 593,
     "name": "Jellicent",
     "stats": {
       "hp": 100,
@@ -89701,6 +90388,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ALOMOMOLA",
+    "dexNum": 594,
     "name": "Alomomola",
     "stats": {
       "hp": 165,
@@ -89829,6 +90517,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JOLTIK",
+    "dexNum": 595,
     "name": "Joltik",
     "stats": {
       "hp": 50,
@@ -89951,6 +90640,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GALVANTULA",
+    "dexNum": 596,
     "name": "Galvantula",
     "stats": {
       "hp": 70,
@@ -90076,6 +90766,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FERROSEED",
+    "dexNum": 597,
     "name": "Ferroseed",
     "stats": {
       "hp": 44,
@@ -90180,6 +90871,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FERROTHORN",
+    "dexNum": 598,
     "name": "Ferrothorn",
     "stats": {
       "hp": 74,
@@ -90300,6 +90992,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLINK",
+    "dexNum": 599,
     "name": "Klink",
     "stats": {
       "hp": 40,
@@ -90413,6 +91106,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLANG",
+    "dexNum": 600,
     "name": "Klang",
     "stats": {
       "hp": 60,
@@ -90528,6 +91222,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLINKLANG",
+    "dexNum": 601,
     "name": "Klinklang",
     "stats": {
       "hp": 60,
@@ -90642,6 +91337,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYNAMO",
+    "dexNum": 602,
     "name": "Tynamo",
     "stats": {
       "hp": 35,
@@ -90690,6 +91386,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EELEKTRIK",
+    "dexNum": 603,
     "name": "Eelektrik",
     "stats": {
       "hp": 65,
@@ -90805,6 +91502,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EELEKTROSS",
+    "dexNum": 604,
     "name": "Eelektross",
     "stats": {
       "hp": 85,
@@ -90914,6 +91612,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELGYEM",
+    "dexNum": 605,
     "name": "Elgyem",
     "stats": {
       "hp": 55,
@@ -91038,6 +91737,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BEHEEYEM",
+    "dexNum": 606,
     "name": "Beheeyem",
     "stats": {
       "hp": 75,
@@ -91165,6 +91865,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LITWICK",
+    "dexNum": 607,
     "name": "Litwick",
     "stats": {
       "hp": 50,
@@ -91299,6 +92000,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LAMPENT",
+    "dexNum": 608,
     "name": "Lampent",
     "stats": {
       "hp": 60,
@@ -91433,6 +92135,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHANDELURE",
+    "dexNum": 609,
     "name": "Chandelure",
     "stats": {
       "hp": 60,
@@ -91566,6 +92269,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AXEW",
+    "dexNum": 610,
     "name": "Axew",
     "stats": {
       "hp": 46,
@@ -91709,6 +92413,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FRAXURE",
+    "dexNum": 611,
     "name": "Fraxure",
     "stats": {
       "hp": 66,
@@ -91852,6 +92557,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HAXORUS",
+    "dexNum": 612,
     "name": "Haxorus",
     "stats": {
       "hp": 76,
@@ -91997,6 +92703,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CUBCHOO",
+    "dexNum": 613,
     "name": "Cubchoo",
     "stats": {
       "hp": 55,
@@ -92133,6 +92840,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BEARTIC",
+    "dexNum": 614,
     "name": "Beartic",
     "stats": {
       "hp": 95,
@@ -92285,6 +92993,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRYOGONAL",
+    "dexNum": 615,
     "name": "Cryogonal",
     "stats": {
       "hp": 80,
@@ -92418,6 +93127,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHELMET",
+    "dexNum": 616,
     "name": "Shelmet",
     "stats": {
       "hp": 50,
@@ -92533,6 +93243,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ACCELGOR",
+    "dexNum": 617,
     "name": "Accelgor",
     "stats": {
       "hp": 80,
@@ -92680,6 +93391,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STUNFISK",
+    "dexNum": 618,
     "name": "Stunfisk",
     "stats": {
       "hp": 109,
@@ -92806,6 +93518,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STUNFISK_GALAR",
+    "dexNum": 992,
     "name": "Galarian Stunfisk",
     "stats": {
       "hp": 109,
@@ -92918,6 +93631,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIENFOO",
+    "dexNum": 619,
     "name": "Mienfoo",
     "stats": {
       "hp": 45,
@@ -93045,6 +93759,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIENSHAO",
+    "dexNum": 620,
     "name": "Mienshao",
     "stats": {
       "hp": 65,
@@ -93184,6 +93899,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRUDDIGON",
+    "dexNum": 621,
     "name": "Druddigon",
     "stats": {
       "hp": 77,
@@ -93311,6 +94027,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLETT",
+    "dexNum": 622,
     "name": "Golett",
     "stats": {
       "hp": 59,
@@ -93458,6 +94175,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLURK",
+    "dexNum": 623,
     "name": "Golurk",
     "stats": {
       "hp": 89,
@@ -93615,6 +94333,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PAWNIARD",
+    "dexNum": 624,
     "name": "Pawniard",
     "stats": {
       "hp": 45,
@@ -93743,6 +94462,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BISHARP",
+    "dexNum": 625,
     "name": "Bisharp",
     "stats": {
       "hp": 65,
@@ -93877,6 +94597,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KINGAMBIT",
+    "dexNum": 1375,
     "name": "Kingambit",
     "stats": {
       "hp": 100,
@@ -94004,6 +94725,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BOUFFALANT",
+    "dexNum": 626,
     "name": "Bouffalant",
     "stats": {
       "hp": 95,
@@ -94120,6 +94842,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RUFFLET",
+    "dexNum": 627,
     "name": "Rufflet",
     "stats": {
       "hp": 70,
@@ -94254,6 +94977,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRAVIARY",
+    "dexNum": 628,
     "name": "Braviary",
     "stats": {
       "hp": 100,
@@ -94389,6 +95113,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRAVIARY_HISUI",
+    "dexNum": 1004,
     "name": "Hisuian Braviary",
     "stats": {
       "hp": 110,
@@ -94521,6 +95246,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VULLABY",
+    "dexNum": 629,
     "name": "Vullaby",
     "stats": {
       "hp": 70,
@@ -94647,6 +95373,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MANDIBUZZ",
+    "dexNum": 630,
     "name": "Mandibuzz",
     "stats": {
       "hp": 110,
@@ -94784,6 +95511,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HEATMOR",
+    "dexNum": 631,
     "name": "Heatmor",
     "stats": {
       "hp": 85,
@@ -94917,6 +95645,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DURANT",
+    "dexNum": 632,
     "name": "Durant",
     "stats": {
       "hp": 58,
@@ -95043,6 +95772,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEINO",
+    "dexNum": 633,
     "name": "Deino",
     "stats": {
       "hp": 52,
@@ -95168,6 +95898,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZWEILOUS",
+    "dexNum": 634,
     "name": "Zweilous",
     "stats": {
       "hp": 72,
@@ -95297,6 +96028,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HYDREIGON",
+    "dexNum": 635,
     "name": "Hydreigon",
     "stats": {
       "hp": 92,
@@ -95444,6 +96176,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LARVESTA",
+    "dexNum": 636,
     "name": "Larvesta",
     "stats": {
       "hp": 55,
@@ -95554,6 +96287,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VOLCARONA",
+    "dexNum": 637,
     "name": "Volcarona",
     "stats": {
       "hp": 85,
@@ -95706,6 +96440,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COBALION",
+    "dexNum": 638,
     "name": "Cobalion",
     "stats": {
       "hp": 91,
@@ -95823,6 +96558,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TERRAKION",
+    "dexNum": 639,
     "name": "Terrakion",
     "stats": {
       "hp": 91,
@@ -95942,6 +96678,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VIRIZION",
+    "dexNum": 640,
     "name": "Virizion",
     "stats": {
       "hp": 91,
@@ -96067,6 +96804,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORNADUS_INCARNATE",
+    "dexNum": 641,
     "name": "Tornadus",
     "stats": {
       "hp": 79,
@@ -96165,6 +96903,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORNADUS_THERIAN",
+    "dexNum": 1100,
     "name": "Tornadus",
     "stats": {
       "hp": 79,
@@ -96259,6 +96998,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_THUNDURUS_INCARNATE",
+    "dexNum": 642,
     "name": "Thundurus",
     "stats": {
       "hp": 79,
@@ -96358,6 +97098,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_THUNDURUS_THERIAN",
+    "dexNum": 1101,
     "name": "Thundurus",
     "stats": {
       "hp": 79,
@@ -96453,6 +97194,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RESHIRAM",
+    "dexNum": 643,
     "name": "Reshiram",
     "stats": {
       "hp": 100,
@@ -96580,6 +97322,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZEKROM",
+    "dexNum": 644,
     "name": "Zekrom",
     "stats": {
       "hp": 100,
@@ -96712,6 +97455,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LANDORUS_INCARNATE",
+    "dexNum": 645,
     "name": "Landorus",
     "stats": {
       "hp": 89,
@@ -96811,6 +97555,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LANDORUS_THERIAN",
+    "dexNum": 1102,
     "name": "Landorus",
     "stats": {
       "hp": 89,
@@ -96906,6 +97651,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KYUREM",
+    "dexNum": 646,
     "name": "Kyurem",
     "stats": {
       "hp": 125,
@@ -97031,6 +97777,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KYUREM_WHITE",
+    "dexNum": 1104,
     "name": "Kyurem",
     "stats": {
       "hp": 125,
@@ -97118,6 +97865,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KYUREM_BLACK",
+    "dexNum": 1105,
     "name": "Kyurem",
     "stats": {
       "hp": 125,
@@ -97205,6 +97953,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KELDEO_ORDINARY",
+    "dexNum": 647,
     "name": "Keldeo",
     "stats": {
       "hp": 91,
@@ -97292,6 +98041,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KELDEO_RESOLUTE",
+    "dexNum": 1106,
     "name": "Keldeo",
     "stats": {
       "hp": 91,
@@ -97379,6 +98129,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MELOETTA_ARIA",
+    "dexNum": 648,
     "name": "Meloetta",
     "stats": {
       "hp": 100,
@@ -97466,6 +98217,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MELOETTA_PIROUETTE",
+    "dexNum": 1107,
     "name": "Meloetta",
     "stats": {
       "hp": 100,
@@ -97553,6 +98305,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHESPIN",
+    "dexNum": 650,
     "name": "Chespin",
     "stats": {
       "hp": 56,
@@ -97676,6 +98429,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUILLADIN",
+    "dexNum": 651,
     "name": "Quilladin",
     "stats": {
       "hp": 61,
@@ -97803,6 +98557,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHESNAUGHT",
+    "dexNum": 652,
     "name": "Chesnaught",
     "stats": {
       "hp": 88,
@@ -97954,6 +98709,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FENNEKIN",
+    "dexNum": 653,
     "name": "Fennekin",
     "stats": {
       "hp": 40,
@@ -98076,6 +98832,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRAIXEN",
+    "dexNum": 654,
     "name": "Braixen",
     "stats": {
       "hp": 59,
@@ -98206,6 +98963,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DELPHOX",
+    "dexNum": 655,
     "name": "Delphox",
     "stats": {
       "hp": 75,
@@ -98359,6 +99117,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FROAKIE",
+    "dexNum": 656,
     "name": "Froakie",
     "stats": {
       "hp": 41,
@@ -98485,6 +99244,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FROGADIER",
+    "dexNum": 657,
     "name": "Frogadier",
     "stats": {
       "hp": 54,
@@ -98614,6 +99374,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRENINJA",
+    "dexNum": 658,
     "name": "Greninja",
     "stats": {
       "hp": 72,
@@ -98760,6 +99521,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRENINJA_BATTLE_BOND",
+    "dexNum": 1112,
     "name": "Greninja",
     "stats": {
       "hp": 72,
@@ -98859,6 +99621,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRENINJA_ASH",
+    "dexNum": 1113,
     "name": "Greninja",
     "stats": {
       "hp": 72,
@@ -98958,6 +99721,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUNNELBY",
+    "dexNum": 659,
     "name": "Bunnelby",
     "stats": {
       "hp": 38,
@@ -99090,6 +99854,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIGGERSBY",
+    "dexNum": 660,
     "name": "Diggersby",
     "stats": {
       "hp": 85,
@@ -99234,6 +99999,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLETCHLING",
+    "dexNum": 661,
     "name": "Fletchling",
     "stats": {
       "hp": 45,
@@ -99346,6 +100112,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLETCHINDER",
+    "dexNum": 662,
     "name": "Fletchinder",
     "stats": {
       "hp": 62,
@@ -99466,6 +100233,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TALONFLAME",
+    "dexNum": 663,
     "name": "Talonflame",
     "stats": {
       "hp": 78,
@@ -99601,6 +100369,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LITLEO",
+    "dexNum": 667,
     "name": "Litleo",
     "stats": {
       "hp": 62,
@@ -99730,6 +100499,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PYROAR",
+    "dexNum": 668,
     "name": "Pyroar",
     "stats": {
       "hp": 86,
@@ -99860,6 +100630,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLABEBE_WHITE",
+    "dexNum": 1136,
     "name": "Floette",
     "stats": {
       "hp": 54,
@@ -99948,6 +100719,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLOETTE_ETERNAL",
+    "dexNum": 1141,
     "name": "Florges",
     "stats": {
       "hp": 74,
@@ -100067,6 +100839,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKIDDO",
+    "dexNum": 672,
     "name": "Skiddo",
     "stats": {
       "hp": 66,
@@ -100192,6 +100965,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOGOAT",
+    "dexNum": 673,
     "name": "Gogoat",
     "stats": {
       "hp": 123,
@@ -100328,6 +101102,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PANCHAM",
+    "dexNum": 674,
     "name": "Pancham",
     "stats": {
       "hp": 67,
@@ -100454,6 +101229,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PANGORO",
+    "dexNum": 675,
     "name": "Pangoro",
     "stats": {
       "hp": 95,
@@ -100600,6 +101376,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ESPURR",
+    "dexNum": 677,
     "name": "Espurr",
     "stats": {
       "hp": 62,
@@ -100712,6 +101489,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWSTIC_M",
+    "dexNum": 678,
     "name": "Meowstic",
     "stats": {
       "hp": 74,
@@ -100861,6 +101639,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWSTIC_F",
+    "dexNum": 1155,
     "name": "Meowstic",
     "stats": {
       "hp": 74,
@@ -101010,6 +101789,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HONEDGE",
+    "dexNum": 679,
     "name": "Honedge",
     "stats": {
       "hp": 45,
@@ -101122,6 +101902,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DOUBLADE",
+    "dexNum": 680,
     "name": "Doublade",
     "stats": {
       "hp": 59,
@@ -101234,6 +102015,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AEGISLASH_SHIELD",
+    "dexNum": 681,
     "name": "Aegislash",
     "stats": {
       "hp": 60,
@@ -101329,6 +102111,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AEGISLASH_BLADE",
+    "dexNum": 1156,
     "name": "Aegislash",
     "stats": {
       "hp": 60,
@@ -101424,6 +102207,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPRITZEE",
+    "dexNum": 682,
     "name": "Spritzee",
     "stats": {
       "hp": 78,
@@ -101541,6 +102325,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AROMATISSE",
+    "dexNum": 683,
     "name": "Aromatisse",
     "stats": {
       "hp": 101,
@@ -101674,6 +102459,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SWIRLIX",
+    "dexNum": 684,
     "name": "Swirlix",
     "stats": {
       "hp": 62,
@@ -101797,6 +102583,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLURPUFF",
+    "dexNum": 685,
     "name": "Slurpuff",
     "stats": {
       "hp": 82,
@@ -101924,6 +102711,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INKAY",
+    "dexNum": 686,
     "name": "Inkay",
     "stats": {
       "hp": 53,
@@ -102056,6 +102844,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MALAMAR",
+    "dexNum": 687,
     "name": "Malamar",
     "stats": {
       "hp": 86,
@@ -102192,6 +102981,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BINACLE",
+    "dexNum": 688,
     "name": "Binacle",
     "stats": {
       "hp": 42,
@@ -102322,6 +103112,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BARBARACLE",
+    "dexNum": 689,
     "name": "Barbaracle",
     "stats": {
       "hp": 72,
@@ -102462,6 +103253,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKRELP",
+    "dexNum": 690,
     "name": "Skrelp",
     "stats": {
       "hp": 50,
@@ -102582,6 +103374,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAGALGE",
+    "dexNum": 691,
     "name": "Dragalge",
     "stats": {
       "hp": 65,
@@ -102706,6 +103499,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLAUNCHER",
+    "dexNum": 692,
     "name": "Clauncher",
     "stats": {
       "hp": 50,
@@ -102828,6 +103622,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLAWITZER",
+    "dexNum": 693,
     "name": "Clawitzer",
     "stats": {
       "hp": 71,
@@ -102957,6 +103752,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HELIOPTILE",
+    "dexNum": 694,
     "name": "Helioptile",
     "stats": {
       "hp": 44,
@@ -103085,6 +103881,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HELIOLISK",
+    "dexNum": 695,
     "name": "Heliolisk",
     "stats": {
       "hp": 62,
@@ -103227,6 +104024,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYRUNT",
+    "dexNum": 696,
     "name": "Tyrunt",
     "stats": {
       "hp": 58,
@@ -103346,6 +104144,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYRANTRUM",
+    "dexNum": 697,
     "name": "Tyrantrum",
     "stats": {
       "hp": 82,
@@ -103472,6 +104271,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AMAURA",
+    "dexNum": 698,
     "name": "Amaura",
     "stats": {
       "hp": 77,
@@ -103608,6 +104408,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AURORUS",
+    "dexNum": 699,
     "name": "Aurorus",
     "stats": {
       "hp": 123,
@@ -103745,6 +104546,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HAWLUCHA",
+    "dexNum": 701,
     "name": "Hawlucha",
     "stats": {
       "hp": 78,
@@ -103886,6 +104688,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEDENNE",
+    "dexNum": 702,
     "name": "Dedenne",
     "stats": {
       "hp": 67,
@@ -104013,6 +104816,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CARBINK",
+    "dexNum": 703,
     "name": "Carbink",
     "stats": {
       "hp": 50,
@@ -104131,6 +104935,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOOMY",
+    "dexNum": 704,
     "name": "Goomy",
     "stats": {
       "hp": 45,
@@ -104242,6 +105047,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLIGGOO",
+    "dexNum": 705,
     "name": "Sliggoo",
     "stats": {
       "hp": 68,
@@ -104364,6 +105170,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOODRA",
+    "dexNum": 706,
     "name": "Goodra",
     "stats": {
       "hp": 90,
@@ -104509,6 +105316,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLIGGOO_HISUI",
+    "dexNum": 1005,
     "name": "Hisuian Sliggoo",
     "stats": {
       "hp": 58,
@@ -104628,6 +105436,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOODRA_HISUI",
+    "dexNum": 1006,
     "name": "Hisuian Goodra",
     "stats": {
       "hp": 80,
@@ -104773,6 +105582,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLEFKI",
+    "dexNum": 707,
     "name": "Klefki",
     "stats": {
       "hp": 57,
@@ -104891,6 +105701,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PHANTUMP",
+    "dexNum": 708,
     "name": "Phantump",
     "stats": {
       "hp": 43,
@@ -105022,6 +105833,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TREVENANT",
+    "dexNum": 709,
     "name": "Trevenant",
     "stats": {
       "hp": 85,
@@ -105158,6 +105970,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PUMPKABOO_AVERAGE",
+    "dexNum": 710,
     "name": "Pumpkaboo",
     "stats": {
       "hp": 49,
@@ -105252,6 +106065,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOURGEIST_AVERAGE",
+    "dexNum": 711,
     "name": "Gourgeist",
     "stats": {
       "hp": 65,
@@ -105355,6 +106169,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BERGMITE",
+    "dexNum": 712,
     "name": "Bergmite",
     "stats": {
       "hp": 55,
@@ -105487,6 +106302,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AVALUGG",
+    "dexNum": 713,
     "name": "Avalugg",
     "stats": {
       "hp": 95,
@@ -105632,6 +106448,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_AVALUGG_HISUI",
+    "dexNum": 1007,
     "name": "Hisuian Avalugg",
     "stats": {
       "hp": 95,
@@ -105774,6 +106591,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NOIBAT",
+    "dexNum": 714,
     "name": "Noibat",
     "stats": {
       "hp": 40,
@@ -105907,6 +106725,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NOIVERN",
+    "dexNum": 715,
     "name": "Noivern",
     "stats": {
       "hp": 85,
@@ -106054,6 +106873,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_XERNEAS_NEUTRAL",
+    "dexNum": 716,
     "name": "Xerneas",
     "stats": {
       "hp": 126,
@@ -106156,6 +106976,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_XERNEAS_ACTIVE",
+    "dexNum": 1163,
     "name": "Xerneas",
     "stats": {
       "hp": 126,
@@ -106258,6 +107079,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YVELTAL",
+    "dexNum": 717,
     "name": "Yveltal",
     "stats": {
       "hp": 126,
@@ -106394,6 +107216,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZYGARDE_50",
+    "dexNum": 718,
     "name": "Zygarde",
     "stats": {
       "hp": 108,
@@ -106493,6 +107316,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZYGARDE_50_POWER_CONSTRUCT",
+    "dexNum": 1166,
     "name": "Zygarde",
     "stats": {
       "hp": 108,
@@ -106592,6 +107416,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZYGARDE_10_AURA_BREAK",
+    "dexNum": 1164,
     "name": "Zygarde",
     "stats": {
       "hp": 54,
@@ -106691,6 +107516,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
+    "dexNum": 1165,
     "name": "Zygarde",
     "stats": {
       "hp": 54,
@@ -106790,6 +107616,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZYGARDE_COMPLETE",
+    "dexNum": 1167,
     "name": "Zygarde",
     "stats": {
       "hp": 216,
@@ -106889,6 +107716,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIANCIE",
+    "dexNum": 719,
     "name": "Diancie",
     "stats": {
       "hp": 50,
@@ -107008,6 +107836,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOOPA_CONFINED",
+    "dexNum": 720,
     "name": "Hoopa",
     "stats": {
       "hp": 80,
@@ -107149,6 +107978,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOOPA_UNBOUND",
+    "dexNum": 1168,
     "name": "Hoopa",
     "stats": {
       "hp": 80,
@@ -107282,6 +108112,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VOLCANION",
+    "dexNum": 721,
     "name": "Volcanion",
     "stats": {
       "hp": 80,
@@ -107420,6 +108251,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROWLET",
+    "dexNum": 722,
     "name": "Rowlet",
     "stats": {
       "hp": 68,
@@ -107538,6 +108370,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DARTRIX",
+    "dexNum": 723,
     "name": "Dartrix",
     "stats": {
       "hp": 78,
@@ -107656,6 +108489,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DECIDUEYE",
+    "dexNum": 724,
     "name": "Decidueye",
     "stats": {
       "hp": 78,
@@ -107794,6 +108628,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DECIDUEYE_HISUI",
+    "dexNum": 1008,
     "name": "Hisuian Decidueye",
     "stats": {
       "hp": 88,
@@ -107919,6 +108754,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LITTEN",
+    "dexNum": 725,
     "name": "Litten",
     "stats": {
       "hp": 45,
@@ -108035,6 +108871,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TORRACAT",
+    "dexNum": 726,
     "name": "Torracat",
     "stats": {
       "hp": 65,
@@ -108151,6 +108988,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INCINEROAR",
+    "dexNum": 727,
     "name": "Incineroar",
     "stats": {
       "hp": 95,
@@ -108293,6 +109131,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POPPLIO",
+    "dexNum": 728,
     "name": "Popplio",
     "stats": {
       "hp": 50,
@@ -108408,6 +109247,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRIONNE",
+    "dexNum": 729,
     "name": "Brionne",
     "stats": {
       "hp": 60,
@@ -108524,6 +109364,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PRIMARINA",
+    "dexNum": 730,
     "name": "Primarina",
     "stats": {
       "hp": 80,
@@ -108651,6 +109492,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PIKIPEK",
+    "dexNum": 731,
     "name": "Pikipek",
     "stats": {
       "hp": 35,
@@ -108773,6 +109615,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TRUMBEAK",
+    "dexNum": 732,
     "name": "Trumbeak",
     "stats": {
       "hp": 55,
@@ -108898,6 +109741,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOUCANNON",
+    "dexNum": 733,
     "name": "Toucannon",
     "stats": {
       "hp": 80,
@@ -109044,6 +109888,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YUNGOOS",
+    "dexNum": 734,
     "name": "Yungoos",
     "stats": {
       "hp": 48,
@@ -109160,6 +110005,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GUMSHOOS",
+    "dexNum": 735,
     "name": "Gumshoos",
     "stats": {
       "hp": 88,
@@ -109293,6 +110139,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRUBBIN",
+    "dexNum": 736,
     "name": "Grubbin",
     "stats": {
       "hp": 47,
@@ -109385,6 +110232,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHARJABUG",
+    "dexNum": 737,
     "name": "Charjabug",
     "stats": {
       "hp": 57,
@@ -109491,6 +110339,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VIKAVOLT",
+    "dexNum": 738,
     "name": "Vikavolt",
     "stats": {
       "hp": 77,
@@ -109623,6 +110472,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRABRAWLER",
+    "dexNum": 739,
     "name": "Crabrawler",
     "stats": {
       "hp": 47,
@@ -109744,6 +110594,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRABOMINABLE",
+    "dexNum": 740,
     "name": "Crabominable",
     "stats": {
       "hp": 97,
@@ -109868,6 +110719,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORICORIO_BAILE",
+    "dexNum": 741,
     "name": "Oricorio",
     "stats": {
       "hp": 75,
@@ -109955,6 +110807,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORICORIO_POM_POM",
+    "dexNum": 1169,
     "name": "Oricorio",
     "stats": {
       "hp": 75,
@@ -110042,6 +110895,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORICORIO_PAU",
+    "dexNum": 1170,
     "name": "Oricorio",
     "stats": {
       "hp": 75,
@@ -110129,6 +110983,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORICORIO_SENSU",
+    "dexNum": 1171,
     "name": "Oricorio",
     "stats": {
       "hp": 75,
@@ -110216,6 +111071,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CUTIEFLY",
+    "dexNum": 742,
     "name": "Cutiefly",
     "stats": {
       "hp": 40,
@@ -110328,6 +111184,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RIBOMBEE",
+    "dexNum": 743,
     "name": "Ribombee",
     "stats": {
       "hp": 60,
@@ -110443,6 +111300,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROCKRUFF",
+    "dexNum": 744,
     "name": "Rockruff",
     "stats": {
       "hp": 45,
@@ -110561,6 +111419,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROCKRUFF_OWN_TEMPO",
+    "dexNum": 1172,
     "name": "Rockruff",
     "stats": {
       "hp": 45,
@@ -110641,6 +111500,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LYCANROC_MIDDAY",
+    "dexNum": 745,
     "name": "Lycanroc",
     "stats": {
       "hp": 75,
@@ -110766,6 +111626,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LYCANROC_MIDNIGHT",
+    "dexNum": 1173,
     "name": "Lycanroc",
     "stats": {
       "hp": 85,
@@ -110896,6 +111757,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LYCANROC_DUSK",
+    "dexNum": 1174,
     "name": "Lycanroc",
     "stats": {
       "hp": 75,
@@ -111025,6 +111887,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WISHIWASHI_SOLO",
+    "dexNum": 746,
     "name": "Wishiwashi",
     "stats": {
       "hp": 45,
@@ -111107,6 +111970,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WISHIWASHI_SCHOOL",
+    "dexNum": 1175,
     "name": "Wishiwashi",
     "stats": {
       "hp": 45,
@@ -111189,6 +112053,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAREANIE",
+    "dexNum": 747,
     "name": "Mareanie",
     "stats": {
       "hp": 50,
@@ -111301,6 +112166,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOXAPEX",
+    "dexNum": 748,
     "name": "Toxapex",
     "stats": {
       "hp": 50,
@@ -111418,6 +112284,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUDBRAY",
+    "dexNum": 749,
     "name": "Mudbray",
     "stats": {
       "hp": 70,
@@ -111535,6 +112402,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUDSDALE",
+    "dexNum": 750,
     "name": "Mudsdale",
     "stats": {
       "hp": 100,
@@ -111651,6 +112519,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DEWPIDER",
+    "dexNum": 751,
     "name": "Dewpider",
     "stats": {
       "hp": 38,
@@ -111771,6 +112640,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARAQUANID",
+    "dexNum": 752,
     "name": "Araquanid",
     "stats": {
       "hp": 68,
@@ -111892,6 +112762,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FOMANTIS",
+    "dexNum": 753,
     "name": "Fomantis",
     "stats": {
       "hp": 40,
@@ -111997,6 +112868,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LURANTIS",
+    "dexNum": 754,
     "name": "Lurantis",
     "stats": {
       "hp": 70,
@@ -112115,6 +112987,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MORELULL",
+    "dexNum": 755,
     "name": "Morelull",
     "stats": {
       "hp": 40,
@@ -112226,6 +113099,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHIINOTIC",
+    "dexNum": 756,
     "name": "Shiinotic",
     "stats": {
       "hp": 60,
@@ -112336,6 +113210,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SALANDIT",
+    "dexNum": 757,
     "name": "Salandit",
     "stats": {
       "hp": 48,
@@ -112452,6 +113327,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SALAZZLE",
+    "dexNum": 758,
     "name": "Salazzle",
     "stats": {
       "hp": 68,
@@ -112596,6 +113472,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STUFFUL",
+    "dexNum": 759,
     "name": "Stufful",
     "stats": {
       "hp": 70,
@@ -112721,6 +113598,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BEWEAR",
+    "dexNum": 760,
     "name": "Bewear",
     "stats": {
       "hp": 120,
@@ -112851,6 +113729,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BOUNSWEET",
+    "dexNum": 761,
     "name": "Bounsweet",
     "stats": {
       "hp": 42,
@@ -112949,6 +113828,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STEENEE",
+    "dexNum": 762,
     "name": "Steenee",
     "stats": {
       "hp": 52,
@@ -113055,6 +113935,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TSAREENA",
+    "dexNum": 763,
     "name": "Tsareena",
     "stats": {
       "hp": 72,
@@ -113178,6 +114059,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COMFEY",
+    "dexNum": 764,
     "name": "Comfey",
     "stats": {
       "hp": 51,
@@ -113314,6 +114196,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORANGURU",
+    "dexNum": 765,
     "name": "Oranguru",
     "stats": {
       "hp": 90,
@@ -113444,6 +114327,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PASSIMIAN",
+    "dexNum": 766,
     "name": "Passimian",
     "stats": {
       "hp": 100,
@@ -113569,6 +114453,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WIMPOD",
+    "dexNum": 767,
     "name": "Wimpod",
     "stats": {
       "hp": 25,
@@ -113634,6 +114519,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOLISOPOD",
+    "dexNum": 768,
     "name": "Golisopod",
     "stats": {
       "hp": 75,
@@ -113769,6 +114655,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDYGAST",
+    "dexNum": 769,
     "name": "Sandygast",
     "stats": {
       "hp": 55,
@@ -113885,6 +114772,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALOSSAND",
+    "dexNum": 770,
     "name": "Palossand",
     "stats": {
       "hp": 85,
@@ -114001,6 +114889,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PYUKUMUKU",
+    "dexNum": 771,
     "name": "Pyukumuku",
     "stats": {
       "hp": 55,
@@ -114104,6 +114993,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TYPE_NULL",
+    "dexNum": 772,
     "name": "Type: Null",
     "stats": {
       "hp": 95,
@@ -114211,6 +115101,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KOMALA",
+    "dexNum": 775,
     "name": "Komala",
     "stats": {
       "hp": 65,
@@ -114321,6 +115212,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TURTONATOR",
+    "dexNum": 776,
     "name": "Turtonator",
     "stats": {
       "hp": 60,
@@ -114444,6 +115336,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOGEDEMARU",
+    "dexNum": 777,
     "name": "Togedemaru",
     "stats": {
       "hp": 65,
@@ -114564,6 +115457,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIMIKYU_DISGUISED",
+    "dexNum": 778,
     "name": "Mimikyu",
     "stats": {
       "hp": 55,
@@ -114651,6 +115545,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIMIKYU_BUSTED",
+    "dexNum": 1206,
     "name": "Mimikyu",
     "stats": {
       "hp": 55,
@@ -114738,6 +115633,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRUXISH",
+    "dexNum": 779,
     "name": "Bruxish",
     "stats": {
       "hp": 68,
@@ -114861,6 +115757,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAMPA",
+    "dexNum": 780,
     "name": "Drampa",
     "stats": {
       "hp": 78,
@@ -114992,6 +115889,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DHELMISE",
+    "dexNum": 781,
     "name": "Dhelmise",
     "stats": {
       "hp": 70,
@@ -115121,6 +116019,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_JANGMO_O",
+    "dexNum": 782,
     "name": "Jangmo-o",
     "stats": {
       "hp": 45,
@@ -115242,6 +116141,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HAKAMO_O",
+    "dexNum": 783,
     "name": "Hakamo-o",
     "stats": {
       "hp": 55,
@@ -115372,6 +116272,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KOMMO_O",
+    "dexNum": 784,
     "name": "Kommo-o",
     "stats": {
       "hp": 75,
@@ -115522,6 +116423,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAPU_KOKO",
+    "dexNum": 785,
     "name": "Tapu Koko",
     "stats": {
       "hp": 70,
@@ -115658,6 +116560,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAPU_LELE",
+    "dexNum": 786,
     "name": "Tapu Lele",
     "stats": {
       "hp": 70,
@@ -115788,6 +116691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAPU_BULU",
+    "dexNum": 787,
     "name": "Tapu Bulu",
     "stats": {
       "hp": 70,
@@ -115923,6 +116827,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAPU_FINI",
+    "dexNum": 788,
     "name": "Tapu Fini",
     "stats": {
       "hp": 70,
@@ -116062,6 +116967,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COSMOG",
+    "dexNum": 789,
     "name": "Cosmog",
     "stats": {
       "hp": 43,
@@ -116100,6 +117006,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COSMOEM",
+    "dexNum": 790,
     "name": "Cosmoem",
     "stats": {
       "hp": 43,
@@ -116138,6 +117045,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SOLGALEO",
+    "dexNum": 791,
     "name": "Solgaleo",
     "stats": {
       "hp": 137,
@@ -116272,6 +117180,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LUNALA",
+    "dexNum": 792,
     "name": "Lunala",
     "stats": {
       "hp": 137,
@@ -116402,6 +117311,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NIHILEGO",
+    "dexNum": 793,
     "name": "Nihilego",
     "stats": {
       "hp": 109,
@@ -116525,6 +117435,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BUZZWOLE",
+    "dexNum": 794,
     "name": "Buzzwole",
     "stats": {
       "hp": 107,
@@ -116646,6 +117557,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PHEROMOSA",
+    "dexNum": 795,
     "name": "Pheromosa",
     "stats": {
       "hp": 71,
@@ -116765,6 +117677,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_XURKITREE",
+    "dexNum": 796,
     "name": "Xurkitree",
     "stats": {
       "hp": 83,
@@ -116882,6 +117795,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CELESTEELA",
+    "dexNum": 797,
     "name": "Celesteela",
     "stats": {
       "hp": 97,
@@ -117002,6 +117916,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KARTANA",
+    "dexNum": 798,
     "name": "Kartana",
     "stats": {
       "hp": 59,
@@ -117117,6 +118032,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GUZZLORD",
+    "dexNum": 799,
     "name": "Guzzlord",
     "stats": {
       "hp": 223,
@@ -117243,6 +118159,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NECROZMA",
+    "dexNum": 800,
     "name": "Necrozma",
     "stats": {
       "hp": 97,
@@ -117367,6 +118284,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NECROZMA_DUSK_MANE",
+    "dexNum": 1207,
     "name": "Necrozma",
     "stats": {
       "hp": 97,
@@ -117458,6 +118376,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NECROZMA_DAWN_WINGS",
+    "dexNum": 1208,
     "name": "Necrozma",
     "stats": {
       "hp": 97,
@@ -117549,6 +118468,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NECROZMA_ULTRA",
+    "dexNum": 1209,
     "name": "Necrozma",
     "stats": {
       "hp": 97,
@@ -117640,6 +118560,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGEARNA",
+    "dexNum": 801,
     "name": "Magearna",
     "stats": {
       "hp": 80,
@@ -117769,6 +118690,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAGEARNA_ORIGINAL",
+    "dexNum": 1210,
     "name": "Magearna",
     "stats": {
       "hp": 80,
@@ -117864,6 +118786,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MARSHADOW",
+    "dexNum": 802,
     "name": "Marshadow",
     "stats": {
       "hp": 90,
@@ -117998,6 +118921,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POIPOLE",
+    "dexNum": 803,
     "name": "Poipole",
     "stats": {
       "hp": 67,
@@ -118100,6 +119024,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NAGANADEL",
+    "dexNum": 804,
     "name": "Naganadel",
     "stats": {
       "hp": 73,
@@ -118228,6 +119153,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STAKATAKA",
+    "dexNum": 805,
     "name": "Stakataka",
     "stats": {
       "hp": 61,
@@ -118344,6 +119270,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLACEPHALON",
+    "dexNum": 806,
     "name": "Blacephalon",
     "stats": {
       "hp": 53,
@@ -118466,6 +119393,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZERAORA",
+    "dexNum": 807,
     "name": "Zeraora",
     "stats": {
       "hp": 88,
@@ -118598,6 +119526,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MELTAN",
+    "dexNum": 808,
     "name": "Meltan",
     "stats": {
       "hp": 46,
@@ -118669,6 +119598,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MELMETAL",
+    "dexNum": 809,
     "name": "Melmetal",
     "stats": {
       "hp": 135,
@@ -118790,6 +119720,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GROOKEY",
+    "dexNum": 810,
     "name": "Grookey",
     "stats": {
       "hp": 50,
@@ -118900,6 +119831,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_THWACKEY",
+    "dexNum": 811,
     "name": "Thwackey",
     "stats": {
       "hp": 70,
@@ -119019,6 +119951,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RILLABOOM",
+    "dexNum": 812,
     "name": "Rillaboom",
     "stats": {
       "hp": 100,
@@ -119157,6 +120090,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCORBUNNY",
+    "dexNum": 813,
     "name": "Scorbunny",
     "stats": {
       "hp": 50,
@@ -119264,6 +120198,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RABOOT",
+    "dexNum": 814,
     "name": "Raboot",
     "stats": {
       "hp": 65,
@@ -119381,6 +120316,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CINDERACE",
+    "dexNum": 815,
     "name": "Cinderace",
     "stats": {
       "hp": 80,
@@ -119516,6 +120452,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SOBBLE",
+    "dexNum": 816,
     "name": "Sobble",
     "stats": {
       "hp": 50,
@@ -119629,6 +120566,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRIZZILE",
+    "dexNum": 817,
     "name": "Drizzile",
     "stats": {
       "hp": 65,
@@ -119750,6 +120688,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INTELEON",
+    "dexNum": 818,
     "name": "Inteleon",
     "stats": {
       "hp": 70,
@@ -119894,6 +120833,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKWOVET",
+    "dexNum": 819,
     "name": "Skwovet",
     "stats": {
       "hp": 70,
@@ -120003,6 +120943,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GREEDENT",
+    "dexNum": 820,
     "name": "Greedent",
     "stats": {
       "hp": 120,
@@ -120117,6 +121058,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROOKIDEE",
+    "dexNum": 821,
     "name": "Rookidee",
     "stats": {
       "hp": 38,
@@ -120215,6 +121157,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CORVISQUIRE",
+    "dexNum": 822,
     "name": "Corvisquire",
     "stats": {
       "hp": 68,
@@ -120310,6 +121253,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CORVIKNIGHT",
+    "dexNum": 823,
     "name": "Corviknight",
     "stats": {
       "hp": 98,
@@ -120419,6 +121363,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BLIPBUG",
+    "dexNum": 824,
     "name": "Blipbug",
     "stats": {
       "hp": 25,
@@ -120464,6 +121409,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DOTTLER",
+    "dexNum": 825,
     "name": "Dottler",
     "stats": {
       "hp": 50,
@@ -120540,6 +121486,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORBEETLE",
+    "dexNum": 826,
     "name": "Orbeetle",
     "stats": {
       "hp": 60,
@@ -120668,6 +121615,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NICKIT",
+    "dexNum": 827,
     "name": "Nickit",
     "stats": {
       "hp": 40,
@@ -120774,6 +121722,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_THIEVUL",
+    "dexNum": 828,
     "name": "Thievul",
     "stats": {
       "hp": 70,
@@ -120891,6 +121840,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOSSIFLEUR",
+    "dexNum": 829,
     "name": "Gossifleur",
     "stats": {
       "hp": 40,
@@ -120993,6 +121943,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ELDEGOSS",
+    "dexNum": 830,
     "name": "Eldegoss",
     "stats": {
       "hp": 60,
@@ -121096,6 +122047,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WOOLOO",
+    "dexNum": 831,
     "name": "Wooloo",
     "stats": {
       "hp": 42,
@@ -121200,6 +122152,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DUBWOOL",
+    "dexNum": 832,
     "name": "Dubwool",
     "stats": {
       "hp": 72,
@@ -121310,6 +122263,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHEWTLE",
+    "dexNum": 833,
     "name": "Chewtle",
     "stats": {
       "hp": 50,
@@ -121407,6 +122361,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DREDNAW",
+    "dexNum": 834,
     "name": "Drednaw",
     "stats": {
       "hp": 90,
@@ -121530,6 +122485,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_YAMPER",
+    "dexNum": 835,
     "name": "Yamper",
     "stats": {
       "hp": 59,
@@ -121628,6 +122584,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BOLTUND",
+    "dexNum": 836,
     "name": "Boltund",
     "stats": {
       "hp": 69,
@@ -121734,6 +122691,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROLYCOLY",
+    "dexNum": 837,
     "name": "Rolycoly",
     "stats": {
       "hp": 30,
@@ -121833,6 +122791,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CARKOL",
+    "dexNum": 838,
     "name": "Carkol",
     "stats": {
       "hp": 80,
@@ -121944,6 +122903,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COALOSSAL",
+    "dexNum": 839,
     "name": "Coalossal",
     "stats": {
       "hp": 110,
@@ -122063,6 +123023,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_APPLIN",
+    "dexNum": 840,
     "name": "Applin",
     "stats": {
       "hp": 40,
@@ -122115,6 +123076,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLAPPLE",
+    "dexNum": 841,
     "name": "Flapple",
     "stats": {
       "hp": 70,
@@ -122241,6 +123203,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_APPLETUN",
+    "dexNum": 842,
     "name": "Appletun",
     "stats": {
       "hp": 110,
@@ -122370,6 +123333,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DIPPLIN",
+    "dexNum": 1408,
     "name": "Dipplin",
     "stats": {
       "hp": 80,
@@ -122492,6 +123456,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HYDRAPPLE",
+    "dexNum": 1426,
     "name": "Hydrapple",
     "stats": {
       "hp": 106,
@@ -122626,6 +123591,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SILICOBRA",
+    "dexNum": 843,
     "name": "Silicobra",
     "stats": {
       "hp": 52,
@@ -122731,6 +123697,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDACONDA",
+    "dexNum": 844,
     "name": "Sandaconda",
     "stats": {
       "hp": 72,
@@ -122835,6 +123802,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRAMORANT",
+    "dexNum": 845,
     "name": "Cramorant",
     "stats": {
       "hp": 70,
@@ -122941,6 +123909,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRAMORANT_GULPING",
+    "dexNum": 1211,
     "name": "Cramorant",
     "stats": {
       "hp": 70,
@@ -123020,6 +123989,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CRAMORANT_GORGING",
+    "dexNum": 1212,
     "name": "Cramorant",
     "stats": {
       "hp": 70,
@@ -123099,6 +124069,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARROKUDA",
+    "dexNum": 846,
     "name": "Arrokuda",
     "stats": {
       "hp": 41,
@@ -123193,6 +124164,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BARRASKEWDA",
+    "dexNum": 847,
     "name": "Barraskewda",
     "stats": {
       "hp": 61,
@@ -123292,6 +124264,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOXEL",
+    "dexNum": 848,
     "name": "Toxel",
     "stats": {
       "hp": 40,
@@ -123368,6 +124341,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOXTRICITY_AMPED",
+    "dexNum": 849,
     "name": "Toxtricity",
     "stats": {
       "hp": 75,
@@ -123527,6 +124501,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOXTRICITY_LOW_KEY",
+    "dexNum": 1213,
     "name": "Toxtricity",
     "stats": {
       "hp": 75,
@@ -123686,6 +124661,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SIZZLIPEDE",
+    "dexNum": 850,
     "name": "Sizzlipede",
     "stats": {
       "hp": 50,
@@ -123790,6 +124766,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CENTISKORCH",
+    "dexNum": 851,
     "name": "Centiskorch",
     "stats": {
       "hp": 100,
@@ -123907,6 +124884,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CLOBBOPUS",
+    "dexNum": 852,
     "name": "Clobbopus",
     "stats": {
       "hp": 50,
@@ -124008,6 +124986,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRAPPLOCT",
+    "dexNum": 853,
     "name": "Grapploct",
     "stats": {
       "hp": 80,
@@ -124126,6 +125105,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SINISTEA_PHONY",
+    "dexNum": 854,
     "name": "Sinistea",
     "stats": {
       "hp": 40,
@@ -124208,6 +125188,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SINISTEA_ANTIQUE",
+    "dexNum": 1214,
     "name": "Sinistea",
     "stats": {
       "hp": 40,
@@ -124288,6 +125269,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLTEAGEIST_PHONY",
+    "dexNum": 855,
     "name": "Polteageist",
     "stats": {
       "hp": 60,
@@ -124378,6 +125360,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLTEAGEIST_ANTIQUE",
+    "dexNum": 1215,
     "name": "Polteageist",
     "stats": {
       "hp": 60,
@@ -124468,6 +125451,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HATENNA",
+    "dexNum": 856,
     "name": "Hatenna",
     "stats": {
       "hp": 42,
@@ -124574,6 +125558,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HATTREM",
+    "dexNum": 857,
     "name": "Hattrem",
     "stats": {
       "hp": 57,
@@ -124684,6 +125669,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HATTERENE",
+    "dexNum": 858,
     "name": "Hatterene",
     "stats": {
       "hp": 57,
@@ -124804,6 +125790,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IMPIDIMP",
+    "dexNum": 859,
     "name": "Impidimp",
     "stats": {
       "hp": 45,
@@ -124918,6 +125905,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MORGREM",
+    "dexNum": 860,
     "name": "Morgrem",
     "stats": {
       "hp": 65,
@@ -125036,6 +126024,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRIMMSNARL",
+    "dexNum": 861,
     "name": "Grimmsnarl",
     "stats": {
       "hp": 95,
@@ -125172,6 +126161,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MILCERY",
+    "dexNum": 868,
     "name": "Milcery",
     "stats": {
       "hp": 45,
@@ -125267,6 +126257,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FALINKS",
+    "dexNum": 870,
     "name": "Falinks",
     "stats": {
       "hp": 65,
@@ -125377,6 +126368,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PINCURCHIN",
+    "dexNum": 871,
     "name": "Pincurchin",
     "stats": {
       "hp": 48,
@@ -125485,6 +126477,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SNOM",
+    "dexNum": 872,
     "name": "Snom",
     "stats": {
       "hp": 30,
@@ -125542,6 +126535,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FROSMOTH",
+    "dexNum": 873,
     "name": "Frosmoth",
     "stats": {
       "hp": 70,
@@ -125671,6 +126665,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_STONJOURNER",
+    "dexNum": 874,
     "name": "Stonjourner",
     "stats": {
       "hp": 100,
@@ -125772,6 +126767,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EISCUE_ICE",
+    "dexNum": 875,
     "name": "Eiscue",
     "stats": {
       "hp": 75,
@@ -125846,6 +126842,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_EISCUE_NOICE",
+    "dexNum": 1224,
     "name": "Eiscue",
     "stats": {
       "hp": 75,
@@ -125920,6 +126917,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INDEEDEE_M",
+    "dexNum": 876,
     "name": "Indeedee",
     "stats": {
       "hp": 60,
@@ -126030,6 +127028,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_INDEEDEE_F",
+    "dexNum": 1225,
     "name": "Indeedee",
     "stats": {
       "hp": 70,
@@ -126139,6 +127138,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MORPEKO_FULL_BELLY",
+    "dexNum": 877,
     "name": "Morpeko",
     "stats": {
       "hp": 58,
@@ -126236,6 +127236,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MORPEKO_HANGRY",
+    "dexNum": 1226,
     "name": "Morpeko",
     "stats": {
       "hp": 58,
@@ -126331,6 +127332,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CUFANT",
+    "dexNum": 878,
     "name": "Cufant",
     "stats": {
       "hp": 72,
@@ -126443,6 +127445,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_COPPERAJAH",
+    "dexNum": 879,
     "name": "Copperajah",
     "stats": {
       "hp": 122,
@@ -126559,6 +127562,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRACOZOLT",
+    "dexNum": 880,
     "name": "Dracozolt",
     "stats": {
       "hp": 90,
@@ -126677,6 +127681,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCTOZOLT",
+    "dexNum": 881,
     "name": "Arctozolt",
     "stats": {
       "hp": 90,
@@ -126794,6 +127799,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRACOVISH",
+    "dexNum": 882,
     "name": "Dracovish",
     "stats": {
       "hp": 90,
@@ -126904,6 +127910,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCTOVISH",
+    "dexNum": 883,
     "name": "Arctovish",
     "stats": {
       "hp": 90,
@@ -127015,6 +128022,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DURALUDON",
+    "dexNum": 884,
     "name": "Duraludon",
     "stats": {
       "hp": 70,
@@ -127135,6 +128143,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCHALUDON",
+    "dexNum": 1425,
     "name": "Archaludon",
     "stats": {
       "hp": 90,
@@ -127256,6 +128265,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DREEPY",
+    "dexNum": 885,
     "name": "Dreepy",
     "stats": {
       "hp": 28,
@@ -127327,6 +128337,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAKLOAK",
+    "dexNum": 886,
     "name": "Drakloak",
     "stats": {
       "hp": 68,
@@ -127462,6 +128473,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DRAGAPULT",
+    "dexNum": 887,
     "name": "Dragapult",
     "stats": {
       "hp": 88,
@@ -127604,6 +128616,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZACIAN_HERO",
+    "dexNum": 888,
     "name": "Zacian",
     "stats": {
       "hp": 92,
@@ -127686,6 +128699,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZACIAN_CROWNED",
+    "dexNum": 1227,
     "name": "Zacian",
     "stats": {
       "hp": 92,
@@ -127769,6 +128783,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZAMAZENTA_HERO",
+    "dexNum": 889,
     "name": "Zamazenta",
     "stats": {
       "hp": 92,
@@ -127847,6 +128862,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZAMAZENTA_CROWNED",
+    "dexNum": 1228,
     "name": "Zamazenta",
     "stats": {
       "hp": 92,
@@ -127926,6 +128942,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ETERNATUS",
+    "dexNum": 890,
     "name": "Eternatus",
     "stats": {
       "hp": 140,
@@ -128038,6 +129055,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KUBFU",
+    "dexNum": 891,
     "name": "Kubfu",
     "stats": {
       "hp": 60,
@@ -128160,6 +129178,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_URSHIFU_SINGLE_STRIKE",
+    "dexNum": 892,
     "name": "Urshifu",
     "stats": {
       "hp": 100,
@@ -128291,6 +129310,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_URSHIFU_RAPID_STRIKE",
+    "dexNum": 1230,
     "name": "Urshifu",
     "stats": {
       "hp": 100,
@@ -128423,6 +129443,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZARUDE",
+    "dexNum": 893,
     "name": "Zarude",
     "stats": {
       "hp": 105,
@@ -128554,6 +129575,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ZARUDE_DADA",
+    "dexNum": 1231,
     "name": "Zarude",
     "stats": {
       "hp": 105,
@@ -128649,6 +129671,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGIELEKI",
+    "dexNum": 894,
     "name": "Regieleki",
     "stats": {
       "hp": 80,
@@ -128760,6 +129783,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REGIDRAGO",
+    "dexNum": 895,
     "name": "Regidrago",
     "stats": {
       "hp": 200,
@@ -128864,6 +129888,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLASTRIER",
+    "dexNum": 896,
     "name": "Glastrier",
     "stats": {
       "hp": 100,
@@ -128970,6 +129995,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPECTRIER",
+    "dexNum": 897,
     "name": "Spectrier",
     "stats": {
       "hp": 100,
@@ -129075,6 +130101,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CALYREX",
+    "dexNum": 898,
     "name": "Calyrex",
     "stats": {
       "hp": 100,
@@ -129193,6 +130220,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CALYREX_ICE",
+    "dexNum": 1232,
     "name": "Calyrex",
     "stats": {
       "hp": 100,
@@ -129380,6 +130408,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CALYREX_SHADOW",
+    "dexNum": 1233,
     "name": "Calyrex",
     "stats": {
       "hp": 100,
@@ -129563,6 +130592,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ENAMORUS_INCARNATE",
+    "dexNum": 905,
     "name": "Enamorus",
     "stats": {
       "hp": 74,
@@ -129662,6 +130692,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ENAMORUS_THERIAN",
+    "dexNum": 1103,
     "name": "Enamorus",
     "stats": {
       "hp": 74,
@@ -129757,6 +130788,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPRIGATITO",
+    "dexNum": 1289,
     "name": "Sprigatito",
     "stats": {
       "hp": 40,
@@ -129860,6 +130892,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLORAGATO",
+    "dexNum": 1290,
     "name": "Floragato",
     "stats": {
       "hp": 61,
@@ -129969,6 +131002,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MEOWSCARADA",
+    "dexNum": 1291,
     "name": "Meowscarada",
     "stats": {
       "hp": 76,
@@ -130108,6 +131142,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FUECOCO",
+    "dexNum": 1292,
     "name": "Fuecoco",
     "stats": {
       "hp": 67,
@@ -130208,6 +131243,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CROCALOR",
+    "dexNum": 1293,
     "name": "Crocalor",
     "stats": {
       "hp": 81,
@@ -130316,6 +131352,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SKELEDIRGE",
+    "dexNum": 1294,
     "name": "Skeledirge",
     "stats": {
       "hp": 104,
@@ -130451,6 +131488,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUAXLY",
+    "dexNum": 1295,
     "name": "Quaxly",
     "stats": {
       "hp": 55,
@@ -130549,6 +131587,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUAXWELL",
+    "dexNum": 1296,
     "name": "Quaxwell",
     "stats": {
       "hp": 70,
@@ -130660,6 +131699,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_QUAQUAVAL",
+    "dexNum": 1297,
     "name": "Quaquaval",
     "stats": {
       "hp": 85,
@@ -130798,6 +131838,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LECHONK",
+    "dexNum": 1298,
     "name": "Lechonk",
     "stats": {
       "hp": 54,
@@ -130905,6 +131946,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OINKOLOGNE_M",
+    "dexNum": 1299,
     "name": "Oinkologne",
     "stats": {
       "hp": 110,
@@ -130999,6 +132041,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OINKOLOGNE_F",
+    "dexNum": 1300,
     "name": "Oinkologne",
     "stats": {
       "hp": 115,
@@ -131093,6 +132136,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TAROUNTULA",
+    "dexNum": 1301,
     "name": "Tarountula",
     "stats": {
       "hp": 35,
@@ -131199,6 +132243,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SPIDOPS",
+    "dexNum": 1302,
     "name": "Spidops",
     "stats": {
       "hp": 60,
@@ -131311,6 +132356,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NYMBLE",
+    "dexNum": 1303,
     "name": "Nymble",
     "stats": {
       "hp": 33,
@@ -131410,6 +132456,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_LOKIX",
+    "dexNum": 1304,
     "name": "Lokix",
     "stats": {
       "hp": 71,
@@ -131537,6 +132584,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PAWMI",
+    "dexNum": 1305,
     "name": "Pawmi",
     "stats": {
       "hp": 45,
@@ -131652,6 +132700,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PAWMO",
+    "dexNum": 1306,
     "name": "Pawmo",
     "stats": {
       "hp": 60,
@@ -131774,6 +132823,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PAWMOT",
+    "dexNum": 1307,
     "name": "Pawmot",
     "stats": {
       "hp": 70,
@@ -131914,6 +132964,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TANDEMAUS",
+    "dexNum": 1308,
     "name": "Tandemaus",
     "stats": {
       "hp": 50,
@@ -132029,6 +133080,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAUSHOLD_THREE",
+    "dexNum": 1309,
     "name": "Maushold",
     "stats": {
       "hp": 74,
@@ -132127,6 +133179,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MAUSHOLD_FOUR",
+    "dexNum": 1310,
     "name": "Maushold",
     "stats": {
       "hp": 74,
@@ -132225,6 +133278,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FIDOUGH",
+    "dexNum": 1311,
     "name": "Fidough",
     "stats": {
       "hp": 37,
@@ -132336,6 +133390,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DACHSBUN",
+    "dexNum": 1312,
     "name": "Dachsbun",
     "stats": {
       "hp": 57,
@@ -132446,6 +133501,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SMOLIV",
+    "dexNum": 1313,
     "name": "Smoliv",
     "stats": {
       "hp": 41,
@@ -132548,6 +133604,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DOLLIV",
+    "dexNum": 1314,
     "name": "Dolliv",
     "stats": {
       "hp": 52,
@@ -132650,6 +133707,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARBOLIVA",
+    "dexNum": 1315,
     "name": "Arboliva",
     "stats": {
       "hp": 78,
@@ -132772,6 +133830,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SQUAWKABILLY_GREEN",
+    "dexNum": 1316,
     "name": "Squawkabilly",
     "stats": {
       "hp": 82,
@@ -132871,6 +133930,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SQUAWKABILLY_BLUE",
+    "dexNum": 1317,
     "name": "Squawkabilly",
     "stats": {
       "hp": 82,
@@ -132970,6 +134030,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SQUAWKABILLY_YELLOW",
+    "dexNum": 1318,
     "name": "Squawkabilly",
     "stats": {
       "hp": 82,
@@ -133069,6 +134130,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SQUAWKABILLY_WHITE",
+    "dexNum": 1319,
     "name": "Squawkabilly",
     "stats": {
       "hp": 82,
@@ -133168,6 +134230,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NACLI",
+    "dexNum": 1320,
     "name": "Nacli",
     "stats": {
       "hp": 55,
@@ -133277,6 +134340,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_NACLSTACK",
+    "dexNum": 1321,
     "name": "Naclstack",
     "stats": {
       "hp": 60,
@@ -133392,6 +134456,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GARGANACL",
+    "dexNum": 1322,
     "name": "Garganacl",
     "stats": {
       "hp": 100,
@@ -133528,6 +134593,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHARCADET",
+    "dexNum": 1323,
     "name": "Charcadet",
     "stats": {
       "hp": 40,
@@ -133617,6 +134683,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARMAROUGE",
+    "dexNum": 1324,
     "name": "Armarouge",
     "stats": {
       "hp": 85,
@@ -133744,6 +134811,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CERULEDGE",
+    "dexNum": 1325,
     "name": "Ceruledge",
     "stats": {
       "hp": 75,
@@ -133880,6 +134948,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TADBULB",
+    "dexNum": 1326,
     "name": "Tadbulb",
     "stats": {
       "hp": 61,
@@ -133982,6 +135051,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BELLIBOLT",
+    "dexNum": 1327,
     "name": "Bellibolt",
     "stats": {
       "hp": 109,
@@ -134090,6 +135160,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WATTREL",
+    "dexNum": 1328,
     "name": "Wattrel",
     "stats": {
       "hp": 40,
@@ -134194,6 +135265,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KILOWATTREL",
+    "dexNum": 1329,
     "name": "Kilowattrel",
     "stats": {
       "hp": 70,
@@ -134305,6 +135377,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MASCHIFF",
+    "dexNum": 1330,
     "name": "Maschiff",
     "stats": {
       "hp": 60,
@@ -134421,6 +135494,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MABOSSTIFF",
+    "dexNum": 1331,
     "name": "Mabosstiff",
     "stats": {
       "hp": 80,
@@ -134544,6 +135618,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SHROODLE",
+    "dexNum": 1332,
     "name": "Shroodle",
     "stats": {
       "hp": 40,
@@ -134665,6 +135740,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GRAFAIAI",
+    "dexNum": 1333,
     "name": "Grafaiai",
     "stats": {
       "hp": 63,
@@ -134784,6 +135860,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRAMBLIN",
+    "dexNum": 1334,
     "name": "Bramblin",
     "stats": {
       "hp": 40,
@@ -134898,6 +135975,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRAMBLEGHAST",
+    "dexNum": 1335,
     "name": "Brambleghast",
     "stats": {
       "hp": 55,
@@ -135011,6 +136089,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOEDSCOOL",
+    "dexNum": 1336,
     "name": "Toedscool",
     "stats": {
       "hp": 40,
@@ -135137,6 +136216,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TOEDSCRUEL",
+    "dexNum": 1337,
     "name": "Toedscruel",
     "stats": {
       "hp": 80,
@@ -135268,6 +136348,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KLAWF",
+    "dexNum": 1338,
     "name": "Klawf",
     "stats": {
       "hp": 70,
@@ -135385,6 +136466,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CAPSAKID",
+    "dexNum": 1339,
     "name": "Capsakid",
     "stats": {
       "hp": 50,
@@ -135487,6 +136569,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCOVILLAIN",
+    "dexNum": 1340,
     "name": "Scovillain",
     "stats": {
       "hp": 65,
@@ -135612,6 +136695,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RELLOR",
+    "dexNum": 1341,
     "name": "Rellor",
     "stats": {
       "hp": 41,
@@ -135722,6 +136806,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RABSCA",
+    "dexNum": 1342,
     "name": "Rabsca",
     "stats": {
       "hp": 75,
@@ -135858,6 +136943,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLITTLE",
+    "dexNum": 1343,
     "name": "Flittle",
     "stats": {
       "hp": 30,
@@ -135955,6 +137041,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ESPATHRA",
+    "dexNum": 1344,
     "name": "Espathra",
     "stats": {
       "hp": 95,
@@ -136080,6 +137167,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TINKATINK",
+    "dexNum": 1345,
     "name": "Tinkatink",
     "stats": {
       "hp": 50,
@@ -136204,6 +137292,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TINKATUFF",
+    "dexNum": 1346,
     "name": "Tinkatuff",
     "stats": {
       "hp": 65,
@@ -136329,6 +137418,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TINKATON",
+    "dexNum": 1347,
     "name": "Tinkaton",
     "stats": {
       "hp": 85,
@@ -136456,6 +137546,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WIGLETT",
+    "dexNum": 1348,
     "name": "Wiglett",
     "stats": {
       "hp": 10,
@@ -136560,6 +137651,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WUGTRIO",
+    "dexNum": 1349,
     "name": "Wugtrio",
     "stats": {
       "hp": 35,
@@ -136667,6 +137759,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BOMBIRDIER",
+    "dexNum": 1350,
     "name": "Bombirdier",
     "stats": {
       "hp": 70,
@@ -136789,6 +137882,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FINIZEN",
+    "dexNum": 1351,
     "name": "Finizen",
     "stats": {
       "hp": 70,
@@ -136894,6 +137988,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALAFIN_ZERO",
+    "dexNum": 1352,
     "name": "Palafin",
     "stats": {
       "hp": 100,
@@ -136988,6 +138083,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PALAFIN_HERO",
+    "dexNum": 1353,
     "name": "Palafin",
     "stats": {
       "hp": 100,
@@ -137082,6 +138178,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VAROOM",
+    "dexNum": 1354,
     "name": "Varoom",
     "stats": {
       "hp": 45,
@@ -137197,6 +138294,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_REVAVROOM",
+    "dexNum": 1355,
     "name": "Revavroom",
     "stats": {
       "hp": 80,
@@ -137320,6 +138418,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CYCLIZAR",
+    "dexNum": 1356,
     "name": "Cyclizar",
     "stats": {
       "hp": 70,
@@ -137432,6 +138531,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ORTHWORM",
+    "dexNum": 1357,
     "name": "Orthworm",
     "stats": {
       "hp": 70,
@@ -137540,6 +138640,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLIMMET",
+    "dexNum": 1358,
     "name": "Glimmet",
     "stats": {
       "hp": 48,
@@ -137649,6 +138750,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GLIMMORA",
+    "dexNum": 1359,
     "name": "Glimmora",
     "stats": {
       "hp": 83,
@@ -137770,6 +138872,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GREAVARD",
+    "dexNum": 1360,
     "name": "Greavard",
     "stats": {
       "hp": 50,
@@ -137881,6 +138984,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_HOUNDSTONE",
+    "dexNum": 1361,
     "name": "Houndstone",
     "stats": {
       "hp": 72,
@@ -137995,6 +139099,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLAMIGO",
+    "dexNum": 1362,
     "name": "Flamigo",
     "stats": {
       "hp": 82,
@@ -138114,6 +139219,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CETODDLE",
+    "dexNum": 1363,
     "name": "Cetoddle",
     "stats": {
       "hp": 108,
@@ -138231,6 +139337,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CETITAN",
+    "dexNum": 1364,
     "name": "Cetitan",
     "stats": {
       "hp": 170,
@@ -138347,6 +139454,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_VELUZA",
+    "dexNum": 1365,
     "name": "Veluza",
     "stats": {
       "hp": 90,
@@ -138452,6 +139560,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_DONDOZO",
+    "dexNum": 1366,
     "name": "Dondozo",
     "stats": {
       "hp": 150,
@@ -138576,6 +139685,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TATSUGIRI_CURLY",
+    "dexNum": 1367,
     "name": "Tatsugiri",
     "stats": {
       "hp": 68,
@@ -138655,6 +139765,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TATSUGIRI_DROOPY",
+    "dexNum": 1368,
     "name": "Tatsugiri",
     "stats": {
       "hp": 68,
@@ -138734,6 +139845,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TATSUGIRI_STRETCHY",
+    "dexNum": 1369,
     "name": "Tatsugiri",
     "stats": {
       "hp": 68,
@@ -138813,6 +139925,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GREAT_TUSK",
+    "dexNum": 1376,
     "name": "Great Tusk",
     "stats": {
       "hp": 115,
@@ -138936,6 +140049,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SCREAM_TAIL",
+    "dexNum": 1377,
     "name": "Scream Tail",
     "stats": {
       "hp": 115,
@@ -139068,6 +140182,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BRUTE_BONNET",
+    "dexNum": 1378,
     "name": "Brute Bonnet",
     "stats": {
       "hp": 111,
@@ -139180,6 +140295,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FLUTTER_MANE",
+    "dexNum": 1379,
     "name": "Flutter Mane",
     "stats": {
       "hp": 55,
@@ -139296,6 +140412,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SLITHER_WING",
+    "dexNum": 1380,
     "name": "Slither Wing",
     "stats": {
       "hp": 85,
@@ -139416,6 +140533,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SANDY_SHOCKS",
+    "dexNum": 1381,
     "name": "Sandy Shocks",
     "stats": {
       "hp": 85,
@@ -139537,6 +140655,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_TREADS",
+    "dexNum": 1382,
     "name": "Iron Treads",
     "stats": {
       "hp": 90,
@@ -139651,6 +140770,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_BUNDLE",
+    "dexNum": 1383,
     "name": "Iron Bundle",
     "stats": {
       "hp": 56,
@@ -139761,6 +140881,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_HANDS",
+    "dexNum": 1384,
     "name": "Iron Hands",
     "stats": {
       "hp": 154,
@@ -139889,6 +141010,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_JUGULIS",
+    "dexNum": 1385,
     "name": "Iron Jugulis",
     "stats": {
       "hp": 94,
@@ -140006,6 +141128,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_MOTH",
+    "dexNum": 1386,
     "name": "Iron Moth",
     "stats": {
       "hp": 80,
@@ -140127,6 +141250,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_THORNS",
+    "dexNum": 1387,
     "name": "Iron Thorns",
     "stats": {
       "hp": 100,
@@ -140260,6 +141384,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FRIGIBAX",
+    "dexNum": 1388,
     "name": "Frigibax",
     "stats": {
       "hp": 65,
@@ -140365,6 +141490,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ARCTIBAX",
+    "dexNum": 1389,
     "name": "Arctibax",
     "stats": {
       "hp": 90,
@@ -140468,6 +141594,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_BAXCALIBUR",
+    "dexNum": 1390,
     "name": "Baxcalibur",
     "stats": {
       "hp": 115,
@@ -140592,6 +141719,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIMMIGHOUL_CHEST",
+    "dexNum": 1391,
     "name": "Gimmighoul",
     "stats": {
       "hp": 45,
@@ -140628,6 +141756,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GIMMIGHOUL_ROAMING",
+    "dexNum": 1392,
     "name": "Gimmighoul",
     "stats": {
       "hp": 45,
@@ -140664,6 +141793,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GHOLDENGO",
+    "dexNum": 1393,
     "name": "Gholdengo",
     "stats": {
       "hp": 87,
@@ -140762,6 +141892,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WO_CHIEN",
+    "dexNum": 1394,
     "name": "Wo-Chien",
     "stats": {
       "hp": 85,
@@ -140887,6 +142018,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHIEN_PAO",
+    "dexNum": 1395,
     "name": "Chien-Pao",
     "stats": {
       "hp": 80,
@@ -141011,6 +142143,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TING_LU",
+    "dexNum": 1396,
     "name": "Ting-Lu",
     "stats": {
       "hp": 155,
@@ -141132,6 +142265,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_CHI_YU",
+    "dexNum": 1397,
     "name": "Chi-Yu",
     "stats": {
       "hp": 55,
@@ -141253,6 +142387,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_ROARING_MOON",
+    "dexNum": 1398,
     "name": "Roaring Moon",
     "stats": {
       "hp": 105,
@@ -141391,6 +142526,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_VALIANT",
+    "dexNum": 1399,
     "name": "Iron Valiant",
     "stats": {
       "hp": 74,
@@ -141528,6 +142664,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_KORAIDON",
+    "dexNum": 1400,
     "name": "Koraidon",
     "stats": {
       "hp": 100,
@@ -141650,6 +142787,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MIRAIDON",
+    "dexNum": 1401,
     "name": "Miraidon",
     "stats": {
       "hp": 100,
@@ -141768,6 +142906,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_WALKING_WAKE",
+    "dexNum": 1406,
     "name": "Walking Wake",
     "stats": {
       "hp": 99,
@@ -141886,6 +143025,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_LEAVES",
+    "dexNum": 1407,
     "name": "Iron Leaves",
     "stats": {
       "hp": 90,
@@ -142012,6 +143152,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLTCHAGEIST_COUNTERFEIT",
+    "dexNum": 1409,
     "name": "Poltchageist",
     "stats": {
       "hp": 40,
@@ -142097,6 +143238,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_POLTCHAGEIST_ARTISAN",
+    "dexNum": 1410,
     "name": "Poltchageist",
     "stats": {
       "hp": 40,
@@ -142182,6 +143324,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SINISTCHA_UNREMARKABLE",
+    "dexNum": 1411,
     "name": "Sinistcha",
     "stats": {
       "hp": 71,
@@ -142269,6 +143412,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_SINISTCHA_MASTERPIECE",
+    "dexNum": 1412,
     "name": "Sinistcha",
     "stats": {
       "hp": 71,
@@ -142356,6 +143500,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_OKIDOGI",
+    "dexNum": 1413,
     "name": "Okidogi",
     "stats": {
       "hp": 88,
@@ -142465,6 +143610,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_MUNKIDORI",
+    "dexNum": 1414,
     "name": "Munkidori",
     "stats": {
       "hp": 88,
@@ -142574,6 +143720,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_FEZANDIPITI",
+    "dexNum": 1415,
     "name": "Fezandipiti",
     "stats": {
       "hp": 88,
@@ -142690,6 +143837,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_GOUGING_FIRE",
+    "dexNum": 1427,
     "name": "Gouging Fire",
     "stats": {
       "hp": 105,
@@ -142819,6 +143967,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_RAGING_BOLT",
+    "dexNum": 1428,
     "name": "Raging Bolt",
     "stats": {
       "hp": 125,
@@ -142943,6 +144092,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_BOULDER",
+    "dexNum": 1429,
     "name": "Iron Boulder",
     "stats": {
       "hp": 90,
@@ -143062,6 +144212,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_IRON_CROWN",
+    "dexNum": 1430,
     "name": "Iron Crown",
     "stats": {
       "hp": 90,
@@ -143177,6 +144328,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TERAPAGOS_NORMAL",
+    "dexNum": 1431,
     "name": "Terapagos",
     "stats": {
       "hp": 90,
@@ -143251,6 +144403,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TERAPAGOS_TERASTAL",
+    "dexNum": 1432,
     "name": "Terapagos",
     "stats": {
       "hp": 95,
@@ -143325,6 +144478,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_TERAPAGOS_STELLAR",
+    "dexNum": 1433,
     "name": "Terapagos",
     "stats": {
       "hp": 160,
@@ -143399,6 +144553,7 @@ const pokedexData = [
   },
   {
     "id": "SPECIES_PECHARUNT",
+    "dexNum": 1434,
     "name": "Pecharunt",
     "stats": {
       "hp": 88,
