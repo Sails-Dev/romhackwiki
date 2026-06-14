@@ -772,6 +772,70 @@
             });
         }
         
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            
+            if (currentTab === 'pokemon') {
+                if (!query) return renderDex(pokedexData.slice(0, 1500));
+                
+                let typeFilter = null;
+                let locFilter = null;
+                let abilityFilter = null;
+                let nameQuery = query;
+
+                const parts = query.split(' ');
+                const textParts = [];
+
+                for (const part of parts) {
+                    if (part.startsWith('type:')) typeFilter = part.replace('type:', '');
+                    else if (part.startsWith('loc:')) locFilter = part.replace('loc:', '');
+                    else if (part.startsWith('ability:')) abilityFilter = part.replace('ability:', '');
+                    else textParts.push(part);
+                }
+                nameQuery = textParts.join(' ');
+
+                const filtered = pokedexData.filter(p => {
+                    let matches = true;
+                    if (nameQuery && !p.name.toLowerCase().includes(nameQuery)) matches = false;
+                    if (typeFilter && !p.types.some(t => t.toLowerCase().includes(typeFilter))) matches = false;
+                    if (abilityFilter && !p.abilities.some(a => a.toLowerCase().includes(abilityFilter))) matches = false;
+                    if (locFilter && !p.locations.some(l => l.toLowerCase().includes(locFilter))) matches = false;
+                    return matches;
+                });
+                renderDex(filtered.slice(0, 1500));
+            } else if (currentTab === 'trainers') {
+                if (!query) return renderTrainers(trainersData.slice(0, 50));
+                const filtered = trainersData.filter(t => 
+                    t.name.toLowerCase().includes(query) || 
+                    (t.class && t.class.toLowerCase().includes(query)) ||
+                    t.team.some(m => m.species.toLowerCase().includes(query))
+                );
+                renderTrainers(filtered.slice(0, 50));
+            } else if (currentTab === 'abilities') {
+                if (!query) return renderAbilities(abilitiesData);
+                const filtered = {};
+                for (const [ability, obj] of Object.entries(abilitiesData)) {
+                    if (ability.toLowerCase().includes(query) || 
+                        obj.description.toLowerCase().includes(query) || 
+                        obj.pokemon.some(p => p.toLowerCase().includes(query))) {
+                        filtered[ability] = obj;
+                    }
+                }
+                renderAbilities(filtered);
+            } else if (currentTab === 'areas') {
+                if (!query) return renderAreas(areasData);
+                const filtered = {};
+                for (const [area, mons] of Object.entries(areasData)) {
+                    if (area.toLowerCase().includes(query) || 
+                        mons.some(p => p.toLowerCase().includes(query))) {
+                        filtered[area] = mons;
+                    }
+                }
+                renderAreas(filtered);
+            }
+        });
+
         // Initial render
         window.addEventListener('DOMContentLoaded', () => {
             if (typeof pokedexData !== 'undefined') {
