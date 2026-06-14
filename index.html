@@ -99,7 +99,9 @@
         
         .grid-cards {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            align-items: start;
+            align-content: start;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.5rem;
             width: 100%;
             max-width: 1400px;
@@ -223,7 +225,14 @@
             image-rendering: pixelated;
             object-fit: contain;
         }
-        .mon-details { font-size: 0.85rem; color: var(--muted); }
+        .mon-details { font-size: 0.85rem; color: var(--muted); width: 100%; }
+        .mon-details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.25rem;
+            text-align: left;
+            width: 100%;
+        }
         .moves-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; font-size: 0.85rem; margin-top: auto; }
         
         /* SCROLLBARS */
@@ -286,16 +295,7 @@
             .card { padding: 0.75rem !important; }
             
             
-            .trainer-mon .pill {
-                background: transparent !important;
-                border: none !important;
-                padding: 0 !important;
-                text-align: center !important;
-                font-size: 0.9rem !important;
-                color: var(--text) !important;
-                display: block !important;
-                width: 100% !important;
-            }
+
 
             /* Trainer Grid (Uniform Sizes) */
             .trainer-team {
@@ -317,11 +317,18 @@
                 margin: 0 !important;
             }
             .mon-sprite {
-                width: 64px !important;
-                height: 64px !important;
+                width: 120px !important;
+                height: 120px !important;
             }
-            .mon-header { font-size: 0.85rem; word-break: break-word; text-align: center; }
-            .mon-details { font-size: 0.75rem; word-break: break-word; text-align: center; width: 100%; }
+            .mon-header { 
+                flex-direction: column !important; 
+                font-size: 1.1rem !important; 
+                gap: 0.25rem !important; 
+                align-items: flex-start !important;
+            }
+            .mon-details { font-size: 0.9rem !important; }
+            
+            
 
             /* Buttons and Rows */
             .mobile-back-btn {
@@ -651,11 +658,20 @@
                 
                 let groupHtml = group.map(t => {
                     let teamHtml = t.team.map(mon => {
-                        let details = [];
-                        if (mon.level) details.push(`Lv. ${mon.level}`);
-                        if (mon.ability) details.push(`${titleCase(mon.ability)}`);
-                        details.push(mon.nature || 'Neutral Nature');
-                        if (mon.item) details.push(`@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))}`);
+                        let lv = mon.level ? `Lv. ${mon.level}` : '';
+                        let item = mon.item ? `@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))}` : '';
+                        let ability = mon.ability ? titleCase(mon.ability) : '';
+                        let nature = mon.nature || 'Neutral Nature';
+                        
+                        let topRow = [lv, item].filter(Boolean).join(' &bull; ');
+                        let bottomRow = [ability, nature].filter(Boolean).join(' &bull; ');
+
+                        let detailsHtml = `
+                            <div style="text-align: left; width: 100%; margin: 0.5rem 0; font-size: 0.85rem; color: var(--muted); line-height: 1.4;">
+                                <div>${topRow}</div>
+                                <div>${bottomRow}</div>
+                            </div>
+                        `;
                         
                         let speed = calculateSpeed(mon);
                         let speedHtml = `<div><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">⚡ Speed: ${speed}</span></div>`;
@@ -671,7 +687,7 @@
                                     <img src="${spriteUrl}" alt="${speciesName}" class="mon-sprite" onerror="this.src='https://play.pokemonshowdown.com/sprites/gen5/0.png'">
                                     <span>${speciesName}</span>
                                 </div>
-                                <div class="mon-details">${details.join('<br>')}</div>
+                                <div class="mon-details">${detailsHtml}</div>
                                 ${speedHtml}
                                 <div class="moves-list">${movesHtml}</div>
                             </div>
@@ -702,6 +718,11 @@
         function renderAbilities(data) {
             const grid = document.getElementById('pokedexGrid');
             grid.innerHTML = '';
+            
+            if (data.length === 0) {
+                grid.innerHTML = '<div style="text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem; grid-column: 1 / -1; width: 100%;">No abilities found matching your search.</div>';
+                return;
+            }
             
             data.forEach(a => {
                 if (a.pokemon.length === 0) return; // Hide unused abilities
@@ -752,6 +773,11 @@
         function renderAreas(data) {
             const grid = document.getElementById('pokedexGrid');
             grid.innerHTML = '';
+            
+            if (data.length === 0) {
+                grid.innerHTML = '<div style="text-align: center; padding: 3rem; color: var(--muted); font-size: 1.2rem; grid-column: 1 / -1; width: 100%;">No areas found matching your search.</div>';
+                return;
+            }
             
             const targetAreas = [
                 "pallet town", "pallet town garden", "route 21 north", "route 1",
@@ -852,24 +878,21 @@
                 renderTrainers(filtered.slice(0, 50));
             } else if (currentTab === 'abilities') {
                 if (!query) return renderAbilities(abilitiesData);
-                const filtered = {};
-                for (const [ability, obj] of Object.entries(abilitiesData)) {
-                    if (ability.toLowerCase().includes(query) || 
-                        obj.description.toLowerCase().includes(query) || 
-                        obj.pokemon.some(p => p.toLowerCase().includes(query))) {
-                        filtered[ability] = obj;
-                    }
-                }
+                const filtered = abilitiesData.filter(a => {
+                    return a.name.toLowerCase().includes(query) || 
+                           (a.description && a.description.toLowerCase().includes(query)) || 
+                           a.pokemon.some(p => p.toLowerCase().includes(query));
+                });
                 renderAbilities(filtered);
             } else if (currentTab === 'areas') {
                 if (!query) return renderAreas(areasData);
-                const filtered = {};
-                for (const [area, mons] of Object.entries(areasData)) {
-                    if (area.toLowerCase().includes(query) || 
-                        mons.some(p => p.toLowerCase().includes(query))) {
-                        filtered[area] = mons;
+                const filtered = areasData.filter(a => {
+                    if (a.name.toLowerCase().includes(query)) return true;
+                    for (const mons of Object.values(a.encounters)) {
+                        if (mons.some(p => p.toLowerCase().includes(query))) return true;
                     }
-                }
+                    return false;
+                });
                 renderAreas(filtered);
             }
         });
