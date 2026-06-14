@@ -281,6 +281,10 @@
                 box-sizing: border-box !important;
             }
             
+            /* Container & Card Padding Fix */
+            .container { padding: 0.5rem !important; }
+            .card { padding: 0.75rem !important; }
+            
             /* Trainer Grid (Uniform Sizes) */
             .trainer-team {
                 display: grid !important;
@@ -304,8 +308,8 @@
                 width: 64px !important;
                 height: 64px !important;
             }
-            .mon-header { font-size: 0.9rem; }
-            .mon-details { font-size: 0.75rem; }
+            .mon-header { font-size: 0.85rem; word-break: break-word; text-align: center; }
+            .mon-details { font-size: 0.75rem; word-break: break-word; text-align: center; width: 100%; }
 
             /* Buttons and Rows */
             .mobile-back-btn {
@@ -644,7 +648,7 @@
                         let speed = calculateSpeed(mon);
                         let speedHtml = `<div><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">⚡ Speed: ${speed}</span></div>`;
                         
-                        let movesHtml = (mon.moves || []).map(m => `<span class="pill" style="background-color: rgba(255,255,255,0.05); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.1); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}">${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}</span>`).join('');
+                        let movesHtml = (mon.moves || []).map(m => `<span class="pill" style="background-color: rgba(255,255,255,0.05); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.1); text-align: center; word-break: break-word; font-size: 0.75rem; padding: 0.2rem;" title="${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}">${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}</span>`).join('');
                         
                         let spriteUrl = getSpriteUrl(mon.species);
                         let speciesName = titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' '));
