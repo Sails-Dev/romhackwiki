@@ -280,7 +280,7 @@
                 overflow-x: hidden !important;
             }
             .container.has-expanded .expanded-view {
-                transform: translateX(0);
+                transform: translateX(0) !important;
             }
             
             /* Fix Stats Overflow */
@@ -324,7 +324,7 @@
                 flex-direction: column !important; 
                 font-size: 1.1rem !important; 
                 gap: 0.25rem !important; 
-                align-items: flex-start !important;
+                align-items: center !important;
             }
             .mon-details { font-size: 0.9rem !important; }
             
@@ -680,9 +680,10 @@
                         
                         let spriteUrl = getSpriteUrl(mon.species);
                         let speciesName = titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' '));
+                        let escapedName = speciesName.replace(/'/g, "\\'");
                         
                         return `
-                            <div class="trainer-mon">
+                            <div class="trainer-mon" style="cursor: pointer;" onclick="if(typeof pokedexData !== 'undefined') { let e = pokedexData.find(x => x.name === '${escapedName}'); if(e) showExpandedView(e); }">
                                 <div class="mon-header">
                                     <img src="${spriteUrl}" alt="${speciesName}" class="mon-sprite" onerror="this.src='https://play.pokemonshowdown.com/sprites/gen5/0.png'">
                                     <span>${speciesName}</span>
