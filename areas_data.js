@@ -3,19 +3,19 @@ const areasData = [
     "name": "Viridian Forest",
     "encounters": {
       "land_mons": [
-        "Weedle",
-        "Blipbug",
+        "Paras",
         "Seedot",
-        "Sewaddle",
+        "Blipbug",
+        "Weedle",
         "Sunkern",
-        "Paras"
+        "Sewaddle"
       ],
       "fishing_mons": [
-        "Horsea",
-        "Carvanha",
-        "Psyduck",
         "Lotad",
-        "Barboach"
+        "Carvanha",
+        "Barboach",
+        "Horsea",
+        "Psyduck"
       ]
     }
   },
@@ -23,14 +23,14 @@ const areasData = [
     "name": "Mt Moon 1F",
     "encounters": {
       "land_mons": [
-        "Zubat",
         "Cubone",
-        "Phanpy",
-        "Onix",
         "Roggenrola",
         "Nosepass",
         "Baltoy",
-        "Paras"
+        "Paras",
+        "Onix",
+        "Zubat",
+        "Phanpy"
       ]
     }
   },
@@ -38,14 +38,14 @@ const areasData = [
     "name": "Mt Moon B1F",
     "encounters": {
       "land_mons": [
-        "Zubat",
         "Cubone",
-        "Phanpy",
-        "Onix",
         "Roggenrola",
         "Nosepass",
         "Baltoy",
-        "Paras"
+        "Paras",
+        "Onix",
+        "Zubat",
+        "Phanpy"
       ]
     }
   },
@@ -53,10 +53,10 @@ const areasData = [
     "name": "Mt Moon B2F",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Clefairy",
         "Zubat",
-        "Paras"
+        "Paras",
+        "Clefairy",
+        "Geodude"
       ]
     }
   },
@@ -69,10 +69,10 @@ const areasData = [
       "fishing_mons": [
         "Krabby",
         "Horsea",
-        "Shellder",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -89,14 +89,14 @@ const areasData = [
     "name": "Victory Road 1F Frlg",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Geodude",
-        "Marowak",
-        "Machoke",
-        "Golbat",
-        "Onix",
         "Machop",
-        "Arbok"
+        "Golbat",
+        "Arbok",
+        "Onix",
+        "Machoke",
+        "Zubat",
+        "Marowak",
+        "Geodude"
       ]
     }
   },
@@ -104,15 +104,15 @@ const areasData = [
     "name": "Victory Road 2F",
     "encounters": {
       "land_mons": [
-        "Primeape",
-        "Zubat",
-        "Geodude",
-        "Marowak",
-        "Machoke",
-        "Golbat",
-        "Onix",
         "Machop",
-        "Arbok"
+        "Primeape",
+        "Golbat",
+        "Arbok",
+        "Onix",
+        "Machoke",
+        "Zubat",
+        "Marowak",
+        "Geodude"
       ]
     }
   },
@@ -120,14 +120,14 @@ const areasData = [
     "name": "Victory Road 3F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Geodude",
-        "Marowak",
-        "Machoke",
-        "Golbat",
-        "Onix",
         "Machop",
-        "Arbok"
+        "Golbat",
+        "Arbok",
+        "Onix",
+        "Machoke",
+        "Zubat",
+        "Marowak",
+        "Geodude"
       ]
     }
   },
@@ -135,12 +135,12 @@ const areasData = [
     "name": "Pokemon Mansion 1F",
     "encounters": {
       "land_mons": [
-        "Grimer",
-        "Weezing",
         "Growlithe",
+        "Weezing",
         "Raticate",
+        "Koffing",
         "Rattata",
-        "Koffing"
+        "Grimer"
       ]
     }
   },
@@ -148,12 +148,12 @@ const areasData = [
     "name": "Pokemon Mansion 2F",
     "encounters": {
       "land_mons": [
-        "Grimer",
-        "Weezing",
         "Growlithe",
+        "Weezing",
         "Raticate",
+        "Koffing",
         "Rattata",
-        "Koffing"
+        "Grimer"
       ]
     }
   },
@@ -161,12 +161,12 @@ const areasData = [
     "name": "Pokemon Mansion 3F",
     "encounters": {
       "land_mons": [
-        "Grimer",
-        "Weezing",
         "Growlithe",
+        "Weezing",
         "Raticate",
+        "Koffing",
         "Rattata",
-        "Koffing"
+        "Grimer"
       ]
     }
   },
@@ -174,13 +174,13 @@ const areasData = [
     "name": "Pokemon Mansion B1F",
     "encounters": {
       "land_mons": [
-        "Grimer",
-        "Weezing",
         "Growlithe",
-        "Ditto",
+        "Weezing",
         "Raticate",
+        "Koffing",
+        "Ditto",
         "Rattata",
-        "Koffing"
+        "Grimer"
       ]
     }
   },
@@ -188,26 +188,26 @@ const areasData = [
     "name": "Safari Zone Center",
     "encounters": {
       "land_mons": [
-        "Parasect",
-        "Scyther",
-        "Venonat",
         "Rhyhorn",
+        "Exeggcute",
+        "Venonat",
         "Nidorina",
+        "Parasect",
         "Nidoran\u2642",
         "Nidorino",
-        "Exeggcute"
+        "Scyther"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
-        "Dratini",
-        "Poliwag",
         "Dragonair",
-        "Magikarp",
+        "Dratini",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -215,26 +215,26 @@ const areasData = [
     "name": "Safari Zone East",
     "encounters": {
       "land_mons": [
+        "Exeggcute",
         "Parasect",
-        "Nidoran\u2640",
-        "Doduo",
-        "Kangaskhan",
-        "Nidoran\u2642",
         "Paras",
-        "Nidorino",
-        "Exeggcute"
+        "Doduo",
+        "Nidoran\u2642",
+        "Kangaskhan",
+        "Nidoran\u2640",
+        "Nidorino"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
-        "Dratini",
-        "Poliwag",
         "Dragonair",
-        "Magikarp",
+        "Dratini",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -242,26 +242,26 @@ const areasData = [
     "name": "Safari Zone North Frlg",
     "encounters": {
       "land_mons": [
-        "Venomoth",
         "Rhyhorn",
-        "Nidorina",
-        "Nidoran\u2642",
         "Exeggcute",
-        "Nidorino",
+        "Nidorina",
         "Paras",
-        "Chansey"
+        "Nidoran\u2642",
+        "Chansey",
+        "Nidorino",
+        "Venomoth"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
-        "Dratini",
-        "Poliwag",
         "Dragonair",
-        "Magikarp",
+        "Dratini",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -269,26 +269,26 @@ const areasData = [
     "name": "Safari Zone West",
     "encounters": {
       "land_mons": [
-        "Nidoran\u2640",
-        "Venomoth",
+        "Tauros",
+        "Exeggcute",
         "Venonat",
         "Doduo",
         "Nidoran\u2642",
-        "Tauros",
+        "Nidoran\u2640",
         "Nidorino",
-        "Exeggcute"
+        "Venomoth"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
-        "Dratini",
-        "Poliwag",
         "Dragonair",
-        "Magikarp",
+        "Dratini",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -296,12 +296,61 @@ const areasData = [
     "name": "Cerulean Cave 1F",
     "encounters": {
       "land_mons": [
-        "Parasect",
-        "Primeape",
-        "Wobbuffet",
         "Magneton",
-        "Machoke",
+        "Primeape",
+        "Parasect",
         "Golbat",
+        "Machoke",
+        "Ditto",
+        "Electrode",
+        "Wobbuffet"
+      ],
+      "water_mons": [
+        "Golduck",
+        "Psyduck"
+      ],
+      "fishing_mons": [
+        "Gyarados",
+        "Goldeen",
+        "Psyduck",
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
+      ],
+      "rock_smash_mons": [
+        "Graveler",
+        "Geodude"
+      ]
+    }
+  },
+  {
+    "name": "Cerulean Cave 2F",
+    "encounters": {
+      "land_mons": [
+        "Magneton",
+        "Kadabra",
+        "Golbat",
+        "Parasect",
+        "Machoke",
+        "Ditto",
+        "Electrode",
+        "Wobbuffet"
+      ],
+      "rock_smash_mons": [
+        "Graveler",
+        "Geodude"
+      ]
+    }
+  },
+  {
+    "name": "Cerulean Cave B1F",
+    "encounters": {
+      "land_mons": [
+        "Magneton",
+        "Kadabra",
+        "Golbat",
+        "Parasect",
+        "Machoke",
         "Ditto",
         "Electrode"
       ],
@@ -310,65 +359,16 @@ const areasData = [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
-      ],
-      "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
-      ]
-    }
-  },
-  {
-    "name": "Cerulean Cave 2F",
-    "encounters": {
-      "land_mons": [
-        "Parasect",
-        "Wobbuffet",
-        "Magneton",
-        "Machoke",
-        "Golbat",
-        "Ditto",
-        "Electrode",
-        "Kadabra"
-      ],
-      "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
-      ]
-    }
-  },
-  {
-    "name": "Cerulean Cave B1F",
-    "encounters": {
-      "land_mons": [
-        "Parasect",
-        "Magneton",
-        "Machoke",
-        "Golbat",
-        "Ditto",
-        "Electrode",
-        "Kadabra"
-      ],
-      "water_mons": [
-        "Golduck",
-        "Psyduck"
-      ],
-      "fishing_mons": [
-        "Poliwhirl",
-        "Gyarados",
-        "Poliwag",
         "Magikarp",
-        "Psyduck",
-        "Goldeen"
+        "Poliwag",
+        "Poliwhirl"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -376,11 +376,11 @@ const areasData = [
     "name": "Rock Tunnel 1F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Geodude",
-        "Mankey",
+        "Machop",
         "Onix",
-        "Machop"
+        "Mankey",
+        "Zubat",
+        "Geodude"
       ]
     }
   },
@@ -388,15 +388,15 @@ const areasData = [
     "name": "Rock Tunnel B1F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Geodude",
-        "Mankey",
+        "Machop",
         "Onix",
-        "Machop"
+        "Mankey",
+        "Zubat",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -404,8 +404,8 @@ const areasData = [
     "name": "Seafoam Islands 1F",
     "encounters": {
       "land_mons": [
-        "Psyduck",
         "Zubat",
+        "Psyduck",
         "Golbat"
       ]
     }
@@ -414,10 +414,10 @@ const areasData = [
     "name": "Seafoam Islands B1F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Seel",
         "Golbat",
         "Golduck",
+        "Zubat",
+        "Seel",
         "Psyduck"
       ]
     }
@@ -426,10 +426,10 @@ const areasData = [
     "name": "Seafoam Islands B2F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Seel",
         "Golbat",
         "Golduck",
+        "Zubat",
+        "Seel",
         "Psyduck"
       ]
     }
@@ -438,26 +438,26 @@ const areasData = [
     "name": "Seafoam Islands B3F",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Seel",
-        "Dewgong",
         "Golbat",
         "Golduck",
-        "Psyduck"
+        "Dewgong",
+        "Zubat",
+        "Psyduck",
+        "Seel"
       ],
       "water_mons": [
         "Horsea",
-        "Dewgong",
-        "Seel",
         "Golduck",
-        "Psyduck"
+        "Dewgong",
+        "Psyduck",
+        "Seel"
       ],
       "fishing_mons": [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -465,25 +465,25 @@ const areasData = [
     "name": "Seafoam Islands B4F",
     "encounters": {
       "land_mons": [
-        "Dewgong",
-        "Seel",
         "Golbat",
         "Golduck",
-        "Psyduck"
+        "Dewgong",
+        "Psyduck",
+        "Seel"
       ],
       "water_mons": [
         "Horsea",
-        "Dewgong",
-        "Seel",
         "Golduck",
-        "Psyduck"
+        "Dewgong",
+        "Psyduck",
+        "Seel"
       ],
       "fishing_mons": [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -501,8 +501,8 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Gastly",
-        "Haunter",
-        "Cubone"
+        "Cubone",
+        "Haunter"
       ]
     }
   },
@@ -511,8 +511,8 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Gastly",
-        "Haunter",
-        "Cubone"
+        "Cubone",
+        "Haunter"
       ]
     }
   },
@@ -521,8 +521,8 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Gastly",
-        "Haunter",
-        "Cubone"
+        "Cubone",
+        "Haunter"
       ]
     }
   },
@@ -531,8 +531,8 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Gastly",
-        "Haunter",
-        "Cubone"
+        "Cubone",
+        "Haunter"
       ]
     }
   },
@@ -541,9 +541,9 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Magnemite",
-        "Voltorb",
         "Magneton",
         "Electabuzz",
+        "Voltorb",
         "Pikachu"
       ]
     }
@@ -552,16 +552,16 @@ const areasData = [
     "name": "Mt Ember Exterior",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Ponyta",
+        "Machop",
         "Fearow",
-        "Rapidash",
+        "Ponyta",
         "Spearow",
-        "Machop"
+        "Rapidash",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -569,8 +569,8 @@ const areasData = [
     "name": "Mt Ember Summit Path 1F",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Machop"
+        "Machop",
+        "Geodude"
       ]
     }
   },
@@ -578,13 +578,13 @@ const areasData = [
     "name": "Mt Ember Summit Path 2F",
     "encounters": {
       "land_mons": [
-        "Geodude",
+        "Machoke",
         "Machop",
-        "Machoke"
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -592,8 +592,8 @@ const areasData = [
     "name": "Mt Ember Summit Path 3F",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Machop"
+        "Machop",
+        "Geodude"
       ]
     }
   },
@@ -601,13 +601,13 @@ const areasData = [
     "name": "Mt Ember Ruby Path 1F",
     "encounters": {
       "land_mons": [
-        "Geodude",
+        "Machoke",
         "Machop",
-        "Machoke"
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -615,12 +615,12 @@ const areasData = [
     "name": "Mt Ember Ruby Path B1F",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Slugma"
+        "Slugma",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -628,12 +628,12 @@ const areasData = [
     "name": "Mt Ember Ruby Path B2F",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Slugma"
+        "Slugma",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -644,8 +644,8 @@ const areasData = [
         "Slugma"
       ],
       "rock_smash_mons": [
-        "Slugma",
-        "Magcargo"
+        "Magcargo",
+        "Slugma"
       ]
     }
   },
@@ -653,12 +653,12 @@ const areasData = [
     "name": "Mt Ember Ruby Path B1F Stairs",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Slugma"
+        "Slugma",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -666,12 +666,12 @@ const areasData = [
     "name": "Mt Ember Ruby Path B2F Stairs",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Slugma"
+        "Slugma",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -679,28 +679,28 @@ const areasData = [
     "name": "Three Island Berry Forest",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Venomoth",
-        "Venonat",
         "Hypno",
+        "Drowzee",
         "Oddish",
+        "Pidgey",
+        "Venonat",
+        "Exeggcute",
+        "Gloom",
         "Psyduck",
         "Pidgeotto",
-        "Pidgey",
-        "Drowzee",
-        "Exeggcute"
+        "Venomoth"
       ],
       "water_mons": [
         "Golduck",
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -708,25 +708,25 @@ const areasData = [
     "name": "Four Island Icefall Cave Entrance",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Dewgong",
-        "Seel",
         "Golbat",
-        "Psyduck"
-      ],
-      "water_mons": [
-        "Wooper",
         "Dewgong",
+        "Zubat",
         "Psyduck",
         "Seel"
       ],
-      "fishing_mons": [
-        "Poliwhirl",
-        "Gyarados",
-        "Poliwag",
-        "Magikarp",
+      "water_mons": [
         "Psyduck",
-        "Goldeen"
+        "Wooper",
+        "Dewgong",
+        "Seel"
+      ],
+      "fishing_mons": [
+        "Gyarados",
+        "Goldeen",
+        "Psyduck",
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -734,11 +734,11 @@ const areasData = [
     "name": "Four Island Icefall Cave 1F",
     "encounters": {
       "land_mons": [
-        "Delibird",
-        "Zubat",
-        "Seel",
         "Golbat",
-        "Swinub"
+        "Zubat",
+        "Swinub",
+        "Delibird",
+        "Seel"
       ]
     }
   },
@@ -746,11 +746,11 @@ const areasData = [
     "name": "Four Island Icefall Cave B1F",
     "encounters": {
       "land_mons": [
-        "Delibird",
-        "Zubat",
-        "Seel",
         "Golbat",
-        "Swinub"
+        "Zubat",
+        "Swinub",
+        "Delibird",
+        "Seel"
       ]
     }
   },
@@ -758,24 +758,24 @@ const areasData = [
     "name": "Four Island Icefall Cave Back",
     "encounters": {
       "land_mons": [
-        "Zubat",
-        "Dewgong",
-        "Seel",
         "Golbat",
-        "Psyduck"
+        "Dewgong",
+        "Zubat",
+        "Psyduck",
+        "Seel"
       ],
       "water_mons": [
+        "Tentacool",
         "Tentacruel",
-        "Lapras",
-        "Tentacool"
+        "Lapras"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
-        "Shellder",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -783,13 +783,13 @@ const areasData = [
     "name": "Six Island Pattern Bush",
     "encounters": {
       "land_mons": [
-        "Weedle",
-        "Metapod",
         "Ledyba",
-        "Spinarak",
-        "Heracross",
+        "Weedle",
         "Kakuna",
-        "Caterpie"
+        "Metapod",
+        "Heracross",
+        "Caterpie",
+        "Spinarak"
       ]
     }
   },
@@ -797,11 +797,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room1",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -809,11 +809,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room2",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -821,11 +821,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room3",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -833,11 +833,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room4",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -845,11 +845,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room5",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -857,11 +857,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room6",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -869,11 +869,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room7",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -881,11 +881,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room8",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -893,11 +893,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room9",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -905,11 +905,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room10",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -917,11 +917,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room11",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -929,11 +929,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room12",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -941,11 +941,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room13",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -953,11 +953,11 @@ const areasData = [
     "name": "Five Island Lost Cave Room14",
     "encounters": {
       "land_mons": [
-        "Murkrow",
         "Gastly",
+        "Golbat",
         "Zubat",
-        "Haunter",
-        "Golbat"
+        "Murkrow",
+        "Haunter"
       ]
     }
   },
@@ -965,29 +965,29 @@ const areasData = [
     "name": "One Island Kindle Road",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Meowth",
-        "Ponyta",
-        "Psyduck",
+        "Persian",
         "Fearow",
-        "Rapidash",
+        "Ponyta",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Psyduck",
+        "Rapidash",
+        "Geodude"
       ],
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -995,23 +995,23 @@ const areasData = [
     "name": "One Island Treasure Beach",
     "encounters": {
       "land_mons": [
-        "Meowth",
-        "Psyduck",
-        "Tangela",
+        "Persian",
         "Fearow",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Tangela",
+        "Psyduck"
       ],
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1019,26 +1019,26 @@ const areasData = [
     "name": "Two Island Cape Brink",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Meowth",
         "Oddish",
-        "Golduck",
-        "Psyduck",
+        "Persian",
         "Fearow",
+        "Golduck",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Gloom",
+        "Psyduck"
       ],
       "water_mons": [
         "Golduck",
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1046,25 +1046,25 @@ const areasData = [
     "name": "Three Island Bond Bridge",
     "encounters": {
       "land_mons": [
-        "Gloom",
+        "Oddish",
+        "Persian",
+        "Pidgey",
         "Venonat",
         "Meowth",
-        "Oddish",
+        "Gloom",
         "Psyduck",
-        "Pidgeotto",
-        "Pidgey",
-        "Persian"
+        "Pidgeotto"
       ],
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1081,15 +1081,15 @@ const areasData = [
     "encounters": {
       "water_mons": [
         "Hoppip",
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1099,15 +1099,15 @@ const areasData = [
     "encounters": {
       "water_mons": [
         "Hoppip",
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1116,25 +1116,25 @@ const areasData = [
     "name": "Five Island Meadow",
     "encounters": {
       "land_mons": [
-        "Hoppip",
-        "Meowth",
         "Sentret",
-        "Pidgeotto",
-        "Psyduck",
+        "Persian",
         "Pidgey",
-        "Persian"
+        "Meowth",
+        "Psyduck",
+        "Hoppip",
+        "Pidgeotto"
       ],
       "water_mons": [
         "Hoppip",
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1147,15 +1147,15 @@ const areasData = [
       ],
       "water_mons": [
         "Hoppip",
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1164,15 +1164,15 @@ const areasData = [
     "name": "Six Island Outcast Island",
     "encounters": {
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1181,15 +1181,15 @@ const areasData = [
     "name": "Six Island Green Path",
     "encounters": {
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1198,25 +1198,25 @@ const areasData = [
     "name": "Six Island Water Path",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Meowth",
-        "Oddish",
         "Sentret",
-        "Psyduck",
+        "Oddish",
+        "Persian",
         "Fearow",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Gloom",
+        "Psyduck"
       ],
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1225,26 +1225,26 @@ const areasData = [
     "name": "Six Island Ruin Valley",
     "encounters": {
       "land_mons": [
-        "Natu",
-        "Yanma",
-        "Meowth",
-        "Wobbuffet",
         "Wooper",
-        "Psyduck",
+        "Yanma",
+        "Natu",
+        "Persian",
         "Fearow",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Psyduck",
+        "Wobbuffet"
       ],
       "water_mons": [
         "Wooper"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1252,15 +1252,15 @@ const areasData = [
     "name": "Seven Island Trainer Tower",
     "encounters": {
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1269,13 +1269,13 @@ const areasData = [
     "name": "Seven Island Sevault Canyon Entrance",
     "encounters": {
       "land_mons": [
-        "Phanpy",
-        "Meowth",
         "Sentret",
-        "Psyduck",
+        "Persian",
         "Fearow",
+        "Meowth",
         "Spearow",
-        "Persian"
+        "Phanpy",
+        "Psyduck"
       ]
     }
   },
@@ -1284,19 +1284,19 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Cubone",
-        "Geodude",
-        "Marowak",
-        "Phanpy",
-        "Meowth",
-        "Onix",
         "Larvitar",
+        "Persian",
         "Fearow",
         "Skarmory",
-        "Persian"
+        "Onix",
+        "Meowth",
+        "Phanpy",
+        "Marowak",
+        "Geodude"
       ],
       "rock_smash_mons": [
-        "Geodude",
-        "Graveler"
+        "Graveler",
+        "Geodude"
       ]
     }
   },
@@ -1304,15 +1304,15 @@ const areasData = [
     "name": "Seven Island Tanoby Ruins",
     "encounters": {
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
         "Psyduck",
+        "Magikarp",
         "Qwilfish"
       ]
     }
@@ -1321,16 +1321,16 @@ const areasData = [
     "name": "Route1",
     "encounters": {
       "land_mons": [
-        "Yungoos",
-        "Lillipup",
-        "Blipbug",
-        "Vulpix",
-        "Alolan Rattata",
+        "Snubbull",
         "Sentret",
         "Pikipek",
+        "Alolan Rattata",
+        "Starly",
+        "Yungoos",
+        "Blipbug",
         "Poochyena",
-        "Snubbull",
-        "Starly"
+        "Vulpix",
+        "Lillipup"
       ]
     }
   },
@@ -1338,19 +1338,19 @@ const areasData = [
     "name": "Route2",
     "encounters": {
       "land_mons": [
-        "Buneary",
-        "Gulpin",
-        "Girafarig",
-        "Ekans",
-        "Paldean Wooper",
+        "Swablu",
         "Whismur",
-        "Swablu"
+        "Girafarig",
+        "Gulpin",
+        "Paldean Wooper",
+        "Buneary",
+        "Ekans"
       ],
       "fishing_mons": [
-        "Oshawott",
-        "Paldean Wooper",
         "Clauncher",
         "Barboach",
+        "Paldean Wooper",
+        "Oshawott",
         "Qwilfish"
       ]
     }
@@ -1359,10 +1359,10 @@ const areasData = [
     "name": "Route3",
     "encounters": {
       "land_mons": [
-        "Mankey",
         "Jigglypuff",
-        "Nidoran\u2642",
         "Pidgey",
+        "Nidoran\u2642",
+        "Mankey",
         "Spearow"
       ]
     }
@@ -1383,8 +1383,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1392,9 +1392,9 @@ const areasData = [
     "name": "Route5",
     "encounters": {
       "land_mons": [
+        "Pidgey",
         "Oddish",
-        "Meowth",
-        "Pidgey"
+        "Meowth"
       ]
     }
   },
@@ -1402,20 +1402,20 @@ const areasData = [
     "name": "Route6",
     "encounters": {
       "land_mons": [
+        "Pidgey",
         "Oddish",
-        "Meowth",
-        "Pidgey"
+        "Meowth"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1434,8 +1434,8 @@ const areasData = [
     "name": "Route8",
     "encounters": {
       "land_mons": [
-        "Meowth",
         "Ekans",
+        "Meowth",
         "Growlithe",
         "Pidgey"
       ]
@@ -1456,8 +1456,8 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Spearow",
-        "Ekans",
-        "Voltorb"
+        "Voltorb",
+        "Ekans"
       ],
       "water_mons": [
         "Tentacool"
@@ -1466,8 +1466,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1475,8 +1475,8 @@ const areasData = [
     "name": "Route11",
     "encounters": {
       "land_mons": [
-        "Spearow",
         "Ekans",
+        "Spearow",
         "Drowzee"
       ],
       "water_mons": [
@@ -1486,8 +1486,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1495,10 +1495,10 @@ const areasData = [
     "name": "Route12",
     "encounters": {
       "land_mons": [
-        "Pidgey",
-        "Gloom",
         "Venonat",
-        "Oddish"
+        "Gloom",
+        "Oddish",
+        "Pidgey"
       ],
       "water_mons": [
         "Tentacool"
@@ -1507,8 +1507,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1516,12 +1516,12 @@ const areasData = [
     "name": "Route13",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Venonat",
         "Oddish",
+        "Pidgey",
+        "Venonat",
         "Ditto",
-        "Pidgeotto",
-        "Pidgey"
+        "Gloom",
+        "Pidgeotto"
       ],
       "water_mons": [
         "Tentacool"
@@ -1530,8 +1530,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1539,12 +1539,12 @@ const areasData = [
     "name": "Route14",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Venonat",
         "Oddish",
+        "Pidgey",
+        "Venonat",
         "Ditto",
-        "Pidgeotto",
-        "Pidgey"
+        "Gloom",
+        "Pidgeotto"
       ]
     }
   },
@@ -1552,12 +1552,12 @@ const areasData = [
     "name": "Route15",
     "encounters": {
       "land_mons": [
-        "Gloom",
-        "Venonat",
         "Oddish",
+        "Pidgey",
+        "Venonat",
         "Ditto",
-        "Pidgeotto",
-        "Pidgey"
+        "Gloom",
+        "Pidgeotto"
       ]
     }
   },
@@ -1576,11 +1576,11 @@ const areasData = [
     "name": "Route17",
     "encounters": {
       "land_mons": [
-        "Doduo",
         "Raticate",
         "Fearow",
-        "Spearow",
-        "Rattata"
+        "Doduo",
+        "Rattata",
+        "Spearow"
       ]
     }
   },
@@ -1588,11 +1588,11 @@ const areasData = [
     "name": "Route18",
     "encounters": {
       "land_mons": [
-        "Doduo",
         "Raticate",
         "Fearow",
-        "Spearow",
-        "Rattata"
+        "Doduo",
+        "Rattata",
+        "Spearow"
       ]
     }
   },
@@ -1603,12 +1603,12 @@ const areasData = [
         "Tentacool"
       ],
       "fishing_mons": [
-        "Seadra",
         "Krabby",
+        "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1619,12 +1619,12 @@ const areasData = [
         "Tentacool"
       ],
       "fishing_mons": [
-        "Seadra",
         "Krabby",
+        "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1632,23 +1632,23 @@ const areasData = [
     "name": "Route21 North",
     "encounters": {
       "land_mons": [
-        "Vulpix",
+        "Houndour",
+        "Sizzlipede",
+        "Growlithe",
         "Ponyta",
         "Litleo",
-        "Growlithe",
-        "Fletchling",
-        "Sizzlipede",
-        "Houndour"
+        "Vulpix",
+        "Fletchling"
       ],
       "water_mons": [
         "Tentacool"
       ],
       "fishing_mons": [
-        "Clamperl",
-        "Shellder",
-        "Azurill",
         "Clauncher",
-        "Dewpider"
+        "Azurill",
+        "Dewpider",
+        "Clamperl",
+        "Shellder"
       ]
     }
   },
@@ -1662,12 +1662,12 @@ const areasData = [
         "Tentacool"
       ],
       "fishing_mons": [
-        "Seadra",
         "Krabby",
+        "Seadra",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1683,12 +1683,12 @@ const areasData = [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1697,22 +1697,22 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Primeape",
-        "Mankey",
-        "Ekans",
         "Fearow",
+        "Arbok",
+        "Mankey",
         "Spearow",
-        "Arbok"
+        "Ekans"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1720,12 +1720,12 @@ const areasData = [
     "name": "Route24",
     "encounters": {
       "land_mons": [
-        "Weedle",
         "Oddish",
-        "Kakuna",
         "Pidgey",
-        "Abra",
-        "Caterpie"
+        "Weedle",
+        "Kakuna",
+        "Caterpie",
+        "Abra"
       ],
       "water_mons": [
         "Tentacool"
@@ -1734,8 +1734,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1743,23 +1743,23 @@ const areasData = [
     "name": "Route25",
     "encounters": {
       "land_mons": [
-        "Weedle",
         "Oddish",
-        "Kakuna",
         "Pidgey",
-        "Abra",
-        "Caterpie"
+        "Weedle",
+        "Kakuna",
+        "Caterpie",
+        "Abra"
       ],
       "water_mons": [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1767,11 +1767,11 @@ const areasData = [
     "name": "Pallet Town",
     "encounters": {
       "fishing_mons": [
+        "Lotad",
         "Finneon",
-        "Oshawott",
-        "Psyduck",
         "Goldeen",
-        "Lotad"
+        "Psyduck",
+        "Oshawott"
       ]
     }
   },
@@ -1779,10 +1779,10 @@ const areasData = [
     "name": "Viridian City",
     "encounters": {
       "fishing_mons": [
+        "Bruxish",
+        "Azurill",
         "Clamperl",
         "Oshawott",
-        "Azurill",
-        "Bruxish",
         "Qwilfish"
       ]
     }
@@ -1797,8 +1797,8 @@ const areasData = [
         "Krabby",
         "Horsea",
         "Gyarados",
-        "Magikarp",
-        "Psyduck"
+        "Psyduck",
+        "Magikarp"
       ]
     }
   },
@@ -1811,10 +1811,10 @@ const areasData = [
       "fishing_mons": [
         "Krabby",
         "Horsea",
-        "Shellder",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -1822,12 +1822,12 @@ const areasData = [
     "name": "Celadon City",
     "encounters": {
       "water_mons": [
-        "Psyduck",
-        "Koffing"
+        "Koffing",
+        "Psyduck"
       ],
       "fishing_mons": [
-        "Magikarp",
-        "Grimer"
+        "Grimer",
+        "Magikarp"
       ]
     }
   },
@@ -1838,12 +1838,12 @@ const areasData = [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Seaking",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Seaking"
       ]
     }
   },
@@ -1854,13 +1854,13 @@ const areasData = [
         "Tentacool"
       ],
       "fishing_mons": [
-        "Seadra",
         "Krabby",
         "Horsea",
-        "Shellder",
+        "Seadra",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -1868,16 +1868,16 @@ const areasData = [
     "name": "One Island",
     "encounters": {
       "water_mons": [
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
-        "Shellder",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -1889,12 +1889,12 @@ const areasData = [
         "Psyduck"
       ],
       "fishing_mons": [
-        "Poliwhirl",
         "Gyarados",
-        "Poliwag",
-        "Magikarp",
+        "Goldeen",
         "Psyduck",
-        "Goldeen"
+        "Magikarp",
+        "Poliwag",
+        "Poliwhirl"
       ]
     }
   },
@@ -1903,16 +1903,16 @@ const areasData = [
     "encounters": {
       "water_mons": [
         "Hoppip",
-        "Tentacruel",
-        "Tentacool"
+        "Tentacool",
+        "Tentacruel"
       ],
       "fishing_mons": [
         "Seadra",
         "Horsea",
-        "Shellder",
         "Gyarados",
+        "Psyduck",
         "Magikarp",
-        "Psyduck"
+        "Shellder"
       ]
     }
   },
@@ -1992,20 +1992,20 @@ const areasData = [
     "name": "Palette Town Garden",
     "encounters": {
       "land_mons": [
-        "Rufflet",
-        "Caterpie",
+        "Kricketot",
+        "Starly",
         "Surskit",
         "Spearow",
+        "Caterpie",
         "Wurmple",
-        "Starly",
-        "Kricketot"
+        "Rufflet"
       ],
       "fishing_mons": [
-        "Clamperl",
-        "Shellder",
-        "Azurill",
         "Clauncher",
-        "Dewpider"
+        "Azurill",
+        "Dewpider",
+        "Clamperl",
+        "Shellder"
       ]
     }
   },
@@ -2013,22 +2013,22 @@ const areasData = [
     "name": "Route2 2",
     "encounters": {
       "land_mons": [
-        "Yungoos",
-        "Pidove",
-        "Lillipup",
-        "Oddish",
-        "Alolan Rattata",
-        "Galarian Zigzagoon",
-        "Sentret",
         "Snubbull",
-        "Rookidee"
+        "Oddish",
+        "Pidove",
+        "Sentret",
+        "Yungoos",
+        "Alolan Rattata",
+        "Rookidee",
+        "Lillipup",
+        "Galarian Zigzagoon"
       ],
       "fishing_mons": [
-        "Clamperl",
-        "Shellder",
-        "Azurill",
         "Clauncher",
-        "Dewpider"
+        "Azurill",
+        "Dewpider",
+        "Clamperl",
+        "Shellder"
       ]
     }
   },
@@ -2036,21 +2036,21 @@ const areasData = [
     "name": "Hollowgrove",
     "encounters": {
       "land_mons": [
-        "Alolan Geodude",
-        "Zubat",
-        "Geodude",
-        "Phanpy",
         "Skiddo",
         "Larvitar",
         "Dwebble",
-        "Paras"
+        "Paras",
+        "Zubat",
+        "Phanpy",
+        "Alolan Geodude",
+        "Geodude"
       ],
       "fishing_mons": [
         "Tirtouga",
-        "Chewtle",
         "Kabuto",
-        "Omanyte",
-        "Barboach"
+        "Barboach",
+        "Chewtle",
+        "Omanyte"
       ]
     }
   },
@@ -2058,20 +2058,20 @@ const areasData = [
     "name": "Cerulean City Frlg 2",
     "encounters": {
       "land_mons": [
-        "Petilil",
-        "Dwebble",
-        "Azurill",
         "Lotad",
-        "Budew",
+        "Petilil",
+        "Azurill",
+        "Dwebble",
+        "Toedscool",
         "Wingull",
-        "Toedscool"
+        "Budew"
       ],
       "fishing_mons": [
-        "Horsea",
-        "Carvanha",
-        "Psyduck",
         "Lotad",
-        "Barboach"
+        "Carvanha",
+        "Barboach",
+        "Horsea",
+        "Psyduck"
       ]
     }
   },
@@ -2079,12 +2079,12 @@ const areasData = [
     "name": "Seabreeze Glade",
     "encounters": {
       "land_mons": [
-        "Gossifleur",
-        "Oddish",
-        "Pansage",
         "Deerling",
         "Lotad",
-        "Budew"
+        "Oddish",
+        "Pansage",
+        "Budew",
+        "Gossifleur"
       ]
     }
   },
@@ -2093,13 +2093,13 @@ const areasData = [
     "encounters": {
       "land_mons": [
         "Magnemite",
-        "Voltorb",
-        "Electrike",
-        "Helioptile",
         "Klink",
+        "Electrike",
+        "Voltorb",
+        "Galarian Meowth",
         "Tadbulb",
         "Pichu",
-        "Galarian Meowth"
+        "Helioptile"
       ]
     }
   },
@@ -2107,22 +2107,22 @@ const areasData = [
     "name": "Cerulean Path",
     "encounters": {
       "land_mons": [
-        "Yungoos",
-        "Pidove",
-        "Lillipup",
-        "Oddish",
-        "Alolan Rattata",
-        "Galarian Zigzagoon",
-        "Sentret",
         "Snubbull",
-        "Rookidee"
+        "Oddish",
+        "Pidove",
+        "Sentret",
+        "Yungoos",
+        "Alolan Rattata",
+        "Rookidee",
+        "Lillipup",
+        "Galarian Zigzagoon"
       ],
       "fishing_mons": [
-        "Clamperl",
-        "Shellder",
-        "Azurill",
         "Clauncher",
-        "Dewpider"
+        "Azurill",
+        "Dewpider",
+        "Clamperl",
+        "Shellder"
       ]
     }
   },
@@ -2130,14 +2130,14 @@ const areasData = [
     "name": "Abandoned Lodge",
     "encounters": {
       "land_mons": [
+        "Misdreavus",
         "Morpeko",
         "Nickit",
-        "Misdreavus",
-        "Sableye",
         "Galarian Zigzagoon",
+        "Sinistea",
         "Alolan Meowth",
         "Scraggy",
-        "Sinistea"
+        "Sableye"
       ]
     }
   },
@@ -2145,12 +2145,12 @@ const areasData = [
     "name": "Mt Moon Ice Cavern",
     "encounters": {
       "land_mons": [
-        "Alolan Vulpix",
-        "Sneasel",
-        "Alolan Sandshrew",
         "Cubchoo",
+        "Snorunt",
+        "Sneasel",
+        "Alolan Vulpix",
         "Swinub",
-        "Snorunt"
+        "Alolan Sandshrew"
       ]
     }
   },
@@ -2158,19 +2158,19 @@ const areasData = [
     "name": "Pewter City",
     "encounters": {
       "land_mons": [
-        "Geodude",
-        "Bulbasaur",
         "Ledyba",
-        "Cherubi",
-        "Bonsly",
         "Rockruff",
-        "Rellor"
+        "Rellor",
+        "Bonsly",
+        "Cherubi",
+        "Bulbasaur",
+        "Geodude"
       ],
       "fishing_mons": [
-        "Tirtouga",
-        "Chewtle",
         "Corphish",
+        "Tirtouga",
         "Horsea",
+        "Chewtle",
         "Goldeen"
       ]
     }
