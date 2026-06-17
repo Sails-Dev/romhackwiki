@@ -99,7 +99,7 @@ const trainersData = [
       {
         "species": "Munchlax",
         "item": "Oran Berry",
-        "ability": "Gluttony",
+        "ability": "Thick Fat",
         "level": "13",
         "moves": [
           "Thief",
@@ -1552,6 +1552,466 @@ const trainersData = [
           "Flash Cannon",
           "Ice Beam",
           "Surf"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_HIKER_MAXWELL",
+    "name": "Hiker MAXWELL",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Archeops",
+        "item": "Sitrus Berry",
+        "ability": "Defeatist",
+        "level": "27",
+        "moves": [
+          "Rock Slide",
+          "Air Slash",
+          "Dragon Claw"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Toedscool",
+        "item": "Eviolite",
+        "ability": "Mycelium Might",
+        "level": "30",
+        "nature": "Bold Nature",
+        "moves": [
+          "Rage Powder",
+          "Giga Drain",
+          "Mud Shot",
+          "Toxic"
+        ]
+      },
+      {
+        "species": "Hakamo-o",
+        "item": "Muscle Band",
+        "ability": "Bulletproof",
+        "level": "28",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Drain Punch",
+          "Dragon Claw",
+          "Shadow Claw",
+          "Facade"
+        ]
+      },
+      {
+        "species": "Vivillon",
+        "item": "Charti Berry",
+        "ability": "Friend Guard",
+        "level": "28",
+        "moves": [
+          "Rage Powder",
+          "Pollen Puff",
+          "Energy Ball",
+          "Air Cutter"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_RUIN_MANIAC_KASIM",
+    "name": "Ruin Maniac KASIM",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Granbull",
+        "item": "Flame Orb",
+        "ability": "Quick Feet",
+        "level": "29",
+        "moves": [
+          "Play Rough",
+          "Fire Fang",
+          "Ice Fang",
+          "Low Sweep"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Squawkabilly",
+        "item": "Expert Belt",
+        "ability": "Intimidate",
+        "level": "29",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Reversal",
+          "U-turn",
+          "Lash Out",
+          "Fly"
+        ]
+      },
+      {
+        "species": "Murkrow",
+        "item": "Eviolite",
+        "ability": "Super Luck",
+        "level": "30",
+        "moves": [
+          "U-turn",
+          "Sucker Punch",
+          "Drill Peck",
+          "Take Down"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Perrserker",
+        "item": "Expert Belt",
+        "ability": "Tough Claws",
+        "level": "29",
+        "moves": [
+          "Knock Off",
+          "Iron Head",
+          "Brick Break",
+          "Seed Bomb"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_GAMER_HUANG",
+    "name": "Gamer HUANG",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Grumpig",
+        "item": "Sitrus Berry",
+        "ability": "Thick Fat",
+        "level": "29",
+        "moves": [
+          "Psychic Terrain",
+          "Expanding Force",
+          "Swift",
+          "Stomping Tantrum"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Torkoal",
+        "item": "Air Balloon",
+        "ability": "White Smoke",
+        "level": "27",
+        "moves": [
+          "Burning Jealousy",
+          "Scorching Sands",
+          "Rapid Spin",
+          "Facade"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_YOUNGSTER_SHANYUANG",
+    "name": "Youngster SHANYUANG",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Durant",
+        "item": "Occa Berry",
+        "ability": "Swarm",
+        "level": "30",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Iron Head",
+          "Skitter Smack",
+          "Stomping Tantrum"
+        ]
+      },
+      {
+        "species": "Sunflora",
+        "item": "Expert Belt",
+        "ability": "Chlorophyll",
+        "level": "30",
+        "nature": "Quiet Nature",
+        "ivs": "0 Atk",
+        "moves": [
+          "Giga Drain",
+          "Dazzling Gleam",
+          "Sunny Day",
+          "Sludge Bomb"
+        ]
+      },
+      {
+        "species": "Sliggoo",
+        "item": "Leftovers",
+        "ability": "Gooey",
+        "level": "29",
+        "moves": [
+          "Dragon Pulse",
+          "Water Pulse",
+          "Body Slam",
+          "Skitter Smack"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_CAMPER_CAHYO",
+    "name": "Camper CAHYO",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Gastrodon",
+        "item": "Rindo Berry",
+        "ability": "Storm Drain",
+        "level": "35",
+        "moves": [
+          "Scald",
+          "Dig",
+          "Stealth Rock",
+          "Sludge"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Wormadam-Sandy",
+        "item": "Weakness Policy",
+        "ability": "Overcoat",
+        "level": "35",
+        "moves": [
+          "Bug Bite",
+          "Sucker Punch",
+          "Bulldoze",
+          "Quiver Dance"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_PICNICKER_ALISSA",
+    "name": "Picnicker ALISSA",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Magcargo",
+        "item": "Expert Belt",
+        "ability": "Weak Armor",
+        "level": "35",
+        "moves": [
+          "Flame Burst",
+          "Power Gem",
+          "Strength",
+          "Will-O-Wisp"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Shieldon",
+        "item": "Eviolite",
+        "ability": "Sturdy",
+        "level": "35",
+        "moves": [
+          "Iron Tail",
+          "Double-Edge",
+          "Stone Edge",
+          "Metal Burst"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_HIKER_HARRISON",
+    "name": "Hiker HARRISON",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Hippowdon (F)",
+        "item": "Assault Vest",
+        "ability": "Sand Stream",
+        "level": "35",
+        "tera type": "Ground",
+        "moves": [
+          "Yawn",
+          "Stomping Tantrum",
+          "Ice Fang",
+          "Crunch"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_SCIENTIST_EMILIO",
+    "name": "Scientist EMILIO",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Sandslash",
+        "item": "Smooth Rock",
+        "ability": "Sand Rush",
+        "level": "34",
+        "moves": [
+          "Sandstorm",
+          "Stomping Tantrum",
+          "Leech Life",
+          "Hone Claws"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Stunfisk",
+        "item": "Wise Glasses",
+        "ability": "Sand Veil",
+        "level": "34",
+        "nature": "Modest Nature",
+        "moves": [
+          "Astonish",
+          "Earth Power",
+          "Discharge",
+          "Thunder Wave"
+        ]
+      },
+      {
+        "species": "Dugtrio-Alola",
+        "item": "Air Balloon",
+        "ability": "Sand Force",
+        "level": "35",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Iron Head",
+          "Stomping Tantrum",
+          "Rock Slide",
+          "Substitute"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_COOLTRAINER_ADELHEID",
+    "name": "Cooltrainer ADELHEID",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Klang",
+        "item": "Air Balloon",
+        "ability": "Plus",
+        "level": "35",
+        "nature": "Timid Nature",
+        "ivs": "1 Atk / 30 SpA / 30 SpD",
+        "moves": [
+          "Round",
+          "Flash Cannon",
+          "Hidden Power",
+          "Shift Gear"
+        ]
+      },
+      {
+        "species": "Klang",
+        "item": "Occa Berry",
+        "ability": "Minus",
+        "level": "35",
+        "nature": "Quiet Nature",
+        "ivs": "0 Atk",
+        "moves": [
+          "Round",
+          "Power Gem",
+          "Discharge",
+          "Protect"
+        ]
+      },
+      {
+        "species": "Whiscash",
+        "item": "Rindo Berry",
+        "ability": "Oblivious",
+        "level": "34",
+        "nature": "Timid Nature",
+        "moves": [
+          "Scald",
+          "Earth Power",
+          "Belch",
+          "Headbutt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_LEADER_BROCK",
+    "name": "Leader BROCK",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Sandaconda",
+        "item": "Smooth Rock",
+        "ability": "Sand Spit",
+        "level": "35",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Slam",
+          "Zen Headbutt",
+          "Drill Run",
+          "Glare"
+        ]
+      },
+      {
+        "species": "Durant",
+        "item": "Occa Berry",
+        "ability": "Swarm",
+        "level": "34",
+        "nature": "Adamant Nature",
+        "moves": [
+          "X-Scissor",
+          "Iron Head",
+          "Dig",
+          "Hone Claws"
+        ]
+      },
+      {
+        "species": "Ogerpon-Cornerstone",
+        "item": "Cornerstone Mask",
+        "ability": "Sturdy",
+        "level": "34",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Seed Bomb",
+          "Brick Break",
+          "Lash Out",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "species": "Runerigus",
+        "item": "Absorb Bulb",
+        "ability": "Wandering Spirit",
+        "level": "35",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Earthquake",
+          "Energy Ball"
+        ]
+      },
+      {
+        "species": "Archeops",
+        "item": "Porcelain Mask",
+        "ability": "Defeatist",
+        "level": "35",
+        "ivs": "30 Atk / 30 SpA",
+        "moves": [
+          "Rock Slide",
+          "Dual Wingbeat",
+          "U-turn",
+          "Hidden Power"
         ],
         "nature": "Neutral Nature"
       }

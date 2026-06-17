@@ -663,9 +663,14 @@
                 
                 let groupHtml = group.map(t => {
                     let teamHtml = t.team.map(mon => {
-                        let lv = mon.level ? `Lv. ${mon.level}` : '';
-                        let item = mon.item ? `@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))}` : '';
-                        let ability = mon.ability ? titleCase(mon.ability) : '';
+                        let lv = mon.level ? `<span style="color: white;">Lv. ${mon.level}</span>` : '';
+                        let itemIconUrl = '';
+                        if (mon.item) {
+                            let itemRaw = mon.item.replace('ITEM_', '').toLowerCase().replace(/ /g, '-').replace(/_/g, '-');
+                            itemIconUrl = `<img src="https://play.pokemonshowdown.com/sprites/itemicons/${itemRaw}.png" style="width: 16px; height: 16px; object-fit: contain; vertical-align: middle; margin-right: 4px;" onerror="this.style.display='none'">`;
+                        }
+                        let item = mon.item ? `@ ${titleCase(mon.item.replace('ITEM_', '').replace(/_/g, ' '))} ${itemIconUrl}` : '';
+                        let ability = mon.ability ? `<span style="color: white;">${titleCase(mon.ability)}</span>` : '';
                         let nature = mon.nature || 'Neutral Nature';
                         
                         let topRow = [lv, item].filter(Boolean).join(' &bull; ');
@@ -679,12 +684,12 @@
                         `;
                         
                         let speed = calculateSpeed(mon);
-                        let speedHtml = `<div><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">⚡ Speed: ${speed}</span></div>`;
+                        let speedHtml = `<div><span class="pill" style="background-color: rgba(234, 179, 8, 0.1); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.15rem 0.5rem;">Speed: ${speed}</span></div>`;
                         
                         let movesHtml = (mon.moves || []).map(m => `<span class="pill" style="background-color: rgba(255,255,255,0.05); color: #cbd5e1; border: 1px solid rgba(255,255,255,0.1); text-align: center; word-break: break-word; font-size: 0.75rem; padding: 0.2rem;" title="${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}">${titleCase(m.replace('MOVE_', '').replace(/_/g, ' '))}</span>`).join('');
                         
-                        let spriteUrl = getSpriteUrl(mon.species);
-                        let speciesName = titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' '));
+                        let speciesName = titleCase(mon.species.replace('SPECIES_', '').replace(/_/g, ' ')).replace(/ \([FM]\)/i, '');
+                        let spriteUrl = getSpriteUrl(speciesName);
                         let escapedName = speciesName.replace(/'/g, "\\'");
                         
                         return `
@@ -786,7 +791,7 @@
             }
             
             const targetAreas = [
-                "pallet town", "pallet town garden", "route 21 north", "route 1",
+                "Pallet Town", "Pallet Town Garden", "Route 21 North", "Route 1",
                 "seabreeze glade", "cerulean path", "hollowgrove", "cerulean city",
                 "strange house", "strange house backrooms", "viridian forest",
                 "abandoned lodge", "route 2", "viridian city", "mt moon 1f",
@@ -826,7 +831,7 @@
                     encountersHtml += `
                         <div class="section-title" style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">${label}</div>
                         <div class="trainer-team" style="display: flex; flex-wrap: wrap; gap: 0.3rem; flex-direction: row; margin-top: 0.3rem; padding-bottom: 0;">
-                            ${mons.map(p => `<span class="pill" style="background-color: var(--bg); border-color: var(--border); padding: 0.2rem 0.4rem; font-size: 0.75rem;">${p}</span>`).join('')}
+                            ${mons.map(p => { let escaped = p.replace(/'/g, "\\'"); return `<span class="pill" style="background-color: var(--bg); border-color: var(--border); padding: 0.2rem 0.4rem; font-size: 0.75rem; cursor: pointer;" onclick="if(typeof pokedexData !== 'undefined') { let e = pokedexData.find(x => x.name === '${escaped}'); if(e) showExpandedView(e); }">${p}</span>`; }).join('')}
                         </div>
                     `;
                 }
