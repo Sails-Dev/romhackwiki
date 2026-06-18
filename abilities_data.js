@@ -139,7 +139,6 @@ const abilitiesData = [
     "name": "Limber",
     "description": "Prevents paralysis.",
     "pokemon": [
-      "Persian",
       "Hitmonlee",
       "Ditto",
       "Buneary",
@@ -1119,8 +1118,6 @@ const abilitiesData = [
       "Kricketot",
       "Pachirisu",
       "Patrat",
-      "Nickit",
-      "Thievul",
       "Wooloo",
       "Tandemaus",
       "Maschiff",
@@ -1183,7 +1180,6 @@ const abilitiesData = [
     "name": "Pickup",
     "description": "May pick up items.",
     "pokemon": [
-      "Alolan Meowth",
       "Munchlax",
       "Aipom",
       "Ambipom",
@@ -2509,6 +2505,8 @@ const abilitiesData = [
       "Ekans",
       "Arbok",
       "Persian",
+      "Alolan Meowth",
+      "Alolan Persian",
       "Aerodactyl",
       "Mewtwo",
       "Ursaring",
@@ -2983,8 +2981,6 @@ const abilitiesData = [
     "name": "Rattled",
     "description": "Raises Speed when scared.",
     "pokemon": [
-      "Alolan Meowth",
-      "Alolan Persian",
       "Magikarp",
       "Ledyba",
       "Bonsly",
@@ -3174,6 +3170,8 @@ const abilitiesData = [
     "name": "Fur Coat",
     "description": "Raises Defense.",
     "pokemon": [
+      "Persian",
+      "Alolan Meowth",
       "Alolan Persian",
       "Sentret",
       "Furret"

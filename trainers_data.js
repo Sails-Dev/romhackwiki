@@ -1836,7 +1836,6 @@ const trainersData = [
         "item": "Assault Vest",
         "ability": "Sand Stream",
         "level": "35",
-        "tera type": "Ground",
         "moves": [
           "Yawn",
           "Stomping Tantrum",
@@ -2014,6 +2013,516 @@ const trainersData = [
           "Hidden Power"
         ],
         "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_LASS_GUILIA",
+    "name": "Lass GUILIA",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Glimmora",
+        "item": "Red Card",
+        "ability": "Toxic Debris",
+        "level": "42",
+        "moves": [
+          "Power Gem",
+          "Sludge Bomb",
+          "Energy Ball",
+          "Toxic"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Vileplume",
+        "item": "Leftovers",
+        "ability": "Effect Spore",
+        "level": "41",
+        "moves": [
+          "Venoshock",
+          "Seed Bomb",
+          "Moonblast",
+          "Leech Seed"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Tentacruel",
+        "item": "Black Sludge",
+        "ability": "Clear Body",
+        "level": "41",
+        "nature": "Modest Nature",
+        "ivs": "0 Atk",
+        "moves": [
+          "Hex",
+          "Surf",
+          "Sludge Wave",
+          "Toxic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_GENTLEMAN_CARTER",
+    "name": "Gentleman CARTER",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Bisharp",
+        "item": "Eviolite",
+        "ability": "Defiant",
+        "level": "41",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Knock Off",
+          "Sucker Punch",
+          "Iron Head",
+          "Psycho Cut"
+        ]
+      },
+      {
+        "species": "Palossand",
+        "item": "Weakness Policy",
+        "ability": "Water Compaction",
+        "level": "41",
+        "moves": [
+          "Earth Power",
+          "Shadow Ball",
+          "Psychic",
+          "Protect"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Vespiquen",
+        "item": "Charti Berry",
+        "ability": "Pressure",
+        "level": "42",
+        "moves": [
+          "Fell Stinger",
+          "X-Scissor",
+          "Revenge",
+          "Power Gem"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_YOUNGSTER_DARREN",
+    "name": "Youngster DARREN",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Glalie",
+        "item": "Sitrus Berry",
+        "ability": "Moody",
+        "level": "41",
+        "nature": "Timid Nature",
+        "moves": [
+          "Astonish",
+          "Shadow Ball",
+          "Freeze-Dry",
+          "Weather Ball"
+        ]
+      },
+      {
+        "species": "Politoed",
+        "item": "Leftovers",
+        "ability": "Drizzle",
+        "level": "41",
+        "moves": [
+          "Weather Ball",
+          "Uproar",
+          "Psychic",
+          "Hypnosis"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Whimsicott",
+        "item": "Assault Vest",
+        "ability": "Prankster",
+        "level": "41",
+        "nature": "Timid Nature",
+        "ivs": "0 Atk",
+        "moves": [
+          "Dazzling Gleam",
+          "Giga Drain",
+          "Hurricane"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_LASS_AUDREY",
+    "name": "Lass ADUREY",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Mabosstiff",
+        "item": "Assault Vest",
+        "ability": "Stakeout",
+        "level": "41",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Knock Off",
+          "Play Rough",
+          "Take Down",
+          "Ice Fang"
+        ]
+      },
+      {
+        "species": "Spidops",
+        "item": "Sitrus Berry",
+        "ability": "Stakeout",
+        "level": "42",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Lunge",
+          "First Impression",
+          "Assurance",
+          "Poison Jab"
+        ]
+      },
+      {
+        "species": "Slowking",
+        "item": "Covert Cloak",
+        "ability": "Own Tempo",
+        "level": "41",
+        "nature": "Modest Nature",
+        "moves": [
+          "Yawn",
+          "Psychic",
+          "Scald",
+          "Hex"
+        ]
+      },
+      {
+        "species": "Grapploct",
+        "item": "Leftovers",
+        "ability": "Technician",
+        "level": "41",
+        "moves": [
+          "Circle Throw",
+          "Sucker Punch",
+          "Body Slam",
+          "Facade"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_HIKER_BORIS",
+    "name": "Hiker BORIS",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Castform",
+        "item": "Wise Glasses",
+        "ability": "Forecast",
+        "level": "42",
+        "moves": [
+          "Weather Ball",
+          "Shadow Ball",
+          "Ice Beam",
+          "Power Gem"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Heliolisk",
+        "item": "Sitrus Berry",
+        "ability": "Solar Power",
+        "level": "42",
+        "moves": [
+          "Thunder",
+          "Grass Knot",
+          "Hyper Voice",
+          "Surf"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_COOLTRAINER_JOAN",
+    "name": "Cooltrainer JOAN",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Torkoal",
+        "item": "Weakness Policy",
+        "ability": "Drought",
+        "level": "40",
+        "moves": [
+          "Rock Slide",
+          "Strength",
+          "Temper Flare",
+          "Body Press"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Arboliva",
+        "item": "Sitrus Berry",
+        "ability": "Harvest",
+        "level": "40",
+        "nature": "Timid Nature",
+        "moves": [
+          "Pollen Puff",
+          "Giga Drain",
+          "Hyper Voice"
+        ]
+      },
+      {
+        "species": "Simisear",
+        "item": "Salac Berry",
+        "ability": "Gluttony",
+        "level": "40",
+        "moves": [
+          "Solar Beam",
+          "Rock Slide",
+          "Brick Break",
+          "Fire Punch"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_SAILOR_RYLAN",
+    "name": "Sailor RYLAN",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Pelipper",
+        "item": "Leftovers",
+        "ability": "Keen Eye",
+        "level": "40",
+        "moves": [
+          "Scald",
+          "Air Slash",
+          "Ice Beam",
+          "Roost"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Golduck",
+        "item": "Muscle Band",
+        "ability": "Swift Swim",
+        "level": "40",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Aqua Jet",
+          "Waterfall",
+          "Zen Headbutt",
+          "Ice Punch"
+        ]
+      },
+      {
+        "species": "Oricorio-Sensu",
+        "item": "Sitrus Berry",
+        "ability": "Dancer",
+        "level": "40",
+        "nature": "Timid Nature",
+        "moves": [
+          "Hurricane",
+          "Alluring Voice",
+          "Revelation Dance",
+          "U-turn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_YOUNGSTER_OMAR",
+    "name": "Youngster OMAR",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Sigilyph",
+        "item": "Wise Glasses",
+        "ability": "Tinted Lens",
+        "level": "41",
+        "ivs": "0 Atk",
+        "moves": [
+          "Tailwind",
+          "Psychic",
+          "Energy Ball",
+          "Heat Wave"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Drampa",
+        "item": "Throat Spray",
+        "ability": "Berserk",
+        "level": "42",
+        "nature": "Modest Nature",
+        "moves": [
+          "Hyper Voice",
+          "Flamethrower",
+          "Dragon Pulse",
+          "Surf"
+        ]
+      },
+      {
+        "species": "Huntail",
+        "item": "Sitrus Berry",
+        "ability": "Water Veil",
+        "level": "42",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Waterfall",
+          "Sucker Punch",
+          "Super Fang",
+          "Body Slam"
+        ]
+      },
+      {
+        "species": "Weezing-Galar",
+        "item": "Leftovers",
+        "ability": "Neutralizing Gas",
+        "level": "41",
+        "nature": "Modest Nature",
+        "moves": [
+          "Strange Steam",
+          "Sludge Bomb",
+          "Body Slam",
+          "Flamethrower"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_PICNICKER_THERESE",
+    "name": "Picnicker THERESE",
+    "double_battle": true,
+    "partner": "",
+    "team": [
+      {
+        "species": "Spiritomb",
+        "item": "Sitrus Berry",
+        "ability": "Pressure",
+        "level": "42",
+        "moves": [
+          "Helping Hand",
+          "Shadow Sneak",
+          "Dark Pulse",
+          "Shadow Ball"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Revavroom",
+        "item": "Air Balloon",
+        "ability": "Filter",
+        "level": "41",
+        "nature": "Adamant Nature",
+        "moves": [
+          "Spin Out",
+          "Poison Jab",
+          "Double-Edge",
+          "Temper Flare"
+        ]
+      },
+      {
+        "species": "Grumpig",
+        "item": "Salac Berry",
+        "ability": "Gluttony",
+        "level": "41",
+        "nature": "Timid Nature",
+        "ivs": "0 Atk",
+        "moves": [
+          "Psychic Noise",
+          "Swift",
+          "Body Press",
+          "Mystical Fire"
+        ]
+      },
+      {
+        "species": "Whiscash",
+        "item": "Leftovers",
+        "ability": "Oblivious",
+        "level": "41",
+        "moves": [
+          "Helping Hand",
+          "Waterfall",
+          "High Horsepower",
+          "Dragon Dance"
+        ],
+        "nature": "Neutral Nature"
+      }
+    ]
+  },
+  {
+    "id": "TRAINER_CRUSHGIRL_SOPHIE",
+    "name": "Crush Girl SOPHIE",
+    "double_battle": false,
+    "partner": "",
+    "team": [
+      {
+        "species": "Swoobat",
+        "item": "Light Clay",
+        "ability": "Unaware",
+        "level": "42",
+        "nature": "Modest Nature",
+        "moves": [
+          "Light Screen",
+          "Psychic",
+          "Air Slash"
+        ]
+      },
+      {
+        "species": "Mudsdale",
+        "item": "Weakness Policy",
+        "ability": "Stamina",
+        "level": "41",
+        "moves": [
+          "Body Press",
+          "Stomping Tantrum",
+          "Body Slam",
+          "Curse"
+        ],
+        "nature": "Neutral Nature"
+      },
+      {
+        "species": "Breloom",
+        "item": "Toxic Orb",
+        "ability": "Poison Heal",
+        "level": "41",
+        "nature": "Jolly Nature",
+        "moves": [
+          "Sky Uppercut",
+          "Seed Bomb",
+          "Mach Punch",
+          "Bulk Up"
+        ]
+      },
+      {
+        "species": "Lunatone",
+        "item": "Light Clay",
+        "ability": "Levitate",
+        "level": "41",
+        "nature": "Timid Nature",
+        "moves": [
+          "Light Screen",
+          "Ice Beam",
+          "Psychic",
+          "Power Gem"
+        ]
       }
     ]
   }

@@ -8632,7 +8632,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -8747,15 +8747,15 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Limber",
+        "name": "Unnerve",
+        "is_hidden": false
+      },
+      {
+        "name": "Fur Coat",
         "is_hidden": false
       },
       {
         "name": "Technician",
-        "is_hidden": false
-      },
-      {
-        "name": "Unnerve",
         "is_hidden": true
       }
     ],
@@ -8787,7 +8787,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -8901,7 +8901,7 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Pickup",
+        "name": "Unnerve",
         "is_hidden": false
       },
       {
@@ -8909,7 +8909,7 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Rattled",
+        "name": "Fur Coat",
         "is_hidden": true
       }
     ],
@@ -8935,7 +8935,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -9038,7 +9038,7 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Fur Coat",
+        "name": "Unnerve",
         "is_hidden": false
       },
       {
@@ -9046,7 +9046,7 @@ const pokedexData = [
         "is_hidden": false
       },
       {
-        "name": "Rattled",
+        "name": "Fur Coat",
         "is_hidden": true
       }
     ],
@@ -9086,7 +9086,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -9224,7 +9224,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -9358,7 +9358,7 @@ const pokedexData = [
       },
       {
         "level": 12,
-        "move": "Pay Day"
+        "move": "Quick Attack"
       },
       {
         "level": 16,
@@ -38613,14 +38613,14 @@ const pokedexData = [
       },
       {
         "level": 32,
-        "move": "Twin Beam"
-      },
-      {
-        "level": 37,
         "move": "Crunch"
       },
       {
-        "level": 41,
+        "level": 37,
+        "move": "Twin Beam"
+      },
+      {
+        "level": 43,
         "move": "Psychic"
       },
       {
@@ -38761,14 +38761,14 @@ const pokedexData = [
       },
       {
         "level": 32,
-        "move": "Twin Beam"
-      },
-      {
-        "level": 37,
         "move": "Crunch"
       },
       {
-        "level": 41,
+        "level": 37,
+        "move": "Twin Beam"
+      },
+      {
+        "level": 43,
         "move": "Psychic"
       },
       {
@@ -53428,16 +53428,12 @@ const pokedexData = [
         "move": "Astonish"
       },
       {
-        "level": 6,
+        "level": 7,
         "move": "Gravity"
       },
       {
-        "level": 9,
+        "level": 11,
         "move": "Shadow Sneak"
-      },
-      {
-        "level": 12,
-        "move": "Fake Out"
       },
       {
         "level": 15,
@@ -58167,7 +58163,7 @@ const pokedexData = [
       },
       {
         "level": 44,
-        "move": "Perish Song"
+        "move": "Floaty Fall"
       },
       {
         "level": 50,
@@ -58223,11 +58219,11 @@ const pokedexData = [
     "name": "Altaria",
     "stats": {
       "hp": 75,
-      "atk": 70,
+      "atk": 85,
       "def": 90,
       "spa": 70,
       "spd": 105,
-      "spe": 80
+      "spe": 85
     },
     "types": [
       "Dragon",
@@ -58303,7 +58299,7 @@ const pokedexData = [
       },
       {
         "level": 44,
-        "move": "Perish Song"
+        "move": "Floaty Fall"
       },
       {
         "level": 50,
@@ -117335,7 +117331,7 @@ const pokedexData = [
       },
       {
         "level": 33,
-        "move": "Aqua Tail"
+        "move": "Waterfall"
       },
       {
         "level": 36,
@@ -123324,10 +123320,6 @@ const pokedexData = [
     ],
     "abilities": [
       {
-        "name": "Run Away",
-        "is_hidden": false
-      },
-      {
         "name": "Unburden",
         "is_hidden": false
       },
@@ -123430,10 +123422,6 @@ const pokedexData = [
       "Dark"
     ],
     "abilities": [
-      {
-        "name": "Run Away",
-        "is_hidden": false
-      },
       {
         "name": "Unburden",
         "is_hidden": false
