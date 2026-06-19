@@ -192,6 +192,48 @@
         .tab-btn.active { background-color: var(--primary); color: white; border-color: var(--primary); }
         .tab-btn:hover:not(.active) { border-color: var(--primary); color: var(--text); }
         
+        /* SUB TABS (Trainers) */
+        .sub-tabs-container {
+            display: none;
+            width: 100%;
+            background-color: var(--bg);
+            border-bottom: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+        .sub-tabs { 
+            display: flex; 
+            gap: 0.5rem; 
+            overflow-x: auto; 
+            white-space: nowrap;
+            padding-bottom: 0.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .sub-tabs::-webkit-scrollbar { height: 4px; }
+        .sub-tab-btn {
+            background-color: var(--card-bg); 
+            color: var(--muted); 
+            border: 1px solid var(--border); 
+            padding: 0.4rem 1rem; 
+            border-radius: 20px; 
+            cursor: pointer; 
+            font-size: 0.85rem; 
+            font-weight: 600; 
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+        .sub-tab-btn.active { 
+            background-color: var(--primary); 
+            color: white; 
+            border-color: var(--primary); 
+        }
+        .sub-tab-btn:hover:not(.active) { 
+            background-color: var(--row-hover); 
+            color: var(--text); 
+        }
+        
         /* TRAINER TEAM */
         .trainer-team { 
             display: flex; 
@@ -371,6 +413,10 @@
         </div>
     </header>
 
+    <div class="sub-tabs-container" id="subTabsContainer">
+        <div class="sub-tabs" id="subTabs"></div>
+    </div>
+
     <div class="container" id="mainContainer">
         <div id="pokedexGrid" class="list-view"></div>
         <div id="expandedView" class="expanded-view" ></div>
@@ -386,6 +432,53 @@
         const grid = document.getElementById('pokedexGrid');
         const searchInput = document.getElementById('searchInput');
         let currentTab = 'pokemon';
+        
+        let currentTrainerSplit = 0;
+        const trainerSplits = [
+            { name: "Misty Split", endTrainerId: "TRAINER_LEADER_MISTY", trainers: [] },
+            { name: "Brock Split", endTrainerId: "TRAINER_LEADER_BROCK", trainers: [] },
+            { name: "Post-Brock Split", endTrainerId: null, trainers: [] }
+        ];
+
+        function processTrainerSplits() {
+            if (typeof trainersData === 'undefined') return;
+            trainerSplits.forEach(s => s.trainers = []);
+            let currentSplitIdx = 0;
+            for (let i = 0; i < trainersData.length; i++) {
+                const t = trainersData[i];
+                trainerSplits[currentSplitIdx].trainers.push(t);
+                if (trainerSplits[currentSplitIdx].endTrainerId === t.id && currentSplitIdx < trainerSplits.length - 1) {
+                    currentSplitIdx++;
+                }
+            }
+        }
+
+        function renderTrainerSubTabs() {
+            const container = document.getElementById('subTabs');
+            if(!container) return;
+            container.innerHTML = '';
+            trainerSplits.forEach((split, index) => {
+                if (split.trainers.length === 0) return;
+                const btn = document.createElement('button');
+                btn.className = 'sub-tab-btn' + (index === currentTrainerSplit ? ' active' : '');
+                btn.textContent = split.name + ` (${split.trainers.length})`;
+                btn.onclick = () => {
+                    currentTrainerSplit = index;
+                    renderTrainerSubTabs();
+                    const query = searchInput.value.toLowerCase().trim();
+                    let currentData = trainerSplits[currentTrainerSplit].trainers;
+                    if (query) {
+                        currentData = currentData.filter(t => 
+                            t.name.toLowerCase().includes(query) || 
+                            (t.class && t.class.toLowerCase().includes(query)) ||
+                            t.team.some(m => m.species.toLowerCase().includes(query))
+                        );
+                    }
+                    renderTrainers(currentData);
+                };
+                container.appendChild(btn);
+            });
+        }
 
         function titleCase(str) {
             return str.toLowerCase().replace(/\b\w/g, s => s.toUpperCase());
@@ -401,6 +494,9 @@
             searchInput.value = '';
             closeExpandedView();
             
+            const subTabsContainer = document.getElementById('subTabsContainer');
+            if (subTabsContainer) subTabsContainer.style.display = (tab === 'trainers') ? 'block' : 'none';
+            
             // Adjust layout classes based on tab
             const gridEl = document.getElementById('pokedexGrid');
             if (tab === 'pokemon') {
@@ -410,7 +506,11 @@
             } else if (tab === 'trainers') {
                 gridEl.className = 'list-view grid-trainers';
                 searchInput.placeholder = "Search by trainer name, class, or pokémon...";
-                if (typeof trainersData !== 'undefined') renderTrainers(trainersData.slice(0, 50));
+                if (typeof trainersData !== 'undefined') {
+                    if (trainerSplits[0].trainers.length === 0) processTrainerSplits();
+                    renderTrainerSubTabs();
+                    renderTrainers(trainerSplits[currentTrainerSplit].trainers);
+                }
             } else if (tab === 'abilities') {
                 gridEl.className = 'list-view grid-cards';
                 searchInput.placeholder = "Search by ability or pokémon...";
@@ -423,7 +523,11 @@
                 gridEl.className = 'list-view grid'; // fallback to grid for others
                 if (tab === 'trainers') {
                     searchInput.placeholder = "Search by trainer name, class, or pokémon...";
-                    if (typeof trainersData !== 'undefined') renderTrainers(trainersData.slice(0, 50));
+                    if (typeof trainersData !== 'undefined') {
+                        if (trainerSplits[0].trainers.length === 0) processTrainerSplits();
+                        renderTrainerSubTabs();
+                        renderTrainers(trainerSplits[currentTrainerSplit].trainers);
+                    }
                 } else if (tab === 'abilities') {
                     searchInput.placeholder = "Search by ability or pokémon...";
                     if (typeof abilitiesData !== 'undefined') renderAbilities(abilitiesData);
@@ -880,13 +984,15 @@
                 });
                 renderDex(filtered.slice(0, 1500));
             } else if (currentTab === 'trainers') {
-                if (!query) return renderTrainers(trainersData.slice(0, 50));
-                const filtered = trainersData.filter(t => 
+                if (trainerSplits[0].trainers.length === 0) processTrainerSplits();
+                let baseData = trainerSplits[currentTrainerSplit].trainers;
+                if (!query) return renderTrainers(baseData);
+                const filtered = baseData.filter(t => 
                     t.name.toLowerCase().includes(query) || 
                     (t.class && t.class.toLowerCase().includes(query)) ||
                     t.team.some(m => m.species.toLowerCase().includes(query))
                 );
-                renderTrainers(filtered.slice(0, 50));
+                renderTrainers(filtered);
             } else if (currentTab === 'abilities') {
                 if (!query) return renderAbilities(abilitiesData);
                 const filtered = abilitiesData.filter(a => {
